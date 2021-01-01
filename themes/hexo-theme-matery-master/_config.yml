@@ -285,7 +285,7 @@ postCalendar: true
 gitalk:
   enable: ture
   owner: WEIFENG2333
-  repo: https://github.com/WEIFENG2333/WEIFENG2333.github.io
+  repo: https://github.com/WEIFENG2333/pinglun
   oauth:
     clientId: 839d1dfcbbe423cdc8f1
     clientSecret: 04b066e83c9085a250237bd689f02ea0a2f7d3b4
