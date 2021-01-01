@@ -135,9 +135,5 @@ password:
 # **关于捐助：**
 ***度盘会员都开不起啦！！！***
 
-***如果该资料对你有帮助，并且你愿意支持我，不妨支持一下，******不胜感激 ！！***
-
-
-
-![图片](https://uploader.shimo.im/f/tqLOhgMI9HwB5pl9.png!thumbnail?fileGuid=CGvcXJJdKJCxqtVV)
+***如果该资料对你有帮助，并且你愿意支持我，在文章下方有个打赏按钮不妨支持一下，******不胜感激 ！！***
 
