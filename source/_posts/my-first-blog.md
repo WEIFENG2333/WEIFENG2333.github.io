@@ -1,5 +1,12 @@
 ---
 title: my first blog
-date: 2021-01-01 09:10:48
+top: false
+cover: false
+toc: true
+mathjax: true
+date: 2021-01-01 01:30:41
+password:
+summary:
 tags:
+categories:
 ---
