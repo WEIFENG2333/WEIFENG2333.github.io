@@ -127,13 +127,13 @@ password:
 
 如需要进的微信:**bkfeng46******
 
-![图片](https://uploader.shimo.im/f/nmTGviD52N3nhK92.png!thumbnail?fileGuid=CGvcXJJdKJCxqtVV)
+![加群微信](https://uploader.shimo.im/f/nmTGviD52N3nhK92.png!thumbnail?fileGuid=CGvcXJJdKJCxqtVV)
 
 
 
 
 # **关于捐助：**
-***度盘会员都开不起啦！！！***
+*** 该网站是我个人基于HEXO+GitHub建的，虽然能省下不少服务器费用，但网站的一些运营需要不少成本。***
 
-***如果该资料对你有帮助，并且你愿意支持我，在文章下方有个打赏按钮不妨支持一下，******不胜感激 ！！***
+***如果该资料对你有帮助，并且你愿意支持我，在文章下方有个打赏按钮不妨支持一下，不胜感激 ！！
 
