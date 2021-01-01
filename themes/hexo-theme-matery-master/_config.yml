@@ -189,7 +189,7 @@ mathjax:
 # 文章信息--若要开启文章字数统计，需要安装 hexo-wordcount 插件，安装命令: `npm i --save hexo-wordcount`
 postInfo:
   date: true # 发布日期
-  update: false # 更新日期
+  update: true # 更新日期
   wordCount: true # 文章字数统计
   totalCount: false # 站点总文章字数
   min2read: false # 文章阅读时长
@@ -283,13 +283,13 @@ postCalendar: true
 # the Gitalk config，default disabled
 # Gitalk 评论模块的配置，默认为不激活
 gitalk:
-  enable: false
-  owner:
-  repo:
+  enable: ture
+  owner: WEIFENG2333
+  repo: https://github.com/WEIFENG2333/WEIFENG2333.github.io
   oauth:
-    clientId:
-    clientSecret:
-  admin:
+    clientId: 839d1dfcbbe423cdc8f1
+    clientSecret: 04b066e83c9085a250237bd689f02ea0a2f7d3b4
+  admin: WEIFENG2333
 
 # the Gitment config，default disabled
 # Gitment 评论模块的配置，默认为不激活
@@ -592,7 +592,7 @@ icp:
 # CDN访问加速 
 # 第一次使用本功能，一定要先配置url，再`hexo cl && hexo g && hexo d`部署到GitHub的仓库，注意！必须是GitHub的仓库！
 # 如果必须要使用国内的coding或者gitee，可以采用双部署，同时将网站部署到两个仓库（其中一个必须是GitHub的仓库）
-# URL配置规则（例子如下）： https://cdn.jsdelivr.net/gh/你的GitHub用户名/你的仓库名
+# URL配置规则（例子如下）： https://cdn.jsdelivr.net/gh/WEIFENG2333/WEIFENG2333.github.io
 # 如果想关闭此功能，将 url地址 注释或删除即可！
 #
 # 注：配置了此项，就代表着本地调试的时候，网站依然会去GitHub请求资源（原来的资源），本地调试的时候记得将 此项配置 注释或者删除掉

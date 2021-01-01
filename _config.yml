@@ -4,7 +4,7 @@
 
 # Site
 title: 本卡风
-subtitle: 努力你能行
+subtitle: 本卡风
 description: 热爱网络 | 爱好学习 
 keywords: "Learning Make Perfect"
 author: 学习委员
@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: https://weifeng2333.github.io/
+url: http://bkfeng.top
 root: /
 permalink: /:title/
 permalink_defaults:
@@ -45,7 +45,7 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: true
+  enable: false
   line_number: true
   auto_detect: false
   tab_replace: ''
@@ -134,3 +134,11 @@ feed:
 abbrlink:
     alg: crc16   #算法： crc16(default) and crc32
     rep: hex     #进制： dec(default) and hex: dec #输出进制：十进制和十六进制，默认为10进制。丨dec为十进制，hex为十六进制
+
+
+##代码高亮
+prism_plugin:
+  mode: 'preprocess'    # realtime/preprocess
+  theme: 'tomorrow'
+  line_number: false    # default false
+  custom_css:
