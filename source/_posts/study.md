@@ -1,5 +1,5 @@
 ---
-title: Study
+title: 资料汇总，2021一起冲冲冲！！！
 top: true
 cover: true
 toc: true
@@ -16,7 +16,9 @@ password:
 
 
 
-**1月01日已经更新全部失效链接**
+**1月01日已经更新全部失效链接**，由于个人比较（很）懒，这篇文章直接从以前禁止分享的石墨文档复制过来的，懒得排版了，暂时先这样吧，以后再改
+
+
 
 # **四六级英语**
 
@@ -134,7 +136,7 @@ password:
 
 # **2021【管理类联考】专项**
 
-[https://shimo.im/docs/w8P3WJQX6pgKyv3H/](https://shimo.im/docs/w8P3WJQX6pgKyv3H/)
+在2022考研那篇文章
 
 如链接失效请联系微信:**bkfeng46**补链。
 
@@ -145,7 +147,7 @@ password:
 
 5个群已经满人，群二维码暂时不公开
 
-如需要进的微信:**bkfeng46******
+如需要进的微信:**bkfeng46**
 
 <img src="https://i.loli.net/2021/01/02/dnLRtZJhMgq4scl.png" alt="加群微信" style="zoom: 50%;" />
 
