@@ -9,7 +9,7 @@ tags:
   - 四六级
 categories:
   - 学习
-abbrlink: '465'
+abbrlink: 'study'
 date: 2021-01-01 20:07:28
 password:
 ---
