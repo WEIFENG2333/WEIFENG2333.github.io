@@ -142,3 +142,8 @@ prism_plugin:
   theme: 'tomorrow'
   line_number: false    # default false
   custom_css:
+
+## 中文链接转拼音（可选的）
+permalink_pinyin:
+  enable: true
+  separator: '-' # default: '-'
