@@ -16,7 +16,7 @@ password:
 
 
 
-**1月01日已经更新全部失效链接**，由于个人比较（很）懒，这篇文章直接从以前禁止分享的石墨文档复制过来的，懒得排版了，暂时先这样吧，以后再改
+**1月14日已经更新全部失效链接**，
 
 
 
@@ -58,7 +58,7 @@ password:
 7. **2019下**教师资格证面试
 8. **2020年**教师招聘
 
-**因本页面篇幅问题请打开链接获取：**[https://shimo.im/docs/txQWCYgjc3CCJKrv](https://shimo.im/docs/txQWCYgjc3CCJKrv)
+**因本页面篇幅问题请打开链接获取：**https://bkfeng.top/kao
 
 
 
@@ -70,35 +70,23 @@ password:
 
 
 
-# **22考研【数英政汇总】**
-
-[https://shimo.im/docs/gRDTQJyppc36KGwj/](https://shimo.im/docs/gRDTQJyppc36KGwj/)
-
 
 
 # **2021考研数学**
 
-[https://shimo.im/docs/jYtk8j3jYrh8RJ3t/](https://shimo.im/docs/jYtk8j3jYrh8RJ3t/)
-
-链接:[https://pan.baidu.com/s/1ymwmVo8NB9SmKQAZifPorQ](https://pan.baidu.com/s/1ymwmVo8NB9SmKQAZifPorQ)提取码: 4466
+链接: https://pan.baidu.com/s/1qBIv0qmriIRwwaeAE3La5Q 提取码: 2299
 
 
 
 # **2021考研政治**
 
-[https://shimo.im/docs/pjQtTwJPkCtpGrrv](https://shimo.im/docs/pjQtTwJPkCtpGrrv)
-
-合集链接:[https://pan.baidu.com/s/130Aii18ZcXwNEekb2XOKXg](https://pan.baidu.com/s/130Aii18ZcXwNEekb2XOKXg)
-
-密码：4466
+链接: https://pan.baidu.com/s/1YK7BMiosqILx7M5HS13ksA 提取码: 2299
 
 
 
 # **2021考研英语**
 
-[https://shimo.im/docs/3TGg6DyphvDPHWdj](https://shimo.im/docs/3TGg6DyphvDPHWdj)
-
-链接:[https://pan.baidu.com/s/1duoEuBZ8u8EM0GmJp7Vrnw](https://pan.baidu.com/s/1duoEuBZ8u8EM0GmJp7Vrnw)提取码: 6677
+链接: https://pan.baidu.com/s/13UZQB22ycpSxajm3yvUPuw 提取码: 2299
 
 
 
@@ -118,8 +106,6 @@ password:
 
 # **2021【教育学】专项**
 
-[https://shimo.im/docs/WQgWpxcqGjjpJCrG](https://shimo.im/docs/WQgWpxcqGjjpJCrG)
-
 **2021考研教育学**链接：[https://pan.baidu.com/s/107uBWEI2VUy2z3gyhhxJHQ](https://pan.baidu.com/s/107uBWEI2VUy2z3gyhhxJHQ)提取码：2266
 
 **2020考研教育学**链接：[https://pan.baidu.com/s/1GnbIwqlh04Vg1lnVJr6BFg](https://pan.baidu.com/s/1GnbIwqlh04Vg1lnVJr6BFg)提取码：1166
@@ -129,8 +115,6 @@ password:
 # **2021【西医综合+中医综合】专项**
 
 **西综**[https://shimo.im/docs/YjkYqhP3GqK3dDTt](https://shimo.im/docs/YjkYqhP3GqK3dDTt)
-
-**中综**链接:[https://pan.baidu.com/s/1XYQdhDwj-UoC4Z7qb8ZkEA](https://pan.baidu.com/s/1XYQdhDwj-UoC4Z7qb8ZkEA)提取码: usmp
 
 
 
@@ -153,11 +137,17 @@ password:
 
 
 
+
+
+
+
 # **关于捐助：**
 
 
 
-##### *** 该网站是我个人基于HEXO+GitHub建的，虽然能省下不少服务器费用，但网站的一些运营需要不少成本。***
+###### **该网站是我个人基于HEXO+GitHub建的，虽然能省下不少服务器费用，但网站的一些运营需要不少成本。**
 
-*如果该资料对你有帮助，并且你愿意支持我，在文章下方有个打赏按钮不妨支持一下，不胜感激 ！！*
+
+
+###### *如果该资料对你有帮助，并且你愿意支持我，在文章下方有个打赏按钮不妨支持一下，不胜感激 ！！*
 
