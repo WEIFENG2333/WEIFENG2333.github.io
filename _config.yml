@@ -105,7 +105,7 @@ theme: hexo-theme-matery-master
 deploy:
   type: git
   repo: https://gh_token@github.com/WEIFENG2333/WEIFENG2333.github.io.git
-  branch: gh-pages
+  branch: master
 
 ## 搜索
 search:
