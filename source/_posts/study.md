@@ -16,7 +16,7 @@ password:
 
 
 
-**1月30日已经更新全部失效链接**，
+**2月13日已经更新全部失效链接**，
 
 如以下链接失效请联系微信:**bkfeng46**补链
 
@@ -28,15 +28,15 @@ password:
 
 **【2020年6月四六级】更新中**
 
-链接：[https://pan.baidu.com/s/1Fd7nDeLt5y-enur-2fVeXw](https://pan.baidu.com/s/1Fd7nDeLt5y-enur-2fVeXw)提取码：2266
+链接: https://pan.baidu.com/s/1eWbWvaseFKmymbljvWRbBw 提取码: 6666
 
 
 
 **其他各年已完结资料：**
 
-**【2020年12月四六级】**链接:[https://pan.baidu.com/s/11s6Q2LitLJ1wJ9BRjpb5PA](https://pan.baidu.com/s/11s6Q2LitLJ1wJ9BRjpb5PA)提取码: 2333
+**【2020年12月四六级】**链接: https://pan.baidu.com/s/1Z0KrtzGeYaq4UusINQLGeg 提取码: 6666
 
-**2020年四六级(7月和9月)**链接:[https://pan.baidu.com/s/10uPxekhtgc7EpIJ-mgyUsw](https://pan.baidu.com/s/10uPxekhtgc7EpIJ-mgyUsw)提取码: 2333
+**2020年四六级(7月和9月)**链接: https://pan.baidu.com/s/1gxFUrdEN57COdkbwgLffGQ 提取码: 6666
 
 **19年6月四六级**链接:[https://pan.baidu.com/s/1sLTkyoGFCNKkH9sLrKkZiw](https://pan.baidu.com/s/1sLTkyoGFCNKkH9sLrKkZiw)提取码: 2333
 
@@ -102,7 +102,9 @@ password:
 
 ## **2021【教育学】专项**
 
-**2021考研教育学**链接：[https://pan.baidu.com/s/107uBWEI2VUy2z3gyhhxJHQ](https://pan.baidu.com/s/107uBWEI2VUy2z3gyhhxJHQ)提取码：2266
+**2022考研教育学**链接：https://pan.baidu.com/s/1QByIBDOLMXCDCsmLmOfKAQ 提取码：6666 
+
+**2021考研教育学**链接：https://pan.baidu.com/s/1x683zaA0sYULUL1kIDSvZw 提取码：6666 
 
 **2020考研教育学**链接：[https://pan.baidu.com/s/1GnbIwqlh04Vg1lnVJr6BFg](https://pan.baidu.com/s/1GnbIwqlh04Vg1lnVJr6BFg)提取码：1166
 
@@ -118,15 +120,7 @@ password:
 
 管综和396这段时间河蟹得非常频繁。为了减少链接失效影响到大家复习，现在管综和396改为百度云群分享，大家可以进云群免费获取所有资料。
 
-<img src="https://i.loli.net/2021/01/30/P6YHmckTosGX2Vp.png" alt="img" style="zoom:50%;" />
-
-<img src="https://i.loli.net/2021/01/30/fmU16iyI2YNJZRA.png" alt="img" style="zoom:50%;" />
-
-<img src="https://i.loli.net/2021/01/30/R698payT3SjkvsW.png" alt="img" style="zoom:50%;" />
-
-
-
-
+http://www.tikuwang.com/app/index.php?i=2&c=entry&id=3981&do=detail&m=dg_articlemanage
 
 
 
