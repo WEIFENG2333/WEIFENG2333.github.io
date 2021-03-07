@@ -34,7 +34,7 @@ password:
 
 **其他各年已完结资料：**
 
-**【2020年12月四六级】**链接: https://pan.baidu.com/s/1Z0KrtzGeYaq4UusINQLGeg 提取码: 6666
+**【2020年12月四六级】**链接：https://pan.baidu.com/s/1xlmU6JiFSM7qs-R9Op3N3Q 提取码：6666 
 
 **2020年四六级(7月和9月)**链接: https://pan.baidu.com/s/1gxFUrdEN57COdkbwgLffGQ 提取码: 6666
 
