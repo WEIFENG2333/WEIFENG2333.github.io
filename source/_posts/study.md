@@ -102,11 +102,15 @@ password:
 
 ## **2021【教育学】专项**
 
-**2022考研教育学**链接：https://pan.baidu.com/s/1QByIBDOLMXCDCsmLmOfKAQ 提取码：6666 
+**2022考研教育学****（原链接失效，3月19月已更新链接）
 
-**2021考研教育学**链接：https://pan.baidu.com/s/1x683zaA0sYULUL1kIDSvZw 提取码：6666 
+链接：https://pan.baidu.com/s/1Z611md9EcaVFV-E6_sgKVg 提取码：6666 
 
-**2020考研教育学**链接：[https://pan.baidu.com/s/1GnbIwqlh04Vg1lnVJr6BFg](https://pan.baidu.com/s/1GnbIwqlh04Vg1lnVJr6BFg)提取码：1166
+**2021考研教育学****（原链接失效，3月19月已更新链接）
+
+链接：https://pan.baidu.com/s/1du6K8zuD6WXar5u_krNzpw 提取码：6666 
+
+
 
 
 
