@@ -3,7 +3,7 @@ title: 资料汇总，2021一起冲冲冲！！！
 top: true
 cover: true
 toc: true
-summary: '考研四六级,教师,公务员,资料汇总'
+summary: '（微信群开放）考研四六级,教师,公务员,资料汇总'
 tags:
   - 考研
   - 四六级
@@ -16,11 +16,19 @@ password:
 
 
 
-**2月13日已经更新全部失效链接**，
+**最后更新日期：2021年4月3日**，
+
+已经更新全部失效链接，
 
 如以下链接失效请联系微信:**bkfeng46**补链
 
+群二维码暂时公开
 
+<img src="C:%5CUsers%5Cweifeng%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210403232755639.png" alt="image-20210403232755639" style="zoom:25%;" />
+
+ 
+
+ 
 
 ## **四六级英语**
 
@@ -28,13 +36,13 @@ password:
 
 **【2020年6月四六级】更新中**
 
-链接: https://pan.baidu.com/s/1eWbWvaseFKmymbljvWRbBw 提取码: 6666
+链接：https://pan.baidu.com/s/1o1_U1VQh5cShrP_YlZi7CA 提取码：6666 
 
 
 
 **其他各年已完结资料：**
 
-**【2020年12月四六级】**链接：https://pan.baidu.com/s/1xlmU6JiFSM7qs-R9Op3N3Q 提取码：6666 
+**【2020年12月四六级】**链接：https://pan.baidu.com/s/1l1R-rGgAE3F-yQ8uPwFZyQ 提取码：6666 
 
 **2020年四六级(7月和9月)**链接: https://pan.baidu.com/s/1gxFUrdEN57COdkbwgLffGQ 提取码: 6666
 
@@ -76,7 +84,7 @@ password:
 
 ## **2021考研政治**
 
-链接: https://pan.baidu.com/s/1YK7BMiosqILx7M5HS13ksA 提取码: 2299
+链接: https://pan.baidu.com/s/1uFW8Gxkz-YZe6s1P24FExA提取码: 2299
 
 
 
@@ -102,13 +110,13 @@ password:
 
 ## **2021【教育学】专项**
 
-**2022考研教育学****（原链接失效，3月19月已更新链接）
+**2022考研教育学****（原链接失效，4月3月已更新链接）
 
-链接：https://pan.baidu.com/s/1Z611md9EcaVFV-E6_sgKVg 提取码：6666 
+链接：https://pan.baidu.com/s/1AA3USoJ53XnvixjiZ4DbOw 提取码：6666 
 
-**2021考研教育学****（原链接失效，3月19月已更新链接）
+**2021考研教育学****（原链接失效，4月3月已更新链接）
 
-链接：https://pan.baidu.com/s/1du6K8zuD6WXar5u_krNzpw 提取码：6666 
+链接：https://pan.baidu.com/s/18FkE9tp90az8sC-qgm9qdw 提取码：6666 
 
 
 
@@ -131,15 +139,21 @@ http://www.tikuwang.com/app/index.php?i=2&c=entry&id=3981&do=detail&m=dg_article
 
 
 # **关于群**
-群内交流气氛还是很好地，并且群内有各种热心的大佬帮助你
+群内交流气氛还是很好地，并且群内有各种热心的大佬能够帮助你
 
-![image-20210102152325746](https://i.loli.net/2021/01/02/HYBcazNOtg5XVe6.png) 
+<img src="https://i.loli.net/2021/01/02/HYBcazNOtg5XVe6.png" alt="image-20210102152325746" style="zoom: 50%;" /> 
 
 https://bkfeng.top/1
 
-5个群已经满人，群二维码暂时不公开
+群二维码暂时公开
 
-如需要进的微信:**bkfeng46**
+<img src="C:%5CUsers%5Cweifeng%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210403232755639.png" alt="image-20210403232755639" style="zoom:25%;" />
+
+
+
+
+
+群满后如需要进的微信:**bkfeng46**
 
 <img src="https://i.loli.net/2021/01/02/dnLRtZJhMgq4scl.png" alt="加群微信" style="zoom: 50%;" />
 
