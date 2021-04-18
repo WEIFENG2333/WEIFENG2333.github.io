@@ -16,7 +16,7 @@ password:
 
 
 
-**最后更新日期：2021年4月3日**，
+**最后更新日期：2021年4月15日**，
 
 已经更新全部失效链接，
 
@@ -24,7 +24,7 @@ password:
 
 群二维码暂时公开
 
-<img src="C:%5CUsers%5Cweifeng%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210403232755639.png" alt="image-20210403232755639" style="zoom:25%;" />
+<img src="C:%5CUsers%5Cweifeng%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210418145033114.png" alt="image-20210418145033114" style="zoom:25%;" />
 
  
 
@@ -36,15 +36,33 @@ password:
 
 **【2020年6月四六级】更新中**
 
-链接：https://pan.baidu.com/s/1o1_U1VQh5cShrP_YlZi7CA 提取码：6666 
+链接：https://pan.baidu.com/s/1Xa3NP0HffKWU-b60s-kjKg 提取码：6666 
 
 
 
 **其他各年已完结资料：**
 
-**【2020年12月四六级】**链接：https://pan.baidu.com/s/1l1R-rGgAE3F-yQ8uPwFZyQ 提取码：6666 
+**【2020年12月四六级】**链接：https://pan.baidu.com/s/1_a4qXPJTYtfEUYTFCzZPdw 提取码：6666 
 
-**2020年四六级(7月和9月)**链接: https://pan.baidu.com/s/1gxFUrdEN57COdkbwgLffGQ 提取码: 6666
+
+
+**2020年四六级(7月和9月)**
+
+20四六级（7月和9月）河蟹频繁，目前用以下分链接分享
+
+**【01】2020年四级VIP全程（适用于7月和9月考试）\**（原链接被河蟹，4月12日更新链接）\****
+
+###### 链接：https://pan.baidu.com/s/11-pUgBy44a95xXgNHF94bA提取码：6666 
+
+##### **【02】2020年六级VIP全程（适用于7月和9月考试）**
+
+链接：https://pan.baidu.com/s/16zrmPh_yi9UB3OGiCLKBtw 提取码：6666 
+
+##### **【03】2020年9月四六级押题**
+
+链接：https://pan.baidu.com/s/13geGc9a1OKqBKRXRN2qd0A 提取码：6666 
+
+
 
 **19年6月四六级**链接:[https://pan.baidu.com/s/1sLTkyoGFCNKkH9sLrKkZiw](https://pan.baidu.com/s/1sLTkyoGFCNKkH9sLrKkZiw)提取码: 2333
 
@@ -64,7 +82,7 @@ password:
 7. **2019下**教师资格证面试
 8. **2020年**教师招聘
 
-**因本页面篇幅问题请打开链接获取：**https://bkfeng.top/kao
+**因本页面篇幅问题请打开链接获取：**https://bkfeng.top/class
 
 
 
