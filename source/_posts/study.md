@@ -10,23 +10,17 @@ tags:
 categories:
   - 学习
 abbrlink: 'study'
-date: 2021-01-01 20:07:28
+date: 2021-06-15 20:07:28
 password:
 ---
 
 
 
-**最后更新日期：2021年4月15日**，
+**最后更新日期：2021年6月15日**，
 
 已经更新全部失效链接，
 
 如以下链接失效请联系微信:**bkfeng46**补链
-
-群二维码暂时公开
-
-<img src="C:%5CUsers%5Cweifeng%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210418145033114.png" alt="image-20210418145033114" style="zoom:25%;" />
-
- 
 
  
 
@@ -34,41 +28,31 @@ password:
 
 【四六级英语包含有道、考虫、新东方全程班、商志全程班等】
 
-**【2020年6月四六级】更新中**
-
-链接：https://pan.baidu.com/s/1Xa3NP0HffKWU-b60s-kjKg 提取码：6666 
+【2021年6月四六级】（更新中。。。）（原链接被河蟹，6月8日更新链接）
 
 
-
-**其他各年已完结资料：**
-
-**【2020年12月四六级】**链接：https://pan.baidu.com/s/1_a4qXPJTYtfEUYTFCzZPdw 提取码：6666 
+链接：https://pan.baidu.com/s/1W_ltDFvIAwaX69WyCMB48A 提取码：6666
 
 
+【2020年12月四六级】（完结）（原链接被河蟹，4月12日更新链接）
 
-**2020年四六级(7月和9月)**
 
-20四六级（7月和9月）河蟹频繁，目前用以下分链接分享
+链接：https://pan.baidu.com/s/1_a4qXPJTYtfEUYTFCzZPdw 提取码：6666 
 
-**【01】2020年四级VIP全程（适用于7月和9月考试）\**（原链接被河蟹，4月12日更新链接）\****
+2020年考四六级（适用于7月和9月考试）（完结）
 
-###### 链接：https://pan.baidu.com/s/11-pUgBy44a95xXgNHF94bA提取码：6666 
+【01】2020年四级VIP全程（适用于7月和9月考试）（原链接被河蟹，5月2日更新链接）
 
-##### **【02】2020年六级VIP全程（适用于7月和9月考试）**
+链接：https://pan.baidu.com/s/1OXGavjmgX5zvQqMMsUDrJw 提取码：6666 
+
+【02】2020年六级VIP全程（适用于7月和9月考试）
+
 
 链接：https://pan.baidu.com/s/16zrmPh_yi9UB3OGiCLKBtw 提取码：6666 
 
-##### **【03】2020年9月四六级押题**
+【03】2020年9月四六级押题
 
-链接：https://pan.baidu.com/s/13geGc9a1OKqBKRXRN2qd0A 提取码：6666 
-
-
-
-**19年6月四六级**链接:[https://pan.baidu.com/s/1sLTkyoGFCNKkH9sLrKkZiw](https://pan.baidu.com/s/1sLTkyoGFCNKkH9sLrKkZiw)提取码: 2333
-
-**19年12月四六级**链接:[https://pan.baidu.com/s/1x2TRCCMuDwL3JmYpNO5bsQ](https://pan.baidu.com/s/1x2TRCCMuDwL3JmYpNO5bsQ)提取码: 2333
-
-
+链接：https://pan.baidu.com/s/13geGc9a1OKqBKRXRN2qd0A提取码：6666 
 
 
 
@@ -96,47 +80,40 @@ password:
 
 ## **2021考研数学**
 
-链接: https://pan.baidu.com/s/1qBIv0qmriIRwwaeAE3La5Q 提取码: 2299
+https://pan.baidu.com/s/1vOw03_JY9JBC9a91gQVbEg密码：2299
 
 
 
 ## **2021考研政治**
 
-链接: https://pan.baidu.com/s/1uFW8Gxkz-YZe6s1P24FExA提取码: 2299
+https://pan.baidu.com/s/1vF2vo5X9Kr-DkzPGyIraCQ密码：2299
 
 
 
 ## **2021考研英语**
 
-链接: https://pan.baidu.com/s/1Hrw48c2vxF9n9MXtGdaZgA 提取码: 2299
+https://pan.baidu.com/s/1Hrw48c2vxF9n9MXtGdaZgA密码：2299
 
 
 
 ## **2021计算机专项**
 
-链接:[https://pan.baidu.com/s/1Rcwo6MYwEJZQOvq7KzkXFA](https://pan.baidu.com/s/1Rcwo6MYwEJZQOvq7KzkXFA)提取码: 3333
+https://pan.baidu.com/s/1l3fGpvVQmNh-mzNHT1hOnA
+密码：czss
 
 
 
 ## **2021【法硕】专项**
 
-链接:[https://pan.baidu.com/s/1WbYB7Mt8ZdGv5o8JnijvQw](https://pan.baidu.com/s/1WbYB7Mt8ZdGv5o8JnijvQw)
-
-密码：3366
+https://pan.baidu.com/s/1rnSGvK-MYMlKmVV-nhGoJg
+密码：3333
 
 
 
 ## **2021【教育学】专项**
 
-**2022考研教育学****（原链接失效，4月3月已更新链接）
-
-链接：https://pan.baidu.com/s/1AA3USoJ53XnvixjiZ4DbOw 提取码：6666 
-
-**2021考研教育学****（原链接失效，4月3月已更新链接）
-
-链接：https://pan.baidu.com/s/18FkE9tp90az8sC-qgm9qdw 提取码：6666 
-
-
+https://pan.baidu.com/s/14ob3k8_nANRJmK0zy-10Ww
+密码：3366
 
 
 
@@ -162,12 +139,6 @@ http://www.tikuwang.com/app/index.php?i=2&c=entry&id=3981&do=detail&m=dg_article
 <img src="https://i.loli.net/2021/01/02/HYBcazNOtg5XVe6.png" alt="image-20210102152325746" style="zoom: 50%;" /> 
 
 https://bkfeng.top/1
-
-群二维码暂时公开
-
-<img src="C:%5CUsers%5Cweifeng%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210403232755639.png" alt="image-20210403232755639" style="zoom:25%;" />
-
-
 
 
 
