@@ -22,7 +22,13 @@ password:
 
 如以下链接失效请联系微信:**bkfeng46**补链
 
- 
+ 还有挺多人问我要banner上**祢豆子**的图片
+
+https://bkfeng.top/medias/banner/1.jpg
+
+![img](https://i.loli.net/2021/06/21/NtZX4oCqsALr7mb.jpg)
+
+
 
 ## **四六级英语**
 
