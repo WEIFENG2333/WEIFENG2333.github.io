@@ -6,7 +6,7 @@
   <link href="http://bkfeng.top/atom.xml" rel="self"/>
   
   <link href="http://bkfeng.top/"/>
-  <updated>2021-07-20T16:35:32.726Z</updated>
+  <updated>2021-07-23T09:17:07.529Z</updated>
   <id>http://bkfeng.top/</id>
   
   <author>
@@ -21,17 +21,18 @@
     <link href="http://bkfeng.top/study"/>
     <id>http://bkfeng.top/study</id>
     <published>2021-06-15T12:07:28.000Z</published>
-    <updated>2021-07-20T16:35:32.726Z</updated>
+    <updated>2021-07-23T09:17:07.529Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;&lt;strong&gt;最后更新日期：2021年7月3=5日&lt;/strong&gt;，&lt;/p&gt;
-&lt;p&gt;已经更新全部失效链接，&lt;/p&gt;
-&lt;p&gt;如以下链接失效请联系微信:&lt;strong&gt;bkfeng46&lt;/strong&gt;补链&lt;/p&gt;
-&lt;p&gt;&lt;img</summary>
+    <summary type="html">&lt;Script Language=&quot;JavaScript&quot;&gt; 
+　　var timedate= new Date(&quot;December 25,2021&quot;); 
+　　var times=&quot;研究生考试&quot;; 
+　　var now = new Date(); 
+　　var date =</summary>
         
       
     
@@ -110,6 +111,37 @@
     <category term="教师面试" scheme="http://bkfeng.top/tags/%E6%95%99%E5%B8%88%E9%9D%A2%E8%AF%95/"/>
     
     <category term="教招" scheme="http://bkfeng.top/tags/%E6%95%99%E6%8B%9B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>考研资料收集</title>
+    <link href="http://bkfeng.top/collect"/>
+    <id>http://bkfeng.top/collect</id>
+    <published>2021-03-02T14:31:26.000Z</published>
+    <updated>2021-07-23T09:05:58.647Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;Script Language=&quot;JavaScript&quot;&gt; 
+　　var timedate= new Date(&quot;December 25,2021&quot;); 
+　　var times=&quot;研究生考试&quot;; 
+　　var now = new Date(); 
+　　var date =</summary>
+        
+      
+    
+    
+    
+    <category term="学习" scheme="http://bkfeng.top/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="考研" scheme="http://bkfeng.top/tags/%E8%80%83%E7%A0%94/"/>
+    
+    <category term="四六级" scheme="http://bkfeng.top/tags/%E5%9B%9B%E5%85%AD%E7%BA%A7/"/>
     
   </entry>
   
