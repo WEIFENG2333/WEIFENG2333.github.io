@@ -48,18 +48,17 @@
     <link href="http://bkfeng.top/study"/>
     <id>http://bkfeng.top/study</id>
     <published>2021-06-15T12:07:28.000Z</published>
-    <updated>2021-09-21T09:29:54.394Z</updated>
+    <updated>2021-09-21T13:49:03.479Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;Script Language=&quot;JavaScript&quot;&gt; 
-　　var timedate= new Date(&quot;December 25,2021&quot;); 
-　　var times=&quot;研究生考试&quot;; 
-　　var now = new Date(); 
-　　var date =</summary>
+    <summary type="html">&lt;div class=&quot;poem-wrap&quot;&gt;
+  &lt;div class=&quot;poem-border poem-left&quot;&gt;&lt;/div&gt;
+  &lt;div class=&quot;poem-border poem-right&quot;&gt;&lt;/div&gt;
+    &lt;font</summary>
         
       
     
