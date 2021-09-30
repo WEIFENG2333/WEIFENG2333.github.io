@@ -1,0 +1,6 @@
+@media screen and (max-width: 768px) {
+    /* 首页图片高度最大为260px */
+    img.post_bg {
+        max-height: 260px;
+    }
+}

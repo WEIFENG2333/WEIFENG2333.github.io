@@ -1,0 +1,52 @@
+<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg t="1622121456929" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="8117" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200"><defs><style type="text/css">@font-face { font-family: Georgia; src: local("Source Serif Pro"); }
+@font-face { font-family: Times; src: local("Source Serif Pro"); }
+@font-face { font-family: "Time New Roman"; src: local("Source Serif Pro"); }
+@font-face { font-family: Arial; }
+@font-face { font-family: Helvetica; }
+@font-face { font-family: "Helvetica Neue"; }
+@font-face { font-family: "Open Sans"; }
+@font-face { font-family: "Segoe UI"; }
+@font-face { font-family: Tahoma; }
+@font-face { font-family: Trebuchet; }
+@font-face { font-family: "Trebuchet MS"; }
+@font-face { font-family: Ubuntu; }
+@font-face { font-family: Verdana; }
+@font-face { font-family: Consolas; src: local("Source Code Pro"); }
+@font-face { font-family: Courier; src: local("Source Code Pro"); }
+@font-face { font-family: "Courier New"; src: local("Source Code Pro"); }
+@font-face { font-family: "Lucida Console"; src: local("Source Code Pro"); }
+@font-face { font-family: "Ubuntu Mono"; src: local("Source Code Pro"); }
+@font-face { font-family: SimSun; src: local("Source Han Sans SC"); }
+@font-face { font-family: SimSun-ExtB; src: local("Source Han Sans SC"); }
+@font-face { font-family: 宋体; src: local("Source Han Sans SC"); }
+@font-face { font-family: NSimSun; src: local("Source Han Sans SC"); }
+@font-face { font-family: 新宋体; src: local("Source Han Sans SC"); }
+@font-face { font-family: SimHei; src: local("Source Han Sans SC"); }
+@font-face { font-family: 黑体; src: local("Source Han Sans SC"); }
+@font-face { font-family: "Microsoft YaHei UI"; src: local("Source Han Sans SC"); }
+@font-face { font-family: "Microsoft YaHei"; src: local("Source Han Sans SC"); }
+@font-face { font-family: 微软雅黑; src: local("Source Han Sans SC"); }
+@font-face { font-family: "STHeiti SC"; src: local("Source Han Sans SC"); }
+@font-face { font-family: "PingFang SC"; src: local("Source Han Sans SC"); }
+@font-face { font-family: 苹方-简; src: local("Source Han Sans SC"); }
+@font-face { font-family: MingLiU; src: local("Source Han Sans TC"); }
+@font-face { font-family: MingLiU-ExtB; src: local("Source Han Sans TC"); }
+@font-face { font-family: PMingLiU; src: local("Source Han Sans TC"); }
+@font-face { font-family: PMingLiU-ExtB; src: local("Source Han Sans TC"); }
+@font-face { font-family: "Microsoft JhengHei UI"; src: local("Source Han Sans TC"); }
+@font-face { font-family: "Microsoft JhengHei"; src: local("Source Han Sans TC"); }
+@font-face { font-family: 微軟正黑體; src: local("Source Han Sans TC"); }
+@font-face { font-family: "STHeiti TC"; src: local("Source Han Sans TC"); }
+@font-face { font-family: "PingFang TC"; src: local("Source Han Sans TC"); }
+@font-face { font-family: 蘋方-繁; src: local("Source Han Sans TC"); }
+@font-face { font-family: MingLiU_HKSCS; src: local("Source Han Sans HC"); }
+@font-face { font-family: MingLiU_HKSCS-ExtB; src: local("Source Han Sans HC"); }
+@font-face { font-family: "PingFang HK"; src: local("Source Han Sans HC"); }
+@font-face { font-family: 蘋方-港; src: local("Source Han Sans HC"); }
+@font-face { font-family: "MS Gothic"; src: local("Source Han Sans"); }
+@font-face { font-family: "MS PGothic"; src: local("Source Han Sans"); }
+@font-face { font-family: "MS UI Gothic"; src: local("Source Han Sans"); }
+@font-face { font-family: "Yu Gothic"; src: local("Source Han Sans"); }
+@font-face { font-family: "Yu Gothic UI"; src: local("Source Han Sans"); }
+@font-face { font-family: "Malgun Gothic"; src: local("Source Han Sans K"); }
+</style></defs><path d="M577.84 605.192h-131.68v376.926c0 23.132 18.752 41.882 41.882 41.882h47.914c23.13 0 41.882-18.752 41.882-41.882V605.192h0.002z" fill="#C27C59" p-id="8118"></path><path d="M577.838 847.912h-65.466a33.066 33.066 0 0 1-23.37-9.672l-42.842-42.782v-190.268h131.678v242.722z" opacity=".1" p-id="8119"></path><path d="M898.124 431.456L757.28 572.3a112.3 112.3 0 0 1-79.408 32.892H512V392.802h370.114c20.172 0 30.276 24.39 16.01 38.654z" fill="#F985AC" p-id="8120"></path><path d="M473.346 778.926l-140.844-140.844a112.3 112.3 0 0 1-32.892-79.408V392.8H512v370.114c0 20.174-24.39 30.278-38.654 16.012z" fill="#FBDD56" p-id="8121"></path><path d="M125.876 354.148l140.844-140.844a112.3 112.3 0 0 1 79.408-32.892H512v212.39H141.886c-20.172 0-30.274-24.39-16.01-38.654z" fill="#83CCEB" p-id="8122"></path><path d="M550.654 6.678l140.844 140.844a112.3 112.3 0 0 1 32.892 79.408v165.872H512V22.688c0-20.172 24.39-30.274 38.654-16.01z" fill="#FF6E6E" p-id="8123"></path><path d="M512 392.802c75.268-32.728 189.848-122.3 212.39-165.872v165.872H512zM512 392.802c32.728 75.268 122.3 189.848 165.872 212.39H512V392.802zM512 392.802c-75.268 32.728-189.848 122.3-212.39 165.874v-165.874H512zM512 392.802c-32.728-75.268-122.3-189.848-165.874-212.39H512v212.39z" opacity=".1" p-id="8124"></path><path d="M512 392.8m-75.268 0a75.268 75.268 0 1 0 150.536 0 75.268 75.268 0 1 0-150.536 0Z" fill="#FFFFFF" p-id="8125"></path></svg>

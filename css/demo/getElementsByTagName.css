@@ -1,0 +1,32 @@
+.demo-getElementsByTagName {
+    display: grid;
+    grid-template-rows: repeat(1fr, 50px);
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* .demo-getElementsByTagName #div1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.demo-getElementsByTagName #div2 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+} */
+
+.demo-getElementsByTagName div:nth-last-child(1) {
+    align-self: stretch;
+}
+
+.demo-getElementsByTagName div:nth-last-child(2) {
+    align-self: stretch;
+}
+
+.demo-getElementsByTagName button {
+    padding: 10px;
+}
