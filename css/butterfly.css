@@ -488,7 +488,7 @@ mjx-container[jax="CHTML"][display="true"] {
 /* 文章头部信息 */
 
 #post-info #post-meta {
-    display: none;
+    display: inline;
 }
 
 #post-info .post-title {
@@ -710,7 +710,7 @@ hr {
 }
 
 #page-header #post-info {
-    bottom: 2rem;
+    bottom: 1rem;
     pointer-events: none;
 }
 
@@ -2677,7 +2677,7 @@ pre[class*=language-] {
 }
 
 .post #content-inner {
-    font-size: 1.1em
+    font-size: 1.2em
 }
 
 .post .post-content h2:before, .post .post-content h3:before, .post .post-content h4:before, .post .post-content h5:before {
