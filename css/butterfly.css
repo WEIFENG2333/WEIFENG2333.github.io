@@ -46,11 +46,11 @@ i.fas.fa-pencil-alt {
 
 
 
-@font-face {
+/* @font-face {
     font-family: HarmonyOS_Sans_SC_Regular;
     src: url('https://cdn.jsdelivr.net/gh/irozhi/HarmonyOS-Sans/HarmonyOS_Sans_SC/HarmonyOS_Sans_SC_Medium.woff2') format('woff2'),
            url('https://cdn.jsdelivr.net/gh/irozhi/HarmonyOS-Sans/HarmonyOS_Sans_SC/HarmonyOS_Sans_SC_Medium.woff') format('woff');
-}
+}*/
 
 /* @font-face {
     font-family: SF-Pro-Text-Medium;
@@ -77,7 +77,7 @@ li,
 table,
 tbody tr,
 a.link-card .text {
-    font-family: "HarmonyOS_Sans_SC_Regular";
+    font-family: "HarmonyOS_Regular";
     /* "SF-Pro-Rounded-Medium",
         "SourceHanSansCN-Normal",
         "SourceHanSansCN-Medium"; */
