@@ -160,113 +160,11 @@
         <category>学习</category>
       </categories>
       <tags>
-        <tag>心理学</tag>
         <tag>考研</tag>
+        <tag>心理学</tag>
         <tag>经济类</tag>
         <tag>护理</tag>
         <tag>药学</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>我做了一个全国图书馆联盟的接受邮箱，免费使用</title>
-    <url>/book.html</url>
-    <content><![CDATA[<p>本邮箱功能 现在暂停服务！！！</p>
-<p>获取书籍公众号本卡风免费获取！</p>
-<p><img src="https://i.loli.net/2021/12/02/pKmhNEndIojQuS2.png" alt="image-20211202211244569"></p>
-<p>全国图书馆参考咨询联盟实行免费文献传递服务政策，但是每本图书每次咨询不超过50页，限制每日咨询次数</p>
-<p>因为群里不时有人要帮忙找书，有时候管理员不能及时回复</p>
-<p>为方便群友找书,经过一段时间的摸索，搞到了一些特殊资源</p>
-<p>写了个python脚本，一个电子书查找利器</p>
-<h2 id="效果图"><a class="header-anchor" href="#效果图"></a>效果图</h2>
-<p><img src="https://s2.loli.net/2022/01/02/cgUjxpBJlo9rmyI.png" alt="image-20220102202345008"></p>
-<p><img src="https://s2.loli.net/2022/01/02/1SKGXQpHTbVh5Cm.png" alt="image-20220102202418357"></p>
-<p>2021年10月，启用改项目。</p>
-<p>2022年1月1日更新，美化了下发送邮件的内容。</p>
-<p>2022年5月底突然不能用，原因：百度网盘资源满了。。不能再保存了，已修复</p>
-<img src="C:%5CUsers%5Cweifeng%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220612220621813.png" alt="image-20220612220621813" style="zoom: 33%;" />
-<h1>使用方法</h1>
-<h2 id="第一步"><a class="header-anchor" href="#第一步"></a>第一步</h2>
-<p>首先打开这个网站搜索书籍(资源和全国图书馆资源的一致)</p>
-<p><a href="https://www.xueshu86.com/">https://www.xueshu86.com/</a></p>
-<p>PS:可先在<strong><a href="http://www.dglib.superlib.net">http://www.dglib.superlib.net</a></strong>  搜索书籍isbn号</p>
-<p>获取书籍的 <strong>ss号</strong></p>
-<p><img src="https://i.loli.net/2021/12/02/OPRdCiGHUo1wpJ5.png" alt="image-20211202212218229"></p>
-<p><strong>或者</strong>使用浏览器安装【图书互助】油猴脚本 即可直接在全国图书馆的搜索页面直接显示 <strong>ss号</strong>（不懂的略过直接用上面的网站查找ss号）</p>
-<p>油猴脚本链接：<a href="https://greasyfork.org/zh-CN/scripts/420751">https://greasyfork.org/zh-CN/scripts/420751</a></p>
-<p><img src="https://i.loli.net/2021/12/02/bjeo5F6C3i8VWPL.png" alt="image-20211202212020103"></p>
-<h2 id="第二步"><a class="header-anchor" href="#第二步"></a>第二步</h2>
-<p>发送ss号到邮箱【book@bkfeng.top】，在主题处填写书籍ss号</p>
-<p><img src="https://i.loli.net/2021/12/02/ZgYI5zUaEdpAeS7.png" alt="image-20211202231444127"></p>
-<p>一会儿你就可以收到书籍的邮件了 <strong>文件为百度网盘分享</strong></p>
-<p><img src="https://s2.loli.net/2022/07/07/new7FKR53XH8uVB.png" alt="image-20220102202418357"></p>
-<h2 id="第三步：转换格式"><a class="header-anchor" href="#第三步：转换格式"></a>第三步：转换格式</h2>
-<p>如果你获取的书籍直接是pdf格式，你就直接大功告成了！！</p>
-<p>书籍文件存在部分不是pdf格式的，需要转换格式</p>
-<p><strong>使用我们提供的合成工具自己解密合成PDF文件</strong></p>
-<p>转换软件：<a href="https://www.lanzouw.com/i5DQJx5s9mh">https://www.lanzouw.com/i5DQJx5s9mh</a></p>
-<p>里面有视频教程，自己琢磨一下很简单的</p>
-<p><img src="https://i.loli.net/2021/12/02/mzFVNuerWg8U7vk.png" alt="image-20211202222322964"></p>
-<p>转换完成</p>
-<p><img src="https://i.loli.net/2021/12/02/U3WwgyXlm7tjFbV.png" alt="image-20211202222517805"></p>
-<h1><strong>关于捐助：</strong></h1>
-<h6 id="如果该功能对你有帮助，并且愿意支持我，不妨支持一点服务器费用，不胜感激-！！"><a class="header-anchor" href="#如果该功能对你有帮助，并且愿意支持我，不妨支持一点服务器费用，不胜感激-！！"></a>如果该功能对你有帮助，并且愿意支持我，不妨支持一点服务器费用，不胜感激 ！！</h6>
-<img src="https://i.loli.net/2021/06/22/ykKadiH6PpljBUF.png" alt="image-20210621202540579" style="zoom: 50%;" />]]></content>
-      <categories>
-        <category>电子书</category>
-      </categories>
-      <tags>
-        <tag>书籍</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>网站里面所有资源的来源，都在这里</title>
-    <url>/way.html</url>
-    <content><![CDATA[<p>因为网站资源频繁失效，所以本人特意下一篇搜索网上各种考研考证资源的文章</p>
-<p>网站里面所有资源的来源，都是网上各个地方搜索整合来的，主要平台有以下几个：</p>
-<p>欢迎大家文章底下评论补充，我会再加进去文章里面供大家使用</p>
-<h2 id="1-题库网"><a class="header-anchor" href="#1-题库网"></a>1.题库网</h2>
-<p>网站链接 <a href="http://www.tikuwang.com/app/index.php?i=2&amp;c=entry&amp;do=fengmian&amp;m=hulu_info">http://www.tikuwang.com/app/index.php?i=2&amp;c=entry&amp;do=fengmian&amp;m=hulu_info</a></p>
-<p>该网站完全免费分享，来源一家题库网公众号，本站的大部分资源均来源于此。如果本站资源失效可以去这个网站。</p>
-<img src="https://i.loli.net/2021/01/30/BUH8mDkTpRJQ5FZ.png" alt="image-20210130223517406" style="zoom:67%;" />
-<h2 id="2-安心考研"><a class="header-anchor" href="#2-安心考研"></a>2.安心考研</h2>
-<p>网站链接 <a href="http://axky.ys168.com/">http://axky.ys168.com/</a></p>
-<p>1个提供大量考研资料的永硕E盘👍，更新比较及时</p>
-<p>不过缺点就是资源较少，其他的一些资源要付费。</p>
-<p>主要涵盖语文、数学、英语考研以及四六级</p>
-<img src="https://i.loli.net/2021/01/30/PnA5R2MEv1ZQ6NW.png" alt="image-20210130224026382" style="zoom:67%;" />
-<p>同样类型的网盘还有 <a href="http://kyxz.ys168.com/">http://kyxz.ys168.com/</a></p>
-<h2 id="3-金榜题名"><a class="header-anchor" href="#3-金榜题名"></a>3.金榜题名</h2>
-<p>网站链接 <a href="http://qzbltushu.ys168.com/">http://qzbltushu.ys168.com/</a></p>
-<p>该网站资料全都是免费的，资源也比较全</p>
-<p><img src="https://i.loli.net/2021/07/15/YgjKAUrcV3unozp.png" alt="image-20210715183003469"></p>
-<h2 id="3-考研学子"><a class="header-anchor" href="#3-考研学子"></a>3.考研学子</h2>
-<p>部分收费</p>
-<p><img src="https://i.loli.net/2021/07/15/IW7xiG8CgFn2DMv.png" alt="image-20210715183112266"><img src="C:%5CUsers%5Cweifeng%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210715183129586.png" alt="image-20210715183129586"></p>
-<h2 id="4-其他分享者"><a class="header-anchor" href="#4-其他分享者"></a>4.其他分享者</h2>
-<p>小帅同学http://gmengshuai.ys168.com/</p>
-<p>油麦同学http://cangbaoge.ys168.com/</p>
-<p>陈蛋蛋的宝藏库http://www.chendandan.ys168.com/</p>
-<p>哆啦A梦的神奇口袋http://htwww.baozangku.ys168.com/</p>
-<p>可可西里的杂货铺http://kkxldzhp.ys168.com/</p>
-<h5 id="2014-2020教资笔试、面试网课资料合集-https-shimo-im-docs-VwqgJy8pYtVcvwY6-read"><a class="header-anchor" href="#2014-2020教资笔试、面试网课资料合集-https-shimo-im-docs-VwqgJy8pYtVcvwY6-read"></a>2014-2020教资笔试、面试网课资料合集 <a href="https://shimo.im/docs/VwqgJy8pYtVcvwY6/read">https://shimo.im/docs/VwqgJy8pYtVcvwY6/read</a></h5>
-<h5 id="一建-二建-消防-监管-http-zhulu-ys168-com"><a class="header-anchor" href="#一建-二建-消防-监管-http-zhulu-ys168-com"></a>一建 二建 消防 监管 <a href="http://zhulu.ys168.com/">http://zhulu.ys168.com/</a></h5>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">【注意】：</span><br><span class="line">务必记住网址 http:&#x2F;&#x2F;zhulu.ys168.com&#x2F; </span><br><span class="line">及最上面一项：“单科密码管理区”的密码：pass</span><br><span class="line">通过“单科密码管理区”可查询各单科课程的密码。</span><br></pre></td></tr></table></figure>
-<img src="https://i.loli.net/2021/01/30/NvBqQGrMLkWoYCs.png" alt="image-20210130230519905" style="zoom:67%;" />
-<h2 id="5-各类论坛"><a class="header-anchor" href="#5-各类论坛"></a>5.各类论坛</h2>
-<p><strong>1.52破解</strong><a href="https://www.52pojie.cn/">https://www.52pojie.cn/</a></p>
-<p><strong>2.考研帮</strong><a href="http://www.kaoyan.com/">http://www.kaoyan.com/</a></p>
-<p><strong>3.小木虫论坛</strong> <a href="http://muchong.com/bbs/">http://muchong.com/bbs/</a></p>
-<h5 id="4-乐愚社区-https-bbs-leyuz-net"><a class="header-anchor" href="#4-乐愚社区-https-bbs-leyuz-net"></a>4.乐愚社区 <a href="https://bbs.leyuz.net/">https://bbs.leyuz.net/</a></h5>
-<p>其实微信许多公众号有，不过大多数公众号比较杂，多收费</p>
-<p>大家有什么推荐的考研公众号评论留言一起分享。等待后续更新</p>
-<img src="https://i.loli.net/2021/02/13/BIZ6s7rm9Wuko8P.png" alt="image-20210130232602465" style="zoom:50%;" />
-]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>考研</tag>
-        <tag>四六级</tag>
       </tags>
   </entry>
   <entry>
@@ -395,57 +293,105 @@ document.write("<h2 title='具体时间以教育局公布为准'><font color=#34
       </tags>
   </entry>
   <entry>
-    <title>百度网盘扩容指南——资源分享者的必备素养</title>
-    <url>/kuorong.html</url>
-    <content><![CDATA[<h2 id="百度网盘扩容自动化"><a class="header-anchor" href="#百度网盘扩容自动化"></a>百度网盘扩容自动化</h2>
-<p>很久前，就知道百度网盘扩容这么一回事，就是给你的百度网盘存入超过空间的文件</p>
-<img src="https://i0.hdslb.com/bfs/album/03fcfb1a6881a6c3a399b442362c90167dc24635.png" alt="image-20220824003807689" style="zoom:50%;" />
-<p>目前我分享的课程也是通过这种方式来存的（要不然你以为我这么这么多空间）</p>
-<img src="https://i0.hdslb.com/bfs/album/3a024a270b29009601e1f864ff8a492ca6dbf5ee.png" alt="image-20220824004026915" style="zoom:33%;" />
-<p>一些商家也付费提供着需要授权码的软件，但白嫖才是正道。</p>
-<p>但是现有手工操作过于麻烦，了解到相关知识后，我得知了百度网盘扩容原理，因此我<strong>抓包</strong>百度网盘相关接口自己写了一个自动化的扩容程序，</p>
-<p>包含扩容和修复两部分。</p>
-<p>需要的工具：占位文件，百度网盘客户端，浏览器，一个会员百度网盘账号（会员才有垃圾清理功能）</p>
-<p>注意事项：请使用一个小号，据说扩容可能会封号（网上流传超过80t概率封号，我没封过不知道是不是真的）</p>
-<img src="https://i0.hdslb.com/bfs/album/cb9cefba69fb3c8b6a6fee600391bc215cd5a189.png" alt="Python代码" style="zoom: 33%;" />
-<p>本篇文章暂时先简略写着记录一下，后续优化后有详细过程。</p>
-<h3 id="扩容"><a class="header-anchor" href="#扩容"></a>扩容</h3>
-<p>目前网上扩容的原理无非就是利用百度网盘的垃圾文件清理功能，</p>
-<p>通过特定操作来删除垃圾文件</p>
-<p>从而来实现网盘的容量减少，存入的文件容量增加</p>
-<p>手工操作过程如下（这里不细讲，也不放图了，提供大致流程）</p>
-<ol>
-<li>保存10个文件到文件夹【working】</li>
-<li>清理文件夹【working】，并获取垃圾文件列表</li>
-<li>删除【working】文件夹内所有文件</li>
-<li>删除垃圾文件（此时空间容量会减少）</li>
-</ol>
-<p>但是手工的方式过于繁琐，使用Python可极大程度方便使用</p>
-<p>扩容代码大致如下</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">kuorong</span>():</span></span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    1.保存10个文件到文件夹【working】</span></span><br><span class="line"><span class="string">    2.清理文件夹【working】，并获取垃圾文件列表</span></span><br><span class="line"><span class="string">    3.删除文件夹内所有文件</span></span><br><span class="line"><span class="string">    4.删除垃圾文件</span></span><br><span class="line"><span class="string">    5.保存一个5T的文件夹</span></span><br><span class="line"><span class="string">    :return: None</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    </span><br><span class="line">    <span class="comment"># 1.保存10个文件到文件夹【working】</span></span><br><span class="line">    save(<span class="string">&quot;[690435813055101,26598162122456,1020496199701393,644765167361037,261696681183572,132504979092525,169677771677732,829587079548271,260890747525505,111657973573120]&quot;</span>, <span class="string">&#x27;/占位/working&#x27;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 2.清理文件夹【working】，并获取垃圾文件列表</span></span><br><span class="line">    taskid = clear(<span class="string">&#x27;/占位/working&#x27;</span>)[<span class="string">&quot;taskid&quot;</span>]</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;正在清理重复文件，taskid：%s&quot;</span> % taskid)</span><br><span class="line">    query = garbagetaskquery(taskid)</span><br><span class="line">    <span class="keyword">while</span> query[<span class="string">&quot;status&quot;</span>] == <span class="string">&quot;running&quot;</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;**当前进度:%s&quot;</span> % query[<span class="string">&quot;progress&quot;</span>], end=<span class="string">&quot;**&quot;</span>)</span><br><span class="line">        time.sleep(<span class="number">3</span>)</span><br><span class="line">        query = garbagetaskquery(taskid)</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;整理文件完成&quot;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 3.删除文件夹内所有文件</span></span><br><span class="line">    delete(<span class="string">&#x27;[&quot;/占位/working/xwangpan10&quot;,&quot;/占位/working/xwangpan06&quot;,&quot;/占位/working/xwangpan09&quot;,&quot;/占位/working/xwangpan08&quot;,&quot;/占位/working/xwangpan05&quot;,&quot;/占位/working/xwangpan03&quot;,&quot;/占位/working/xwangpan04&quot;,&quot;/占位/working/xwangpan01&quot;,&quot;/占位/working/xwangpan07&quot;,&quot;/占位/working/xwangpan02&quot;,&quot;/占位/working/xwangpan02(1)&quot;,&quot;/占位/working/xwangpan07(1)&quot;,&quot;/占位/working/xwangpan05(1)&quot;,&quot;/占位/working/xwangpan04(1)&quot;,&quot;/占位/working/xwangpan09(1)&quot;,&quot;/占位/working/xwangpan01(1)&quot;,&quot;/占位/working/xwangpan06(1)&quot;,&quot;/占位/working/xwangpan10(1)&quot;,&quot;/占位/working/xwangpan08(1)&quot;,&quot;/占位/working/xwangpan03(1)&quot;]&#x27;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 4.保存五个文件</span></span><br><span class="line">    save(<span class="string">&quot;[690435813055101,26598162122456,1020496199701393,644765167361037,261696681183572,132504979092525,169677771677732,829587079548271,260890747525505,111657973573120]&quot;</span>, <span class="string">&#x27;/占位/working&#x27;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 4.删除垃圾文件</span></span><br><span class="line">    json = get_garbagelist(taskid)</span><br><span class="line">    garbage_list = []</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> json[<span class="string">&quot;list&quot;</span>][<span class="number">0</span>][<span class="string">&quot;data&quot;</span>]:</span><br><span class="line">        file = <span class="string">&#x27;&#123;&quot;fs_id&quot;: &quot;%s&quot;, &quot;index&quot;: %s&#125;&#x27;</span> % (i[<span class="string">&#x27;fs_id&#x27;</span>], <span class="built_in">str</span>(i[<span class="string">&#x27;index&#x27;</span>]))</span><br><span class="line">        garbage_list.append(file)</span><br><span class="line">    <span class="comment"># print(garbage_list)</span></span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;获取删除列表成功&quot;</span>, <span class="built_in">str</span>(garbage_list).replace(<span class="string">&quot;&#x27;&quot;</span>, <span class="string">&quot;&quot;</span>))</span><br><span class="line">    garbage_delete(taskid, <span class="built_in">str</span>(garbage_list).replace(<span class="string">&quot;&#x27;&quot;</span>, <span class="string">&quot;&quot;</span>))</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 5.保存一个5T的文件夹</span></span><br><span class="line">    save(<span class="string">&#x27;[1054623448621227]&#x27;</span>, <span class="string">&quot;/占位&quot;</span>)</span><br></pre></td></tr></table></figure>
-<h3 id="修复"><a class="header-anchor" href="#修复"></a>修复</h3>
-<p>扩容之后第二天基本都会爆盘，就是你的空间已经超出最大容量了，无法存入资料了，</p>
-<p>加入你存进网盘的资料不需要更新，那么你就不需要修复了，可以正常使用文件分享功能，</p>
-<p>如果你需要继续存文件，就要使用修复了。</p>
-<p>修复的原理则是利用百度网盘客户端的移入隐私空间，然后清理垃圾文件来实现修复。</p>
-<p>手工操作大致流程如下（这里不细讲，也不放图了，提供大致流程）：</p>
-<ol>
-<li>清理文件夹【修复】，并获取垃圾文件列表</li>
-<li>把文件夹【修复】移入隐藏空间</li>
-<li>删除垃圾文件</li>
-<li>移出隐藏空间</li>
-</ol>
-<p>代码如下</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">fix</span>():</span></span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    1.清理垃圾，获取taskid</span></span><br><span class="line"><span class="string">    2.查询进度</span></span><br><span class="line"><span class="string">    3.获取删除列表</span></span><br><span class="line"><span class="string">    4.进行删除操作</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="comment"># 1.清理垃圾，获取taskid</span></span><br><span class="line">    taskid = clear(<span class="string">&#x27;/修复&#x27;</span>)[<span class="string">&quot;taskid&quot;</span>]</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;正在清理重复文件，taskid：%s&quot;</span> % taskid)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 2.查询进度</span></span><br><span class="line">    query = garbagetaskquery(taskid)</span><br><span class="line">    <span class="keyword">while</span> query[<span class="string">&quot;status&quot;</span>] == <span class="string">&quot;running&quot;</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;**当前进度:%s&quot;</span> % query[<span class="string">&quot;progress&quot;</span>], end=<span class="string">&quot;**&quot;</span>)</span><br><span class="line">        time.sleep(<span class="number">3</span>)</span><br><span class="line">        query = garbagetaskquery(taskid)</span><br><span class="line">    </span><br><span class="line">    <span class="comment"># 3.获取删除列表</span></span><br><span class="line">    json = get_garbagelist(taskid)</span><br><span class="line">    garbage_list = []</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> json[<span class="string">&quot;list&quot;</span>][<span class="number">0</span>][<span class="string">&quot;data&quot;</span>]:</span><br><span class="line">        file = <span class="string">&#x27;&#123;&quot;fs_id&quot;: &quot;%s&quot;, &quot;index&quot;: %s&#125;&#x27;</span> % (i[<span class="string">&#x27;fs_id&#x27;</span>], <span class="built_in">str</span>(i[<span class="string">&#x27;index&#x27;</span>]))</span><br><span class="line">        garbage_list.append(file)</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;获取删除列表成功&quot;</span>, <span class="built_in">str</span>(garbage_list).replace(<span class="string">&quot;&#x27;&quot;</span>, <span class="string">&quot;&quot;</span>))</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 4.进行删除操作</span></span><br><span class="line">    move_info = move(<span class="string">&quot;/修复&quot;</span>, <span class="string">&quot;/_pcs_.safebox&quot;</span>, <span class="string">&quot;修复&quot;</span>)</span><br><span class="line">    <span class="keyword">if</span> move_info[<span class="string">&quot;errno&quot;</span>] == <span class="number">0</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;移入隐藏空间成功&quot;</span>, move_info)</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;移入隐藏空间失败&quot;</span>, move_info)</span><br><span class="line">    garbage_delete(taskid, <span class="built_in">str</span>(garbage_list).replace(<span class="string">&quot;&#x27;&quot;</span>, <span class="string">&quot;&quot;</span>))</span><br></pre></td></tr></table></figure>
-<p>但是代码写的时候遇到了问题，就是移出隐藏空间的包抓取不了，应该是百度网盘进行相关加密了</p>
-<p>也就是说修复完需要手动把文件移出隐藏空间（算个小瑕疵了）</p>
-<p>不过最近我了解到一种不需要隐藏空间移动的方法，待我有空验证可行性在吧这种方法写成Python，完美实现自动化操作</p>
-<p>目前代码虽然已经完成，但是未考虑到分享给广大用户（因为代码如果你们使用会有太多限制，代码很多操作都是根据我自己网盘实际情况来写的），后续（我很懒）优化代码后可能会考虑写个Gui图形界面，分享给你们使用。</p>
-<h3 id="附各函数功能说明"><a class="header-anchor" href="#附各函数功能说明"></a>附各函数功能说明</h3>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 以下代码仅显示函数名</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 得到百度网盘bdstoken</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">get_bdstoken</span>():</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 保存文件</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">save</span>(<span class="params">fs_ids, file_dir</span>):</span>.</span><br><span class="line"></span><br><span class="line"><span class="comment"># 删除文件</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">delete</span>(<span class="params">file_dir</span>):</span></span><br><span class="line">    </span><br><span class="line"><span class="comment"># 移动文件到隐藏空间</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">move</span>(<span class="params">form_file, to_file, newname</span>):</span></span><br><span class="line">    </span><br><span class="line"><span class="comment"># 文件的任务查询</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">taskquery</span>(<span class="params">taskid</span>):</span>…</span><br><span class="line"></span><br><span class="line"><span class="comment"># 清理垃圾任务查询垃圾</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">garbagetaskquery</span>(<span class="params">taskid</span>):</span></span><br><span class="line">    </span><br><span class="line"><span class="comment"># 执行清理垃圾</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">clear</span>(<span class="params">filedir</span>):</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 得到待清理垃圾的列表</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">get_garbagelist</span>(<span class="params">taskid</span>):</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 删除垃圾列表</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">garbage_delete</span>(<span class="params">taskid, garbagelist</span>):</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 修复</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">fix</span>():</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 扩容</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">kuorong</span>()</span></span><br><span class="line"><span class="function"></span></span><br><span class="line">if __name__ == &#x27;__main__&#x27;:</span><br><span class="line">    pc_cookie = <span class="string">&#x27;填写你的pc_cookie&#x27;</span></span><br><span class="line">    cookie = <span class="string">&#x27;填写你的cookie’</span></span><br><span class="line"><span class="string">    bdstoken = get_bdstoken()</span></span><br><span class="line"><span class="string">    </span></span><br><span class="line"><span class="string">    # fix()</span></span><br><span class="line"><span class="string">    # kuorong()</span></span><br></pre></td></tr></table></figure>
-]]></content>
+    <title>我做了一个全国图书馆联盟的接受邮箱，免费使用</title>
+    <url>/book.html</url>
+    <content><![CDATA[<p>本邮箱功能 现在暂停服务！！！</p>
+<p>获取书籍公众号本卡风免费获取！</p>
+<p><img src="https://i.loli.net/2021/12/02/pKmhNEndIojQuS2.png" alt="image-20211202211244569"></p>
+<p>全国图书馆参考咨询联盟实行免费文献传递服务政策，但是每本图书每次咨询不超过50页，限制每日咨询次数</p>
+<p>因为群里不时有人要帮忙找书，有时候管理员不能及时回复</p>
+<p>为方便群友找书,经过一段时间的摸索，搞到了一些特殊资源</p>
+<p>写了个python脚本，一个电子书查找利器</p>
+<h2 id="效果图"><a class="header-anchor" href="#效果图"></a>效果图</h2>
+<p><img src="https://s2.loli.net/2022/01/02/cgUjxpBJlo9rmyI.png" alt="image-20220102202345008"></p>
+<p><img src="https://s2.loli.net/2022/01/02/1SKGXQpHTbVh5Cm.png" alt="image-20220102202418357"></p>
+<p>2021年10月，启用改项目。</p>
+<p>2022年1月1日更新，美化了下发送邮件的内容。</p>
+<p>2022年5月底突然不能用，原因：百度网盘资源满了。。不能再保存了，已修复</p>
+<img src="C:%5CUsers%5Cweifeng%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20220612220621813.png" alt="image-20220612220621813" style="zoom: 33%;" />
+<h1>使用方法</h1>
+<h2 id="第一步"><a class="header-anchor" href="#第一步"></a>第一步</h2>
+<p>首先打开这个网站搜索书籍(资源和全国图书馆资源的一致)</p>
+<p><a href="https://www.xueshu86.com/">https://www.xueshu86.com/</a></p>
+<p>PS:可先在<strong><a href="http://www.dglib.superlib.net">http://www.dglib.superlib.net</a></strong>  搜索书籍isbn号</p>
+<p>获取书籍的 <strong>ss号</strong></p>
+<p><img src="https://i.loli.net/2021/12/02/OPRdCiGHUo1wpJ5.png" alt="image-20211202212218229"></p>
+<p><strong>或者</strong>使用浏览器安装【图书互助】油猴脚本 即可直接在全国图书馆的搜索页面直接显示 <strong>ss号</strong>（不懂的略过直接用上面的网站查找ss号）</p>
+<p>油猴脚本链接：<a href="https://greasyfork.org/zh-CN/scripts/420751">https://greasyfork.org/zh-CN/scripts/420751</a></p>
+<p><img src="https://i.loli.net/2021/12/02/bjeo5F6C3i8VWPL.png" alt="image-20211202212020103"></p>
+<h2 id="第二步"><a class="header-anchor" href="#第二步"></a>第二步</h2>
+<p>发送ss号到邮箱【book@bkfeng.top】，在主题处填写书籍ss号</p>
+<p><img src="https://i.loli.net/2021/12/02/ZgYI5zUaEdpAeS7.png" alt="image-20211202231444127"></p>
+<p>一会儿你就可以收到书籍的邮件了 <strong>文件为百度网盘分享</strong></p>
+<p><img src="https://s2.loli.net/2022/07/07/new7FKR53XH8uVB.png" alt="image-20220102202418357"></p>
+<h2 id="第三步：转换格式"><a class="header-anchor" href="#第三步：转换格式"></a>第三步：转换格式</h2>
+<p>如果你获取的书籍直接是pdf格式，你就直接大功告成了！！</p>
+<p>书籍文件存在部分不是pdf格式的，需要转换格式</p>
+<p><strong>使用我们提供的合成工具自己解密合成PDF文件</strong></p>
+<p>转换软件：<a href="https://www.lanzouw.com/i5DQJx5s9mh">https://www.lanzouw.com/i5DQJx5s9mh</a></p>
+<p>里面有视频教程，自己琢磨一下很简单的</p>
+<p><img src="https://i.loli.net/2021/12/02/mzFVNuerWg8U7vk.png" alt="image-20211202222322964"></p>
+<p>转换完成</p>
+<p><img src="https://i.loli.net/2021/12/02/U3WwgyXlm7tjFbV.png" alt="image-20211202222517805"></p>
+<h1><strong>关于捐助：</strong></h1>
+<h6 id="如果该功能对你有帮助，并且愿意支持我，不妨支持一点服务器费用，不胜感激-！！"><a class="header-anchor" href="#如果该功能对你有帮助，并且愿意支持我，不妨支持一点服务器费用，不胜感激-！！"></a>如果该功能对你有帮助，并且愿意支持我，不妨支持一点服务器费用，不胜感激 ！！</h6>
+<img src="https://i.loli.net/2021/06/22/ykKadiH6PpljBUF.png" alt="image-20210621202540579" style="zoom: 50%;" />]]></content>
+      <categories>
+        <category>电子书</category>
+      </categories>
       <tags>
-        <tag>python</tag>
+        <tag>书籍</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>网站里面所有资源的来源，都在这里</title>
+    <url>/way.html</url>
+    <content><![CDATA[<p>因为网站资源频繁失效，所以本人特意下一篇搜索网上各种考研考证资源的文章</p>
+<p>网站里面所有资源的来源，都是网上各个地方搜索整合来的，主要平台有以下几个：</p>
+<p>欢迎大家文章底下评论补充，我会再加进去文章里面供大家使用</p>
+<h2 id="1-题库网"><a class="header-anchor" href="#1-题库网"></a>1.题库网</h2>
+<p>网站链接 <a href="http://www.tikuwang.com/app/index.php?i=2&amp;c=entry&amp;do=fengmian&amp;m=hulu_info">http://www.tikuwang.com/app/index.php?i=2&amp;c=entry&amp;do=fengmian&amp;m=hulu_info</a></p>
+<p>该网站完全免费分享，来源一家题库网公众号，本站的大部分资源均来源于此。如果本站资源失效可以去这个网站。</p>
+<img src="https://i.loli.net/2021/01/30/BUH8mDkTpRJQ5FZ.png" alt="image-20210130223517406" style="zoom:67%;" />
+<h2 id="2-安心考研"><a class="header-anchor" href="#2-安心考研"></a>2.安心考研</h2>
+<p>网站链接 <a href="http://axky.ys168.com/">http://axky.ys168.com/</a></p>
+<p>1个提供大量考研资料的永硕E盘👍，更新比较及时</p>
+<p>不过缺点就是资源较少，其他的一些资源要付费。</p>
+<p>主要涵盖语文、数学、英语考研以及四六级</p>
+<img src="https://i.loli.net/2021/01/30/PnA5R2MEv1ZQ6NW.png" alt="image-20210130224026382" style="zoom:67%;" />
+<p>同样类型的网盘还有 <a href="http://kyxz.ys168.com/">http://kyxz.ys168.com/</a></p>
+<h2 id="3-金榜题名"><a class="header-anchor" href="#3-金榜题名"></a>3.金榜题名</h2>
+<p>网站链接 <a href="http://qzbltushu.ys168.com/">http://qzbltushu.ys168.com/</a></p>
+<p>该网站资料全都是免费的，资源也比较全</p>
+<p><img src="https://i.loli.net/2021/07/15/YgjKAUrcV3unozp.png" alt="image-20210715183003469"></p>
+<h2 id="3-考研学子"><a class="header-anchor" href="#3-考研学子"></a>3.考研学子</h2>
+<p>部分收费</p>
+<p><img src="https://i.loli.net/2021/07/15/IW7xiG8CgFn2DMv.png" alt="image-20210715183112266"><img src="C:%5CUsers%5Cweifeng%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210715183129586.png" alt="image-20210715183129586"></p>
+<h2 id="4-其他分享者"><a class="header-anchor" href="#4-其他分享者"></a>4.其他分享者</h2>
+<p>小帅同学http://gmengshuai.ys168.com/</p>
+<p>油麦同学http://cangbaoge.ys168.com/</p>
+<p>陈蛋蛋的宝藏库http://www.chendandan.ys168.com/</p>
+<p>哆啦A梦的神奇口袋http://htwww.baozangku.ys168.com/</p>
+<p>可可西里的杂货铺http://kkxldzhp.ys168.com/</p>
+<h5 id="2014-2020教资笔试、面试网课资料合集-https-shimo-im-docs-VwqgJy8pYtVcvwY6-read"><a class="header-anchor" href="#2014-2020教资笔试、面试网课资料合集-https-shimo-im-docs-VwqgJy8pYtVcvwY6-read"></a>2014-2020教资笔试、面试网课资料合集 <a href="https://shimo.im/docs/VwqgJy8pYtVcvwY6/read">https://shimo.im/docs/VwqgJy8pYtVcvwY6/read</a></h5>
+<h5 id="一建-二建-消防-监管-http-zhulu-ys168-com"><a class="header-anchor" href="#一建-二建-消防-监管-http-zhulu-ys168-com"></a>一建 二建 消防 监管 <a href="http://zhulu.ys168.com/">http://zhulu.ys168.com/</a></h5>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">【注意】：</span><br><span class="line">务必记住网址 http:&#x2F;&#x2F;zhulu.ys168.com&#x2F; </span><br><span class="line">及最上面一项：“单科密码管理区”的密码：pass</span><br><span class="line">通过“单科密码管理区”可查询各单科课程的密码。</span><br></pre></td></tr></table></figure>
+<img src="https://i.loli.net/2021/01/30/NvBqQGrMLkWoYCs.png" alt="image-20210130230519905" style="zoom:67%;" />
+<h2 id="5-各类论坛"><a class="header-anchor" href="#5-各类论坛"></a>5.各类论坛</h2>
+<p><strong>1.52破解</strong><a href="https://www.52pojie.cn/">https://www.52pojie.cn/</a></p>
+<p><strong>2.考研帮</strong><a href="http://www.kaoyan.com/">http://www.kaoyan.com/</a></p>
+<p><strong>3.小木虫论坛</strong> <a href="http://muchong.com/bbs/">http://muchong.com/bbs/</a></p>
+<h5 id="4-乐愚社区-https-bbs-leyuz-net"><a class="header-anchor" href="#4-乐愚社区-https-bbs-leyuz-net"></a>4.乐愚社区 <a href="https://bbs.leyuz.net/">https://bbs.leyuz.net/</a></h5>
+<p>其实微信许多公众号有，不过大多数公众号比较杂，多收费</p>
+<p>大家有什么推荐的考研公众号评论留言一起分享。等待后续更新</p>
+<img src="https://i.loli.net/2021/02/13/BIZ6s7rm9Wuko8P.png" alt="image-20210130232602465" style="zoom:50%;" />
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>考研</tag>
+        <tag>四六级</tag>
       </tags>
   </entry>
   <entry>
@@ -497,6 +443,60 @@ document.write("<h2 title='具体时间以教育局公布为准'><font color=#34
         <tag>技术</tag>
         <tag>方法</tag>
         <tag>小技巧</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>百度网盘扩容指南——资源分享者的必备素养</title>
+    <url>/kuorong.html</url>
+    <content><![CDATA[<h2 id="百度网盘扩容自动化"><a class="header-anchor" href="#百度网盘扩容自动化"></a>百度网盘扩容自动化</h2>
+<p>很久前，就知道百度网盘扩容这么一回事，就是给你的百度网盘存入超过空间的文件</p>
+<img src="https://i0.hdslb.com/bfs/album/03fcfb1a6881a6c3a399b442362c90167dc24635.png" alt="image-20220824003807689" style="zoom:50%;" />
+<p>目前我分享的课程也是通过这种方式来存的（要不然你以为我这么这么多空间）</p>
+<img src="https://i0.hdslb.com/bfs/album/3a024a270b29009601e1f864ff8a492ca6dbf5ee.png" alt="image-20220824004026915" style="zoom:33%;" />
+<p>一些商家也付费提供着需要授权码的软件，但白嫖才是正道。</p>
+<p>但是现有手工操作过于麻烦，了解到相关知识后，我得知了百度网盘扩容原理，因此我<strong>抓包</strong>百度网盘相关接口自己写了一个自动化的扩容程序，</p>
+<p>包含扩容和修复两部分。</p>
+<p>需要的工具：占位文件，百度网盘客户端，浏览器，一个会员百度网盘账号（会员才有垃圾清理功能）</p>
+<p>注意事项：请使用一个小号，据说扩容可能会封号（网上流传超过80t概率封号，我没封过不知道是不是真的）</p>
+<img src="https://i0.hdslb.com/bfs/album/cb9cefba69fb3c8b6a6fee600391bc215cd5a189.png" alt="Python代码" style="zoom: 33%;" />
+<p>本篇文章暂时先简略写着记录一下，后续优化后有详细过程。</p>
+<h3 id="扩容"><a class="header-anchor" href="#扩容"></a>扩容</h3>
+<p>目前网上扩容的原理无非就是利用百度网盘的垃圾文件清理功能，</p>
+<p>通过特定操作来删除垃圾文件</p>
+<p>从而来实现网盘的容量减少，存入的文件容量增加</p>
+<p>手工操作过程如下（这里不细讲，也不放图了，提供大致流程）</p>
+<ol>
+<li>保存10个文件到文件夹【working】</li>
+<li>清理文件夹【working】，并获取垃圾文件列表</li>
+<li>删除【working】文件夹内所有文件</li>
+<li>删除垃圾文件（此时空间容量会减少）</li>
+</ol>
+<p>但是手工的方式过于繁琐，使用Python可极大程度方便使用</p>
+<p>扩容代码大致如下</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">kuorong</span>():</span></span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    1.保存10个文件到文件夹【working】</span></span><br><span class="line"><span class="string">    2.清理文件夹【working】，并获取垃圾文件列表</span></span><br><span class="line"><span class="string">    3.删除文件夹内所有文件</span></span><br><span class="line"><span class="string">    4.删除垃圾文件</span></span><br><span class="line"><span class="string">    5.保存一个5T的文件夹</span></span><br><span class="line"><span class="string">    :return: None</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    </span><br><span class="line">    <span class="comment"># 1.保存10个文件到文件夹【working】</span></span><br><span class="line">    save(<span class="string">&quot;[690435813055101,26598162122456,1020496199701393,644765167361037,261696681183572,132504979092525,169677771677732,829587079548271,260890747525505,111657973573120]&quot;</span>, <span class="string">&#x27;/占位/working&#x27;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 2.清理文件夹【working】，并获取垃圾文件列表</span></span><br><span class="line">    taskid = clear(<span class="string">&#x27;/占位/working&#x27;</span>)[<span class="string">&quot;taskid&quot;</span>]</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;正在清理重复文件，taskid：%s&quot;</span> % taskid)</span><br><span class="line">    query = garbagetaskquery(taskid)</span><br><span class="line">    <span class="keyword">while</span> query[<span class="string">&quot;status&quot;</span>] == <span class="string">&quot;running&quot;</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;**当前进度:%s&quot;</span> % query[<span class="string">&quot;progress&quot;</span>], end=<span class="string">&quot;**&quot;</span>)</span><br><span class="line">        time.sleep(<span class="number">3</span>)</span><br><span class="line">        query = garbagetaskquery(taskid)</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;整理文件完成&quot;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 3.删除文件夹内所有文件</span></span><br><span class="line">    delete(<span class="string">&#x27;[&quot;/占位/working/xwangpan10&quot;,&quot;/占位/working/xwangpan06&quot;,&quot;/占位/working/xwangpan09&quot;,&quot;/占位/working/xwangpan08&quot;,&quot;/占位/working/xwangpan05&quot;,&quot;/占位/working/xwangpan03&quot;,&quot;/占位/working/xwangpan04&quot;,&quot;/占位/working/xwangpan01&quot;,&quot;/占位/working/xwangpan07&quot;,&quot;/占位/working/xwangpan02&quot;,&quot;/占位/working/xwangpan02(1)&quot;,&quot;/占位/working/xwangpan07(1)&quot;,&quot;/占位/working/xwangpan05(1)&quot;,&quot;/占位/working/xwangpan04(1)&quot;,&quot;/占位/working/xwangpan09(1)&quot;,&quot;/占位/working/xwangpan01(1)&quot;,&quot;/占位/working/xwangpan06(1)&quot;,&quot;/占位/working/xwangpan10(1)&quot;,&quot;/占位/working/xwangpan08(1)&quot;,&quot;/占位/working/xwangpan03(1)&quot;]&#x27;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 4.保存五个文件</span></span><br><span class="line">    save(<span class="string">&quot;[690435813055101,26598162122456,1020496199701393,644765167361037,261696681183572,132504979092525,169677771677732,829587079548271,260890747525505,111657973573120]&quot;</span>, <span class="string">&#x27;/占位/working&#x27;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 4.删除垃圾文件</span></span><br><span class="line">    json = get_garbagelist(taskid)</span><br><span class="line">    garbage_list = []</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> json[<span class="string">&quot;list&quot;</span>][<span class="number">0</span>][<span class="string">&quot;data&quot;</span>]:</span><br><span class="line">        file = <span class="string">&#x27;&#123;&quot;fs_id&quot;: &quot;%s&quot;, &quot;index&quot;: %s&#125;&#x27;</span> % (i[<span class="string">&#x27;fs_id&#x27;</span>], <span class="built_in">str</span>(i[<span class="string">&#x27;index&#x27;</span>]))</span><br><span class="line">        garbage_list.append(file)</span><br><span class="line">    <span class="comment"># print(garbage_list)</span></span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;获取删除列表成功&quot;</span>, <span class="built_in">str</span>(garbage_list).replace(<span class="string">&quot;&#x27;&quot;</span>, <span class="string">&quot;&quot;</span>))</span><br><span class="line">    garbage_delete(taskid, <span class="built_in">str</span>(garbage_list).replace(<span class="string">&quot;&#x27;&quot;</span>, <span class="string">&quot;&quot;</span>))</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 5.保存一个5T的文件夹</span></span><br><span class="line">    save(<span class="string">&#x27;[1054623448621227]&#x27;</span>, <span class="string">&quot;/占位&quot;</span>)</span><br></pre></td></tr></table></figure>
+<h3 id="修复"><a class="header-anchor" href="#修复"></a>修复</h3>
+<p>扩容之后第二天基本都会爆盘，就是你的空间已经超出最大容量了，无法存入资料了，</p>
+<p>加入你存进网盘的资料不需要更新，那么你就不需要修复了，可以正常使用文件分享功能，</p>
+<p>如果你需要继续存文件，就要使用修复了。</p>
+<p>修复的原理则是利用百度网盘客户端的移入隐私空间，然后清理垃圾文件来实现修复。</p>
+<p>手工操作大致流程如下（这里不细讲，也不放图了，提供大致流程）：</p>
+<ol>
+<li>清理文件夹【修复】，并获取垃圾文件列表</li>
+<li>把文件夹【修复】移入隐藏空间</li>
+<li>删除垃圾文件</li>
+<li>移出隐藏空间</li>
+</ol>
+<p>代码如下</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">fix</span>():</span></span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    1.清理垃圾，获取taskid</span></span><br><span class="line"><span class="string">    2.查询进度</span></span><br><span class="line"><span class="string">    3.获取删除列表</span></span><br><span class="line"><span class="string">    4.进行删除操作</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="comment"># 1.清理垃圾，获取taskid</span></span><br><span class="line">    taskid = clear(<span class="string">&#x27;/修复&#x27;</span>)[<span class="string">&quot;taskid&quot;</span>]</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;正在清理重复文件，taskid：%s&quot;</span> % taskid)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 2.查询进度</span></span><br><span class="line">    query = garbagetaskquery(taskid)</span><br><span class="line">    <span class="keyword">while</span> query[<span class="string">&quot;status&quot;</span>] == <span class="string">&quot;running&quot;</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;**当前进度:%s&quot;</span> % query[<span class="string">&quot;progress&quot;</span>], end=<span class="string">&quot;**&quot;</span>)</span><br><span class="line">        time.sleep(<span class="number">3</span>)</span><br><span class="line">        query = garbagetaskquery(taskid)</span><br><span class="line">    </span><br><span class="line">    <span class="comment"># 3.获取删除列表</span></span><br><span class="line">    json = get_garbagelist(taskid)</span><br><span class="line">    garbage_list = []</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> json[<span class="string">&quot;list&quot;</span>][<span class="number">0</span>][<span class="string">&quot;data&quot;</span>]:</span><br><span class="line">        file = <span class="string">&#x27;&#123;&quot;fs_id&quot;: &quot;%s&quot;, &quot;index&quot;: %s&#125;&#x27;</span> % (i[<span class="string">&#x27;fs_id&#x27;</span>], <span class="built_in">str</span>(i[<span class="string">&#x27;index&#x27;</span>]))</span><br><span class="line">        garbage_list.append(file)</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;获取删除列表成功&quot;</span>, <span class="built_in">str</span>(garbage_list).replace(<span class="string">&quot;&#x27;&quot;</span>, <span class="string">&quot;&quot;</span>))</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 4.进行删除操作</span></span><br><span class="line">    move_info = move(<span class="string">&quot;/修复&quot;</span>, <span class="string">&quot;/_pcs_.safebox&quot;</span>, <span class="string">&quot;修复&quot;</span>)</span><br><span class="line">    <span class="keyword">if</span> move_info[<span class="string">&quot;errno&quot;</span>] == <span class="number">0</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;移入隐藏空间成功&quot;</span>, move_info)</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;移入隐藏空间失败&quot;</span>, move_info)</span><br><span class="line">    garbage_delete(taskid, <span class="built_in">str</span>(garbage_list).replace(<span class="string">&quot;&#x27;&quot;</span>, <span class="string">&quot;&quot;</span>))</span><br></pre></td></tr></table></figure>
+<p>但是代码写的时候遇到了问题，就是移出隐藏空间的包抓取不了，应该是百度网盘进行相关加密了</p>
+<p>也就是说修复完需要手动把文件移出隐藏空间（算个小瑕疵了）</p>
+<p>不过最近我了解到一种不需要隐藏空间移动的方法，待我有空验证可行性在吧这种方法写成Python，完美实现自动化操作</p>
+<p>目前代码虽然已经完成，但是未考虑到分享给广大用户（因为代码如果你们使用会有太多限制，代码很多操作都是根据我自己网盘实际情况来写的），后续（我很懒）优化代码后可能会考虑写个Gui图形界面，分享给你们使用。</p>
+<h3 id="附各函数功能说明"><a class="header-anchor" href="#附各函数功能说明"></a>附各函数功能说明</h3>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 以下代码仅显示函数名</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 得到百度网盘bdstoken</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">get_bdstoken</span>():</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 保存文件</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">save</span>(<span class="params">fs_ids, file_dir</span>):</span>.</span><br><span class="line"></span><br><span class="line"><span class="comment"># 删除文件</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">delete</span>(<span class="params">file_dir</span>):</span></span><br><span class="line">    </span><br><span class="line"><span class="comment"># 移动文件到隐藏空间</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">move</span>(<span class="params">form_file, to_file, newname</span>):</span></span><br><span class="line">    </span><br><span class="line"><span class="comment"># 文件的任务查询</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">taskquery</span>(<span class="params">taskid</span>):</span>…</span><br><span class="line"></span><br><span class="line"><span class="comment"># 清理垃圾任务查询垃圾</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">garbagetaskquery</span>(<span class="params">taskid</span>):</span></span><br><span class="line">    </span><br><span class="line"><span class="comment"># 执行清理垃圾</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">clear</span>(<span class="params">filedir</span>):</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 得到待清理垃圾的列表</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">get_garbagelist</span>(<span class="params">taskid</span>):</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 删除垃圾列表</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">garbage_delete</span>(<span class="params">taskid, garbagelist</span>):</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 修复</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">fix</span>():</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 扩容</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">kuorong</span>()</span></span><br><span class="line"><span class="function"></span></span><br><span class="line">if __name__ == &#x27;__main__&#x27;:</span><br><span class="line">    pc_cookie = <span class="string">&#x27;填写你的pc_cookie&#x27;</span></span><br><span class="line">    cookie = <span class="string">&#x27;填写你的cookie’</span></span><br><span class="line"><span class="string">    bdstoken = get_bdstoken()</span></span><br><span class="line"><span class="string">    </span></span><br><span class="line"><span class="string">    # fix()</span></span><br><span class="line"><span class="string">    # kuorong()</span></span><br></pre></td></tr></table></figure>
+]]></content>
+      <tags>
+        <tag>python</tag>
       </tags>
   </entry>
   <entry>
