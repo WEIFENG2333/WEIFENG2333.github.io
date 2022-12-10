@@ -668,7 +668,8 @@ figure.gallery-group p {
 /*链接卡片图片不修改margin*/
 
 #article-container .fancybox img {
-    margin: 0px !important;
+	/*margin: 0px !important;*/
+    margin: 0px;
 }
 
 /*搜索框*/
@@ -860,7 +861,7 @@ audio {
 }
 
 #article-container .fancybox img {
-    margin: 0.8rem;
+    /* margin: 0.8rem; */
 }
 
 .aplayer .aplayer-lrc p {
