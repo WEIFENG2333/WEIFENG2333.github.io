@@ -6,7 +6,7 @@
   <link href="https://bkfeng.top/atom.xml" rel="self"/>
   
   <link href="https://bkfeng.top/"/>
-  <updated>2022-08-25T02:48:55.000Z</updated>
+  <updated>2023-02-03T10:30:14.618Z</updated>
   <id>https://bkfeng.top/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>公众号书籍搜索指令</title>
+    <link href="https://bkfeng.top/book"/>
+    <id>https://bkfeng.top/book</id>
+    <published>2023-02-03T10:13:03.000Z</published>
+    <updated>2023-02-03T10:30:14.618Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://article.biliimg.com/bfs/article/d93c1c495d3076b57e37b9abbf9df0af57a654cf.png" alt="image-20230131233151718"></p><p>最近过完年比较有功夫</p><p>对公众号的书籍查找功能进行了优化更新</p><p>本来想自建书籍数据库，使用MySQL数据库</p><p>但考虑到数据量太大，仅读秀的资源去重后就有4120298条</p><p><img src="https://article.biliimg.com/bfs/article/23b78291ce310d3b3852ee03754c33b7768e3e60.png" alt="image-20230131234517631"></p><p>而新加的Zlibrary库更是将近10000,000条，二者共计1500W左右数据</p><p>在磕磕碰碰遇到不少困难终于把书籍导入到数据库以后</p><p>我发现数据库在建立索引后，查询仍询比较慢（特别是全文查询）</p><p>最终我还是选择了接入别人的接口，这样可以实现相同的效果</p><p>毕竟别人做的搜索接口性能速度等方面应该比我的好不少（绝不是偷懒）</p><p>如果他的接口失效了，再使用自星建立的书籍库吧~</p><p>公众号书籍搜索指令如下</p><p><img src="https://article.biliimg.com/bfs/article/0daa8533d4718a96ff9dbc69475178948d321b92.png" alt="image-20230203173206667"></p><ol><li><p>通过书籍id获取包含书籍的信息和下载链接</p><ul><li><p>ssid为8为数字，可以获取读秀的资源（书籍下载后还需要进行解压和转换等一系列操作）</p></li><li><p>zlibid以00开头，可以获取zlibrary的资源（书籍下载后直接可以打开，无需转换）</p></li></ul><p>书籍的ssid通过网站搜索、公众号搜索获取<br>书籍的zlibid暂时只能通过公众号搜索获取</p></li></ol><p><img src="https://article.biliimg.com/bfs/article/0ce48be70ee4047d2e917b757e67eea71e5cc5c3.png" alt="image-20230131232658813"></p><ol start="2"><li><p>通过<code>cx你需要搜索的书名</code>来搜索书籍</p><p>如想要查询“三体”，就发送“cx三体&quot;</p><p>此种方式的好处可以查询包括zlibrary和读秀的书籍</p><p>建议优先使用zlibrary的资源里的书籍（即书籍id为00开头）</p><p>因为该库的书籍文件为pdf、mobi、epub等无需解压的文件</p><p>读秀库的文件需要解压以及文件为扫描版，且文字不可复制和没有书签</p><p>再次回复书籍的id可以获得书籍的百度云链接</p><p><img src="https://article.biliimg.com/bfs/article/74ea0270156f0aba2e3ff04cbec7dfeb578bc716.png" alt="image-20230203171513135"></p><p>下载后即可获取一份带有书签的文字可复制的文件</p><p><img src="https://article.biliimg.com/bfs/article/f00a6bde627861c486482f2362eeedfbc761b9f9.png" alt="image-20230131234030943"></p></li><li><p>通过<code>next</code>进行查询结果的翻页操作</p><p><img src="https://article.biliimg.com/bfs/article/f04046fb4e58a9651f79007ec482366040267060.png" alt="image-20230203172046900"></p></li><li><p>通过<code>user</code>获取用户信息</p></li></ol><p><img src="https://article.biliimg.com/bfs/article/0fda1ea6a5b5421aa3877d8fb24436846e69d297.png" alt="image-20230203171846940"></p><p>以上就是目前为止公众号的所有指令，</p><p>目前公众号为节约资源，限制了每日获取次数。不过一般正常使用的话不会超过这个限制的。</p><p>因为以前老有一些人一天就发个几百本的书籍过来</p>]]></content>
+    
+    
+    <summary type="html">全国图书馆联盟，zlibrary的书籍，只需要发送书籍到公众号，即可获取到书籍</summary>
+    
+    
+    
+    <category term="电子书" scheme="https://bkfeng.top/categories/%E7%94%B5%E5%AD%90%E4%B9%A6/"/>
+    
+    
+    <category term="书籍" scheme="https://bkfeng.top/tags/%E4%B9%A6%E7%B1%8D/"/>
+    
+  </entry>
   
   <entry>
     <title>百度网盘扩容指南——资源分享者的必备素养</title>
@@ -61,12 +82,12 @@
     <link href="https://bkfeng.top/book"/>
     <id>https://bkfeng.top/book</id>
     <published>2021-12-02T05:41:51.000Z</published>
-    <updated>2022-12-10T16:10:38.335Z</updated>
+    <updated>2023-02-03T10:12:18.640Z</updated>
     
     <content type="html"><![CDATA[<p><strong>公众号书籍食用指南</strong></p><h1>书籍概况</h1><p>书籍来自某秀，书库基本涵盖20年以前出版的所有书。如果你找的新书基本没什么可能了。</p><h1>一.书籍获取</h1><img src="https://i0.hdslb.com/bfs/album/2e50e073ea383f7a20c20b59819b7cf8e3195301.png" alt="image-20221127221604449" style="zoom:50%;" /><p>1.首先每本书都对应一个8位数字的ss号（注意这不是ISBN号），需要在公众号【本卡风】回复ss号即可获取书籍的百度云链接。</p><img src="https://i0.hdslb.com/bfs/album/7a23c61eb36514b4fb08bd8505cd3f5e88460317.png" alt="image-20221127194209862" style="zoom:50%;" /><p>1.公众号暂时支持ss号获取书籍，不支持ISBN/书名/作者等信息查询。所以先要获取ss号。</p><h3 id="ss号获取方法"><a class="header-anchor" href="#ss号获取方法"></a>ss号获取方法</h3><ol><li>第一种可以通过网站查询书籍的ss号。（以下网站只是用作查询，<strong>请不要直接在网站内付费</strong>！！）</li></ol><p><a href="https://www.xueshu86.com/">https://www.xueshu86.com/</a></p><p><a href="https://ps.uuttdx.com/">https://ps.uuttdx.com/</a></p><ol start="2"><li>第二种可以用油猴插件，脚本适配网站二者任选一个内容都是一样的：</li></ol><p><a href="https://greasyfork.org/zh-CN/scripts/420751-%E5%9B%BE%E4%B9%A6%E4%BA%92%E5%8A%A9">油猴插件链接</a></p><p>然后打开一下网站，就会显示书籍的ss号。</p><p>1.<strong><a href="http://www.dglib.superlib.net/">http://www.dglib.superlib.net/ </a> （东莞图书馆检索系统，免登录，推荐）</strong></p><p>2.<a href="http://www.ucdrs.superlib.net/">http://www.ucdrs.superlib.net/</a> （全国图书馆联盟，需登录）</p><p>3.<a href="https://www.duxiu.com/">https://www.duxiu.com/</a> （需要校园网或者相关机构可以登录）</p><p><img src="https://i0.hdslb.com/bfs/album/42f7284e65566d332da7f7a5926a5dcb4b2d627a.png" alt="image-20221127200047446"></p><h1>二.转换格式</h1><p>通过公众号的百度云链接下载书籍。如果你获取的书籍直接是pdf格式，你就直接大功告成了！！</p><p>但是书籍文件大部分不是pdf格式的，并且需要解压密码</p><p><strong>使用我们提供的合成工具进行解压和合成PDF文件</strong></p><p>转换软件：<a href="https://wwb.lanzoub.com/iBOBX0fxgxfi">https://wwb.lanzoub.com/iBOBX0fxgxfi</a></p><p>自己看一下教程，应该比较简单</p><p><img src="https://i0.hdslb.com/bfs/album/2e602f56063f313c7aef193c9b8ae74a616a8801.png" alt="image-20221127203657865"></p><p><img src="https://i0.hdslb.com/bfs/album/9be04e9f422694c3233f9ec8489605cbc0efae21.png" alt="image-20221127203803031"></p><div class="hide-toggle" style="border: 1px solid bg"><div class="hide-button toggle-title" style="background-color: bg;color: color"><i class="fas fa-caret-right fa-fw"></i><span>如果你想捐助就点开我(っ•̀ω•́)っ</span></div>    <div class="hide-content"><h1><strong>关于捐助：</strong></h1><p>谢谢你愿意点开(✪ω✪)</p><p>如果该资料对你有帮助，并且愿意支持我，不妨支持一下 ！！</p><img src="https://i0.hdslb.com/bfs/album/1745a0e1d6f0b406ec65d94ba174d29bca79031e.png" alt="image-20210621202540579" style="zoom: 25%;" /></div></div>]]></content>
     
     
-    <summary type="html">全国图书馆联盟的书籍，只需要发送书籍到公众号，即可获取到书籍</summary>
+    <summary type="html">全国图书馆联盟，zlibrary的书籍，只需要发送书籍到公众号，即可获取到书籍</summary>
     
     
     
