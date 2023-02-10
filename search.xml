@@ -50,6 +50,12 @@
 <p><a href="http://www.tikuwang.com/app/index.php?i=2&amp;c=entry&amp;id=3916&amp;do=detail&amp;m=dg_articlemanage">http://www.tikuwang.com/app/index.php?i=2&amp;c=entry&amp;id=3916&amp;do=detail&amp;m=dg_articlemanage</a></p>
 <p>每个云群最多容纳200人，如果群进不去了，那就是人满了，每个群内容一样，大家只要进一个群就好，进了多个群的同学，一旦被发现会被踢掉哦。</p>
 <div class="tag link"><a class="link-card" title="全部课程资料，网盘群开放！！" href="https://bkfeng.top/cloudgroup"><div class="left"><img src="https://img.88icon.com/download/jpg/201912/20212877d98b95ae7730decb11762bac.jpg!88con"/></div><div class="right"><p class="text">全部课程资料，网盘群开放！！</p><p class="url">https://bkfeng.top/cloudgroup</p></div></a></div>
+<div class="hide-toggle" style="border: 1px solid bg"><div class="hide-button toggle-title" style="background-color: bg;color: color"><i class="fas fa-caret-right fa-fw"></i><span>如果你想捐助就点开我(っ•̀ω•́)っ</span></div>
+    <div class="hide-content"><h1><strong>关于捐助：</strong></h1>
+<p>谢谢你愿意点开(✪ω✪)</p>
+<p>如果该资料对你有帮助，并且愿意支持我，不妨支持一下 ！！</p>
+<p><img src="https://i0.hdslb.com/bfs/new_dyn/0ab5c5b8fe336af487b03928d9d1c14e355414907.png" alt="image-20230210154743109"></p>
+</div></div>
 <table>
 <thead>
 <tr>
@@ -177,12 +183,28 @@
     <url>/book.html</url>
     <content><![CDATA[<p><strong>公众号书籍食用指南</strong></p>
 <h1>书籍概况</h1>
-<p>书籍来自某秀，书库基本涵盖20年以前出版的所有书。如果你找的新书基本没什么可能了。</p>
+<p>书籍来自某秀与zlibrary。书库基本涵盖20年以前出版的所有书。如果你找的新书基本没什么可能了。</p>
+<p>公众号书籍搜索指令如下</p>
+<p><img src="https://i0.hdslb.com/bfs/new_dyn/8064eddf7f58a9506196ef3c9191754d355414907.png" alt="公众号搜索指令一图流"></p>
+<p>2月6日更新：公众号已经支持ss号获取书籍，支持ISBN/书名/作者等信息查询。</p>
 <h1>一.书籍获取</h1>
 <img src="https://i0.hdslb.com/bfs/album/2e50e073ea383f7a20c20b59819b7cf8e3195301.png" alt="image-20221127221604449" style="zoom:50%;" />
-<p>1.首先每本书都对应一个8位数字的ss号（注意这不是ISBN号），需要在公众号【本卡风】回复ss号即可获取书籍的百度云链接。</p>
-<img src="https://i0.hdslb.com/bfs/album/7a23c61eb36514b4fb08bd8505cd3f5e88460317.png" alt="image-20221127194209862" style="zoom:50%;" />
-<p>1.公众号暂时支持ss号获取书籍，不支持ISBN/书名/作者等信息查询。所以先要获取ss号。</p>
+<ol>
+<li>
+<p>通过书籍id获取包含书籍的信息和下载链接</p>
+<ul>
+<li>
+<p>ssid为8为数字，可以获取读秀的资源（书籍下载后还需要进行解压和转换等一系列操作）</p>
+</li>
+<li>
+<p>zlibid以00开头，可以获取zlibrary的资源（书籍下载后直接可以打开，无需转换）</p>
+</li>
+</ul>
+<p>书籍的ssid通过网站搜索、公众号搜索获取<br>
+书籍的zlibid暂时只能通过公众号搜索获取</p>
+</li>
+</ol>
+<p><img src="https://i0.hdslb.com/bfs/new_dyn/2b880d048b51c628dd0e1166e59f1240355414907.png" alt="image-20230131232658813"></p>
 <h3 id="ss号获取方法"><a class="header-anchor" href="#ss号获取方法"></a>ss号获取方法</h3>
 <ol>
 <li>第一种可以通过网站查询书籍的ss号。（以下网站只是用作查询，<strong>请不要直接在网站内付费</strong>！！）</li>
@@ -196,8 +218,29 @@
 <p>然后打开一下网站，就会显示书籍的ss号。</p>
 <p>1.<strong><a href="http://www.dglib.superlib.net/">http://www.dglib.superlib.net/ </a> （东莞图书馆检索系统，免登录，推荐）</strong></p>
 <p>2.<a href="http://www.ucdrs.superlib.net/">http://www.ucdrs.superlib.net/</a> （全国图书馆联盟，需登录）</p>
-<p>3.<a href="https://www.duxiu.com/">https://www.duxiu.com/</a> （需要校园网或者相关机构可以登录）</p>
 <p><img src="https://i0.hdslb.com/bfs/album/42f7284e65566d332da7f7a5926a5dcb4b2d627a.png" alt="image-20221127200047446"></p>
+<ol start="2">
+<li>
+<p>通过<code>cx你需要搜索的书名</code>来搜索书籍</p>
+<p>如想要查询“三体”，就发送“cx三体&quot;</p>
+<p>此种方式的好处可以查询包括zlibrary和读秀的书籍</p>
+<p>建议优先使用zlibrary的资源里的书籍（即书籍id为00开头）</p>
+<p>因为该库的书籍文件为pdf、mobi、epub等无需解压的文件</p>
+<p>读秀库的文件需要解压以及文件为扫描版，且文字不可复制和没有书签</p>
+<p>再次回复书籍的id可以获得书籍的百度云链接</p>
+<p><img src="https://i0.hdslb.com/bfs/new_dyn/6312cb48179778bc7f733aa9af2ce80c355414907.png" alt="image-20230203171513135"></p>
+<p>下载后即可获取一份带有书签的文字可复制的文件</p>
+<p><img src="https://i0.hdslb.com/bfs/new_dyn/1e70e8d320714f384530406883fce786355414907.png" alt="image-20230131234030943"></p>
+</li>
+<li>
+<p>通过<code>next</code>进行查询结果的翻页操作</p>
+<p><img src="https://i0.hdslb.com/bfs/new_dyn/d5f10c1b47af33dcb5c773edf92aae63355414907.png" alt="image-20230203172046900"></p>
+</li>
+<li>
+<p>通过<code>user</code>获取用户信息</p>
+</li>
+</ol>
+<p><img src="https://i0.hdslb.com/bfs/new_dyn/7eb6932fd8cedd793b1340fdef84fef1355414907.png" alt="image-20230203171846940"></p>
 <h1>二.转换格式</h1>
 <p>通过公众号的百度云链接下载书籍。如果你获取的书籍直接是pdf格式，你就直接大功告成了！！</p>
 <p>但是书籍文件大部分不是pdf格式的，并且需要解压密码</p>
@@ -210,7 +253,7 @@
     <div class="hide-content"><h1><strong>关于捐助：</strong></h1>
 <p>谢谢你愿意点开(✪ω✪)</p>
 <p>如果该资料对你有帮助，并且愿意支持我，不妨支持一下 ！！</p>
-<img src="https://i0.hdslb.com/bfs/album/1745a0e1d6f0b406ec65d94ba174d29bca79031e.png" alt="image-20210621202540579" style="zoom: 25%;" />
+<p><img src="https://i0.hdslb.com/bfs/new_dyn/0ab5c5b8fe336af487b03928d9d1c14e355414907.png" alt="image-20230210154743109"></p>
 </div></div>]]></content>
       <categories>
         <category>电子书</category>
@@ -487,8 +530,9 @@ document.write("<h2 title='具体时间以教育局公布为准'><font color=#34
 <p><strong>有什么问题可以在本文章末尾留言</strong></p>
 <div class="hide-toggle" style="border: 1px solid bg"><div class="hide-button toggle-title" style="background-color: bg;color: color"><i class="fas fa-caret-right fa-fw"></i><span>如果你想捐助就点开我(っ•̀ω•́)っ</span></div>
     <div class="hide-content"><h1><strong>关于捐助：</strong></h1>
+<p>谢谢你愿意点开(✪ω✪)</p>
 <p>如果该资料对你有帮助，并且愿意支持我，不妨支持一下 ！！</p>
-<img src="https://i0.hdslb.com/bfs/album/1745a0e1d6f0b406ec65d94ba174d29bca79031e.png" alt="image-20210621202540579" style="zoom: 25%;" />
+<p><img src="https://i0.hdslb.com/bfs/new_dyn/0ab5c5b8fe336af487b03928d9d1c14e355414907.png" alt="image-20230210154743109"></p>
 </div></div>
 ]]></content>
       <categories>
@@ -557,6 +601,12 @@ document.write("<h2 title='具体时间以教育局公布为准'><font color=#34
 <p>以上就是目前为止公众号的所有指令，</p>
 <p>目前公众号为节约资源，限制了每日获取次数。不过一般正常使用的话不会超过这个限制的。</p>
 <p>因为以前老有一些人一天就发个几百本的书籍过来</p>
+<div class="hide-toggle" style="border: 1px solid bg"><div class="hide-button toggle-title" style="background-color: bg;color: color"><i class="fas fa-caret-right fa-fw"></i><span>如果你想捐助就点开我(っ•̀ω•́)っ</span></div>
+    <div class="hide-content"><h1><strong>关于捐助：</strong></h1>
+<p>谢谢你愿意点开(✪ω✪)</p>
+<p>如果该资料对你有帮助，并且愿意支持我，不妨支持一下 ！！</p>
+<p><img src="https://i0.hdslb.com/bfs/new_dyn/1c9a72c7b13846de1c0f75fd87db8d53355414907.png" alt="image-20230210154743109"></p>
+</div></div>
 ]]></content>
       <categories>
         <category>电子书</category>
