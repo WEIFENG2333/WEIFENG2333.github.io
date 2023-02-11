@@ -1,26 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>专业课汇总</title>
-    <url>/class.html</url>
-    <content><![CDATA[<p>（链接不定期更新）**</p>
-<p><img src="https://s2.loli.net/2022/07/19/6wIBaY9r1OQXoJ7.png" alt="image-20220719212408466"></p>
-<p>链接：<a href="https://pan.baidu.com/s/1qUVrfdif117LXsxKCac1cw?pwd=wn4m">https://pan.baidu.com/s/1qUVrfdif117LXsxKCac1cw?pwd=wn4m</a><br>
-提取码：wn4m<br>
-–来自百度网盘超级会员V1的分享</p>
-]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>心理学</tag>
-        <tag>考研</tag>
-        <tag>经济类</tag>
-        <tag>护理</tag>
-        <tag>药学</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>butterfly配置</title>
     <url>/15367.html</url>
     <content><![CDATA[<h3 id="社交图标"><a class="header-anchor" href="#社交图标"></a>社交图标</h3>
@@ -83,6 +63,26 @@ This is my website, click the button <a class="btn-beautify button--animated lar
       </tags>
   </entry>
   <entry>
+    <title>专业课汇总</title>
+    <url>/class.html</url>
+    <content><![CDATA[<p>（链接不定期更新）**</p>
+<p><img src="https://s2.loli.net/2022/07/19/6wIBaY9r1OQXoJ7.png" alt="image-20220719212408466"></p>
+<p>链接：<a href="https://pan.baidu.com/s/1qUVrfdif117LXsxKCac1cw?pwd=wn4m">https://pan.baidu.com/s/1qUVrfdif117LXsxKCac1cw?pwd=wn4m</a><br>
+提取码：wn4m<br>
+–来自百度网盘超级会员V1的分享</p>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>心理学</tag>
+        <tag>考研</tag>
+        <tag>经济类</tag>
+        <tag>护理</tag>
+        <tag>药学</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>全部课程资料，网盘群开放！！</title>
     <url>/cloudgroup.html</url>
     <content><![CDATA[<p><img src="https://i0.hdslb.com/bfs/album/34534183f438a9bd5ba03d8f2fcf7d71c2006884.png" alt="image-20220719220404086"></p>
@@ -110,6 +110,300 @@ This is my website, click the button <a class="btn-beautify button--animated lar
       </categories>
       <tags>
         <tag>考研</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>公众号书籍食用指南</title>
+    <url>/book.html</url>
+    <content><![CDATA[<h1>书籍概况</h1>
+<p>书籍来自某秀与zlibrary。书库基本涵盖20年以前出版的所有书。如果你找的新书基本没什么可能了。</p>
+<p>公众号书籍搜索指令如下</p>
+<p><img src="https://i0.hdslb.com/bfs/new_dyn/7039c78ef3330500176f978c06299713355414907.png" alt="公众号书籍搜索一图流"></p>
+<img src="https://i0.hdslb.com/bfs/album/2e50e073ea383f7a20c20b59819b7cf8e3195301.png" alt="image-20221127221604449" style="zoom:50%;" />
+<p>2月6日更新：公众号已经支持ss号获取书籍，支持ISBN/书名/作者等信息查询。</p>
+<h1>一.书籍获取</h1>
+<h2 id="通过书籍id获取下载链接"><a class="header-anchor" href="#通过书籍id获取下载链接"></a>通过书籍id获取下载链接</h2>
+<p>通过书籍id可以获取书籍的信息（书名、作者、出版社、ISBN、书源）和下载链接</p>
+<ul>
+<li>
+<p>ssid为8为数字，可以获取读秀的资源（书籍下载后还需要进行解压和转换等一系列操作）</p>
+</li>
+<li>
+<p>zlibid以00开头，可以获取zlibrary的资源（书籍下载后直接可以打开，无需转换）</p>
+</li>
+</ul>
+<p>书籍的ssid通过网站搜索、公众号搜索获取<br>
+书籍的zlibid暂时只能通过公众号搜索获取</p>
+<p><img src="C:%5CUsers%5Cweifeng%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20230131232658813.png" alt="书籍查找回复"></p>
+<div class="hide-toggle" style="border: 1px solid bg"><div class="hide-button toggle-title" style="background-color: bg;color: color"><i class="fas fa-caret-right fa-fw"></i><span>ss号获取方法(っ•̀ω•́)っ</span></div>
+    <div class="hide-content"><ol>
+<li>第一种可以通过网站查询书籍的ss号。（以下网站只是用作查询，<strong>请不要直接在网站内付费</strong>！！）</li>
+</ol>
+<p><a href="https://www.xueshu86.com/">https://www.xueshu86.com/</a></p>
+<p><a href="https://ps.uuttdx.com/">https://ps.uuttdx.com/</a></p>
+<ol start="2">
+<li>第二种可以用油猴插件，脚本适配网站二者任选一个内容都是一样的：<a href="https://greasyfork.org/zh-CN/scripts/420751-%E5%9B%BE%E4%B9%A6%E4%BA%92%E5%8A%A9">油猴插件链接</a></li>
+</ol>
+<p>然后打开网站，就会显示书籍的ss号。</p>
+<p>1.<strong><a href="http://www.dglib.superlib.net/">http://www.dglib.superlib.net/ </a> （东莞图书馆检索系统，免登录，推荐）</strong></p>
+<p>2.<a href="http://www.ucdrs.superlib.net/">http://www.ucdrs.superlib.net/</a> （全国图书馆联盟，需登录）</p>
+<p><img src="https://i0.hdslb.com/bfs/album/42f7284e65566d332da7f7a5926a5dcb4b2d627a.png" alt="网站显示ss号"></p>
+</div></div>
+<h2 id="通过cx你需要搜索的书名来搜索书籍"><a class="header-anchor" href="#通过cx你需要搜索的书名来搜索书籍"></a>通过<code>cx你需要搜索的书名</code>来搜索书籍</h2>
+<p>如想要查询“三体”，就发送“cx三体&quot;</p>
+<p>此种方式的好处可以查询包括zlibrary和读秀的书籍</p>
+<p>建议优先使用zlibrary的资源里的书籍（即书籍id为00开头）</p>
+<p>因为该库的书籍文件为pdf、mobi、epub等无需解压的文件</p>
+<p>读秀库的文件需要解压以及文件为扫描版，且文字不可复制和没有书签</p>
+<p>再次回复书籍的id可以获得书籍的百度云链接</p>
+<p><img src="https://i0.hdslb.com/bfs/new_dyn/e44bc24dc08d3563960d410c71ef111a355414907.png" alt="cx指令"></p>
+<p>下载后即可获取一份带有书签的文字可复制的文件</p>
+<p><img src="https://i0.hdslb.com/bfs/new_dyn/873e157dd62780258966298a3f47570f355414907.png" alt="标准且完美格式的PDF书籍"></p>
+<h2 id="通过next进行查询结果的翻页操作"><a class="header-anchor" href="#通过next进行查询结果的翻页操作"></a>通过<code>next</code>进行查询结果的翻页操作</h2>
+<p><img src="https://i0.hdslb.com/bfs/new_dyn/560cee4b179b28a50cb7c1af4536d9b8355414907.png" alt="next指令"></p>
+<h2 id="通过user获取用户信息"><a class="header-anchor" href="#通过user获取用户信息"></a>通过<code>user</code>获取用户信息</h2>
+<p>目前公众号为节约资源，限制了每日获取次数。不过一般正常使用的话不会超过这个限制的。（因为以前老有一些人一天就发个上百本的书籍过来）</p>
+<p><img src="https://i0.hdslb.com/bfs/new_dyn/2ad47d7e5b72a536a82fdaa7500f8a71355414907.png" alt="user指令"></p>
+<h1>二.转换格式</h1>
+<p>通过公众号的百度云链接下载书籍。</p>
+<p>zlibrary获取的书籍直接是pdf、mobi、epub等可直接阅读格式，你就直接大功告成了！！</p>
+<p>但读秀书库中的书籍文件大部分是压缩包格式的，并且需要解压密码</p>
+<p><strong>需要使用我们提供的合成工具进行解压和合成PDF文件</strong></p>
+<p>转换软件：<a href="https://wwb.lanzoub.com/iBOBX0fxgxfi">https://wwb.lanzoub.com/iBOBX0fxgxfi</a></p>
+<p>自己看一下教程，应该比较简单</p>
+<p><img src="https://i0.hdslb.com/bfs/album/2e602f56063f313c7aef193c9b8ae74a616a8801.png" alt="image-20221127203657865"></p>
+<p><img src="https://i0.hdslb.com/bfs/album/9be04e9f422694c3233f9ec8489605cbc0efae21.png" alt="image-20221127203803031"></p>
+<div class="hide-toggle" style="border: 1px solid bg"><div class="hide-button toggle-title" style="background-color: bg;color: color"><i class="fas fa-caret-right fa-fw"></i><span>如果你想捐助就点开我(っ•̀ω•́)っ</span></div>
+    <div class="hide-content"><h1><strong>关于捐助：</strong></h1>
+<p>谢谢你愿意点开(✪ω✪)</p>
+<p>如果该资料对你有帮助，并且愿意支持我，不妨支持一下 ！！</p>
+<p><img src="https://i0.hdslb.com/bfs/new_dyn/e43c6d6936551b2a39eeeb6452dc0bc0355414907.png" alt="image-20230211001542818"></p>
+</div></div>]]></content>
+      <categories>
+        <category>电子书</category>
+      </categories>
+      <tags>
+        <tag>书籍</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>四六级及考研资料汇总，一起冲冲冲！！！</title>
+    <url>/study.html</url>
+    <content><![CDATA[<Script Language="JavaScript"> 
+　　var timedate= new Date("December 24,2022"); 
+　　var times="研究生考试"; 
+　　var now = new Date(); 
+　　var date = timedate.getTime() - now.getTime(); 
+　　var time = Math.floor(date / (1000 * 60 * 60 * 24)); 
+　　if (time >= 0) ; 
+document.write("<h2 title='初试时间预测为2022年12月24日-25日，12月倒数第二周的周六周日，具体时间以教育局公布为准'><font color=#343a40>现在离2022年"+times+"还有: <font color=#dc3545><b>"+time +"</b></font> 天</font></h2>"); 
+</Script> 
+<Script Language="JavaScript"> 
+　　var timedate= new Date("Dec 10,2022"); 
+　　var times="下半年四六级考试"; 
+　　var now = new Date(); 
+　　var date = timedate.getTime() - now.getTime(); 
+　　var time = Math.floor(date / (1000 * 60 * 60 * 24)); 
+　　if (time >= 0) ; 
+document.write("<h2 title='具体时间以教育局公布为准'><font color=#343a40>现在离2022年"+times+"还有: <font color=#dc3545><b>"+time +"</b></font> 天</font></h2>"); 
+</Script> 
+<div class="note blue simple"><p>不知道你从何处找到此链接，</p>
+<p>或许你已经徘徊互联网寻找资源很久但没有结果，</p>
+<p>又或许你只是一位匆匆过客</p>
+<p>但是，我建立这个网站的初衷只是帮助大学生们学习</p>
+<p>以下资源完全免费，</p>
+<p>请各位好好学习，逆流而上！！</p>
+</div>
+<p>2月4日 已经更新全部失效链接<br>
+百度网盘链接分享容易失效，以下全部链接全部保存在群组中，建议加入群组。<strong>直接进，不收费！！</strong></p>
+<div class="tag link"><a class="link-card" title="全部课程资料，网盘群开放！！" href="https://bkfeng.top/cloudgroup"><div class="left"><img src="https://img.88icon.com/download/jpg/201912/20212877d98b95ae7730decb11762bac.jpg!88con"/></div><div class="right"><p class="text">全部课程资料，网盘群开放！！</p><p class="url">https://bkfeng.top/cloudgroup</p></div></a></div>
+<p>如以下链接失效请联系微信:<strong>bkfeng46</strong>补链</p>
+<img src="https://i0.hdslb.com/bfs/album/6924a69207d14d5dd9fcdffc6bfa739559272abf.jpg" alt="img" style="zoom:50%;" />
+<h2 id="📚四六级英语"><a class="header-anchor" href="#📚四六级英语"></a>📚四六级英语</h2>
+<p>【四六级英语包含有道、考虫、新东方全程班、商志全程班等】</p>
+<div class="hide-toggle" style="border: 1px solid bg"><div class="hide-button toggle-title" style="background-color: bg;color: color"><i class="fas fa-caret-right fa-fw"></i><span>四六级英语资料目录请点我(っ•̀ω•́)っ</span></div>
+    <div class="hide-content"><ol>
+<li>
+<p>新东方四级直通车</p>
+</li>
+<li>
+<p>有道四级零基础全程</p>
+</li>
+<li>
+<p>考虫四级Promax全程</p>
+</li>
+<li>
+<p>考虫四级听力虐耳精听</p>
+</li>
+<li>
+<p>周思成四级全程</p>
+</li>
+<li>
+<p>启航四级</p>
+</li>
+<li>
+<p>刘晓艳向往的四级（含保命班）</p>
+</li>
+<li>
+<p>商志四级</p>
+</li>
+<li>
+<p>新文道四级特训班</p>
+</li>
+<li>
+<p>文都四级全程</p>
+</li>
+<li>
+<p>Monkey四六级</p>
+</li>
+<li>
+<p>何凯文四六级临门一脚</p>
+</li>
+</ol>
+</div></div>
+<ul>
+<li><strong>【2023年6月四六级】</strong></li>
+</ul>
+<p>6级：<a href="https://pan.baidu.com/s/1-1vEBBsdVOKf57DX-g1sYQ?pwd=mwg6">https://pan.baidu.com/s/1-1vEBBsdVOKf57DX-g1sYQ?pwd=mwg6</a></p>
+<p>4级：<a href="https://pan.baidu.com/share/init?surl=jTGdOhqTEOWkWSwzpAq2gw&amp;pwd=5sy1">https://pan.baidu.com/share/init?surl=jTGdOhqTEOWkWSwzpAq2gw&amp;pwd=5sy1</a></p>
+<ul>
+<li><strong>【2022年12月四六级】</strong></li>
+</ul>
+<p>合集链接：<a href="https://pan.baidu.com/s/1ToFroO_630A4D5smYRXyQw?pwd=6666">https://pan.baidu.com/s/1ToFroO_630A4D5smYRXyQw?pwd=6666</a> 提取码：6666</p>
+<p>单独链接</p>
+<p>12月 6级：<a href="https://pan.baidu.com/s/1QPQUhQZoxh37QtUFeUFyGQ?pwd=84it">https://pan.baidu.com/s/1QPQUhQZoxh37QtUFeUFyGQ?pwd=84it</a></p>
+<p>12月 4级：<a href="https://pan.baidu.com/s/16jokREVH8nob6OJh7Y12Fg?pwd=12a7">https://pan.baidu.com/s/16jokREVH8nob6OJh7Y12Fg?pwd=12a7</a></p>
+<ul>
+<li><strong>【2022年6月四六级】</strong></li>
+</ul>
+<p>链接: <a href="https://pan.baidu.com/s/1aRhU3K5olKaBKsvAL8VmQQ?pwd=feng">https://pan.baidu.com/s/1aRhU3K5olKaBKsvAL8VmQQ?pwd=feng</a> 提取码: feng</p>
+<ul>
+<li><strong>【2021年12月四六级】（完结）</strong></li>
+</ul>
+<p>链接: <a href="https://pan.baidu.com/s/1v_M-udxDRAi5QOrQL4Yybg?pwd=pvyp">https://pan.baidu.com/s/1v_M-udxDRAi5QOrQL4Yybg?pwd=pvyp</a> 提取码: pvyp</p>
+<h2 id="🧭2023公务员-事业单位-教师"><a class="header-anchor" href="#🧭2023公务员-事业单位-教师"></a>🧭2023公务员+事业单位+教师</h2>
+<details red><summary> 公务员+事业单位+教师资料目录请点我(っ•̀ω•́)っ </summary>
+              <div class='content'>
+              <p>【00】[公务员][事业编][教师类]电子版文档资料合集<br>【00】新公务员资料包——M<br>【01】2022年国考<br>【01】2023年国考笔试<br>【02】2022省考笔试<br>【02】2023省考笔试<br>【03】2020粉笔行测＋申论超级刷题班（完结 ）<br>【04】2021年事业单位<br>【04】2022事业单位<br>【04】2023事业单位<br>【05】2020教师资格证（完结 ）<br>【05】2021教师资格证<br>【05】2022教师资格证<br>【06】2021教师招聘<br>【06】2022教师招聘笔试<br>【06】2022特岗招聘<br>【06】2023教师招聘笔试<br>【07】2020三支一扶（完结 ）<br>【07】2021三支一扶<br>【07】2022特岗招聘<br>【08】2022三支一扶<br>【08】2022三支一扶(1)<br>【08】公考类面试<br>【09】2020军队文职（完结 ）<br>【09】2021军队文职<br>【09】2022军队文职<br>【10】时政大礼包（21+20版)<br>【11】公考热点30分<br>【12】2021广东选调生线上冲刺班（更新中）<br>【13】2020年公务员面试（完结 ）<br>【13】公考类面试</p>
+              </div>
+            </details>
+<p>**因本页面篇幅问题请打开链接获取：**<a href="https://bkfeng.top/kao">https://bkfeng.top/kao</a></p>
+<h2 id="2023专业课汇总："><a class="header-anchor" href="#2023专业课汇总："></a><strong>2023专业课汇总：</strong></h2>
+<h5 id="专业课汇总【包括-（396）经济类联考、新闻与传播、汉语言国际教育、护理综合、药综、翻译、农学、金融431、管理学、应用心理学、艺术、美术学、汉语言国际、日语、历史学、352口腔、心理学、电路、高等代数、机械设计、经济学、理论力学、有机化学、材料力学、机械原理、模电、数学分析、分析化学、汽车构造、数电、流体力学、汽车理论、物理化学、信号与系统、发动机原理、结构化学、结构力学、通信原理、弹性力学、电力系统分析、生物化学、运筹学、计量经济学、细胞生物学、现代文学、新闻传播学、社会学、量子力学、自控、化工原理、电磁场、应用统计432、中外美术史、电子信息、西方音乐史、和声曲式、二外日语、舞蹈概论、设计概论-】"><a class="header-anchor" href="#专业课汇总【包括-（396）经济类联考、新闻与传播、汉语言国际教育、护理综合、药综、翻译、农学、金融431、管理学、应用心理学、艺术、美术学、汉语言国际、日语、历史学、352口腔、心理学、电路、高等代数、机械设计、经济学、理论力学、有机化学、材料力学、机械原理、模电、数学分析、分析化学、汽车构造、数电、流体力学、汽车理论、物理化学、信号与系统、发动机原理、结构化学、结构力学、通信原理、弹性力学、电力系统分析、生物化学、运筹学、计量经济学、细胞生物学、现代文学、新闻传播学、社会学、量子力学、自控、化工原理、电磁场、应用统计432、中外美术史、电子信息、西方音乐史、和声曲式、二外日语、舞蹈概论、设计概论-】"></a><strong>专业课汇总</strong>【包括**（396）经济类联考、新闻与传播、汉语言国际教育、护理综合、药综、翻译、农学、金融431、管理学、应用心理学、艺术、美术学、汉语言国际、日语、历史学、352口腔、心理学、电路、高等代数、机械设计、经济学、理论力学、有机化学、材料力学、机械原理、模电、数学分析、分析化学、汽车构造、数电、流体力学、汽车理论、物理化学、信号与系统、发动机原理、结构化学、结构力学、通信原理、弹性力学、电力系统分析、生物化学、运筹学、计量经济学、细胞生物学、现代文学、新闻传播学、社会学、量子力学、自控、化工原理、电磁场、应用统计432、中外美术史、电子信息、西方音乐史、和声曲式、二外日语、舞蹈概论、设计概论**】</h5>
+<p>链接: <a href="https://pan.baidu.com/s/1FN7tYFd0rrVT9Pq9ZIyTyg?pwd=fzy3">https://pan.baidu.com/s/1FN7tYFd0rrVT9Pq9ZIyTyg?pwd=fzy3</a> 提取码: fzy3</p>
+<p><a href="https://bkfeng.top/class">https://bkfeng.top/class</a></p>
+<h2 id="2024考研数学"><a class="header-anchor" href="#2024考研数学"></a><strong>2024考研数学</strong></h2>
+<p>链接: <a href="https://pan.baidu.com/s/1t7O7cBgMI5w3f0XFQW1M2w?pwd=mw63">https://pan.baidu.com/s/1t7O7cBgMI5w3f0XFQW1M2w?pwd=mw63</a> 提取码: mw63</p>
+<h2 id="2024考研政治"><a class="header-anchor" href="#2024考研政治"></a><strong>2024考研政治</strong></h2>
+<p>链接: <a href="https://pan.baidu.com/s/1YGDAh7s6xIZwIIRTKUANaQ?pwd=fxzp">https://pan.baidu.com/s/1YGDAh7s6xIZwIIRTKUANaQ?pwd=fxzp</a> 提取码: fxzp</p>
+<h2 id="2024考研英语"><a class="header-anchor" href="#2024考研英语"></a><strong>2024考研英语</strong></h2>
+<p>链接: <a href="https://pan.baidu.com/s/1lcADfOT0dzkkj269LaWzXg?pwd=esz3">https://pan.baidu.com/s/1lcADfOT0dzkkj269LaWzXg?pwd=esz3</a> 提取码: esz3</p>
+<h2 id="23-22【法硕】"><a class="header-anchor" href="#23-22【法硕】"></a>23+22【法硕】</h2>
+<p>链接: <a href="https://pan.baidu.com/s/1eIab5ijXHV3LCZiANiELwQ?pwd=i9na">https://pan.baidu.com/s/1eIab5ijXHV3LCZiANiELwQ?pwd=i9na</a> 提取码: i9na</p>
+<h2 id="23-22【计算机】"><a class="header-anchor" href="#23-22【计算机】"></a>23+22【计算机】</h2>
+<p>链接: <a href="https://pan.baidu.com/s/1_6FkwLSlluAJ1Tdk4X5kvw?pwd=hayq">https://pan.baidu.com/s/1_6FkwLSlluAJ1Tdk4X5kvw?pwd=hayq</a> 提取码: hayq</p>
+<h2 id="23-22【教育学】"><a class="header-anchor" href="#23-22【教育学】"></a>23+22【教育学】</h2>
+<p>链接: <a href="https://pan.baidu.com/s/13HwF4n2PVsQAMaGNALUVzQ?pwd=atuq">https://pan.baidu.com/s/13HwF4n2PVsQAMaGNALUVzQ?pwd=atuq</a> 提取码: atuq</p>
+<h2 id="2024【西医综合-中医综合】专项"><a class="header-anchor" href="#2024【西医综合-中医综合】专项"></a><strong>2024【西医综合+中医综合】专项</strong></h2>
+<p>链接: <a href="https://pan.baidu.com/s/1HdDaLwgGj5-5n-Dwz6S0kQ?pwd=qd7p">https://pan.baidu.com/s/1HdDaLwgGj5-5n-Dwz6S0kQ?pwd=qd7p</a> 提取码: qd7p</p>
+<h2 id="2024【管理类联考-396】"><a class="header-anchor" href="#2024【管理类联考-396】"></a><strong>2024【管理类联考+396】</strong></h2>
+<p>链接: <a href="https://pan.baidu.com/s/1lDHXSaq12LqCtRyIGLQgAQ?pwd=893g">https://pan.baidu.com/s/1lDHXSaq12LqCtRyIGLQgAQ?pwd=893g</a> 提取码: 893g</p>
+<h1><strong>关于群</strong></h1>
+<p>陆续建群以来，群内交流气氛还是很好的，并且群内有各种各行各业的热心大佬能够帮助你</p>
+<p>群二维码2月3日起限时开发，满200人后只能加我微信继续邀请入群</p>
+<img src="https://article.biliimg.com/bfs/article/a68d0e3b12f145558a1246d10719f73b6712048b.png" alt="image-20230204222013418" style="zoom:50%;" />
+<div class="justified-gallery"><p><img src="https://i0.hdslb.com/bfs/album/67d5a629dc31798381ef8a730fbcc878a4ad94cb.png" alt="image-20221210232752644"></p><p><img src="https://i0.hdslb.com/bfs/album/d90553effcddbfbc63ba7d7c1737167e046cab7e.png" alt="image-20221210232905742"></p><img src="https://i0.hdslb.com/bfs/album/62d048be5219c1df6336b13779e83fc95a56d3e4.png" alt="image-20210102152325746"  /> 
+          </div>
+<p>如上面的群已经满，等微信群手动邀请加到500人才会开放下一个微信群</p>
+<p>群已经满如需要进的微信: <strong>bkfeng46</strong> 会邀请进群和大家一起交流学习！！！</p>
+<p>进群后相互交流，遵守群规，还有注意群内请保护好个人信息！</p>
+<img src="https://i0.hdslb.com/bfs/album/4e4d1a311b434fa593a974f0301f73d8435448f6.png" alt="加群微信" style="zoom: 25%;" />
+<p><strong>有什么问题可以在本文章末尾留言</strong></p>
+<div class="hide-toggle" style="border: 1px solid bg"><div class="hide-button toggle-title" style="background-color: bg;color: color"><i class="fas fa-caret-right fa-fw"></i><span>如果你想捐助就点开我(っ•̀ω•́)っ</span></div>
+    <div class="hide-content"><h1><strong>关于捐助：</strong></h1>
+<p>谢谢你愿意点开(✪ω✪)</p>
+<p>如果该资料对你有帮助，并且愿意支持我，不妨支持一下 ！！</p>
+<p><img src="https://i0.hdslb.com/bfs/new_dyn/0ab5c5b8fe336af487b03928d9d1c14e355414907.png" alt="image-20230210154743109"></p>
+</div></div>
+]]></content>
+      <categories>
+        <category>考研</category>
+      </categories>
+      <tags>
+        <tag>考研</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>公众号书籍搜索指令</title>
+    <url>/library.html</url>
+    <content><![CDATA[<p><img src="https://article.biliimg.com/bfs/article/d93c1c495d3076b57e37b9abbf9df0af57a654cf.png" alt="image-20230131233151718"></p>
+<p>最近过完年比较有功夫</p>
+<p>对公众号的书籍查找功能进行了优化更新</p>
+<p>本来想自建书籍数据库，使用MySQL数据库</p>
+<p>但考虑到数据量太大，仅读秀的资源去重后就有4120298条</p>
+<p><img src="https://article.biliimg.com/bfs/article/23b78291ce310d3b3852ee03754c33b7768e3e60.png" alt="image-20230131234517631"></p>
+<p>而新加的Zlibrary库更是将近10000,000条，二者共计1500W左右数据</p>
+<p>在磕磕碰碰遇到不少困难终于把书籍导入到数据库以后</p>
+<p>我发现数据库在建立索引后，查询仍询比较慢（特别是全文查询）</p>
+<p>最终我还是选择了接入别人的接口，这样可以实现相同的效果</p>
+<p>毕竟别人做的搜索接口性能速度等方面应该比我的好不少（绝不是偷懒）</p>
+<p>如果他的接口失效了，再使用自己的书籍数据库吧~</p>
+<p><a href="https://i0.hdslb.com/bfs/album/2e50e073ea383f7a20c20b59819b7cf8e3195301.png"><img src="https://i0.hdslb.com/bfs/album/2e50e073ea383f7a20c20b59819b7cf8e3195301.png" alt="image-20221127221604449"></a></p>
+<p>公众号书籍搜索指令如下</p>
+<p><img src="https://article.biliimg.com/bfs/article/db1f1c43bb2dcf9d967bce7be54e4f612d1aa27f.png" alt="公众号搜索指令一图流"></p>
+<ol>
+<li>
+<p>通过书籍id获取包含书籍的信息和下载链接</p>
+<ul>
+<li>
+<p>ssid为8为数字，可以获取读秀的资源（书籍下载后还需要进行解压和转换等一系列操作）</p>
+</li>
+<li>
+<p>zlibid以00开头，可以获取zlibrary的资源（书籍下载后直接可以打开，无需转换）</p>
+</li>
+</ul>
+<p>书籍的ssid通过网站搜索、公众号搜索获取<br>
+书籍的zlibid暂时只能通过公众号搜索获取</p>
+</li>
+</ol>
+<p><img src="https://article.biliimg.com/bfs/article/0ce48be70ee4047d2e917b757e67eea71e5cc5c3.png" alt="image-20230131232658813"></p>
+<ol start="2">
+<li>
+<p>通过<code>cx你需要搜索的书名</code>来搜索书籍</p>
+<p>如想要查询“三体”，就发送“cx三体&quot;</p>
+<p>此种方式的好处可以查询包括zlibrary和读秀的书籍</p>
+<p>建议优先使用zlibrary的资源里的书籍（即书籍id为00开头）</p>
+<p>因为该库的书籍文件为pdf、mobi、epub等无需解压的文件</p>
+<p>读秀库的文件需要解压以及文件为扫描版，且文字不可复制和没有书签</p>
+<p>再次回复书籍的id可以获得书籍的百度云链接</p>
+<p><img src="https://article.biliimg.com/bfs/article/74ea0270156f0aba2e3ff04cbec7dfeb578bc716.png" alt="image-20230203171513135"></p>
+<p>下载后即可获取一份带有书签的文字可复制的文件</p>
+<p><img src="https://article.biliimg.com/bfs/article/f00a6bde627861c486482f2362eeedfbc761b9f9.png" alt="image-20230131234030943"></p>
+</li>
+<li>
+<p>通过<code>next</code>进行查询结果的翻页操作</p>
+<p><img src="https://article.biliimg.com/bfs/article/f04046fb4e58a9651f79007ec482366040267060.png" alt="image-20230203172046900"></p>
+</li>
+<li>
+<p>通过<code>user</code>获取用户信息</p>
+</li>
+</ol>
+<p><img src="https://article.biliimg.com/bfs/article/0fda1ea6a5b5421aa3877d8fb24436846e69d297.png" alt="image-20230203171846940"></p>
+<p>以上就是目前为止公众号的所有指令，</p>
+<p>目前公众号为节约资源，限制了每日获取次数。不过一般正常使用的话不会超过这个限制的。</p>
+<p>因为以前老有一些人一天就发个几百本的书籍过来</p>
+<div class="hide-toggle" style="border: 1px solid bg"><div class="hide-button toggle-title" style="background-color: bg;color: color"><i class="fas fa-caret-right fa-fw"></i><span>如果你想捐助就点开我(っ•̀ω•́)っ</span></div>
+    <div class="hide-content"><h1><strong>关于捐助：</strong></h1>
+<p>谢谢你愿意点开(✪ω✪)</p>
+<p>如果该资料对你有帮助，并且愿意支持我，不妨支持一下 ！！</p>
+<p><img src="https://i0.hdslb.com/bfs/new_dyn/1c9a72c7b13846de1c0f75fd87db8d53355414907.png" alt="image-20230210154743109"></p>
+</div></div>
+]]></content>
+      <categories>
+        <category>电子书</category>
+      </categories>
+      <tags>
+        <tag>书籍</tag>
       </tags>
   </entry>
   <entry>
@@ -261,204 +555,6 @@ This is my website, click the button <a class="btn-beautify button--animated lar
       </tags>
   </entry>
   <entry>
-    <title>网站里面所有资源的来源，都在这里</title>
-    <url>/way.html</url>
-    <content><![CDATA[<p>因为网站资源频繁失效，所以本人特意下一篇搜索网上各种考研考证资源的文章</p>
-<p>网站里面所有资源的来源，都是网上各个地方搜索整合来的，主要平台有以下几个：</p>
-<p>欢迎大家文章底下评论补充，我会再加进去文章里面供大家使用</p>
-<h2 id="1-题库网"><a class="header-anchor" href="#1-题库网"></a>1.题库网</h2>
-<p>网站链接 <a href="http://www.tikuwang.com/app/index.php?i=2&amp;c=entry&amp;do=fengmian&amp;m=hulu_info">http://www.tikuwang.com/app/index.php?i=2&amp;c=entry&amp;do=fengmian&amp;m=hulu_info</a></p>
-<p>该网站完全免费分享，来源一家题库网公众号，本站的大部分资源均来源于此。如果本站资源失效可以去这个网站。</p>
-<img src="https://i.loli.net/2021/01/30/BUH8mDkTpRJQ5FZ.png" alt="image-20210130223517406" style="zoom:67%;" />
-<h2 id="2-安心考研"><a class="header-anchor" href="#2-安心考研"></a>2.安心考研</h2>
-<p>网站链接 <a href="http://axky.ys168.com/">http://axky.ys168.com/</a></p>
-<p>1个提供大量考研资料的永硕E盘👍，更新比较及时</p>
-<p>不过缺点就是资源较少，其他的一些资源要付费。</p>
-<p>主要涵盖语文、数学、英语考研以及四六级</p>
-<img src="https://i.loli.net/2021/01/30/PnA5R2MEv1ZQ6NW.png" alt="image-20210130224026382" style="zoom:67%;" />
-<p>同样类型的网盘还有 <a href="http://kyxz.ys168.com/">http://kyxz.ys168.com/</a></p>
-<h2 id="3-金榜题名"><a class="header-anchor" href="#3-金榜题名"></a>3.金榜题名</h2>
-<p>网站链接 <a href="http://qzbltushu.ys168.com/">http://qzbltushu.ys168.com/</a></p>
-<p>该网站资料全都是免费的，资源也比较全</p>
-<p><img src="https://i.loli.net/2021/07/15/YgjKAUrcV3unozp.png" alt="image-20210715183003469"></p>
-<h2 id="3-考研学子"><a class="header-anchor" href="#3-考研学子"></a>3.考研学子</h2>
-<p>部分收费</p>
-<p><img src="https://i.loli.net/2021/07/15/IW7xiG8CgFn2DMv.png" alt="image-20210715183112266"><img src="C:%5CUsers%5Cweifeng%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210715183129586.png" alt="image-20210715183129586"></p>
-<h2 id="4-其他分享者"><a class="header-anchor" href="#4-其他分享者"></a>4.其他分享者</h2>
-<p>小帅同学http://gmengshuai.ys168.com/</p>
-<p>油麦同学http://cangbaoge.ys168.com/</p>
-<p>陈蛋蛋的宝藏库http://www.chendandan.ys168.com/</p>
-<p>哆啦A梦的神奇口袋http://htwww.baozangku.ys168.com/</p>
-<p>可可西里的杂货铺http://kkxldzhp.ys168.com/</p>
-<h5 id="2014-2020教资笔试、面试网课资料合集-https-shimo-im-docs-VwqgJy8pYtVcvwY6-read"><a class="header-anchor" href="#2014-2020教资笔试、面试网课资料合集-https-shimo-im-docs-VwqgJy8pYtVcvwY6-read"></a>2014-2020教资笔试、面试网课资料合集 <a href="https://shimo.im/docs/VwqgJy8pYtVcvwY6/read">https://shimo.im/docs/VwqgJy8pYtVcvwY6/read</a></h5>
-<h5 id="一建-二建-消防-监管-http-zhulu-ys168-com"><a class="header-anchor" href="#一建-二建-消防-监管-http-zhulu-ys168-com"></a>一建 二建 消防 监管 <a href="http://zhulu.ys168.com/">http://zhulu.ys168.com/</a></h5>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">【注意】：</span><br><span class="line">务必记住网址 http:&#x2F;&#x2F;zhulu.ys168.com&#x2F; </span><br><span class="line">及最上面一项：“单科密码管理区”的密码：pass</span><br><span class="line">通过“单科密码管理区”可查询各单科课程的密码。</span><br></pre></td></tr></table></figure>
-<img src="https://i.loli.net/2021/01/30/NvBqQGrMLkWoYCs.png" alt="image-20210130230519905" style="zoom:67%;" />
-<h2 id="5-各类论坛"><a class="header-anchor" href="#5-各类论坛"></a>5.各类论坛</h2>
-<p><strong>1.52破解</strong><a href="https://www.52pojie.cn/">https://www.52pojie.cn/</a></p>
-<p><strong>2.考研帮</strong><a href="http://www.kaoyan.com/">http://www.kaoyan.com/</a></p>
-<p><strong>3.小木虫论坛</strong> <a href="http://muchong.com/bbs/">http://muchong.com/bbs/</a></p>
-<h5 id="4-乐愚社区-https-bbs-leyuz-net"><a class="header-anchor" href="#4-乐愚社区-https-bbs-leyuz-net"></a>4.乐愚社区 <a href="https://bbs.leyuz.net/">https://bbs.leyuz.net/</a></h5>
-<p>其实微信许多公众号有，不过大多数公众号比较杂，多收费</p>
-<p>大家有什么推荐的考研公众号评论留言一起分享。等待后续更新</p>
-<img src="https://i.loli.net/2021/02/13/BIZ6s7rm9Wuko8P.png" alt="image-20210130232602465" style="zoom:50%;" />
-]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>考研</tag>
-        <tag>四六级</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>公众号书籍搜索指令</title>
-    <url>/library.html</url>
-    <content><![CDATA[<p><img src="https://article.biliimg.com/bfs/article/d93c1c495d3076b57e37b9abbf9df0af57a654cf.png" alt="image-20230131233151718"></p>
-<p>最近过完年比较有功夫</p>
-<p>对公众号的书籍查找功能进行了优化更新</p>
-<p>本来想自建书籍数据库，使用MySQL数据库</p>
-<p>但考虑到数据量太大，仅读秀的资源去重后就有4120298条</p>
-<p><img src="https://article.biliimg.com/bfs/article/23b78291ce310d3b3852ee03754c33b7768e3e60.png" alt="image-20230131234517631"></p>
-<p>而新加的Zlibrary库更是将近10000,000条，二者共计1500W左右数据</p>
-<p>在磕磕碰碰遇到不少困难终于把书籍导入到数据库以后</p>
-<p>我发现数据库在建立索引后，查询仍询比较慢（特别是全文查询）</p>
-<p>最终我还是选择了接入别人的接口，这样可以实现相同的效果</p>
-<p>毕竟别人做的搜索接口性能速度等方面应该比我的好不少（绝不是偷懒）</p>
-<p>如果他的接口失效了，再使用自己的书籍数据库吧~</p>
-<p><a href="https://i0.hdslb.com/bfs/album/2e50e073ea383f7a20c20b59819b7cf8e3195301.png"><img src="https://i0.hdslb.com/bfs/album/2e50e073ea383f7a20c20b59819b7cf8e3195301.png" alt="image-20221127221604449"></a></p>
-<p>公众号书籍搜索指令如下</p>
-<p><img src="https://article.biliimg.com/bfs/article/db1f1c43bb2dcf9d967bce7be54e4f612d1aa27f.png" alt="公众号搜索指令一图流"></p>
-<ol>
-<li>
-<p>通过书籍id获取包含书籍的信息和下载链接</p>
-<ul>
-<li>
-<p>ssid为8为数字，可以获取读秀的资源（书籍下载后还需要进行解压和转换等一系列操作）</p>
-</li>
-<li>
-<p>zlibid以00开头，可以获取zlibrary的资源（书籍下载后直接可以打开，无需转换）</p>
-</li>
-</ul>
-<p>书籍的ssid通过网站搜索、公众号搜索获取<br>
-书籍的zlibid暂时只能通过公众号搜索获取</p>
-</li>
-</ol>
-<p><img src="https://article.biliimg.com/bfs/article/0ce48be70ee4047d2e917b757e67eea71e5cc5c3.png" alt="image-20230131232658813"></p>
-<ol start="2">
-<li>
-<p>通过<code>cx你需要搜索的书名</code>来搜索书籍</p>
-<p>如想要查询“三体”，就发送“cx三体&quot;</p>
-<p>此种方式的好处可以查询包括zlibrary和读秀的书籍</p>
-<p>建议优先使用zlibrary的资源里的书籍（即书籍id为00开头）</p>
-<p>因为该库的书籍文件为pdf、mobi、epub等无需解压的文件</p>
-<p>读秀库的文件需要解压以及文件为扫描版，且文字不可复制和没有书签</p>
-<p>再次回复书籍的id可以获得书籍的百度云链接</p>
-<p><img src="https://article.biliimg.com/bfs/article/74ea0270156f0aba2e3ff04cbec7dfeb578bc716.png" alt="image-20230203171513135"></p>
-<p>下载后即可获取一份带有书签的文字可复制的文件</p>
-<p><img src="https://article.biliimg.com/bfs/article/f00a6bde627861c486482f2362eeedfbc761b9f9.png" alt="image-20230131234030943"></p>
-</li>
-<li>
-<p>通过<code>next</code>进行查询结果的翻页操作</p>
-<p><img src="https://article.biliimg.com/bfs/article/f04046fb4e58a9651f79007ec482366040267060.png" alt="image-20230203172046900"></p>
-</li>
-<li>
-<p>通过<code>user</code>获取用户信息</p>
-</li>
-</ol>
-<p><img src="https://article.biliimg.com/bfs/article/0fda1ea6a5b5421aa3877d8fb24436846e69d297.png" alt="image-20230203171846940"></p>
-<p>以上就是目前为止公众号的所有指令，</p>
-<p>目前公众号为节约资源，限制了每日获取次数。不过一般正常使用的话不会超过这个限制的。</p>
-<p>因为以前老有一些人一天就发个几百本的书籍过来</p>
-<div class="hide-toggle" style="border: 1px solid bg"><div class="hide-button toggle-title" style="background-color: bg;color: color"><i class="fas fa-caret-right fa-fw"></i><span>如果你想捐助就点开我(っ•̀ω•́)っ</span></div>
-    <div class="hide-content"><h1><strong>关于捐助：</strong></h1>
-<p>谢谢你愿意点开(✪ω✪)</p>
-<p>如果该资料对你有帮助，并且愿意支持我，不妨支持一下 ！！</p>
-<p><img src="https://i0.hdslb.com/bfs/new_dyn/1c9a72c7b13846de1c0f75fd87db8d53355414907.png" alt="image-20230210154743109"></p>
-</div></div>
-]]></content>
-      <categories>
-        <category>电子书</category>
-      </categories>
-      <tags>
-        <tag>书籍</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>公众号书籍食用指南</title>
-    <url>/book.html</url>
-    <content><![CDATA[<h1>书籍概况</h1>
-<p>书籍来自某秀与zlibrary。书库基本涵盖20年以前出版的所有书。如果你找的新书基本没什么可能了。</p>
-<p>公众号书籍搜索指令如下</p>
-<p><img src="https://i0.hdslb.com/bfs/new_dyn/3a6869b6e5c473fff39e760ab04d2923355414907.png" alt="公众号搜索指令一图流"></p>
-<img src="https://i0.hdslb.com/bfs/album/2e50e073ea383f7a20c20b59819b7cf8e3195301.png" alt="image-20221127221604449" style="zoom:50%;" />
-<p>2月6日更新：公众号已经支持ss号获取书籍，支持ISBN/书名/作者等信息查询。</p>
-<h1>一.书籍获取</h1>
-<h2 id="通过书籍id获取下载链接"><a class="header-anchor" href="#通过书籍id获取下载链接"></a>通过书籍id获取下载链接</h2>
-<p>通过书籍id可以获取书籍的信息（书名、作者、出版社、ISBN、书源）和下载链接</p>
-<ul>
-<li>
-<p>ssid为8为数字，可以获取读秀的资源（书籍下载后还需要进行解压和转换等一系列操作）</p>
-</li>
-<li>
-<p>zlibid以00开头，可以获取zlibrary的资源（书籍下载后直接可以打开，无需转换）</p>
-</li>
-</ul>
-<p>书籍的ssid通过网站搜索、公众号搜索获取<br>
-书籍的zlibid暂时只能通过公众号搜索获取</p>
-<p><img src="C:%5CUsers%5Cweifeng%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20230131232658813.png" alt="image-20230131232658813"></p>
-<div class="hide-toggle" style="border: 1px solid bg"><div class="hide-button toggle-title" style="background-color: bg;color: color"><i class="fas fa-caret-right fa-fw"></i><span>ss号获取方法(っ•̀ω•́)っ</span></div>
-    <div class="hide-content"><ol>
-<li>第一种可以通过网站查询书籍的ss号。（以下网站只是用作查询，<strong>请不要直接在网站内付费</strong>！！）</li>
-</ol>
-<p><a href="https://www.xueshu86.com/">https://www.xueshu86.com/</a></p>
-<p><a href="https://ps.uuttdx.com/">https://ps.uuttdx.com/</a></p>
-<ol start="2">
-<li>第二种可以用油猴插件，脚本适配网站二者任选一个内容都是一样的：<a href="https://greasyfork.org/zh-CN/scripts/420751-%E5%9B%BE%E4%B9%A6%E4%BA%92%E5%8A%A9">油猴插件链接</a></li>
-</ol>
-<p>然后打开网站，就会显示书籍的ss号。</p>
-<p>1.<strong><a href="http://www.dglib.superlib.net/">http://www.dglib.superlib.net/ </a> （东莞图书馆检索系统，免登录，推荐）</strong></p>
-<p>2.<a href="http://www.ucdrs.superlib.net/">http://www.ucdrs.superlib.net/</a> （全国图书馆联盟，需登录）</p>
-<p><img src="https://i0.hdslb.com/bfs/album/42f7284e65566d332da7f7a5926a5dcb4b2d627a.png" alt="image-20221127200047446"></p>
-</div></div>
-<h2 id="通过cx你需要搜索的书名来搜索书籍"><a class="header-anchor" href="#通过cx你需要搜索的书名来搜索书籍"></a>通过<code>cx你需要搜索的书名</code>来搜索书籍</h2>
-<p>如想要查询“三体”，就发送“cx三体&quot;</p>
-<p>此种方式的好处可以查询包括zlibrary和读秀的书籍</p>
-<p>建议优先使用zlibrary的资源里的书籍（即书籍id为00开头）</p>
-<p>因为该库的书籍文件为pdf、mobi、epub等无需解压的文件</p>
-<p>读秀库的文件需要解压以及文件为扫描版，且文字不可复制和没有书签</p>
-<p>再次回复书籍的id可以获得书籍的百度云链接</p>
-<p><img src="https://i0.hdslb.com/bfs/new_dyn/9eb524fdd8c8638a508193d29530798d355414907.png" alt="image-20230203171513135"></p>
-<p>下载后即可获取一份带有书签的文字可复制的文件</p>
-<p><img src="https://i0.hdslb.com/bfs/new_dyn/65f92650326eb2d33df6237968bbd4b0355414907.png" alt="image-20230131234030943"></p>
-<h2 id="通过next进行查询结果的翻页操作"><a class="header-anchor" href="#通过next进行查询结果的翻页操作"></a>通过<code>next</code>进行查询结果的翻页操作</h2>
-<p><img src="https://i0.hdslb.com/bfs/new_dyn/7365f35a36770d05e7f4b2b2478de793355414907.png" alt="image-20230203172046900"></p>
-<h2 id="通过user获取用户信息"><a class="header-anchor" href="#通过user获取用户信息"></a>通过<code>user</code>获取用户信息</h2>
-<p>目前公众号为节约资源，限制了每日获取次数。不过一般正常使用的话不会超过这个限制的。（因为以前老有一些人一天就发个上百本的书籍过来）</p>
-<p><img src="https://i0.hdslb.com/bfs/new_dyn/dd9d740ff76d49f013d173bfcbb9cbf8355414907.png" alt="image-20230203171846940"></p>
-<h1>二.转换格式</h1>
-<p>通过公众号的百度云链接下载书籍。</p>
-<p>zlibrary获取的书籍直接是pdf、mobi、epub等可直接阅读格式，你就直接大功告成了！！</p>
-<p>但读秀书库中的书籍文件大部分是压缩包格式的，并且需要解压密码</p>
-<p><strong>需要使用我们提供的合成工具进行解压和合成PDF文件</strong></p>
-<p>转换软件：<a href="https://wwb.lanzoub.com/iBOBX0fxgxfi">https://wwb.lanzoub.com/iBOBX0fxgxfi</a></p>
-<p>自己看一下教程，应该比较简单</p>
-<p><img src="https://i0.hdslb.com/bfs/album/2e602f56063f313c7aef193c9b8ae74a616a8801.png" alt="image-20221127203657865"></p>
-<p><img src="https://i0.hdslb.com/bfs/album/9be04e9f422694c3233f9ec8489605cbc0efae21.png" alt="image-20221127203803031"></p>
-<div class="hide-toggle" style="border: 1px solid bg"><div class="hide-button toggle-title" style="background-color: bg;color: color"><i class="fas fa-caret-right fa-fw"></i><span>如果你想捐助就点开我(っ•̀ω•́)っ</span></div>
-    <div class="hide-content"><h1><strong>关于捐助：</strong></h1>
-<p>谢谢你愿意点开(✪ω✪)</p>
-<p>如果该资料对你有帮助，并且愿意支持我，不妨支持一下 ！！</p>
-<p><img src="https://i0.hdslb.com/bfs/new_dyn/e43c6d6936551b2a39eeeb6452dc0bc0355414907.png" alt="image-20230211001542818"></p>
-</div></div>]]></content>
-      <categories>
-        <category>电子书</category>
-      </categories>
-      <tags>
-        <tag>书籍</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>电子书查找方法大合集，90%可行</title>
     <url>/ebook.html</url>
     <content><![CDATA[<h2 id="0-本卡风公众号"><a class="header-anchor" href="#0-本卡风公众号"></a>0.本卡风公众号</h2>
@@ -510,150 +606,105 @@ This is my website, click the button <a class="btn-beautify button--animated lar
       </tags>
   </entry>
   <entry>
-    <title>四六级及考研资料汇总，一起冲冲冲！！！</title>
-    <url>/study.html</url>
-    <content><![CDATA[<Script Language="JavaScript"> 
-　　var timedate= new Date("December 24,2022"); 
-　　var times="研究生考试"; 
-　　var now = new Date(); 
-　　var date = timedate.getTime() - now.getTime(); 
-　　var time = Math.floor(date / (1000 * 60 * 60 * 24)); 
-　　if (time >= 0) ; 
-document.write("<h2 title='初试时间预测为2022年12月24日-25日，12月倒数第二周的周六周日，具体时间以教育局公布为准'><font color=#343a40>现在离2022年"+times+"还有: <font color=#dc3545><b>"+time +"</b></font> 天</font></h2>"); 
-</Script> 
-<Script Language="JavaScript"> 
-　　var timedate= new Date("Dec 10,2022"); 
-　　var times="下半年四六级考试"; 
-　　var now = new Date(); 
-　　var date = timedate.getTime() - now.getTime(); 
-　　var time = Math.floor(date / (1000 * 60 * 60 * 24)); 
-　　if (time >= 0) ; 
-document.write("<h2 title='具体时间以教育局公布为准'><font color=#343a40>现在离2022年"+times+"还有: <font color=#dc3545><b>"+time +"</b></font> 天</font></h2>"); 
-</Script> 
-<div class="note blue simple"><p>不知道你从何处找到此链接，</p>
-<p>或许你已经徘徊互联网寻找资源很久但没有结果，</p>
-<p>又或许你只是一位匆匆过客</p>
-<p>但是，我建立这个网站的初衷只是帮助大学生们学习</p>
-<p>以下资源完全免费，</p>
-<p>请各位好好学习，逆流而上！！</p>
-</div>
-<p>2月4日 已经更新全部失效链接<br>
-百度网盘链接分享容易失效，以下全部链接全部保存在群组中，建议加入群组。<strong>直接进，不收费！！</strong></p>
-<div class="tag link"><a class="link-card" title="全部课程资料，网盘群开放！！" href="https://bkfeng.top/cloudgroup"><div class="left"><img src="https://img.88icon.com/download/jpg/201912/20212877d98b95ae7730decb11762bac.jpg!88con"/></div><div class="right"><p class="text">全部课程资料，网盘群开放！！</p><p class="url">https://bkfeng.top/cloudgroup</p></div></a></div>
-<p>如以下链接失效请联系微信:<strong>bkfeng46</strong>补链</p>
-<img src="https://i0.hdslb.com/bfs/album/6924a69207d14d5dd9fcdffc6bfa739559272abf.jpg" alt="img" style="zoom:50%;" />
-<h2 id="📚四六级英语"><a class="header-anchor" href="#📚四六级英语"></a>📚四六级英语</h2>
-<p>【四六级英语包含有道、考虫、新东方全程班、商志全程班等】</p>
-<div class="hide-toggle" style="border: 1px solid bg"><div class="hide-button toggle-title" style="background-color: bg;color: color"><i class="fas fa-caret-right fa-fw"></i><span>四六级英语资料目录请点我(っ•̀ω•́)っ</span></div>
-    <div class="hide-content"><ol>
-<li>
-<p>新东方四级直通车</p>
-</li>
-<li>
-<p>有道四级零基础全程</p>
-</li>
-<li>
-<p>考虫四级Promax全程</p>
-</li>
-<li>
-<p>考虫四级听力虐耳精听</p>
-</li>
-<li>
-<p>周思成四级全程</p>
-</li>
-<li>
-<p>启航四级</p>
-</li>
-<li>
-<p>刘晓艳向往的四级（含保命班）</p>
-</li>
-<li>
-<p>商志四级</p>
-</li>
-<li>
-<p>新文道四级特训班</p>
-</li>
-<li>
-<p>文都四级全程</p>
-</li>
-<li>
-<p>Monkey四六级</p>
-</li>
-<li>
-<p>何凯文四六级临门一脚</p>
-</li>
-</ol>
-</div></div>
-<ul>
-<li><strong>【2023年6月四六级】</strong></li>
-</ul>
-<p>6级：<a href="https://pan.baidu.com/s/1-1vEBBsdVOKf57DX-g1sYQ?pwd=mwg6">https://pan.baidu.com/s/1-1vEBBsdVOKf57DX-g1sYQ?pwd=mwg6</a></p>
-<p>4级：<a href="https://pan.baidu.com/share/init?surl=jTGdOhqTEOWkWSwzpAq2gw&amp;pwd=5sy1">https://pan.baidu.com/share/init?surl=jTGdOhqTEOWkWSwzpAq2gw&amp;pwd=5sy1</a></p>
-<ul>
-<li><strong>【2022年12月四六级】</strong></li>
-</ul>
-<p>合集链接：<a href="https://pan.baidu.com/s/1ToFroO_630A4D5smYRXyQw?pwd=6666">https://pan.baidu.com/s/1ToFroO_630A4D5smYRXyQw?pwd=6666</a> 提取码：6666</p>
-<p>单独链接</p>
-<p>12月 6级：<a href="https://pan.baidu.com/s/1QPQUhQZoxh37QtUFeUFyGQ?pwd=84it">https://pan.baidu.com/s/1QPQUhQZoxh37QtUFeUFyGQ?pwd=84it</a></p>
-<p>12月 4级：<a href="https://pan.baidu.com/s/16jokREVH8nob6OJh7Y12Fg?pwd=12a7">https://pan.baidu.com/s/16jokREVH8nob6OJh7Y12Fg?pwd=12a7</a></p>
-<ul>
-<li><strong>【2022年6月四六级】</strong></li>
-</ul>
-<p>链接: <a href="https://pan.baidu.com/s/1aRhU3K5olKaBKsvAL8VmQQ?pwd=feng">https://pan.baidu.com/s/1aRhU3K5olKaBKsvAL8VmQQ?pwd=feng</a> 提取码: feng</p>
-<ul>
-<li><strong>【2021年12月四六级】（完结）</strong></li>
-</ul>
-<p>链接: <a href="https://pan.baidu.com/s/1v_M-udxDRAi5QOrQL4Yybg?pwd=pvyp">https://pan.baidu.com/s/1v_M-udxDRAi5QOrQL4Yybg?pwd=pvyp</a> 提取码: pvyp</p>
-<h2 id="🧭2023公务员-事业单位-教师"><a class="header-anchor" href="#🧭2023公务员-事业单位-教师"></a>🧭2023公务员+事业单位+教师</h2>
-<details red><summary> 公务员+事业单位+教师资料目录请点我(っ•̀ω•́)っ </summary>
-              <div class='content'>
-              <p>【00】[公务员][事业编][教师类]电子版文档资料合集<br>【00】新公务员资料包——M<br>【01】2022年国考<br>【01】2023年国考笔试<br>【02】2022省考笔试<br>【02】2023省考笔试<br>【03】2020粉笔行测＋申论超级刷题班（完结 ）<br>【04】2021年事业单位<br>【04】2022事业单位<br>【04】2023事业单位<br>【05】2020教师资格证（完结 ）<br>【05】2021教师资格证<br>【05】2022教师资格证<br>【06】2021教师招聘<br>【06】2022教师招聘笔试<br>【06】2022特岗招聘<br>【06】2023教师招聘笔试<br>【07】2020三支一扶（完结 ）<br>【07】2021三支一扶<br>【07】2022特岗招聘<br>【08】2022三支一扶<br>【08】2022三支一扶(1)<br>【08】公考类面试<br>【09】2020军队文职（完结 ）<br>【09】2021军队文职<br>【09】2022军队文职<br>【10】时政大礼包（21+20版)<br>【11】公考热点30分<br>【12】2021广东选调生线上冲刺班（更新中）<br>【13】2020年公务员面试（完结 ）<br>【13】公考类面试</p>
-              </div>
-            </details>
-<p>**因本页面篇幅问题请打开链接获取：**<a href="https://bkfeng.top/kao">https://bkfeng.top/kao</a></p>
-<h2 id="2023专业课汇总："><a class="header-anchor" href="#2023专业课汇总："></a><strong>2023专业课汇总：</strong></h2>
-<h5 id="专业课汇总【包括-（396）经济类联考、新闻与传播、汉语言国际教育、护理综合、药综、翻译、农学、金融431、管理学、应用心理学、艺术、美术学、汉语言国际、日语、历史学、352口腔、心理学、电路、高等代数、机械设计、经济学、理论力学、有机化学、材料力学、机械原理、模电、数学分析、分析化学、汽车构造、数电、流体力学、汽车理论、物理化学、信号与系统、发动机原理、结构化学、结构力学、通信原理、弹性力学、电力系统分析、生物化学、运筹学、计量经济学、细胞生物学、现代文学、新闻传播学、社会学、量子力学、自控、化工原理、电磁场、应用统计432、中外美术史、电子信息、西方音乐史、和声曲式、二外日语、舞蹈概论、设计概论-】"><a class="header-anchor" href="#专业课汇总【包括-（396）经济类联考、新闻与传播、汉语言国际教育、护理综合、药综、翻译、农学、金融431、管理学、应用心理学、艺术、美术学、汉语言国际、日语、历史学、352口腔、心理学、电路、高等代数、机械设计、经济学、理论力学、有机化学、材料力学、机械原理、模电、数学分析、分析化学、汽车构造、数电、流体力学、汽车理论、物理化学、信号与系统、发动机原理、结构化学、结构力学、通信原理、弹性力学、电力系统分析、生物化学、运筹学、计量经济学、细胞生物学、现代文学、新闻传播学、社会学、量子力学、自控、化工原理、电磁场、应用统计432、中外美术史、电子信息、西方音乐史、和声曲式、二外日语、舞蹈概论、设计概论-】"></a><strong>专业课汇总</strong>【包括**（396）经济类联考、新闻与传播、汉语言国际教育、护理综合、药综、翻译、农学、金融431、管理学、应用心理学、艺术、美术学、汉语言国际、日语、历史学、352口腔、心理学、电路、高等代数、机械设计、经济学、理论力学、有机化学、材料力学、机械原理、模电、数学分析、分析化学、汽车构造、数电、流体力学、汽车理论、物理化学、信号与系统、发动机原理、结构化学、结构力学、通信原理、弹性力学、电力系统分析、生物化学、运筹学、计量经济学、细胞生物学、现代文学、新闻传播学、社会学、量子力学、自控、化工原理、电磁场、应用统计432、中外美术史、电子信息、西方音乐史、和声曲式、二外日语、舞蹈概论、设计概论**】</h5>
-<p>链接: <a href="https://pan.baidu.com/s/1FN7tYFd0rrVT9Pq9ZIyTyg?pwd=fzy3">https://pan.baidu.com/s/1FN7tYFd0rrVT9Pq9ZIyTyg?pwd=fzy3</a> 提取码: fzy3</p>
-<p><a href="https://bkfeng.top/class">https://bkfeng.top/class</a></p>
-<h2 id="2024考研数学"><a class="header-anchor" href="#2024考研数学"></a><strong>2024考研数学</strong></h2>
-<p>链接: <a href="https://pan.baidu.com/s/1t7O7cBgMI5w3f0XFQW1M2w?pwd=mw63">https://pan.baidu.com/s/1t7O7cBgMI5w3f0XFQW1M2w?pwd=mw63</a> 提取码: mw63</p>
-<h2 id="2024考研政治"><a class="header-anchor" href="#2024考研政治"></a><strong>2024考研政治</strong></h2>
-<p>链接: <a href="https://pan.baidu.com/s/1YGDAh7s6xIZwIIRTKUANaQ?pwd=fxzp">https://pan.baidu.com/s/1YGDAh7s6xIZwIIRTKUANaQ?pwd=fxzp</a> 提取码: fxzp</p>
-<h2 id="2024考研英语"><a class="header-anchor" href="#2024考研英语"></a><strong>2024考研英语</strong></h2>
-<p>链接: <a href="https://pan.baidu.com/s/1lcADfOT0dzkkj269LaWzXg?pwd=esz3">https://pan.baidu.com/s/1lcADfOT0dzkkj269LaWzXg?pwd=esz3</a> 提取码: esz3</p>
-<h2 id="23-22【法硕】"><a class="header-anchor" href="#23-22【法硕】"></a>23+22【法硕】</h2>
-<p>链接: <a href="https://pan.baidu.com/s/1eIab5ijXHV3LCZiANiELwQ?pwd=i9na">https://pan.baidu.com/s/1eIab5ijXHV3LCZiANiELwQ?pwd=i9na</a> 提取码: i9na</p>
-<h2 id="23-22【计算机】"><a class="header-anchor" href="#23-22【计算机】"></a>23+22【计算机】</h2>
-<p>链接: <a href="https://pan.baidu.com/s/1_6FkwLSlluAJ1Tdk4X5kvw?pwd=hayq">https://pan.baidu.com/s/1_6FkwLSlluAJ1Tdk4X5kvw?pwd=hayq</a> 提取码: hayq</p>
-<h2 id="23-22【教育学】"><a class="header-anchor" href="#23-22【教育学】"></a>23+22【教育学】</h2>
-<p>链接: <a href="https://pan.baidu.com/s/13HwF4n2PVsQAMaGNALUVzQ?pwd=atuq">https://pan.baidu.com/s/13HwF4n2PVsQAMaGNALUVzQ?pwd=atuq</a> 提取码: atuq</p>
-<h2 id="2024【西医综合-中医综合】专项"><a class="header-anchor" href="#2024【西医综合-中医综合】专项"></a><strong>2024【西医综合+中医综合】专项</strong></h2>
-<p>链接: <a href="https://pan.baidu.com/s/1HdDaLwgGj5-5n-Dwz6S0kQ?pwd=qd7p">https://pan.baidu.com/s/1HdDaLwgGj5-5n-Dwz6S0kQ?pwd=qd7p</a> 提取码: qd7p</p>
-<h2 id="2024【管理类联考-396】"><a class="header-anchor" href="#2024【管理类联考-396】"></a><strong>2024【管理类联考+396】</strong></h2>
-<p>链接: <a href="https://pan.baidu.com/s/1lDHXSaq12LqCtRyIGLQgAQ?pwd=893g">https://pan.baidu.com/s/1lDHXSaq12LqCtRyIGLQgAQ?pwd=893g</a> 提取码: 893g</p>
-<h1><strong>关于群</strong></h1>
-<p>陆续建群以来，群内交流气氛还是很好的，并且群内有各种各行各业的热心大佬能够帮助你</p>
-<p>群二维码2月3日起限时开发，满200人后只能加我微信继续邀请入群</p>
-<img src="https://article.biliimg.com/bfs/article/a68d0e3b12f145558a1246d10719f73b6712048b.png" alt="image-20230204222013418" style="zoom:50%;" />
-<div class="justified-gallery"><p><img src="https://i0.hdslb.com/bfs/album/67d5a629dc31798381ef8a730fbcc878a4ad94cb.png" alt="image-20221210232752644"></p><p><img src="https://i0.hdslb.com/bfs/album/d90553effcddbfbc63ba7d7c1737167e046cab7e.png" alt="image-20221210232905742"></p><img src="https://i0.hdslb.com/bfs/album/62d048be5219c1df6336b13779e83fc95a56d3e4.png" alt="image-20210102152325746"  /> 
-          </div>
-<p>如上面的群已经满，等微信群手动邀请加到500人才会开放下一个微信群</p>
-<p>群已经满如需要进的微信: <strong>bkfeng46</strong> 会邀请进群和大家一起交流学习！！！</p>
-<p>进群后相互交流，遵守群规，还有注意群内请保护好个人信息！</p>
-<img src="https://i0.hdslb.com/bfs/album/4e4d1a311b434fa593a974f0301f73d8435448f6.png" alt="加群微信" style="zoom: 25%;" />
-<p><strong>有什么问题可以在本文章末尾留言</strong></p>
-<div class="hide-toggle" style="border: 1px solid bg"><div class="hide-button toggle-title" style="background-color: bg;color: color"><i class="fas fa-caret-right fa-fw"></i><span>如果你想捐助就点开我(っ•̀ω•́)っ</span></div>
-    <div class="hide-content"><h1><strong>关于捐助：</strong></h1>
-<p>谢谢你愿意点开(✪ω✪)</p>
-<p>如果该资料对你有帮助，并且愿意支持我，不妨支持一下 ！！</p>
-<p><img src="https://i0.hdslb.com/bfs/new_dyn/0ab5c5b8fe336af487b03928d9d1c14e355414907.png" alt="image-20230210154743109"></p>
-</div></div>
+    <title>网站里面所有资源的来源，都在这里</title>
+    <url>/way.html</url>
+    <content><![CDATA[<p>因为网站资源频繁失效，所以本人特意下一篇搜索网上各种考研考证资源的文章</p>
+<p>网站里面所有资源的来源，都是网上各个地方搜索整合来的，主要平台有以下几个：</p>
+<p>欢迎大家文章底下评论补充，我会再加进去文章里面供大家使用</p>
+<h2 id="1-题库网"><a class="header-anchor" href="#1-题库网"></a>1.题库网</h2>
+<p>网站链接 <a href="http://www.tikuwang.com/app/index.php?i=2&amp;c=entry&amp;do=fengmian&amp;m=hulu_info">http://www.tikuwang.com/app/index.php?i=2&amp;c=entry&amp;do=fengmian&amp;m=hulu_info</a></p>
+<p>该网站完全免费分享，来源一家题库网公众号，本站的大部分资源均来源于此。如果本站资源失效可以去这个网站。</p>
+<img src="https://i.loli.net/2021/01/30/BUH8mDkTpRJQ5FZ.png" alt="image-20210130223517406" style="zoom:67%;" />
+<h2 id="2-安心考研"><a class="header-anchor" href="#2-安心考研"></a>2.安心考研</h2>
+<p>网站链接 <a href="http://axky.ys168.com/">http://axky.ys168.com/</a></p>
+<p>1个提供大量考研资料的永硕E盘👍，更新比较及时</p>
+<p>不过缺点就是资源较少，其他的一些资源要付费。</p>
+<p>主要涵盖语文、数学、英语考研以及四六级</p>
+<img src="https://i.loli.net/2021/01/30/PnA5R2MEv1ZQ6NW.png" alt="image-20210130224026382" style="zoom:67%;" />
+<p>同样类型的网盘还有 <a href="http://kyxz.ys168.com/">http://kyxz.ys168.com/</a></p>
+<h2 id="3-金榜题名"><a class="header-anchor" href="#3-金榜题名"></a>3.金榜题名</h2>
+<p>网站链接 <a href="http://qzbltushu.ys168.com/">http://qzbltushu.ys168.com/</a></p>
+<p>该网站资料全都是免费的，资源也比较全</p>
+<p><img src="https://i.loli.net/2021/07/15/YgjKAUrcV3unozp.png" alt="image-20210715183003469"></p>
+<h2 id="3-考研学子"><a class="header-anchor" href="#3-考研学子"></a>3.考研学子</h2>
+<p>部分收费</p>
+<p><img src="https://i.loli.net/2021/07/15/IW7xiG8CgFn2DMv.png" alt="image-20210715183112266"><img src="C:%5CUsers%5Cweifeng%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210715183129586.png" alt="image-20210715183129586"></p>
+<h2 id="4-其他分享者"><a class="header-anchor" href="#4-其他分享者"></a>4.其他分享者</h2>
+<p>小帅同学http://gmengshuai.ys168.com/</p>
+<p>油麦同学http://cangbaoge.ys168.com/</p>
+<p>陈蛋蛋的宝藏库http://www.chendandan.ys168.com/</p>
+<p>哆啦A梦的神奇口袋http://htwww.baozangku.ys168.com/</p>
+<p>可可西里的杂货铺http://kkxldzhp.ys168.com/</p>
+<h5 id="2014-2020教资笔试、面试网课资料合集-https-shimo-im-docs-VwqgJy8pYtVcvwY6-read"><a class="header-anchor" href="#2014-2020教资笔试、面试网课资料合集-https-shimo-im-docs-VwqgJy8pYtVcvwY6-read"></a>2014-2020教资笔试、面试网课资料合集 <a href="https://shimo.im/docs/VwqgJy8pYtVcvwY6/read">https://shimo.im/docs/VwqgJy8pYtVcvwY6/read</a></h5>
+<h5 id="一建-二建-消防-监管-http-zhulu-ys168-com"><a class="header-anchor" href="#一建-二建-消防-监管-http-zhulu-ys168-com"></a>一建 二建 消防 监管 <a href="http://zhulu.ys168.com/">http://zhulu.ys168.com/</a></h5>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">【注意】：</span><br><span class="line">务必记住网址 http:&#x2F;&#x2F;zhulu.ys168.com&#x2F; </span><br><span class="line">及最上面一项：“单科密码管理区”的密码：pass</span><br><span class="line">通过“单科密码管理区”可查询各单科课程的密码。</span><br></pre></td></tr></table></figure>
+<img src="https://i.loli.net/2021/01/30/NvBqQGrMLkWoYCs.png" alt="image-20210130230519905" style="zoom:67%;" />
+<h2 id="5-各类论坛"><a class="header-anchor" href="#5-各类论坛"></a>5.各类论坛</h2>
+<p><strong>1.52破解</strong><a href="https://www.52pojie.cn/">https://www.52pojie.cn/</a></p>
+<p><strong>2.考研帮</strong><a href="http://www.kaoyan.com/">http://www.kaoyan.com/</a></p>
+<p><strong>3.小木虫论坛</strong> <a href="http://muchong.com/bbs/">http://muchong.com/bbs/</a></p>
+<h5 id="4-乐愚社区-https-bbs-leyuz-net"><a class="header-anchor" href="#4-乐愚社区-https-bbs-leyuz-net"></a>4.乐愚社区 <a href="https://bbs.leyuz.net/">https://bbs.leyuz.net/</a></h5>
+<p>其实微信许多公众号有，不过大多数公众号比较杂，多收费</p>
+<p>大家有什么推荐的考研公众号评论留言一起分享。等待后续更新</p>
+<img src="https://i.loli.net/2021/02/13/BIZ6s7rm9Wuko8P.png" alt="image-20210130232602465" style="zoom:50%;" />
 ]]></content>
       <categories>
-        <category>考研</category>
+        <category>学习</category>
       </categories>
       <tags>
         <tag>考研</tag>
+        <tag>四六级</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>网站相关及学习交流群</title>
+    <url>/1.html</url>
+    <content><![CDATA[<h1>网站</h1>
+<p>该网站是基于HEXO+GitHub建的，虽然能省下不少服务器费用，但网站的一些运营需要操作成本。</p>
+<p>所以快夸我大好人。</p>
+<p>2021年10月，你决定网页改版。11月已经网站已经正式换皮肤！</p>
+<p>放上几张旧站照片供回忆</p>
+<p>2022年8月，网站修改，</p>
+<ol>
+<li>
+<p>添加了文章更新日期和阅读次数，也增大了网站字体字号，解决一下显示问题。</p>
+<p><img src="https://i0.hdslb.com/bfs/album/cd011e6d87538dcb6310799b7c4a697dd85c11b1.png" alt="image-20220825123123349"></p>
+</li>
+<li>
+<p>发表时间改为更新时间<img src="https://i0.hdslb.com/bfs/album/2fa7abd129e8e441caa28ec4770d83df042f7522.png" alt="image-20220825124342937"></p>
+</li>
+<li>
+<p>修复国际版共享域名不再向中国大陆提供服务，导致无法发送和查看评论。<img src="https://i0.hdslb.com/bfs/album/502be2f81e3775cd74bf8903cee4a81063bfd776.png" alt="image-20220826183358468"></p>
+</li>
+</ol>
+<p>网站访问数据：</p>
+<p><img src="https://i.loli.net/2021/11/05/cQRkAsZOv9TYNVP.png" alt="image-20211105211526753"></p>
+<p><img src="https://i.loli.net/2021/11/05/SpOjUbLguWr7w2l.png" alt="image-20211105211629672"></p>
+<p><img src="https://i.loli.net/2021/11/05/dCEAlJOvWUbSZjX.png" alt="image-20211105211754091"></p>
+<h1>关于群</h1>
+<p><strong>群内可以相互交流学习，分享一下个人经验</strong></p>
+<p>群内交流气氛还是很好地，并且群内配备各种大佬帮助你</p>
+<p><img src="https://i.loli.net/2021/01/02/HYBcazNOtg5XVe6.png" alt="image-20210102152325746"></p>
+<p><img src="https://i.loli.net/2021/07/21/bsSIqmdXfiFZ3v9.png" alt="image-20210721003305936"></p>
+<p>1.群又已经满了继续开放群，因为一些原因没有进群的可以进去，和大家一起交流学习。群满200继续邀请进群，满了才开放新群。</p>
+<p>2.网站的资源都是本人转载网络的，至于学习资料的来源我在博客里面写了一篇文章讲过。链接失效可以去资料来源看看。</p>
+<p>3.本人不常打理，资料更新较慢，因为这本来就是我没啥事做就分享一下资料给大家，希望帮助一些人。</p>
+<p>4.群内主要由热心的“Eureka！”管理，有什么问题（包括找书）可以问他。</p>
+<p><img src="https://i.loli.net/2021/11/05/3JRKuWC7PcMASpq.png" alt="image-20211105211219777"></p>
+<p>群满后如需要进的微信:<strong>bkfeng46</strong></p>
+<img src="https://i.loli.net/2021/01/02/UF7me1GifdbrzZy.png" alt="加群微信" style="zoom: 50%;" />
+<p>另外，如果该资料对你有帮助，并且你愿意支持我，在文章下方有个打赏按钮不妨支持一下，不胜感激 ！！</p>
+<img src="C:%5CUsers%5Cweifeng%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210621202540579.png" alt="image-20210621202540579" style="zoom:25%;" />
+<p>另外本站上线了评论系统，有什么问题也可以直接底下留言！</p>
+]]></content>
+      <categories>
+        <category>杂谈</category>
+      </categories>
+      <tags>
+        <tag>网站相关</tag>
+        <tag>震惊!</tag>
+        <tag>不知道写什么了</tag>
+        <tag>捐助</tag>
       </tags>
   </entry>
   <entry>
@@ -708,57 +759,6 @@ document.write("<h2 title='具体时间以教育局公布为准'><font color=#34
 ]]></content>
       <tags>
         <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>网站相关及学习交流群</title>
-    <url>/1.html</url>
-    <content><![CDATA[<h1>网站</h1>
-<p>该网站是基于HEXO+GitHub建的，虽然能省下不少服务器费用，但网站的一些运营需要操作成本。</p>
-<p>所以快夸我大好人。</p>
-<p>2021年10月，你决定网页改版。11月已经网站已经正式换皮肤！</p>
-<p>放上几张旧站照片供回忆</p>
-<p>2022年8月，网站修改，</p>
-<ol>
-<li>
-<p>添加了文章更新日期和阅读次数，也增大了网站字体字号，解决一下显示问题。</p>
-<p><img src="https://i0.hdslb.com/bfs/album/cd011e6d87538dcb6310799b7c4a697dd85c11b1.png" alt="image-20220825123123349"></p>
-</li>
-<li>
-<p>发表时间改为更新时间<img src="https://i0.hdslb.com/bfs/album/2fa7abd129e8e441caa28ec4770d83df042f7522.png" alt="image-20220825124342937"></p>
-</li>
-<li>
-<p>修复国际版共享域名不再向中国大陆提供服务，导致无法发送和查看评论。<img src="https://i0.hdslb.com/bfs/album/502be2f81e3775cd74bf8903cee4a81063bfd776.png" alt="image-20220826183358468"></p>
-</li>
-</ol>
-<p>网站访问数据：</p>
-<p><img src="https://i.loli.net/2021/11/05/cQRkAsZOv9TYNVP.png" alt="image-20211105211526753"></p>
-<p><img src="https://i.loli.net/2021/11/05/SpOjUbLguWr7w2l.png" alt="image-20211105211629672"></p>
-<p><img src="https://i.loli.net/2021/11/05/dCEAlJOvWUbSZjX.png" alt="image-20211105211754091"></p>
-<h1>关于群</h1>
-<p><strong>群内可以相互交流学习，分享一下个人经验</strong></p>
-<p>群内交流气氛还是很好地，并且群内配备各种大佬帮助你</p>
-<p><img src="https://i.loli.net/2021/01/02/HYBcazNOtg5XVe6.png" alt="image-20210102152325746"></p>
-<p><img src="https://i.loli.net/2021/07/21/bsSIqmdXfiFZ3v9.png" alt="image-20210721003305936"></p>
-<p>1.群又已经满了继续开放群，因为一些原因没有进群的可以进去，和大家一起交流学习。群满200继续邀请进群，满了才开放新群。</p>
-<p>2.网站的资源都是本人转载网络的，至于学习资料的来源我在博客里面写了一篇文章讲过。链接失效可以去资料来源看看。</p>
-<p>3.本人不常打理，资料更新较慢，因为这本来就是我没啥事做就分享一下资料给大家，希望帮助一些人。</p>
-<p>4.群内主要由热心的“Eureka！”管理，有什么问题（包括找书）可以问他。</p>
-<p><img src="https://i.loli.net/2021/11/05/3JRKuWC7PcMASpq.png" alt="image-20211105211219777"></p>
-<p>群满后如需要进的微信:<strong>bkfeng46</strong></p>
-<img src="https://i.loli.net/2021/01/02/UF7me1GifdbrzZy.png" alt="加群微信" style="zoom: 50%;" />
-<p>另外，如果该资料对你有帮助，并且你愿意支持我，在文章下方有个打赏按钮不妨支持一下，不胜感激 ！！</p>
-<img src="C:%5CUsers%5Cweifeng%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210621202540579.png" alt="image-20210621202540579" style="zoom:25%;" />
-<p>另外本站上线了评论系统，有什么问题也可以直接底下留言！</p>
-]]></content>
-      <categories>
-        <category>杂谈</category>
-      </categories>
-      <tags>
-        <tag>网站相关</tag>
-        <tag>震惊!</tag>
-        <tag>不知道写什么了</tag>
-        <tag>捐助</tag>
       </tags>
   </entry>
   <entry>
