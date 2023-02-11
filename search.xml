@@ -1,65 +1,151 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>butterfly配置</title>
-    <url>/15367.html</url>
-    <content><![CDATA[<h3 id="社交图标"><a class="header-anchor" href="#社交图标"></a>社交图标</h3>
-<p>Butterfly支持 font-awesome v6图标  <a href="https://fontawesome.com/icons?from=io">https://fontawesome.com/icons?from=io</a></p>
-<p>书写格式 图标名：url || 描述性文字</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">social:</span><br><span class="line">  fab fa-github: https:&#x2F;&#x2F;github.com&#x2F;xxxxx || Github</span><br><span class="line">  fas fa-envelope: mailto:xxxxxx@gmail.com || Email</span><br></pre></td></tr></table></figure>
-<h3 id="文章置顶"><a class="header-anchor" href="#文章置顶"></a>文章置顶</h3>
-<p>【推荐】hexo-generator-index从 2.0.0 开始，已经支持文章置顶功能。你可以直接在文章的front-matter区域里添加sticky: 1属性来把这篇文章置顶。数值越大，置顶的优先级越大。</p>
-<h3 id="tag-hide"><a class="header-anchor" href="#tag-hide"></a>tag-hide</h3>
-<span class="hide-inline"><button type="button" class="hide-button button--animated" style="background-color: bg;color: color">display
-  </button><span class="hide-content">content</span></span>
-<h3 id="Tabs"><a class="header-anchor" href="#Tabs"></a>Tabs</h3>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% tabs Unique name, [index] %&#125;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab [Tab caption] [@icon] --&gt;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab [Tab caption] [@icon] --&gt;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&#123;% endtabs %&#125;</span><br></pre></td></tr></table></figure>
-<div class="tabs" id="test1"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#test1-1">test1 1</button></li><li class="tab"><button type="button" data-href="#test1-2">test1 2</button></li><li class="tab"><button type="button" data-href="#test1-3">test1 3</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="test1-1"><p><strong>This is Tab 1.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test1-2"><p><strong>This is Tab 2.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test1-3"><p><strong>This is Tab 3.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>
-<h3 id="Button"><a class="header-anchor" href="#Button"></a>Button</h3>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% btn [url],[text],[icon],[color] [style] [layout] [position] [size] %&#125;</span><br><span class="line"></span><br><span class="line">[url]         : 链接</span><br><span class="line">[text]        : 按钮文字</span><br><span class="line">[icon]        : [可选] 图标</span><br><span class="line">[color]       : [可选] 按钮背景顔色(默认style时）</span><br><span class="line">                      按钮字体和边框顔色(outline时)</span><br><span class="line">                      default&#x2F;blue&#x2F;pink&#x2F;red&#x2F;purple&#x2F;orange&#x2F;green</span><br><span class="line">[style]       : [可选] 按钮样式 默认实心</span><br><span class="line">                      outline&#x2F;留空</span><br><span class="line">[layout]      : [可选] 按钮佈局 默认为line</span><br><span class="line">                      block&#x2F;留空</span><br><span class="line">[position]    : [可选] 按钮位置 前提是设置了layout为block 默认为左边</span><br><span class="line">                      center&#x2F;right&#x2F;留空</span><br><span class="line">[size]        : [可选] 按钮大小</span><br><span class="line">                      larger&#x2F;留空</span><br></pre></td></tr></table></figure>
-<p>This is my website, click the button <a class="btn-beautify button--animated " href="https://butterfly.js.org/" 
-  title="Butterfly"><span>Butterfly</span></a><br>
-This is my website, click the button <a class="btn-beautify button--animated " href="https://butterfly.js.org/" 
-  title="Butterfly"><i class="far fa-hand-point-right fa-fw"></i><span>Butterfly</span></a><br>
-This is my website, click the button <a class="btn-beautify button--animated outline" href="https://butterfly.js.org/" 
-  title="Butterfly"><span>Butterfly</span></a><br>
-This is my website, click the button <a class="btn-beautify button--animated outline" href="https://butterfly.js.org/" 
-  title="Butterfly"><i class="far fa-hand-point-right fa-fw"></i><span>Butterfly</span></a><br>
-This is my website, click the button <a class="btn-beautify button--animated larger" href="https://butterfly.js.org/" 
-  title="Butterfly"><i class="far fa-hand-point-right fa-fw"></i><span>Butterfly</span></a></p>
-<h3 id="inlineImg"><a class="header-anchor" href="#inlineImg"></a>inlineImg</h3>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% inlineImg [src] [height] %&#125;</span><br><span class="line"></span><br><span class="line">[src]      :    图片链接</span><br><span class="line">[height]   ：   图片高度限制【可选】</span><br></pre></td></tr></table></figure>
-<p>你看我长得漂亮不</p>
-<p>我觉得很漂亮 <img class="inline-img" src="https://i.loli.net/2021/03/19/5M4jUB3ynq7ePgw.png" style="height:150px"/></p>
-<h3 id="label"><a class="header-anchor" href="#label"></a>label</h3>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% label text color %&#125;</span><br></pre></td></tr></table></figure>
-<div class="timeline"><p class='p h2'>2022</p><!-- timeline 01-02 -->
-这是测试页面
-<!-- endtimeline --></div>
-<h3 id="Note-Bootstrap-Callout"><a class="header-anchor" href="#Note-Bootstrap-Callout"></a>Note (Bootstrap Callout)</h3>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% note simple %&#125;</span><br><span class="line">默认 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note default simple %&#125;</span><br><span class="line">default 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note primary simple %&#125;</span><br><span class="line">primary 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note success simple %&#125;</span><br><span class="line">success 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note info simple %&#125;</span><br><span class="line">info 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note warning simple %&#125;</span><br><span class="line">warning 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note danger simple %&#125;</span><br><span class="line">danger 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note blue &#39;fas fa-bullhorn&#39; simple %&#125;</span><br><span class="line">2021年快到了....</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% note blue &#39;fas fa-bullhorn&#39; modern %&#125;</span><br><span class="line">2021年快到了....</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure>
-<div class="note default simple"><p>default 提示块标签</p>
-</div>
-<div class="note blue icon simple"><i class="note-icon fas fa-bullhorn"></i><p>2021年快到了…</p>
-</div>
-<div class="note blue icon modern"><i class="note-icon fas fa-bullhorn"></i><p>2021年快到了…</p>
-</div>
-<h3 id="hide-toggle"><a class="header-anchor" href="#hide-toggle"></a>hide-toggle</h3>
-<div class="note [class] [no-icon] [style] flat"><p>你的内容</p>
-</div>
-<div class="hide-toggle" style="border: 1px solid bg"><div class="hide-button toggle-title" style="background-color: bg;color: color"><i class="fas fa-caret-right fa-fw"></i><span>中括号内容说明</span></div>
-    <div class="hide-content"><p>名称	用法</p>
+    <title>2021公务员+事业单位+教师</title>
+    <url>/kao.html</url>
+    <content><![CDATA[<p>是谁把雨露撒遍大地?</p>
+<p>是谁把幼苗辛勤哺育?</p>
+<p>没错，老师！</p>
+<p>一位伟大的园丁，</p>
+<p>看这遍地怒放的鲜花，</p>
+<p>哪一朵上没有您的心血，</p>
+<p>哪一朵上没有您的笑影!</p>
+<p><img src="http://www.tikuwang.com/attachment/images/2/2022/01/ZAN7ppPFfs95Fh5FnZ9P97FmFm7fl5.png" alt="其他资料.png"></p>
+<p><img src="https://s2.loli.net/2022/07/19/6wIBaY9r1OQXoJ7.png" alt="image-20220719212408466"></p>
+<h2 id="公务员-事业编-教师类！！（链接不定期更新）"><a class="header-anchor" href="#公务员-事业编-教师类！！（链接不定期更新）"></a><strong>公务员+事业编+教师类！！（链接不定期更新）</strong></h2>
+<p>链接: <a href="https://pan.baidu.com/s/15CVEtL1oIXe5erfeqNmAyw?pwd=cwj8">https://pan.baidu.com/s/15CVEtL1oIXe5erfeqNmAyw?pwd=cwj8</a> 提取码: cwj8 复制这段内容后打开百度网盘手机App，操作更方便哦</p>
+<h2 id="【公务员-事业编-教师类】包含以下内容："><a class="header-anchor" href="#【公务员-事业编-教师类】包含以下内容："></a><strong>【公务员+事业编+教师类】包含以下内容：</strong></h2>
+<p><img src="https://article.biliimg.com/bfs/article/c47dab625ba93481dc23a00a407577532d21c186.png" alt="image-20230204221007577"></p>
+<p>【公务员+事业编+教师类】河蟹得非常频繁。为了减少链接失效影响到大家复习，现在【公务员+事业编+教师类】改为百度云群分享，大家可以进云群免费获取所有资料。</p>
+<p><a href="http://www.tikuwang.com/app/index.php?i=2&amp;c=entry&amp;id=3916&amp;do=detail&amp;m=dg_articlemanage">http://www.tikuwang.com/app/index.php?i=2&amp;c=entry&amp;id=3916&amp;do=detail&amp;m=dg_articlemanage</a></p>
+<p>每个云群最多容纳200人，如果群进不去了，那就是人满了，每个群内容一样，大家只要进一个群就好，进了多个群的同学，一旦被发现会被踢掉哦。</p>
+<div class="tag link"><a class="link-card" title="全部课程资料，网盘群开放！！" href="https://bkfeng.top/cloudgroup"><div class="left"><img src="https://img.88icon.com/download/jpg/201912/20212877d98b95ae7730decb11762bac.jpg!88con"/></div><div class="right"><p class="text">全部课程资料，网盘群开放！！</p><p class="url">https://bkfeng.top/cloudgroup</p></div></a></div>
+<div class="hide-toggle" style="border: 1px solid bg"><div class="hide-button toggle-title" style="background-color: bg;color: color"><i class="fas fa-caret-right fa-fw"></i><span>如果你想捐助就点开我(っ•̀ω•́)っ</span></div>
+    <div class="hide-content"><h1><strong>关于捐助：</strong></h1>
+<p>谢谢你愿意点开(✪ω✪)</p>
+<p>如果该资料对你有帮助，并且愿意支持我，不妨支持一下 ！！</p>
+<p><img src="https://i0.hdslb.com/bfs/new_dyn/0ab5c5b8fe336af487b03928d9d1c14e355414907.png" alt="image-20230210154743109"></p>
 </div></div>
+<table>
+<thead>
+<tr>
+<th>【公务员、事业编、教师类】文档合集</th>
+<th>链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>【00】文档资料合集</td>
+<td><a href="https://pan.baidu.com/s/1z_1FSdUUtdKojXzJNB0bVg">链接</a>  提取码: 8nad</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>国考 省考 事业单位</th>
+<th>链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>【01】2021年国考</td>
+<td><a href="https://bkfeng.top/guokao">https://bkfeng.top/guokao</a></td>
+</tr>
+<tr>
+<td>【01】2020年国考（已完结）</td>
+<td><a href="https://pan.baidu.com/s/1ZDDiH8rLHkx3adELQrRv6w">链接</a> 提取码: 9999</td>
+</tr>
+<tr>
+<td>【02】20年省考</td>
+<td><a href="https://bkfeng.top/shengkao">https://bkfeng.top/shengkao</a></td>
+</tr>
+<tr>
+<td>【03】2020粉笔行测＋申论超级刷题班</td>
+<td><a href="https://pan.baidu.com/s/1EDpTyI5DCxIkeAkyr3U-ZQ">链接</a> 提取码: qeic</td>
+</tr>
+<tr>
+<td>【04】2021年事业单位</td>
+<td>链接：<a href="https://pan.baidu.com/s/1GOPoUZjdu_k8Lul2DvVlqQ">https://pan.baidu.com/s/1GOPoUZjdu_k8Lul2DvVlqQ</a>  提取码：6666</td>
+</tr>
+<tr>
+<td>【04】2020年事业单位</td>
+<td>链接：<a href="https://pan.baidu.com/s/1igOqB6gabs19Tx_P7yFXfQ">https://pan.baidu.com/s/1igOqB6gabs19Tx_P7yFXfQ</a> 提取码：6666</td>
+</tr>
+</tbody>
+</table>
+<p>​</p>
+<table>
+<thead>
+<tr>
+<th>教师类</th>
+<th>链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>【05】21上教师资格证笔试</td>
+<td>链接 <a href="https://pan.baidu.com/s/1CuYnOkWPkqhQZsbcm8RiaA">https://pan.baidu.com/s/1CuYnOkWPkqhQZsbcm8RiaA</a> 提取码：6666</td>
+</tr>
+<tr>
+<td>【05】2020教师资格证</td>
+<td>链接: <a href="https://pan.baidu.com/s/1dDZL2vNQhnlsuo4h6iN8LA">https://pan.baidu.com/s/1dDZL2vNQhnlsuo4h6iN8LA</a> 提取码: 6666</td>
+</tr>
+<tr>
+<td>【06】2021年教师招聘</td>
+<td>链接: <a href="https://pan.baidu.com/s/1MkZuUyC-pqzZ0JWcWhSaCA">https://pan.baidu.com/s/1MkZuUyC-pqzZ0JWcWhSaCA</a> 提取码: 6666</td>
+</tr>
+<tr>
+<td>【06】2020年教师招聘</td>
+<td>链接: <a href="https://pan.baidu.com/s/1gYJGSQeHD7kGUFk03zt0Ww">https://pan.baidu.com/s/1gYJGSQeHD7kGUFk03zt0Ww</a> 提取码: 6666</td>
+</tr>
+</tbody>
+</table>
+<p>​</p>
+<table>
+<thead>
+<tr>
+<th>其他</th>
+<th>表头</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>【07】2020三支一扶</td>
+<td>链接: <a href="https://pan.baidu.com/s/1QOJSAQRdcQ35lDdarhy0QA">https://pan.baidu.com/s/1QOJSAQRdcQ35lDdarhy0QA</a> 提取码: 6666</td>
+</tr>
+<tr>
+<td>【08】2020年公务员面试</td>
+<td>链接：<a href="https://pan.baidu.com/s/1yUW_8O7n_TP7g8Ri2qZeGA">https://pan.baidu.com/s/1yUW_8O7n_TP7g8Ri2qZeGA</a> 提取码：6666</td>
+</tr>
+<tr>
+<td>【09】2021军队文职课程</td>
+<td>链接：<a href="https://pan.baidu.com/s/1yUW_8O7n_TP7g8Ri2qZeGA">https://pan.baidu.com/s/1yUW_8O7n_TP7g8Ri2qZeGA</a> 提取码：6666</td>
+</tr>
+<tr>
+<td>【10】时政大礼包（2020版)</td>
+<td>链接：<a href="https://pan.baidu.com/s/1KPgGh8v72QHAhXiU-XpAww">https://pan.baidu.com/s/1KPgGh8v72QHAhXiU-XpAww</a> 提取码：6666</td>
+</tr>
+<tr>
+<td>【11】公考热点30分</td>
+<td>链接：<a href="https://pan.baidu.com/s/1QfY9CzFv1JvgwIzN1vMKsg">https://pan.baidu.com/s/1QfY9CzFv1JvgwIzN1vMKsg</a> 提取码：6666</td>
+</tr>
+<tr>
+<td>大作文押题（事业编，三支一扶，省考适用）</td>
+<td>链接：<a href="https://pan.baidu.com/s/1--AYHDU6_5bv06JKUBftNg">https://pan.baidu.com/s/1--AYHDU6_5bv06JKUBftNg</a> 提取码：5678</td>
+</tr>
+</tbody>
+</table>
+<p>加入学习群一起学习 微信:bkfeng46</p>
 ]]></content>
       <categories>
         <category>学习</category>
       </categories>
       <tags>
-        <tag>心理学</tag>
-        <tag>考研</tag>
-        <tag>经济类</tag>
-        <tag>护理</tag>
-        <tag>药学</tag>
+        <tag>公务员</tag>
+        <tag>教师资格证</tag>
+        <tag>教师面试</tag>
+        <tag>教招</tag>
       </tags>
   </entry>
   <entry>
@@ -75,8 +161,8 @@ This is my website, click the button <a class="btn-beautify button--animated lar
         <category>学习</category>
       </categories>
       <tags>
-        <tag>心理学</tag>
         <tag>考研</tag>
+        <tag>心理学</tag>
         <tag>经济类</tag>
         <tag>护理</tag>
         <tag>药学</tag>
@@ -118,7 +204,7 @@ This is my website, click the button <a class="btn-beautify button--animated lar
     <content><![CDATA[<h1>书籍概况</h1>
 <p>书籍来自某秀与zlibrary。书库基本涵盖20年以前出版的所有书。如果你找的新书基本没什么可能了。</p>
 <p>公众号书籍搜索指令如下</p>
-<p><img src="https://i0.hdslb.com/bfs/new_dyn/7039c78ef3330500176f978c06299713355414907.png" alt="公众号书籍搜索一图流"></p>
+<p><img src="https://i0.hdslb.com/bfs/new_dyn/237a0df887f55a19b5727c6db234aba6355414907.png" alt="公众号搜索指令一图流"></p>
 <img src="https://i0.hdslb.com/bfs/album/2e50e073ea383f7a20c20b59819b7cf8e3195301.png" alt="image-20221127221604449" style="zoom:50%;" />
 <p>2月6日更新：公众号已经支持ss号获取书籍，支持ISBN/书名/作者等信息查询。</p>
 <h1>一.书籍获取</h1>
@@ -150,29 +236,55 @@ This is my website, click the button <a class="btn-beautify button--animated lar
 <p><img src="https://i0.hdslb.com/bfs/album/42f7284e65566d332da7f7a5926a5dcb4b2d627a.png" alt="网站显示ss号"></p>
 </div></div>
 <h2 id="通过cx你需要搜索的书名来搜索书籍"><a class="header-anchor" href="#通过cx你需要搜索的书名来搜索书籍"></a>通过<code>cx你需要搜索的书名</code>来搜索书籍</h2>
-<p>如想要查询“三体”，就发送“cx三体&quot;</p>
-<p>此种方式的好处可以查询包括zlibrary和读秀的书籍</p>
-<p>建议优先使用zlibrary的资源里的书籍（即书籍id为00开头）</p>
-<p>因为该库的书籍文件为pdf、mobi、epub等无需解压的文件</p>
-<p>读秀库的文件需要解压以及文件为扫描版，且文字不可复制和没有书签</p>
+<p>如想要查询“三体”，就发送“cx三体&quot;；搜索结果过多可加入信息“cx三体 刘慈欣”。不过建议查询时宁可少字一不要多字。</p>
 <p>再次回复书籍的id可以获得书籍的百度云链接</p>
 <p><img src="https://i0.hdslb.com/bfs/new_dyn/e44bc24dc08d3563960d410c71ef111a355414907.png" alt="cx指令"></p>
 <p>下载后即可获取一份带有书签的文字可复制的文件</p>
 <p><img src="https://i0.hdslb.com/bfs/new_dyn/873e157dd62780258966298a3f47570f355414907.png" alt="标准且完美格式的PDF书籍"></p>
+<p>此种方式的好处可以查询包括zlibrary和读秀的书籍</p>
+<p>建议优先使用zlibrary的资源里的书籍（即书籍id为00开头）。</p>
+<p>因为该库的书籍文件为pdf、mobi、epub等无需解压的文件；而读秀库的文件需要解压以及文件为扫描版，且文字不可复制和没有书签</p>
 <h2 id="通过next进行查询结果的翻页操作"><a class="header-anchor" href="#通过next进行查询结果的翻页操作"></a>通过<code>next</code>进行查询结果的翻页操作</h2>
-<p><img src="https://i0.hdslb.com/bfs/new_dyn/560cee4b179b28a50cb7c1af4536d9b8355414907.png" alt="next指令"></p>
+<p>输入<code>next</code>可根据上一次搜索结果进行翻页</p>
+<p><img src="https://i0.hdslb.com/bfs/new_dyn/6c0779fc7c58f361de25d4d76bdb6568355414907.png" alt="next指令"></p>
 <h2 id="通过user获取用户信息"><a class="header-anchor" href="#通过user获取用户信息"></a>通过<code>user</code>获取用户信息</h2>
 <p>目前公众号为节约资源，限制了每日获取次数。不过一般正常使用的话不会超过这个限制的。（因为以前老有一些人一天就发个上百本的书籍过来）</p>
+<p>注意查询不消耗次数，只有发送书籍id获取百度云链接才消耗次数。</p>
 <p><img src="https://i0.hdslb.com/bfs/new_dyn/2ad47d7e5b72a536a82fdaa7500f8a71355414907.png" alt="user指令"></p>
 <h1>二.转换格式</h1>
 <p>通过公众号的百度云链接下载书籍。</p>
 <p>zlibrary获取的书籍直接是pdf、mobi、epub等可直接阅读格式，你就直接大功告成了！！</p>
 <p>但读秀书库中的书籍文件大部分是压缩包格式的，并且需要解压密码</p>
-<p><strong>需要使用我们提供的合成工具进行解压和合成PDF文件</strong></p>
+<p><strong>需要使用我们提供的合成工具进行解压和合成PDF文件</strong>（仅有win工具）</p>
+<h4 id="软件下载"><a class="header-anchor" href="#软件下载"></a>软件下载</h4>
 <p>转换软件：<a href="https://wwb.lanzoub.com/iBOBX0fxgxfi">https://wwb.lanzoub.com/iBOBX0fxgxfi</a></p>
-<p>自己看一下教程，应该比较简单</p>
-<p><img src="https://i0.hdslb.com/bfs/album/2e602f56063f313c7aef193c9b8ae74a616a8801.png" alt="image-20221127203657865"></p>
-<p><img src="https://i0.hdslb.com/bfs/album/9be04e9f422694c3233f9ec8489605cbc0efae21.png" alt="image-20221127203803031"></p>
+<img src="https://i0.hdslb.com/bfs/new_dyn/dd8bf392f3f074c924c1448b2a695823355414907.png" alt="image-20230211144449406" style="zoom:50%;" />
+<h4 id="简要步骤说明："><a class="header-anchor" href="#简要步骤说明："></a>简要步骤说明：</h4>
+<p>根据教程进行操作，一般来说两部就够了。工具可能会提示病毒，关闭杀毒软件即可。</p>
+<ol>
+<li>
+<p>下载文件后进行解压。（如果提示有密码，请使用【1.压缩包有密码使用—没有密码跳过此步骤】文件夹内解密解压工具进行解压。），提供3款解密工具，优先用【解密工具1】</p>
+</li>
+<li>
+<p>查看解压后文件夹内文件是什么格式，根据文件格式选择合适的工具进行合成PDF</p>
+</li>
+</ol>
+<ul>
+<li>
+<p>文件内 .pdg 格式的，请使用【2.PDG合成PDF工具】 进行合成</p>
+</li>
+<li>
+<p>文件为 .jpg，.png 等图片 格式的请使用 【3.图片合成PDF工具】 进行合成</p>
+</li>
+<li>
+<p>文件内 .djvu 格式的请使用 【4.DJVU合成PDF工具】 进行合成</p>
+</li>
+</ul>
+<ol start="3">
+<li>如需要给书籍添加书签，请使用【5.高级工具-书签获取&amp;编辑】获取&amp;编辑</li>
+</ol>
+<p><img src="https://i0.hdslb.com/bfs/album/2e602f56063f313c7aef193c9b8ae74a616a8801.png" alt="解压"></p>
+<p><img src="https://i0.hdslb.com/bfs/album/9be04e9f422694c3233f9ec8489605cbc0efae21.png" alt="转换"></p>
 <div class="hide-toggle" style="border: 1px solid bg"><div class="hide-button toggle-title" style="background-color: bg;color: color"><i class="fas fa-caret-right fa-fw"></i><span>如果你想捐助就点开我(っ•̀ω•́)っ</span></div>
     <div class="hide-content"><h1><strong>关于捐助：</strong></h1>
 <p>谢谢你愿意点开(✪ω✪)</p>
@@ -334,6 +446,119 @@ document.write("<h2 title='具体时间以教育局公布为准'><font color=#34
       </tags>
   </entry>
   <entry>
+    <title>butterfly配置</title>
+    <url>/15367.html</url>
+    <content><![CDATA[<h3 id="社交图标"><a class="header-anchor" href="#社交图标"></a>社交图标</h3>
+<p>Butterfly支持 font-awesome v6图标  <a href="https://fontawesome.com/icons?from=io">https://fontawesome.com/icons?from=io</a></p>
+<p>书写格式 图标名：url || 描述性文字</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">social:</span><br><span class="line">  fab fa-github: https:&#x2F;&#x2F;github.com&#x2F;xxxxx || Github</span><br><span class="line">  fas fa-envelope: mailto:xxxxxx@gmail.com || Email</span><br></pre></td></tr></table></figure>
+<h3 id="文章置顶"><a class="header-anchor" href="#文章置顶"></a>文章置顶</h3>
+<p>【推荐】hexo-generator-index从 2.0.0 开始，已经支持文章置顶功能。你可以直接在文章的front-matter区域里添加sticky: 1属性来把这篇文章置顶。数值越大，置顶的优先级越大。</p>
+<h3 id="tag-hide"><a class="header-anchor" href="#tag-hide"></a>tag-hide</h3>
+<span class="hide-inline"><button type="button" class="hide-button button--animated" style="background-color: bg;color: color">display
+  </button><span class="hide-content">content</span></span>
+<h3 id="Tabs"><a class="header-anchor" href="#Tabs"></a>Tabs</h3>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% tabs Unique name, [index] %&#125;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab [Tab caption] [@icon] --&gt;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab [Tab caption] [@icon] --&gt;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&#123;% endtabs %&#125;</span><br></pre></td></tr></table></figure>
+<div class="tabs" id="test1"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#test1-1">test1 1</button></li><li class="tab"><button type="button" data-href="#test1-2">test1 2</button></li><li class="tab"><button type="button" data-href="#test1-3">test1 3</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="test1-1"><p><strong>This is Tab 1.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test1-2"><p><strong>This is Tab 2.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test1-3"><p><strong>This is Tab 3.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>
+<h3 id="Button"><a class="header-anchor" href="#Button"></a>Button</h3>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% btn [url],[text],[icon],[color] [style] [layout] [position] [size] %&#125;</span><br><span class="line"></span><br><span class="line">[url]         : 链接</span><br><span class="line">[text]        : 按钮文字</span><br><span class="line">[icon]        : [可选] 图标</span><br><span class="line">[color]       : [可选] 按钮背景顔色(默认style时）</span><br><span class="line">                      按钮字体和边框顔色(outline时)</span><br><span class="line">                      default&#x2F;blue&#x2F;pink&#x2F;red&#x2F;purple&#x2F;orange&#x2F;green</span><br><span class="line">[style]       : [可选] 按钮样式 默认实心</span><br><span class="line">                      outline&#x2F;留空</span><br><span class="line">[layout]      : [可选] 按钮佈局 默认为line</span><br><span class="line">                      block&#x2F;留空</span><br><span class="line">[position]    : [可选] 按钮位置 前提是设置了layout为block 默认为左边</span><br><span class="line">                      center&#x2F;right&#x2F;留空</span><br><span class="line">[size]        : [可选] 按钮大小</span><br><span class="line">                      larger&#x2F;留空</span><br></pre></td></tr></table></figure>
+<p>This is my website, click the button <a class="btn-beautify button--animated " href="https://butterfly.js.org/" 
+  title="Butterfly"><span>Butterfly</span></a><br>
+This is my website, click the button <a class="btn-beautify button--animated " href="https://butterfly.js.org/" 
+  title="Butterfly"><i class="far fa-hand-point-right fa-fw"></i><span>Butterfly</span></a><br>
+This is my website, click the button <a class="btn-beautify button--animated outline" href="https://butterfly.js.org/" 
+  title="Butterfly"><span>Butterfly</span></a><br>
+This is my website, click the button <a class="btn-beautify button--animated outline" href="https://butterfly.js.org/" 
+  title="Butterfly"><i class="far fa-hand-point-right fa-fw"></i><span>Butterfly</span></a><br>
+This is my website, click the button <a class="btn-beautify button--animated larger" href="https://butterfly.js.org/" 
+  title="Butterfly"><i class="far fa-hand-point-right fa-fw"></i><span>Butterfly</span></a></p>
+<h3 id="inlineImg"><a class="header-anchor" href="#inlineImg"></a>inlineImg</h3>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% inlineImg [src] [height] %&#125;</span><br><span class="line"></span><br><span class="line">[src]      :    图片链接</span><br><span class="line">[height]   ：   图片高度限制【可选】</span><br></pre></td></tr></table></figure>
+<p>你看我长得漂亮不</p>
+<p>我觉得很漂亮 <img class="inline-img" src="https://i.loli.net/2021/03/19/5M4jUB3ynq7ePgw.png" style="height:150px"/></p>
+<h3 id="label"><a class="header-anchor" href="#label"></a>label</h3>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% label text color %&#125;</span><br></pre></td></tr></table></figure>
+<div class="timeline"><p class='p h2'>2022</p><!-- timeline 01-02 -->
+这是测试页面
+<!-- endtimeline --></div>
+<h3 id="Note-Bootstrap-Callout"><a class="header-anchor" href="#Note-Bootstrap-Callout"></a>Note (Bootstrap Callout)</h3>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% note simple %&#125;</span><br><span class="line">默认 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note default simple %&#125;</span><br><span class="line">default 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note primary simple %&#125;</span><br><span class="line">primary 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note success simple %&#125;</span><br><span class="line">success 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note info simple %&#125;</span><br><span class="line">info 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note warning simple %&#125;</span><br><span class="line">warning 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note danger simple %&#125;</span><br><span class="line">danger 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note blue &#39;fas fa-bullhorn&#39; simple %&#125;</span><br><span class="line">2021年快到了....</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% note blue &#39;fas fa-bullhorn&#39; modern %&#125;</span><br><span class="line">2021年快到了....</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure>
+<div class="note default simple"><p>default 提示块标签</p>
+</div>
+<div class="note blue icon simple"><i class="note-icon fas fa-bullhorn"></i><p>2021年快到了…</p>
+</div>
+<div class="note blue icon modern"><i class="note-icon fas fa-bullhorn"></i><p>2021年快到了…</p>
+</div>
+<h3 id="hide-toggle"><a class="header-anchor" href="#hide-toggle"></a>hide-toggle</h3>
+<div class="note [class] [no-icon] [style] flat"><p>你的内容</p>
+</div>
+<div class="hide-toggle" style="border: 1px solid bg"><div class="hide-button toggle-title" style="background-color: bg;color: color"><i class="fas fa-caret-right fa-fw"></i><span>中括号内容说明</span></div>
+    <div class="hide-content"><p>名称	用法</p>
+</div></div>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>考研</tag>
+        <tag>心理学</tag>
+        <tag>经济类</tag>
+        <tag>护理</tag>
+        <tag>药学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>网站里面所有资源的来源，都在这里</title>
+    <url>/way.html</url>
+    <content><![CDATA[<p>因为网站资源频繁失效，所以本人特意下一篇搜索网上各种考研考证资源的文章</p>
+<p>网站里面所有资源的来源，都是网上各个地方搜索整合来的，主要平台有以下几个：</p>
+<p>欢迎大家文章底下评论补充，我会再加进去文章里面供大家使用</p>
+<h2 id="1-题库网"><a class="header-anchor" href="#1-题库网"></a>1.题库网</h2>
+<p>网站链接 <a href="http://www.tikuwang.com/app/index.php?i=2&amp;c=entry&amp;do=fengmian&amp;m=hulu_info">http://www.tikuwang.com/app/index.php?i=2&amp;c=entry&amp;do=fengmian&amp;m=hulu_info</a></p>
+<p>该网站完全免费分享，来源一家题库网公众号，本站的大部分资源均来源于此。如果本站资源失效可以去这个网站。</p>
+<img src="https://i.loli.net/2021/01/30/BUH8mDkTpRJQ5FZ.png" alt="image-20210130223517406" style="zoom:67%;" />
+<h2 id="2-安心考研"><a class="header-anchor" href="#2-安心考研"></a>2.安心考研</h2>
+<p>网站链接 <a href="http://axky.ys168.com/">http://axky.ys168.com/</a></p>
+<p>1个提供大量考研资料的永硕E盘👍，更新比较及时</p>
+<p>不过缺点就是资源较少，其他的一些资源要付费。</p>
+<p>主要涵盖语文、数学、英语考研以及四六级</p>
+<img src="https://i.loli.net/2021/01/30/PnA5R2MEv1ZQ6NW.png" alt="image-20210130224026382" style="zoom:67%;" />
+<p>同样类型的网盘还有 <a href="http://kyxz.ys168.com/">http://kyxz.ys168.com/</a></p>
+<h2 id="3-金榜题名"><a class="header-anchor" href="#3-金榜题名"></a>3.金榜题名</h2>
+<p>网站链接 <a href="http://qzbltushu.ys168.com/">http://qzbltushu.ys168.com/</a></p>
+<p>该网站资料全都是免费的，资源也比较全</p>
+<p><img src="https://i.loli.net/2021/07/15/YgjKAUrcV3unozp.png" alt="image-20210715183003469"></p>
+<h2 id="3-考研学子"><a class="header-anchor" href="#3-考研学子"></a>3.考研学子</h2>
+<p>部分收费</p>
+<p><img src="https://i.loli.net/2021/07/15/IW7xiG8CgFn2DMv.png" alt="image-20210715183112266"><img src="C:%5CUsers%5Cweifeng%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210715183129586.png" alt="image-20210715183129586"></p>
+<h2 id="4-其他分享者"><a class="header-anchor" href="#4-其他分享者"></a>4.其他分享者</h2>
+<p>小帅同学http://gmengshuai.ys168.com/</p>
+<p>油麦同学http://cangbaoge.ys168.com/</p>
+<p>陈蛋蛋的宝藏库http://www.chendandan.ys168.com/</p>
+<p>哆啦A梦的神奇口袋http://htwww.baozangku.ys168.com/</p>
+<p>可可西里的杂货铺http://kkxldzhp.ys168.com/</p>
+<h5 id="2014-2020教资笔试、面试网课资料合集-https-shimo-im-docs-VwqgJy8pYtVcvwY6-read"><a class="header-anchor" href="#2014-2020教资笔试、面试网课资料合集-https-shimo-im-docs-VwqgJy8pYtVcvwY6-read"></a>2014-2020教资笔试、面试网课资料合集 <a href="https://shimo.im/docs/VwqgJy8pYtVcvwY6/read">https://shimo.im/docs/VwqgJy8pYtVcvwY6/read</a></h5>
+<h5 id="一建-二建-消防-监管-http-zhulu-ys168-com"><a class="header-anchor" href="#一建-二建-消防-监管-http-zhulu-ys168-com"></a>一建 二建 消防 监管 <a href="http://zhulu.ys168.com/">http://zhulu.ys168.com/</a></h5>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">【注意】：</span><br><span class="line">务必记住网址 http:&#x2F;&#x2F;zhulu.ys168.com&#x2F; </span><br><span class="line">及最上面一项：“单科密码管理区”的密码：pass</span><br><span class="line">通过“单科密码管理区”可查询各单科课程的密码。</span><br></pre></td></tr></table></figure>
+<img src="https://i.loli.net/2021/01/30/NvBqQGrMLkWoYCs.png" alt="image-20210130230519905" style="zoom:67%;" />
+<h2 id="5-各类论坛"><a class="header-anchor" href="#5-各类论坛"></a>5.各类论坛</h2>
+<p><strong>1.52破解</strong><a href="https://www.52pojie.cn/">https://www.52pojie.cn/</a></p>
+<p><strong>2.考研帮</strong><a href="http://www.kaoyan.com/">http://www.kaoyan.com/</a></p>
+<p><strong>3.小木虫论坛</strong> <a href="http://muchong.com/bbs/">http://muchong.com/bbs/</a></p>
+<h5 id="4-乐愚社区-https-bbs-leyuz-net"><a class="header-anchor" href="#4-乐愚社区-https-bbs-leyuz-net"></a>4.乐愚社区 <a href="https://bbs.leyuz.net/">https://bbs.leyuz.net/</a></h5>
+<p>其实微信许多公众号有，不过大多数公众号比较杂，多收费</p>
+<p>大家有什么推荐的考研公众号评论留言一起分享。等待后续更新</p>
+<img src="https://i.loli.net/2021/02/13/BIZ6s7rm9Wuko8P.png" alt="image-20210130232602465" style="zoom:50%;" />
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>考研</tag>
+        <tag>四六级</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>公众号书籍搜索指令</title>
     <url>/library.html</url>
     <content><![CDATA[<p><img src="https://article.biliimg.com/bfs/article/d93c1c495d3076b57e37b9abbf9df0af57a654cf.png" alt="image-20230131233151718"></p>
@@ -407,154 +632,6 @@ document.write("<h2 title='具体时间以教育局公布为准'><font color=#34
       </tags>
   </entry>
   <entry>
-    <title>2021公务员+事业单位+教师</title>
-    <url>/kao.html</url>
-    <content><![CDATA[<p>是谁把雨露撒遍大地?</p>
-<p>是谁把幼苗辛勤哺育?</p>
-<p>没错，老师！</p>
-<p>一位伟大的园丁，</p>
-<p>看这遍地怒放的鲜花，</p>
-<p>哪一朵上没有您的心血，</p>
-<p>哪一朵上没有您的笑影!</p>
-<p><img src="http://www.tikuwang.com/attachment/images/2/2022/01/ZAN7ppPFfs95Fh5FnZ9P97FmFm7fl5.png" alt="其他资料.png"></p>
-<p><img src="https://s2.loli.net/2022/07/19/6wIBaY9r1OQXoJ7.png" alt="image-20220719212408466"></p>
-<h2 id="公务员-事业编-教师类！！（链接不定期更新）"><a class="header-anchor" href="#公务员-事业编-教师类！！（链接不定期更新）"></a><strong>公务员+事业编+教师类！！（链接不定期更新）</strong></h2>
-<p>链接: <a href="https://pan.baidu.com/s/15CVEtL1oIXe5erfeqNmAyw?pwd=cwj8">https://pan.baidu.com/s/15CVEtL1oIXe5erfeqNmAyw?pwd=cwj8</a> 提取码: cwj8 复制这段内容后打开百度网盘手机App，操作更方便哦</p>
-<h2 id="【公务员-事业编-教师类】包含以下内容："><a class="header-anchor" href="#【公务员-事业编-教师类】包含以下内容："></a><strong>【公务员+事业编+教师类】包含以下内容：</strong></h2>
-<p><img src="https://article.biliimg.com/bfs/article/c47dab625ba93481dc23a00a407577532d21c186.png" alt="image-20230204221007577"></p>
-<p>【公务员+事业编+教师类】河蟹得非常频繁。为了减少链接失效影响到大家复习，现在【公务员+事业编+教师类】改为百度云群分享，大家可以进云群免费获取所有资料。</p>
-<p><a href="http://www.tikuwang.com/app/index.php?i=2&amp;c=entry&amp;id=3916&amp;do=detail&amp;m=dg_articlemanage">http://www.tikuwang.com/app/index.php?i=2&amp;c=entry&amp;id=3916&amp;do=detail&amp;m=dg_articlemanage</a></p>
-<p>每个云群最多容纳200人，如果群进不去了，那就是人满了，每个群内容一样，大家只要进一个群就好，进了多个群的同学，一旦被发现会被踢掉哦。</p>
-<div class="tag link"><a class="link-card" title="全部课程资料，网盘群开放！！" href="https://bkfeng.top/cloudgroup"><div class="left"><img src="https://img.88icon.com/download/jpg/201912/20212877d98b95ae7730decb11762bac.jpg!88con"/></div><div class="right"><p class="text">全部课程资料，网盘群开放！！</p><p class="url">https://bkfeng.top/cloudgroup</p></div></a></div>
-<div class="hide-toggle" style="border: 1px solid bg"><div class="hide-button toggle-title" style="background-color: bg;color: color"><i class="fas fa-caret-right fa-fw"></i><span>如果你想捐助就点开我(っ•̀ω•́)っ</span></div>
-    <div class="hide-content"><h1><strong>关于捐助：</strong></h1>
-<p>谢谢你愿意点开(✪ω✪)</p>
-<p>如果该资料对你有帮助，并且愿意支持我，不妨支持一下 ！！</p>
-<p><img src="https://i0.hdslb.com/bfs/new_dyn/0ab5c5b8fe336af487b03928d9d1c14e355414907.png" alt="image-20230210154743109"></p>
-</div></div>
-<table>
-<thead>
-<tr>
-<th>【公务员、事业编、教师类】文档合集</th>
-<th>链接</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>【00】文档资料合集</td>
-<td><a href="https://pan.baidu.com/s/1z_1FSdUUtdKojXzJNB0bVg">链接</a>  提取码: 8nad</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>国考 省考 事业单位</th>
-<th>链接</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>【01】2021年国考</td>
-<td><a href="https://bkfeng.top/guokao">https://bkfeng.top/guokao</a></td>
-</tr>
-<tr>
-<td>【01】2020年国考（已完结）</td>
-<td><a href="https://pan.baidu.com/s/1ZDDiH8rLHkx3adELQrRv6w">链接</a> 提取码: 9999</td>
-</tr>
-<tr>
-<td>【02】20年省考</td>
-<td><a href="https://bkfeng.top/shengkao">https://bkfeng.top/shengkao</a></td>
-</tr>
-<tr>
-<td>【03】2020粉笔行测＋申论超级刷题班</td>
-<td><a href="https://pan.baidu.com/s/1EDpTyI5DCxIkeAkyr3U-ZQ">链接</a> 提取码: qeic</td>
-</tr>
-<tr>
-<td>【04】2021年事业单位</td>
-<td>链接：<a href="https://pan.baidu.com/s/1GOPoUZjdu_k8Lul2DvVlqQ">https://pan.baidu.com/s/1GOPoUZjdu_k8Lul2DvVlqQ</a>  提取码：6666</td>
-</tr>
-<tr>
-<td>【04】2020年事业单位</td>
-<td>链接：<a href="https://pan.baidu.com/s/1igOqB6gabs19Tx_P7yFXfQ">https://pan.baidu.com/s/1igOqB6gabs19Tx_P7yFXfQ</a> 提取码：6666</td>
-</tr>
-</tbody>
-</table>
-<p>​</p>
-<table>
-<thead>
-<tr>
-<th>教师类</th>
-<th>链接</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>【05】21上教师资格证笔试</td>
-<td>链接 <a href="https://pan.baidu.com/s/1CuYnOkWPkqhQZsbcm8RiaA">https://pan.baidu.com/s/1CuYnOkWPkqhQZsbcm8RiaA</a> 提取码：6666</td>
-</tr>
-<tr>
-<td>【05】2020教师资格证</td>
-<td>链接: <a href="https://pan.baidu.com/s/1dDZL2vNQhnlsuo4h6iN8LA">https://pan.baidu.com/s/1dDZL2vNQhnlsuo4h6iN8LA</a> 提取码: 6666</td>
-</tr>
-<tr>
-<td>【06】2021年教师招聘</td>
-<td>链接: <a href="https://pan.baidu.com/s/1MkZuUyC-pqzZ0JWcWhSaCA">https://pan.baidu.com/s/1MkZuUyC-pqzZ0JWcWhSaCA</a> 提取码: 6666</td>
-</tr>
-<tr>
-<td>【06】2020年教师招聘</td>
-<td>链接: <a href="https://pan.baidu.com/s/1gYJGSQeHD7kGUFk03zt0Ww">https://pan.baidu.com/s/1gYJGSQeHD7kGUFk03zt0Ww</a> 提取码: 6666</td>
-</tr>
-</tbody>
-</table>
-<p>​</p>
-<table>
-<thead>
-<tr>
-<th>其他</th>
-<th>表头</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>【07】2020三支一扶</td>
-<td>链接: <a href="https://pan.baidu.com/s/1QOJSAQRdcQ35lDdarhy0QA">https://pan.baidu.com/s/1QOJSAQRdcQ35lDdarhy0QA</a> 提取码: 6666</td>
-</tr>
-<tr>
-<td>【08】2020年公务员面试</td>
-<td>链接：<a href="https://pan.baidu.com/s/1yUW_8O7n_TP7g8Ri2qZeGA">https://pan.baidu.com/s/1yUW_8O7n_TP7g8Ri2qZeGA</a> 提取码：6666</td>
-</tr>
-<tr>
-<td>【09】2021军队文职课程</td>
-<td>链接：<a href="https://pan.baidu.com/s/1yUW_8O7n_TP7g8Ri2qZeGA">https://pan.baidu.com/s/1yUW_8O7n_TP7g8Ri2qZeGA</a> 提取码：6666</td>
-</tr>
-<tr>
-<td>【10】时政大礼包（2020版)</td>
-<td>链接：<a href="https://pan.baidu.com/s/1KPgGh8v72QHAhXiU-XpAww">https://pan.baidu.com/s/1KPgGh8v72QHAhXiU-XpAww</a> 提取码：6666</td>
-</tr>
-<tr>
-<td>【11】公考热点30分</td>
-<td>链接：<a href="https://pan.baidu.com/s/1QfY9CzFv1JvgwIzN1vMKsg">https://pan.baidu.com/s/1QfY9CzFv1JvgwIzN1vMKsg</a> 提取码：6666</td>
-</tr>
-<tr>
-<td>大作文押题（事业编，三支一扶，省考适用）</td>
-<td>链接：<a href="https://pan.baidu.com/s/1--AYHDU6_5bv06JKUBftNg">https://pan.baidu.com/s/1--AYHDU6_5bv06JKUBftNg</a> 提取码：5678</td>
-</tr>
-</tbody>
-</table>
-<p>加入学习群一起学习 微信:bkfeng46</p>
-]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>公务员</tag>
-        <tag>教师资格证</tag>
-        <tag>教师面试</tag>
-        <tag>教招</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>电子书查找方法大合集，90%可行</title>
     <url>/ebook.html</url>
     <content><![CDATA[<h2 id="0-本卡风公众号"><a class="header-anchor" href="#0-本卡风公众号"></a>0.本卡风公众号</h2>
@@ -603,57 +680,6 @@ document.write("<h2 title='具体时间以教育局公布为准'><font color=#34
         <tag>技术</tag>
         <tag>方法</tag>
         <tag>小技巧</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>网站里面所有资源的来源，都在这里</title>
-    <url>/way.html</url>
-    <content><![CDATA[<p>因为网站资源频繁失效，所以本人特意下一篇搜索网上各种考研考证资源的文章</p>
-<p>网站里面所有资源的来源，都是网上各个地方搜索整合来的，主要平台有以下几个：</p>
-<p>欢迎大家文章底下评论补充，我会再加进去文章里面供大家使用</p>
-<h2 id="1-题库网"><a class="header-anchor" href="#1-题库网"></a>1.题库网</h2>
-<p>网站链接 <a href="http://www.tikuwang.com/app/index.php?i=2&amp;c=entry&amp;do=fengmian&amp;m=hulu_info">http://www.tikuwang.com/app/index.php?i=2&amp;c=entry&amp;do=fengmian&amp;m=hulu_info</a></p>
-<p>该网站完全免费分享，来源一家题库网公众号，本站的大部分资源均来源于此。如果本站资源失效可以去这个网站。</p>
-<img src="https://i.loli.net/2021/01/30/BUH8mDkTpRJQ5FZ.png" alt="image-20210130223517406" style="zoom:67%;" />
-<h2 id="2-安心考研"><a class="header-anchor" href="#2-安心考研"></a>2.安心考研</h2>
-<p>网站链接 <a href="http://axky.ys168.com/">http://axky.ys168.com/</a></p>
-<p>1个提供大量考研资料的永硕E盘👍，更新比较及时</p>
-<p>不过缺点就是资源较少，其他的一些资源要付费。</p>
-<p>主要涵盖语文、数学、英语考研以及四六级</p>
-<img src="https://i.loli.net/2021/01/30/PnA5R2MEv1ZQ6NW.png" alt="image-20210130224026382" style="zoom:67%;" />
-<p>同样类型的网盘还有 <a href="http://kyxz.ys168.com/">http://kyxz.ys168.com/</a></p>
-<h2 id="3-金榜题名"><a class="header-anchor" href="#3-金榜题名"></a>3.金榜题名</h2>
-<p>网站链接 <a href="http://qzbltushu.ys168.com/">http://qzbltushu.ys168.com/</a></p>
-<p>该网站资料全都是免费的，资源也比较全</p>
-<p><img src="https://i.loli.net/2021/07/15/YgjKAUrcV3unozp.png" alt="image-20210715183003469"></p>
-<h2 id="3-考研学子"><a class="header-anchor" href="#3-考研学子"></a>3.考研学子</h2>
-<p>部分收费</p>
-<p><img src="https://i.loli.net/2021/07/15/IW7xiG8CgFn2DMv.png" alt="image-20210715183112266"><img src="C:%5CUsers%5Cweifeng%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210715183129586.png" alt="image-20210715183129586"></p>
-<h2 id="4-其他分享者"><a class="header-anchor" href="#4-其他分享者"></a>4.其他分享者</h2>
-<p>小帅同学http://gmengshuai.ys168.com/</p>
-<p>油麦同学http://cangbaoge.ys168.com/</p>
-<p>陈蛋蛋的宝藏库http://www.chendandan.ys168.com/</p>
-<p>哆啦A梦的神奇口袋http://htwww.baozangku.ys168.com/</p>
-<p>可可西里的杂货铺http://kkxldzhp.ys168.com/</p>
-<h5 id="2014-2020教资笔试、面试网课资料合集-https-shimo-im-docs-VwqgJy8pYtVcvwY6-read"><a class="header-anchor" href="#2014-2020教资笔试、面试网课资料合集-https-shimo-im-docs-VwqgJy8pYtVcvwY6-read"></a>2014-2020教资笔试、面试网课资料合集 <a href="https://shimo.im/docs/VwqgJy8pYtVcvwY6/read">https://shimo.im/docs/VwqgJy8pYtVcvwY6/read</a></h5>
-<h5 id="一建-二建-消防-监管-http-zhulu-ys168-com"><a class="header-anchor" href="#一建-二建-消防-监管-http-zhulu-ys168-com"></a>一建 二建 消防 监管 <a href="http://zhulu.ys168.com/">http://zhulu.ys168.com/</a></h5>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">【注意】：</span><br><span class="line">务必记住网址 http:&#x2F;&#x2F;zhulu.ys168.com&#x2F; </span><br><span class="line">及最上面一项：“单科密码管理区”的密码：pass</span><br><span class="line">通过“单科密码管理区”可查询各单科课程的密码。</span><br></pre></td></tr></table></figure>
-<img src="https://i.loli.net/2021/01/30/NvBqQGrMLkWoYCs.png" alt="image-20210130230519905" style="zoom:67%;" />
-<h2 id="5-各类论坛"><a class="header-anchor" href="#5-各类论坛"></a>5.各类论坛</h2>
-<p><strong>1.52破解</strong><a href="https://www.52pojie.cn/">https://www.52pojie.cn/</a></p>
-<p><strong>2.考研帮</strong><a href="http://www.kaoyan.com/">http://www.kaoyan.com/</a></p>
-<p><strong>3.小木虫论坛</strong> <a href="http://muchong.com/bbs/">http://muchong.com/bbs/</a></p>
-<h5 id="4-乐愚社区-https-bbs-leyuz-net"><a class="header-anchor" href="#4-乐愚社区-https-bbs-leyuz-net"></a>4.乐愚社区 <a href="https://bbs.leyuz.net/">https://bbs.leyuz.net/</a></h5>
-<p>其实微信许多公众号有，不过大多数公众号比较杂，多收费</p>
-<p>大家有什么推荐的考研公众号评论留言一起分享。等待后续更新</p>
-<img src="https://i.loli.net/2021/02/13/BIZ6s7rm9Wuko8P.png" alt="image-20210130232602465" style="zoom:50%;" />
-]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>考研</tag>
-        <tag>四六级</tag>
       </tags>
   </entry>
   <entry>
