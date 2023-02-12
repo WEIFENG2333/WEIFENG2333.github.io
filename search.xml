@@ -149,145 +149,6 @@
       </tags>
   </entry>
   <entry>
-    <title>公众号书籍搜索常见问题</title>
-    <url>/library.html</url>
-    <content><![CDATA[<p><img src="https://article.biliimg.com/bfs/article/d93c1c495d3076b57e37b9abbf9df0af57a654cf.png" alt="image-20230131233151718"></p>
-<p>最近过完年比较有功夫</p>
-<p>对公众号的书籍查找功能进行了优化更新</p>
-<p>本来想自建书籍数据库，使用MySQL数据库</p>
-<p>但考虑到数据量太大，仅读秀的资源去重后就有4120298条</p>
-<p><img src="https://article.biliimg.com/bfs/article/23b78291ce310d3b3852ee03754c33b7768e3e60.png" alt="image-20230131234517631"></p>
-<p>而新加的Zlibrary库更是将近10000,000条，二者共计1500W左右数据</p>
-<p>在磕磕碰碰遇到不少困难终于把书籍导入到数据库以后</p>
-<p>我发现数据库在建立索引后，查询仍询比较慢（特别是全文查询）</p>
-<p>最终我还是选择了接入别人的接口，这样可以实现相同的效果</p>
-<p>毕竟别人做的搜索接口性能速度等方面应该比我的好不少（绝不是偷懒）</p>
-<p>如果他的接口失效了，再使用自己的书籍数据库吧~</p>
-<p>以下是公众号搜索的一些问题：</p>
-<ol>
-<li>
-<p><strong>为什么我不去百度上的一些书站获取书籍而去公众号搜索呢？</strong></p>
-<p>公众号的书籍内容包括超星（读秀）和zlibrary的资源，二者涵盖市面上绝大部分书籍。你在公众号搜索不了那去百度上一些散乱的书站以及tb买书商家也比较难找了。</p>
-</li>
-<li>
-<p><strong>为什么下载的书籍压缩包要密码？</strong></p>
-<p>教程内提供了软件。使用软件压缩，会使用软件内置密码库进行一一尝试从而进行压缩操作。目前从网络中搜集来的资源密码有 300+个，解压软件后台在处理任务时会尝试这些密码，后续还会持续更新密码表，提升成功率。</p>
-</li>
-<li>
-<p><strong>发送ss号以后公众号说没有这本书，怎么办？</strong></p>
-<p>这么说的话你的书可能是20年以后出版的，对于20年以后的书，在超星库中并没有。</p>
-</li>
-<li>
-<p><strong>超星库与zlibrary有什么区别？</strong></p>
-<p>超星就是负责扫描国内的书籍的，获取到的大部分为扫描版，且需要转换；</p>
-<p>而zlibrary是国际上知名的书籍获取网站，外文书比较多，也有一小部分较新书，获取到的书籍为pdf、mobi、epub等的文件。</p>
-</li>
-<li>
-<p><strong>怎么获取ss号？</strong></p>
-<p>ss即super star，是超星搞出来的一种针对每一本扫描书籍的号码</p>
-<p>通过公众号搜索指令<code>cx你需要搜索的书名</code>查询，不以“00”开头的数字为ss号</p>
-<p>另外，通过网站也可以获取ss号 <a href="https://www.xueshu86.com/">https://www.xueshu86.com/</a></p>
-</li>
-<li>
-<p><strong>怎么获取zlibrary号？</strong></p>
-<p>通过公众号搜索指令<code>cx你需要搜索的书名</code>查询，以“00”开头的数字为zlibrary号。</p>
-</li>
-<li>
-<p><strong>我用的是手机或者Mac电脑，怎么使用解压转换工具呢？</strong></p>
-<p>解压转换工具暂时只自测支持Window系统</p>
-<p>如果你用的是手机或者Mac，可以使用这个网站来在线解压转换。</p>
-<p>在公众号获取百度云链接后，使用该链接直接转换：<a href="https://pdg2pdf.online/convert">https://pdg2pdf.online/convert</a></p>
-</li>
-<li>
-<p><strong>百度网盘链接失效了怎么办？</strong></p>
-<p>目前百度网盘分享后只保留1天，请尽快保存，并在下载后24小时内删除！</p>
-</li>
-<li>
-<p><strong>可以批量获取书籍吗？</strong></p>
-<p>可以批量转换吗？很抱歉，暂时不支持批量转换。考虑到目前服务器资源有限，批量获取资源将会导致滥用，因此暂时不会支持批量获取书籍。</p>
-</li>
-<li>
-<p><strong>解压软件报毒怎么办？</strong></p>
-<p>安全软件误报，吧安全软件关闭就行了。软件是无毒的可以放心使用。</p>
-</li>
-<li>
-<p><strong>提示公众号出现故障怎么办？</strong></p>
-<p>请联系管理员微信 <code>bkfeng46</code>，获知后会第一时间修复。</p>
-</li>
-<li>
-<p><strong>还有什么获取书籍的方法吗？</strong></p>
-<p>如果你理解能力电脑能力比较强，可以参考我们群内管理员<code>Eureka!</code>写的这个教程 <a href="https://eureka.mba/posts/81cc5063.html">电子书文献论文搜索下载</a> 依照这个教程公众号内可以获取的书籍这个方法也可以获取到</p>
-</li>
-<li>
-<p><strong>为什么文件没有书签呢？</strong><br>
-每本书的书签都不同，需要和页码匹配进行编辑修改，所以我们大部分只提供简单的页码书签，部分文件无书签。</p>
-<p>想要获得完整书签教程内的下载工具软件，解压后软件包内有详细的书签编辑说明和书签编辑工具。</p>
-</li>
-<li>
-<p><strong>百度云下载速度慢？</strong></p>
-<p>如果你使用电脑浏览器，我推荐你用 软件小妹 的一个油猴脚本，基本可以满速下载。<a href="https://greasyfork.org/zh-CN/scripts/41818">百度网盘简易下载助手</a></p>
-</li>
-<li></li>
-</ol>
-<p><a href="https://i0.hdslb.com/bfs/album/2e50e073ea383f7a20c20b59819b7cf8e3195301.png"><img src="https://i0.hdslb.com/bfs/album/2e50e073ea383f7a20c20b59819b7cf8e3195301.png" alt="image-20221127221604449"></a></p>
-<p>公众号书籍搜索指令如下</p>
-<p><img src="https://article.biliimg.com/bfs/article/db1f1c43bb2dcf9d967bce7be54e4f612d1aa27f.png" alt="公众号搜索指令一图流"></p>
-<ol>
-<li>
-<p>通过书籍id获取包含书籍的信息和下载链接</p>
-<ul>
-<li>
-<p>ssid为8为数字，可以获取读秀的资源（书籍下载后还需要进行解压和转换等一系列操作）</p>
-</li>
-<li>
-<p>zlibid以00开头，可以获取zlibrary的资源（书籍下载后直接可以打开，无需转换）</p>
-</li>
-</ul>
-<p>书籍的ssid通过网站搜索、公众号搜索获取<br>
-书籍的zlibid暂时只能通过公众号搜索获取</p>
-</li>
-</ol>
-<p><img src="https://article.biliimg.com/bfs/article/0ce48be70ee4047d2e917b757e67eea71e5cc5c3.png" alt="image-20230131232658813"></p>
-<ol start="2">
-<li>
-<p>通过<code>cx你需要搜索的书名</code>来搜索书籍</p>
-<p>如想要查询“三体”，就发送“cx三体&quot;</p>
-<p>此种方式的好处可以查询包括zlibrary和读秀的书籍</p>
-<p>建议优先使用zlibrary的资源里的书籍（即书籍id为00开头）</p>
-<p>因为该库的书籍文件为pdf、mobi、epub等无需解压的文件</p>
-<p>读秀库的文件需要解压以及文件为扫描版，且文字不可复制和没有书签</p>
-<p>再次回复书籍的id可以获得书籍的百度云链接</p>
-<p><img src="https://article.biliimg.com/bfs/article/74ea0270156f0aba2e3ff04cbec7dfeb578bc716.png" alt="image-20230203171513135"></p>
-<p>下载后即可获取一份带有书签的文字可复制的文件</p>
-<p><img src="https://article.biliimg.com/bfs/article/f00a6bde627861c486482f2362eeedfbc761b9f9.png" alt="image-20230131234030943"></p>
-</li>
-<li>
-<p>通过<code>next</code>进行查询结果的翻页操作</p>
-<p><img src="https://article.biliimg.com/bfs/article/f04046fb4e58a9651f79007ec482366040267060.png" alt="image-20230203172046900"></p>
-</li>
-<li>
-<p>通过<code>user</code>获取用户信息</p>
-</li>
-</ol>
-<p><img src="https://article.biliimg.com/bfs/article/0fda1ea6a5b5421aa3877d8fb24436846e69d297.png" alt="image-20230203171846940"></p>
-<p>以上就是目前为止公众号的所有指令，</p>
-<p>目前公众号为节约资源，限制了每日获取次数。不过一般正常使用的话不会超过这个限制的。</p>
-<p>因为以前老有一些人一天就发个几百本的书籍过来</p>
-<div class="hide-toggle" style="border: 1px solid bg"><div class="hide-button toggle-title" style="background-color: bg;color: color"><i class="fas fa-caret-right fa-fw"></i><span>如果你想捐助就点开我(っ•̀ω•́)っ</span></div>
-    <div class="hide-content"><h1><strong>关于捐助：</strong></h1>
-<p>谢谢你愿意点开(✪ω✪)</p>
-<p>如果该资料对你有帮助，并且愿意支持我，不妨支持一下 ！！</p>
-<p><img src="https://s2.loli.net/2023/02/11/4UD2nJG3BSpfrok.png" alt="image-20230211152020252"></p>
-</div></div>
-]]></content>
-      <categories>
-        <category>电子书</category>
-      </categories>
-      <tags>
-        <tag>书籍</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>butterfly配置</title>
     <url>/15367.html</url>
     <content><![CDATA[<h3 id="社交图标"><a class="header-anchor" href="#社交图标"></a>社交图标</h3>
@@ -367,36 +228,6 @@ This is my website, click the button <a class="btn-beautify button--animated lar
         <tag>经济类</tag>
         <tag>护理</tag>
         <tag>药学</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>全部课程资料，网盘群开放！！</title>
-    <url>/cloudgroup.html</url>
-    <content><![CDATA[<p><img src="https://i0.hdslb.com/bfs/album/34534183f438a9bd5ba03d8f2fcf7d71c2006884.png" alt="image-20220719220404086"></p>
-<h3 id="资料合集"><a class="header-anchor" href="#资料合集"></a>资料合集</h3>
-<p>四六级，考研，各种专业课教师，公务员等等</p>
-<p>请自行加人百度群所有群资料一样，加入一个即可</p>
-<p>本人仅为收集整理，资料可能存在广告，<strong>请不要付费</strong>，自行判断即可。</p>
-<p>内容如下：</p>
-<div class="justified-gallery"><p><img src="https://s2.loli.net/2022/07/19/y4oqnEi9FQJUXwW.png" alt="资源主页面"><br><img src="https://s2.loli.net/2022/07/19/BFUMeGLartnzxSh.png" alt="四六级课程"><br><img src="https://s2.loli.net/2022/07/19/fUWPHYn8Bdjuq3D.png" alt="考研专业课"><br><img src="https://s2.loli.net/2022/07/19/CgM14w8icIskuHS.png" alt="公务员，教师，事业单位"><br><img src="https://i0.hdslb.com/bfs/album/397042d6cbc261de6e40d6f1868434f5c2725c39.png" alt="i教师资格证"></p>
-          </div>
-<p>百度群如下，计入一个就好</p>
-<div class="btns 样式参数">
-            <a class="button" href='https://i0.hdslb.com/bfs/album/9813f6dd5bbc86bee904abd736e3b9320a6d939d.jpg' title='标题'><img src='https://i0.hdslb.com/bfs/album/9813f6dd5bbc86bee904abd736e3b9320a6d939d.jpg'>标题</a>
-          </div>
-<div class="justified-gallery"><p><img src="https://i0.hdslb.com/bfs/album/9813f6dd5bbc86bee904abd736e3b9320a6d939d.jpg" alt=""><br><img src="https://i0.hdslb.com/bfs/album/0cb1014c583f74f50295b426565cfdd8399d55d4.jpg" alt=""><br><img src="https://i0.hdslb.com/bfs/album/c440222eee118ba28df9daee6dc7c4179f0371f9.jpg" alt=""><br><img src="https://i0.hdslb.com/bfs/album/7434137b53866d128aa3b74ef173b708c472c310.jpg" alt=""><br><img src="https://i0.hdslb.com/bfs/album/a59761542a24c47d782a29e356a0a663a06a07f5.jpg" alt=""></p>
-          </div>
-<div class="hide-toggle" style="border: 1px solid bg"><div class="hide-button toggle-title" style="background-color: bg;color: color"><i class="fas fa-caret-right fa-fw"></i><span>如果你想捐助就点开我(っ•̀ω•́)っ</span></div>
-    <div class="hide-content"><h1><strong>关于捐助：</strong></h1>
-<p>谢谢你愿意点开(✪ω✪)</p>
-<p>如果该资料对你有帮助，并且愿意支持我，不妨支持一下 ！！</p>
-<img src="https://i0.hdslb.com/bfs/album/1745a0e1d6f0b406ec65d94ba174d29bca79031e.png" alt="image-20210621202540579" style="zoom: 25%;" />
-</div></div>]]></content>
-      <categories>
-        <category>考研</category>
-      </categories>
-      <tags>
-        <tag>考研</tag>
       </tags>
   </entry>
   <entry>
@@ -598,108 +429,172 @@ document.write("<h2 title='具体时间以教育局公布为准'><font color=#34
       </tags>
   </entry>
   <entry>
-    <title>百度网盘扩容指南——资源分享者的必备素养</title>
-    <url>/kuorong.html</url>
-    <content><![CDATA[<h2 id="百度网盘扩容自动化"><a class="header-anchor" href="#百度网盘扩容自动化"></a>百度网盘扩容自动化</h2>
-<p>很久前，就知道百度网盘扩容这么一回事，就是给你的百度网盘存入超过空间的文件</p>
-<img src="https://i0.hdslb.com/bfs/album/03fcfb1a6881a6c3a399b442362c90167dc24635.png" alt="image-20220824003807689" style="zoom:50%;" />
-<p>目前我分享的课程也是通过这种方式来存的（要不然你以为我这么这么多空间）</p>
-<img src="https://i0.hdslb.com/bfs/album/3a024a270b29009601e1f864ff8a492ca6dbf5ee.png" alt="image-20220824004026915" style="zoom:33%;" />
-<p>一些商家也付费提供着需要授权码的软件，但白嫖才是正道。</p>
-<p>但是现有手工操作过于麻烦，了解到相关知识后，我得知了百度网盘扩容原理，因此我<strong>抓包</strong>百度网盘相关接口自己写了一个自动化的扩容程序，</p>
-<p>包含扩容和修复两部分。</p>
-<p>需要的工具：占位文件，百度网盘客户端，浏览器，一个会员百度网盘账号（会员才有垃圾清理功能）</p>
-<p>注意事项：请使用一个小号，据说扩容可能会封号（网上流传超过80t概率封号，我没封过不知道是不是真的）</p>
-<img src="https://i0.hdslb.com/bfs/album/cb9cefba69fb3c8b6a6fee600391bc215cd5a189.png" alt="Python代码" style="zoom: 33%;" />
-<p>本篇文章暂时先简略写着记录一下，后续优化后有详细过程。</p>
-<h3 id="扩容"><a class="header-anchor" href="#扩容"></a>扩容</h3>
-<p>目前网上扩容的原理无非就是利用百度网盘的垃圾文件清理功能，</p>
-<p>通过特定操作来删除垃圾文件</p>
-<p>从而来实现网盘的容量减少，存入的文件容量增加</p>
-<p>手工操作过程如下（这里不细讲，也不放图了，提供大致流程）</p>
-<ol>
-<li>保存10个文件到文件夹【working】</li>
-<li>清理文件夹【working】，并获取垃圾文件列表</li>
-<li>删除【working】文件夹内所有文件</li>
-<li>删除垃圾文件（此时空间容量会减少）</li>
-</ol>
-<p>但是手工的方式过于繁琐，使用Python可极大程度方便使用</p>
-<p>扩容代码大致如下</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">kuorong</span>():</span></span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    1.保存10个文件到文件夹【working】</span></span><br><span class="line"><span class="string">    2.清理文件夹【working】，并获取垃圾文件列表</span></span><br><span class="line"><span class="string">    3.删除文件夹内所有文件</span></span><br><span class="line"><span class="string">    4.删除垃圾文件</span></span><br><span class="line"><span class="string">    5.保存一个5T的文件夹</span></span><br><span class="line"><span class="string">    :return: None</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    </span><br><span class="line">    <span class="comment"># 1.保存10个文件到文件夹【working】</span></span><br><span class="line">    save(<span class="string">&quot;[690435813055101,26598162122456,1020496199701393,644765167361037,261696681183572,132504979092525,169677771677732,829587079548271,260890747525505,111657973573120]&quot;</span>, <span class="string">&#x27;/占位/working&#x27;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 2.清理文件夹【working】，并获取垃圾文件列表</span></span><br><span class="line">    taskid = clear(<span class="string">&#x27;/占位/working&#x27;</span>)[<span class="string">&quot;taskid&quot;</span>]</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;正在清理重复文件，taskid：%s&quot;</span> % taskid)</span><br><span class="line">    query = garbagetaskquery(taskid)</span><br><span class="line">    <span class="keyword">while</span> query[<span class="string">&quot;status&quot;</span>] == <span class="string">&quot;running&quot;</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;**当前进度:%s&quot;</span> % query[<span class="string">&quot;progress&quot;</span>], end=<span class="string">&quot;**&quot;</span>)</span><br><span class="line">        time.sleep(<span class="number">3</span>)</span><br><span class="line">        query = garbagetaskquery(taskid)</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;整理文件完成&quot;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 3.删除文件夹内所有文件</span></span><br><span class="line">    delete(<span class="string">&#x27;[&quot;/占位/working/xwangpan10&quot;,&quot;/占位/working/xwangpan06&quot;,&quot;/占位/working/xwangpan09&quot;,&quot;/占位/working/xwangpan08&quot;,&quot;/占位/working/xwangpan05&quot;,&quot;/占位/working/xwangpan03&quot;,&quot;/占位/working/xwangpan04&quot;,&quot;/占位/working/xwangpan01&quot;,&quot;/占位/working/xwangpan07&quot;,&quot;/占位/working/xwangpan02&quot;,&quot;/占位/working/xwangpan02(1)&quot;,&quot;/占位/working/xwangpan07(1)&quot;,&quot;/占位/working/xwangpan05(1)&quot;,&quot;/占位/working/xwangpan04(1)&quot;,&quot;/占位/working/xwangpan09(1)&quot;,&quot;/占位/working/xwangpan01(1)&quot;,&quot;/占位/working/xwangpan06(1)&quot;,&quot;/占位/working/xwangpan10(1)&quot;,&quot;/占位/working/xwangpan08(1)&quot;,&quot;/占位/working/xwangpan03(1)&quot;]&#x27;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 4.保存五个文件</span></span><br><span class="line">    save(<span class="string">&quot;[690435813055101,26598162122456,1020496199701393,644765167361037,261696681183572,132504979092525,169677771677732,829587079548271,260890747525505,111657973573120]&quot;</span>, <span class="string">&#x27;/占位/working&#x27;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 4.删除垃圾文件</span></span><br><span class="line">    json = get_garbagelist(taskid)</span><br><span class="line">    garbage_list = []</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> json[<span class="string">&quot;list&quot;</span>][<span class="number">0</span>][<span class="string">&quot;data&quot;</span>]:</span><br><span class="line">        file = <span class="string">&#x27;&#123;&quot;fs_id&quot;: &quot;%s&quot;, &quot;index&quot;: %s&#125;&#x27;</span> % (i[<span class="string">&#x27;fs_id&#x27;</span>], <span class="built_in">str</span>(i[<span class="string">&#x27;index&#x27;</span>]))</span><br><span class="line">        garbage_list.append(file)</span><br><span class="line">    <span class="comment"># print(garbage_list)</span></span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;获取删除列表成功&quot;</span>, <span class="built_in">str</span>(garbage_list).replace(<span class="string">&quot;&#x27;&quot;</span>, <span class="string">&quot;&quot;</span>))</span><br><span class="line">    garbage_delete(taskid, <span class="built_in">str</span>(garbage_list).replace(<span class="string">&quot;&#x27;&quot;</span>, <span class="string">&quot;&quot;</span>))</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 5.保存一个5T的文件夹</span></span><br><span class="line">    save(<span class="string">&#x27;[1054623448621227]&#x27;</span>, <span class="string">&quot;/占位&quot;</span>)</span><br></pre></td></tr></table></figure>
-<h3 id="修复"><a class="header-anchor" href="#修复"></a>修复</h3>
-<p>扩容之后第二天基本都会爆盘，就是你的空间已经超出最大容量了，无法存入资料了，</p>
-<p>加入你存进网盘的资料不需要更新，那么你就不需要修复了，可以正常使用文件分享功能，</p>
-<p>如果你需要继续存文件，就要使用修复了。</p>
-<p>修复的原理则是利用百度网盘客户端的移入隐私空间，然后清理垃圾文件来实现修复。</p>
-<p>手工操作大致流程如下（这里不细讲，也不放图了，提供大致流程）：</p>
-<ol>
-<li>清理文件夹【修复】，并获取垃圾文件列表</li>
-<li>把文件夹【修复】移入隐藏空间</li>
-<li>删除垃圾文件</li>
-<li>移出隐藏空间</li>
-</ol>
-<p>代码如下</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">fix</span>():</span></span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    1.清理垃圾，获取taskid</span></span><br><span class="line"><span class="string">    2.查询进度</span></span><br><span class="line"><span class="string">    3.获取删除列表</span></span><br><span class="line"><span class="string">    4.进行删除操作</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="comment"># 1.清理垃圾，获取taskid</span></span><br><span class="line">    taskid = clear(<span class="string">&#x27;/修复&#x27;</span>)[<span class="string">&quot;taskid&quot;</span>]</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;正在清理重复文件，taskid：%s&quot;</span> % taskid)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 2.查询进度</span></span><br><span class="line">    query = garbagetaskquery(taskid)</span><br><span class="line">    <span class="keyword">while</span> query[<span class="string">&quot;status&quot;</span>] == <span class="string">&quot;running&quot;</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;**当前进度:%s&quot;</span> % query[<span class="string">&quot;progress&quot;</span>], end=<span class="string">&quot;**&quot;</span>)</span><br><span class="line">        time.sleep(<span class="number">3</span>)</span><br><span class="line">        query = garbagetaskquery(taskid)</span><br><span class="line">    </span><br><span class="line">    <span class="comment"># 3.获取删除列表</span></span><br><span class="line">    json = get_garbagelist(taskid)</span><br><span class="line">    garbage_list = []</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> json[<span class="string">&quot;list&quot;</span>][<span class="number">0</span>][<span class="string">&quot;data&quot;</span>]:</span><br><span class="line">        file = <span class="string">&#x27;&#123;&quot;fs_id&quot;: &quot;%s&quot;, &quot;index&quot;: %s&#125;&#x27;</span> % (i[<span class="string">&#x27;fs_id&#x27;</span>], <span class="built_in">str</span>(i[<span class="string">&#x27;index&#x27;</span>]))</span><br><span class="line">        garbage_list.append(file)</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;获取删除列表成功&quot;</span>, <span class="built_in">str</span>(garbage_list).replace(<span class="string">&quot;&#x27;&quot;</span>, <span class="string">&quot;&quot;</span>))</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 4.进行删除操作</span></span><br><span class="line">    move_info = move(<span class="string">&quot;/修复&quot;</span>, <span class="string">&quot;/_pcs_.safebox&quot;</span>, <span class="string">&quot;修复&quot;</span>)</span><br><span class="line">    <span class="keyword">if</span> move_info[<span class="string">&quot;errno&quot;</span>] == <span class="number">0</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;移入隐藏空间成功&quot;</span>, move_info)</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;移入隐藏空间失败&quot;</span>, move_info)</span><br><span class="line">    garbage_delete(taskid, <span class="built_in">str</span>(garbage_list).replace(<span class="string">&quot;&#x27;&quot;</span>, <span class="string">&quot;&quot;</span>))</span><br></pre></td></tr></table></figure>
-<p>但是代码写的时候遇到了问题，就是移出隐藏空间的包抓取不了，应该是百度网盘进行相关加密了</p>
-<p>也就是说修复完需要手动把文件移出隐藏空间（算个小瑕疵了）</p>
-<p>不过最近我了解到一种不需要隐藏空间移动的方法，待我有空验证可行性在吧这种方法写成Python，完美实现自动化操作</p>
-<p>目前代码虽然已经完成，但是未考虑到分享给广大用户（因为代码如果你们使用会有太多限制，代码很多操作都是根据我自己网盘实际情况来写的），后续（我很懒）优化代码后可能会考虑写个Gui图形界面，分享给你们使用。</p>
-<h3 id="附各函数功能说明"><a class="header-anchor" href="#附各函数功能说明"></a>附各函数功能说明</h3>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 以下代码仅显示函数名</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 得到百度网盘bdstoken</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">get_bdstoken</span>():</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 保存文件</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">save</span>(<span class="params">fs_ids, file_dir</span>):</span>.</span><br><span class="line"></span><br><span class="line"><span class="comment"># 删除文件</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">delete</span>(<span class="params">file_dir</span>):</span></span><br><span class="line">    </span><br><span class="line"><span class="comment"># 移动文件到隐藏空间</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">move</span>(<span class="params">form_file, to_file, newname</span>):</span></span><br><span class="line">    </span><br><span class="line"><span class="comment"># 文件的任务查询</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">taskquery</span>(<span class="params">taskid</span>):</span>…</span><br><span class="line"></span><br><span class="line"><span class="comment"># 清理垃圾任务查询垃圾</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">garbagetaskquery</span>(<span class="params">taskid</span>):</span></span><br><span class="line">    </span><br><span class="line"><span class="comment"># 执行清理垃圾</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">clear</span>(<span class="params">filedir</span>):</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 得到待清理垃圾的列表</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">get_garbagelist</span>(<span class="params">taskid</span>):</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 删除垃圾列表</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">garbage_delete</span>(<span class="params">taskid, garbagelist</span>):</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 修复</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">fix</span>():</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 扩容</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">kuorong</span>()</span></span><br><span class="line"><span class="function"></span></span><br><span class="line">if __name__ == &#x27;__main__&#x27;:</span><br><span class="line">    pc_cookie = <span class="string">&#x27;填写你的pc_cookie&#x27;</span></span><br><span class="line">    cookie = <span class="string">&#x27;填写你的cookie’</span></span><br><span class="line"><span class="string">    bdstoken = get_bdstoken()</span></span><br><span class="line"><span class="string">    </span></span><br><span class="line"><span class="string">    # fix()</span></span><br><span class="line"><span class="string">    # kuorong()</span></span><br></pre></td></tr></table></figure>
-]]></content>
+    <title>全部课程资料，网盘群开放！！</title>
+    <url>/cloudgroup.html</url>
+    <content><![CDATA[<p><img src="https://i0.hdslb.com/bfs/album/34534183f438a9bd5ba03d8f2fcf7d71c2006884.png" alt="image-20220719220404086"></p>
+<h3 id="资料合集"><a class="header-anchor" href="#资料合集"></a>资料合集</h3>
+<p>四六级，考研，各种专业课教师，公务员等等</p>
+<p>请自行加人百度群所有群资料一样，加入一个即可</p>
+<p>本人仅为收集整理，资料可能存在广告，<strong>请不要付费</strong>，自行判断即可。</p>
+<p>内容如下：</p>
+<div class="justified-gallery"><p><img src="https://s2.loli.net/2022/07/19/y4oqnEi9FQJUXwW.png" alt="资源主页面"><br><img src="https://s2.loli.net/2022/07/19/BFUMeGLartnzxSh.png" alt="四六级课程"><br><img src="https://s2.loli.net/2022/07/19/fUWPHYn8Bdjuq3D.png" alt="考研专业课"><br><img src="https://s2.loli.net/2022/07/19/CgM14w8icIskuHS.png" alt="公务员，教师，事业单位"><br><img src="https://i0.hdslb.com/bfs/album/397042d6cbc261de6e40d6f1868434f5c2725c39.png" alt="i教师资格证"></p>
+          </div>
+<p>百度群如下，计入一个就好</p>
+<div class="btns 样式参数">
+            <a class="button" href='https://i0.hdslb.com/bfs/album/9813f6dd5bbc86bee904abd736e3b9320a6d939d.jpg' title='标题'><img src='https://i0.hdslb.com/bfs/album/9813f6dd5bbc86bee904abd736e3b9320a6d939d.jpg'>标题</a>
+          </div>
+<div class="justified-gallery"><p><img src="https://i0.hdslb.com/bfs/album/9813f6dd5bbc86bee904abd736e3b9320a6d939d.jpg" alt=""><br><img src="https://i0.hdslb.com/bfs/album/0cb1014c583f74f50295b426565cfdd8399d55d4.jpg" alt=""><br><img src="https://i0.hdslb.com/bfs/album/c440222eee118ba28df9daee6dc7c4179f0371f9.jpg" alt=""><br><img src="https://i0.hdslb.com/bfs/album/7434137b53866d128aa3b74ef173b708c472c310.jpg" alt=""><br><img src="https://i0.hdslb.com/bfs/album/a59761542a24c47d782a29e356a0a663a06a07f5.jpg" alt=""></p>
+          </div>
+<div class="hide-toggle" style="border: 1px solid bg"><div class="hide-button toggle-title" style="background-color: bg;color: color"><i class="fas fa-caret-right fa-fw"></i><span>如果你想捐助就点开我(っ•̀ω•́)っ</span></div>
+    <div class="hide-content"><h1><strong>关于捐助：</strong></h1>
+<p>谢谢你愿意点开(✪ω✪)</p>
+<p>如果该资料对你有帮助，并且愿意支持我，不妨支持一下 ！！</p>
+<img src="https://i0.hdslb.com/bfs/album/1745a0e1d6f0b406ec65d94ba174d29bca79031e.png" alt="image-20210621202540579" style="zoom: 25%;" />
+</div></div>]]></content>
+      <categories>
+        <category>考研</category>
+      </categories>
       <tags>
-        <tag>python</tag>
+        <tag>考研</tag>
       </tags>
   </entry>
   <entry>
-    <title>电子书查找方法大合集，90%可行</title>
-    <url>/ebook.html</url>
-    <content><![CDATA[<h2 id="0-本卡风公众号"><a class="header-anchor" href="#0-本卡风公众号"></a>0.本卡风公众号</h2>
-<p>回复书籍ss号即可获取书籍</p>
-<h2 id="1-各类网站，动手能力签的自己找一下"><a class="header-anchor" href="#1-各类网站，动手能力签的自己找一下"></a>1.各类网站，动手能力签的自己找一下</h2>
-<p><a href="https://eureka.mba/posts/81cc5063.html">https://eureka.mba/posts/81cc5063.html</a></p>
-<h2 id="2-可加群，群内管理员会无偿帮你下载"><a class="header-anchor" href="#2-可加群，群内管理员会无偿帮你下载"></a>2.可加群，群内管理员会无偿帮你下载</h2>
-<p>那里加群？</p>
-<p>这里 <a href="https://bkfeng.top/1">https://bkfeng.top/1</a></p>
-<h2 id="3-全国图书馆参考联盟"><a class="header-anchor" href="#3-全国图书馆参考联盟"></a>3.全国图书馆参考联盟</h2>
-<p>图书来源几乎都是全国图书馆参考联盟、读秀</p>
-<p>全国图书参考联盟（荐）：<a href="http://www.ucdrs.superlib.net">http://www.ucdrs.superlib.net</a></p>
-<p>龙岩网络图书馆（荐）：<a href="http://www.ly.superlib.net">http://www.ly.superlib.net</a></p>
-<p>读秀网址：<a href="http://www.duxiu.com">http://www.duxiu.com</a></p>
-<h3 id="1-1-图书互助"><a class="header-anchor" href="#1-1-图书互助"></a>1.1 图书互助</h3>
-<p>这是一款方便购买全国图书参考联盟／龙岩／读秀上电子书的油猴脚本</p>
-<p><img src="https://i0.hdslb.com/bfs/article/cd374de5266ffc8af5689ae34b6e30ca658d5fa7.png@942w_144h_progressive.webp" alt="image-20210528203355730"><br>
-脚本：<a href="https://greasyfork.org/zh-CN/scripts/420751">https://greasyfork.org/zh-CN/scripts/420751</a></p>
-<p>使用</p>
-<p>1、浏览器猴脚本，不会这么安装的自行百度</p>
-<p>2、以全国图书参考联盟为例，打开全国图书参考联盟进行搜索，就可以看到网页上比安装脚本之前多了一个「图书互助」按钮</p>
-<p><img src="https://i0.hdslb.com/bfs/article/4c3798823502d87df8efe70ed63fdbd5478678f3.png@942w_432h_progressive.webp" alt="image-20210528210913742"></p>
-<p>点击「图书互助」按钮，如若找到资源，则可「发起互助」</p>
-<p>这里填入自己的邮箱，点击「立即下单」</p>
-<p>PS：图书馆的扫描格式是 PDG，转成 PDF 需要一定的时间，请查看教程。</p>
-<h3 id="1-2-图书搜索联盟"><a class="header-anchor" href="#1-2-图书搜索联盟"></a>1.2 图书搜索联盟</h3>
-<p>这也是一款方便购买全国图书参考联盟／龙岩／读秀上电子书的油猴脚本</p>
-<p>脚本：<a href="https://greasyfork.org/zh-CN/scripts/423011">https://greasyfork.org/zh-CN/scripts/423011</a></p>
-<p>使用方法类似上面</p>
-<p>对于不想安装脚本的，直接进入互助联盟官网查询即可</p>
-<p>官网：<a href="https://www.readersteam.com">https://www.readersteam.com</a></p>
-<h2 id="3-吾爱破解代下"><a class="header-anchor" href="#3-吾爱破解代下"></a>3.吾爱破解代下</h2>
-<p>吾爱破解真的是国内为数不多的良心论坛，虽然最近又加大了管理力度，但是完全不影响咱们找资源</p>
-<p>可以说你在各个软件网站看到的绿色版、破解版的软件（甚至福利资源类）绝大部分都来自这里</p>
-<p>论坛一般每年在特定节日免费开放注册（据说今年暑假会开放）具体注册时间大家可以关注官网论坛的公告或者关注公众号</p>
-<p>官网：<a href="https://www.52pojie.cn">https://www.52pojie.cn</a></p>
-<p>回归正题，我们可以去悬赏区发布悬赏（找到资源者一般都会很快回复你的）</p>
-<h2 id="4-某宝代找PDF"><a class="header-anchor" href="#4-某宝代找PDF"></a>4.某宝代找PDF</h2>
-<p>我们只要给他们一个ISBN或者书名作者，几分钟就能得到所需电子书，</p>
-<img src="https://i0.hdslb.com/bfs/article/7c02f645c9ad588b4e6dbddb07d6915e209de746.png@942w_1322h_progressive.webp" alt="Screenshot_2021_0523_143312-iPad Air 2 (1)" style="zoom:25%;" />
+    <title>公众号书籍搜索常见问题</title>
+    <url>/library.html</url>
+    <content><![CDATA[<p><img src="https://article.biliimg.com/bfs/article/d93c1c495d3076b57e37b9abbf9df0af57a654cf.png" alt="image-20230131233151718"></p>
+<p>最近过完年比较有功夫</p>
+<p>对公众号的书籍查找功能进行了优化更新</p>
+<p>本来想自建书籍数据库，使用MySQL数据库</p>
+<p>但考虑到数据量太大，仅读秀的资源去重后就有4120298条</p>
+<p><img src="https://article.biliimg.com/bfs/article/23b78291ce310d3b3852ee03754c33b7768e3e60.png" alt="image-20230131234517631"></p>
+<p>而新加的Zlibrary库更是将近10000,000条，二者共计1500W左右数据</p>
+<p>在磕磕碰碰遇到不少困难终于把书籍导入到数据库以后</p>
+<p>我发现数据库在建立索引后，查询仍询比较慢（特别是全文查询）</p>
+<p>最终我还是选择了接入别人的接口，这样可以实现相同的效果</p>
+<p>毕竟别人做的搜索接口性能速度等方面应该比我的好不少（绝不是偷懒）</p>
+<p>如果他的接口失效了，再使用自己的书籍数据库吧~</p>
+<p>以下是公众号搜索的一些问题：</p>
+<ol>
+<li>
+<p><strong>为什么我不去百度上的一些书站获取书籍而去公众号搜索呢？</strong></p>
+<p>公众号的书籍内容包括超星（读秀）和zlibrary的资源，二者涵盖市面上绝大部分书籍。你在公众号搜索不了那去百度上一些散乱的书站以及tb买书商家也比较难找了。</p>
+</li>
+<li>
+<p><strong>为什么下载的书籍压缩包要密码？</strong></p>
+<p>教程内提供了软件。使用软件压缩，会使用软件内置密码库进行一一尝试从而进行压缩操作。目前从网络中搜集来的资源密码有 300+个，解压软件后台在处理任务时会尝试这些密码，后续还会持续更新密码表，提升成功率。</p>
+</li>
+<li>
+<p><strong>发送ss号以后公众号说没有这本书，怎么办？</strong></p>
+<p>这么说的话你的书可能是20年以后出版的，对于20年以后的书，在超星库中并没有。</p>
+</li>
+<li>
+<p><strong>超星库与zlibrary有什么区别？</strong></p>
+<p>超星就是负责扫描国内的书籍的，获取到的大部分为扫描版，且需要转换；</p>
+<p>而zlibrary是国际上知名的书籍获取网站，外文书比较多，也有一小部分较新书，获取到的书籍为pdf、mobi、epub等的文件。</p>
+</li>
+<li>
+<p><strong>怎么获取ss号？</strong></p>
+<p>ss即super star，是超星搞出来的一种针对每一本扫描书籍的号码</p>
+<p>通过公众号搜索指令<code>cx你需要搜索的书名</code>查询，不以“00”开头的数字为ss号</p>
+<p>另外，通过网站也可以获取ss号 <a href="https://www.xueshu86.com/">https://www.xueshu86.com/</a></p>
+</li>
+<li>
+<p><strong>怎么获取zlibrary号？</strong></p>
+<p>通过公众号搜索指令<code>cx你需要搜索的书名</code>查询，以“00”开头的数字为zlibrary号。</p>
+</li>
+<li>
+<p><strong>我用的是手机或者Mac电脑，怎么使用解压转换工具呢？</strong></p>
+<p>解压转换工具暂时只自测支持Window系统</p>
+<p>如果你用的是手机或者Mac，可以使用这个网站来在线解压转换。</p>
+<p>在公众号获取百度云链接后，使用该链接直接转换：<a href="https://pdg2pdf.online/convert">https://pdg2pdf.online/convert</a></p>
+</li>
+<li>
+<p><strong>百度网盘链接失效了怎么办？</strong></p>
+<p>目前百度网盘分享后只保留1天，请尽快保存，并在下载后24小时内删除！</p>
+</li>
+<li>
+<p><strong>可以批量获取书籍吗？</strong></p>
+<p>可以批量转换吗？很抱歉，暂时不支持批量转换。考虑到目前服务器资源有限，批量获取资源将会导致滥用，因此暂时不会支持批量获取书籍。</p>
+</li>
+<li>
+<p><strong>解压软件报毒怎么办？</strong></p>
+<p>安全软件误报，吧安全软件关闭就行了。软件是无毒的可以放心使用。</p>
+</li>
+<li>
+<p><strong>提示公众号出现故障怎么办？</strong></p>
+<p>请联系管理员微信 <code>bkfeng46</code>，获知后会第一时间修复。</p>
+</li>
+<li>
+<p><strong>还有什么获取书籍的方法吗？</strong></p>
+<p>如果你理解能力电脑能力比较强，可以参考我们群内管理员<code>Eureka!</code>写的这个教程 <a href="https://eureka.mba/posts/81cc5063.html">电子书文献论文搜索下载</a> 依照这个教程公众号内可以获取的书籍这个方法也可以获取到</p>
+</li>
+<li>
+<p><strong>为什么文件没有书签呢？</strong><br>
+每本书的书签都不同，需要和页码匹配进行编辑修改，所以我们大部分只提供简单的页码书签，部分文件无书签。</p>
+<p>想要获得完整书签教程内的下载工具软件，解压后软件包内有详细的书签编辑说明和书签编辑工具。</p>
+</li>
+<li>
+<p><strong>百度云下载速度慢？</strong></p>
+<p>如果你使用电脑浏览器，我推荐你用 软件小妹 的一个油猴脚本，基本可以满速下载。<a href="https://greasyfork.org/zh-CN/scripts/41818">百度网盘简易下载助手</a></p>
+</li>
+<li></li>
+</ol>
+<p><a href="https://i0.hdslb.com/bfs/album/2e50e073ea383f7a20c20b59819b7cf8e3195301.png"><img src="https://i0.hdslb.com/bfs/album/2e50e073ea383f7a20c20b59819b7cf8e3195301.png" alt="image-20221127221604449"></a></p>
+<p>公众号书籍搜索指令如下</p>
+<p><img src="https://article.biliimg.com/bfs/article/db1f1c43bb2dcf9d967bce7be54e4f612d1aa27f.png" alt="公众号搜索指令一图流"></p>
+<ol>
+<li>
+<p>通过书籍id获取包含书籍的信息和下载链接</p>
+<ul>
+<li>
+<p>ssid为8为数字，可以获取读秀的资源（书籍下载后还需要进行解压和转换等一系列操作）</p>
+</li>
+<li>
+<p>zlibid以00开头，可以获取zlibrary的资源（书籍下载后直接可以打开，无需转换）</p>
+</li>
+</ul>
+<p>书籍的ssid通过网站搜索、公众号搜索获取<br>
+书籍的zlibid暂时只能通过公众号搜索获取</p>
+</li>
+</ol>
+<p><img src="https://article.biliimg.com/bfs/article/0ce48be70ee4047d2e917b757e67eea71e5cc5c3.png" alt="image-20230131232658813"></p>
+<ol start="2">
+<li>
+<p>通过<code>cx你需要搜索的书名</code>来搜索书籍</p>
+<p>如想要查询“三体”，就发送“cx三体&quot;</p>
+<p>此种方式的好处可以查询包括zlibrary和读秀的书籍</p>
+<p>建议优先使用zlibrary的资源里的书籍（即书籍id为00开头）</p>
+<p>因为该库的书籍文件为pdf、mobi、epub等无需解压的文件</p>
+<p>读秀库的文件需要解压以及文件为扫描版，且文字不可复制和没有书签</p>
+<p>再次回复书籍的id可以获得书籍的百度云链接</p>
+<p><img src="https://article.biliimg.com/bfs/article/74ea0270156f0aba2e3ff04cbec7dfeb578bc716.png" alt="image-20230203171513135"></p>
+<p>下载后即可获取一份带有书签的文字可复制的文件</p>
+<p><img src="https://article.biliimg.com/bfs/article/f00a6bde627861c486482f2362eeedfbc761b9f9.png" alt="image-20230131234030943"></p>
+</li>
+<li>
+<p>通过<code>next</code>进行查询结果的翻页操作</p>
+<p><img src="https://article.biliimg.com/bfs/article/f04046fb4e58a9651f79007ec482366040267060.png" alt="image-20230203172046900"></p>
+</li>
+<li>
+<p>通过<code>user</code>获取用户信息</p>
+</li>
+</ol>
+<p><img src="https://article.biliimg.com/bfs/article/0fda1ea6a5b5421aa3877d8fb24436846e69d297.png" alt="image-20230203171846940"></p>
+<p>以上就是目前为止公众号的所有指令，</p>
+<p>目前公众号为节约资源，限制了每日获取次数。不过一般正常使用的话不会超过这个限制的。</p>
+<p>因为以前老有一些人一天就发个几百本的书籍过来</p>
+<div class="hide-toggle" style="border: 1px solid bg"><div class="hide-button toggle-title" style="background-color: bg;color: color"><i class="fas fa-caret-right fa-fw"></i><span>如果你想捐助就点开我(っ•̀ω•́)っ</span></div>
+    <div class="hide-content"><h1><strong>关于捐助：</strong></h1>
+<p>谢谢你愿意点开(✪ω✪)</p>
+<p>如果该资料对你有帮助，并且愿意支持我，不妨支持一下 ！！</p>
+<p><img src="https://s2.loli.net/2023/02/11/4UD2nJG3BSpfrok.png" alt="image-20230211152020252"></p>
+</div></div>
 ]]></content>
       <categories>
-        <category>技术</category>
+        <category>电子书</category>
       </categories>
       <tags>
-        <tag>技术</tag>
-        <tag>方法</tag>
-        <tag>小技巧</tag>
+        <tag>书籍</tag>
       </tags>
   </entry>
   <entry>
@@ -847,6 +742,111 @@ document.write("<h2 title='具体时间以教育局公布为准'><font color=#34
         <tag>震惊!</tag>
         <tag>不知道写什么了</tag>
         <tag>捐助</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>电子书查找方法大合集，90%可行</title>
+    <url>/ebook.html</url>
+    <content><![CDATA[<h2 id="0-本卡风公众号"><a class="header-anchor" href="#0-本卡风公众号"></a>0.本卡风公众号</h2>
+<p>回复书籍ss号即可获取书籍</p>
+<h2 id="1-各类网站，动手能力签的自己找一下"><a class="header-anchor" href="#1-各类网站，动手能力签的自己找一下"></a>1.各类网站，动手能力签的自己找一下</h2>
+<p><a href="https://eureka.mba/posts/81cc5063.html">https://eureka.mba/posts/81cc5063.html</a></p>
+<h2 id="2-可加群，群内管理员会无偿帮你下载"><a class="header-anchor" href="#2-可加群，群内管理员会无偿帮你下载"></a>2.可加群，群内管理员会无偿帮你下载</h2>
+<p>那里加群？</p>
+<p>这里 <a href="https://bkfeng.top/1">https://bkfeng.top/1</a></p>
+<h2 id="3-全国图书馆参考联盟"><a class="header-anchor" href="#3-全国图书馆参考联盟"></a>3.全国图书馆参考联盟</h2>
+<p>图书来源几乎都是全国图书馆参考联盟、读秀</p>
+<p>全国图书参考联盟（荐）：<a href="http://www.ucdrs.superlib.net">http://www.ucdrs.superlib.net</a></p>
+<p>龙岩网络图书馆（荐）：<a href="http://www.ly.superlib.net">http://www.ly.superlib.net</a></p>
+<p>读秀网址：<a href="http://www.duxiu.com">http://www.duxiu.com</a></p>
+<h3 id="1-1-图书互助"><a class="header-anchor" href="#1-1-图书互助"></a>1.1 图书互助</h3>
+<p>这是一款方便购买全国图书参考联盟／龙岩／读秀上电子书的油猴脚本</p>
+<p><img src="https://i0.hdslb.com/bfs/article/cd374de5266ffc8af5689ae34b6e30ca658d5fa7.png@942w_144h_progressive.webp" alt="image-20210528203355730"><br>
+脚本：<a href="https://greasyfork.org/zh-CN/scripts/420751">https://greasyfork.org/zh-CN/scripts/420751</a></p>
+<p>使用</p>
+<p>1、浏览器猴脚本，不会这么安装的自行百度</p>
+<p>2、以全国图书参考联盟为例，打开全国图书参考联盟进行搜索，就可以看到网页上比安装脚本之前多了一个「图书互助」按钮</p>
+<p><img src="https://i0.hdslb.com/bfs/article/4c3798823502d87df8efe70ed63fdbd5478678f3.png@942w_432h_progressive.webp" alt="image-20210528210913742"></p>
+<p>点击「图书互助」按钮，如若找到资源，则可「发起互助」</p>
+<p>这里填入自己的邮箱，点击「立即下单」</p>
+<p>PS：图书馆的扫描格式是 PDG，转成 PDF 需要一定的时间，请查看教程。</p>
+<h3 id="1-2-图书搜索联盟"><a class="header-anchor" href="#1-2-图书搜索联盟"></a>1.2 图书搜索联盟</h3>
+<p>这也是一款方便购买全国图书参考联盟／龙岩／读秀上电子书的油猴脚本</p>
+<p>脚本：<a href="https://greasyfork.org/zh-CN/scripts/423011">https://greasyfork.org/zh-CN/scripts/423011</a></p>
+<p>使用方法类似上面</p>
+<p>对于不想安装脚本的，直接进入互助联盟官网查询即可</p>
+<p>官网：<a href="https://www.readersteam.com">https://www.readersteam.com</a></p>
+<h2 id="3-吾爱破解代下"><a class="header-anchor" href="#3-吾爱破解代下"></a>3.吾爱破解代下</h2>
+<p>吾爱破解真的是国内为数不多的良心论坛，虽然最近又加大了管理力度，但是完全不影响咱们找资源</p>
+<p>可以说你在各个软件网站看到的绿色版、破解版的软件（甚至福利资源类）绝大部分都来自这里</p>
+<p>论坛一般每年在特定节日免费开放注册（据说今年暑假会开放）具体注册时间大家可以关注官网论坛的公告或者关注公众号</p>
+<p>官网：<a href="https://www.52pojie.cn">https://www.52pojie.cn</a></p>
+<p>回归正题，我们可以去悬赏区发布悬赏（找到资源者一般都会很快回复你的）</p>
+<h2 id="4-某宝代找PDF"><a class="header-anchor" href="#4-某宝代找PDF"></a>4.某宝代找PDF</h2>
+<p>我们只要给他们一个ISBN或者书名作者，几分钟就能得到所需电子书，</p>
+<img src="https://i0.hdslb.com/bfs/article/7c02f645c9ad588b4e6dbddb07d6915e209de746.png@942w_1322h_progressive.webp" alt="Screenshot_2021_0523_143312-iPad Air 2 (1)" style="zoom:25%;" />
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>技术</tag>
+        <tag>方法</tag>
+        <tag>小技巧</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>百度网盘扩容指南——资源分享者的必备素养</title>
+    <url>/kuorong.html</url>
+    <content><![CDATA[<h2 id="百度网盘扩容自动化"><a class="header-anchor" href="#百度网盘扩容自动化"></a>百度网盘扩容自动化</h2>
+<p>很久前，就知道百度网盘扩容这么一回事，就是给你的百度网盘存入超过空间的文件</p>
+<img src="https://i0.hdslb.com/bfs/album/03fcfb1a6881a6c3a399b442362c90167dc24635.png" alt="image-20220824003807689" style="zoom:50%;" />
+<p>目前我分享的课程也是通过这种方式来存的（要不然你以为我这么这么多空间）</p>
+<img src="https://i0.hdslb.com/bfs/album/3a024a270b29009601e1f864ff8a492ca6dbf5ee.png" alt="image-20220824004026915" style="zoom:33%;" />
+<p>一些商家也付费提供着需要授权码的软件，但白嫖才是正道。</p>
+<p>但是现有手工操作过于麻烦，了解到相关知识后，我得知了百度网盘扩容原理，因此我<strong>抓包</strong>百度网盘相关接口自己写了一个自动化的扩容程序，</p>
+<p>包含扩容和修复两部分。</p>
+<p>需要的工具：占位文件，百度网盘客户端，浏览器，一个会员百度网盘账号（会员才有垃圾清理功能）</p>
+<p>注意事项：请使用一个小号，据说扩容可能会封号（网上流传超过80t概率封号，我没封过不知道是不是真的）</p>
+<img src="https://i0.hdslb.com/bfs/album/cb9cefba69fb3c8b6a6fee600391bc215cd5a189.png" alt="Python代码" style="zoom: 33%;" />
+<p>本篇文章暂时先简略写着记录一下，后续优化后有详细过程。</p>
+<h3 id="扩容"><a class="header-anchor" href="#扩容"></a>扩容</h3>
+<p>目前网上扩容的原理无非就是利用百度网盘的垃圾文件清理功能，</p>
+<p>通过特定操作来删除垃圾文件</p>
+<p>从而来实现网盘的容量减少，存入的文件容量增加</p>
+<p>手工操作过程如下（这里不细讲，也不放图了，提供大致流程）</p>
+<ol>
+<li>保存10个文件到文件夹【working】</li>
+<li>清理文件夹【working】，并获取垃圾文件列表</li>
+<li>删除【working】文件夹内所有文件</li>
+<li>删除垃圾文件（此时空间容量会减少）</li>
+</ol>
+<p>但是手工的方式过于繁琐，使用Python可极大程度方便使用</p>
+<p>扩容代码大致如下</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">kuorong</span>():</span></span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    1.保存10个文件到文件夹【working】</span></span><br><span class="line"><span class="string">    2.清理文件夹【working】，并获取垃圾文件列表</span></span><br><span class="line"><span class="string">    3.删除文件夹内所有文件</span></span><br><span class="line"><span class="string">    4.删除垃圾文件</span></span><br><span class="line"><span class="string">    5.保存一个5T的文件夹</span></span><br><span class="line"><span class="string">    :return: None</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    </span><br><span class="line">    <span class="comment"># 1.保存10个文件到文件夹【working】</span></span><br><span class="line">    save(<span class="string">&quot;[690435813055101,26598162122456,1020496199701393,644765167361037,261696681183572,132504979092525,169677771677732,829587079548271,260890747525505,111657973573120]&quot;</span>, <span class="string">&#x27;/占位/working&#x27;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 2.清理文件夹【working】，并获取垃圾文件列表</span></span><br><span class="line">    taskid = clear(<span class="string">&#x27;/占位/working&#x27;</span>)[<span class="string">&quot;taskid&quot;</span>]</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;正在清理重复文件，taskid：%s&quot;</span> % taskid)</span><br><span class="line">    query = garbagetaskquery(taskid)</span><br><span class="line">    <span class="keyword">while</span> query[<span class="string">&quot;status&quot;</span>] == <span class="string">&quot;running&quot;</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;**当前进度:%s&quot;</span> % query[<span class="string">&quot;progress&quot;</span>], end=<span class="string">&quot;**&quot;</span>)</span><br><span class="line">        time.sleep(<span class="number">3</span>)</span><br><span class="line">        query = garbagetaskquery(taskid)</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;整理文件完成&quot;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 3.删除文件夹内所有文件</span></span><br><span class="line">    delete(<span class="string">&#x27;[&quot;/占位/working/xwangpan10&quot;,&quot;/占位/working/xwangpan06&quot;,&quot;/占位/working/xwangpan09&quot;,&quot;/占位/working/xwangpan08&quot;,&quot;/占位/working/xwangpan05&quot;,&quot;/占位/working/xwangpan03&quot;,&quot;/占位/working/xwangpan04&quot;,&quot;/占位/working/xwangpan01&quot;,&quot;/占位/working/xwangpan07&quot;,&quot;/占位/working/xwangpan02&quot;,&quot;/占位/working/xwangpan02(1)&quot;,&quot;/占位/working/xwangpan07(1)&quot;,&quot;/占位/working/xwangpan05(1)&quot;,&quot;/占位/working/xwangpan04(1)&quot;,&quot;/占位/working/xwangpan09(1)&quot;,&quot;/占位/working/xwangpan01(1)&quot;,&quot;/占位/working/xwangpan06(1)&quot;,&quot;/占位/working/xwangpan10(1)&quot;,&quot;/占位/working/xwangpan08(1)&quot;,&quot;/占位/working/xwangpan03(1)&quot;]&#x27;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 4.保存五个文件</span></span><br><span class="line">    save(<span class="string">&quot;[690435813055101,26598162122456,1020496199701393,644765167361037,261696681183572,132504979092525,169677771677732,829587079548271,260890747525505,111657973573120]&quot;</span>, <span class="string">&#x27;/占位/working&#x27;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 4.删除垃圾文件</span></span><br><span class="line">    json = get_garbagelist(taskid)</span><br><span class="line">    garbage_list = []</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> json[<span class="string">&quot;list&quot;</span>][<span class="number">0</span>][<span class="string">&quot;data&quot;</span>]:</span><br><span class="line">        file = <span class="string">&#x27;&#123;&quot;fs_id&quot;: &quot;%s&quot;, &quot;index&quot;: %s&#125;&#x27;</span> % (i[<span class="string">&#x27;fs_id&#x27;</span>], <span class="built_in">str</span>(i[<span class="string">&#x27;index&#x27;</span>]))</span><br><span class="line">        garbage_list.append(file)</span><br><span class="line">    <span class="comment"># print(garbage_list)</span></span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;获取删除列表成功&quot;</span>, <span class="built_in">str</span>(garbage_list).replace(<span class="string">&quot;&#x27;&quot;</span>, <span class="string">&quot;&quot;</span>))</span><br><span class="line">    garbage_delete(taskid, <span class="built_in">str</span>(garbage_list).replace(<span class="string">&quot;&#x27;&quot;</span>, <span class="string">&quot;&quot;</span>))</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 5.保存一个5T的文件夹</span></span><br><span class="line">    save(<span class="string">&#x27;[1054623448621227]&#x27;</span>, <span class="string">&quot;/占位&quot;</span>)</span><br></pre></td></tr></table></figure>
+<h3 id="修复"><a class="header-anchor" href="#修复"></a>修复</h3>
+<p>扩容之后第二天基本都会爆盘，就是你的空间已经超出最大容量了，无法存入资料了，</p>
+<p>加入你存进网盘的资料不需要更新，那么你就不需要修复了，可以正常使用文件分享功能，</p>
+<p>如果你需要继续存文件，就要使用修复了。</p>
+<p>修复的原理则是利用百度网盘客户端的移入隐私空间，然后清理垃圾文件来实现修复。</p>
+<p>手工操作大致流程如下（这里不细讲，也不放图了，提供大致流程）：</p>
+<ol>
+<li>清理文件夹【修复】，并获取垃圾文件列表</li>
+<li>把文件夹【修复】移入隐藏空间</li>
+<li>删除垃圾文件</li>
+<li>移出隐藏空间</li>
+</ol>
+<p>代码如下</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">fix</span>():</span></span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    1.清理垃圾，获取taskid</span></span><br><span class="line"><span class="string">    2.查询进度</span></span><br><span class="line"><span class="string">    3.获取删除列表</span></span><br><span class="line"><span class="string">    4.进行删除操作</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="comment"># 1.清理垃圾，获取taskid</span></span><br><span class="line">    taskid = clear(<span class="string">&#x27;/修复&#x27;</span>)[<span class="string">&quot;taskid&quot;</span>]</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;正在清理重复文件，taskid：%s&quot;</span> % taskid)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 2.查询进度</span></span><br><span class="line">    query = garbagetaskquery(taskid)</span><br><span class="line">    <span class="keyword">while</span> query[<span class="string">&quot;status&quot;</span>] == <span class="string">&quot;running&quot;</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;**当前进度:%s&quot;</span> % query[<span class="string">&quot;progress&quot;</span>], end=<span class="string">&quot;**&quot;</span>)</span><br><span class="line">        time.sleep(<span class="number">3</span>)</span><br><span class="line">        query = garbagetaskquery(taskid)</span><br><span class="line">    </span><br><span class="line">    <span class="comment"># 3.获取删除列表</span></span><br><span class="line">    json = get_garbagelist(taskid)</span><br><span class="line">    garbage_list = []</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> json[<span class="string">&quot;list&quot;</span>][<span class="number">0</span>][<span class="string">&quot;data&quot;</span>]:</span><br><span class="line">        file = <span class="string">&#x27;&#123;&quot;fs_id&quot;: &quot;%s&quot;, &quot;index&quot;: %s&#125;&#x27;</span> % (i[<span class="string">&#x27;fs_id&#x27;</span>], <span class="built_in">str</span>(i[<span class="string">&#x27;index&#x27;</span>]))</span><br><span class="line">        garbage_list.append(file)</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;获取删除列表成功&quot;</span>, <span class="built_in">str</span>(garbage_list).replace(<span class="string">&quot;&#x27;&quot;</span>, <span class="string">&quot;&quot;</span>))</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 4.进行删除操作</span></span><br><span class="line">    move_info = move(<span class="string">&quot;/修复&quot;</span>, <span class="string">&quot;/_pcs_.safebox&quot;</span>, <span class="string">&quot;修复&quot;</span>)</span><br><span class="line">    <span class="keyword">if</span> move_info[<span class="string">&quot;errno&quot;</span>] == <span class="number">0</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;移入隐藏空间成功&quot;</span>, move_info)</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;移入隐藏空间失败&quot;</span>, move_info)</span><br><span class="line">    garbage_delete(taskid, <span class="built_in">str</span>(garbage_list).replace(<span class="string">&quot;&#x27;&quot;</span>, <span class="string">&quot;&quot;</span>))</span><br></pre></td></tr></table></figure>
+<p>但是代码写的时候遇到了问题，就是移出隐藏空间的包抓取不了，应该是百度网盘进行相关加密了</p>
+<p>也就是说修复完需要手动把文件移出隐藏空间（算个小瑕疵了）</p>
+<p>不过最近我了解到一种不需要隐藏空间移动的方法，待我有空验证可行性在吧这种方法写成Python，完美实现自动化操作</p>
+<p>目前代码虽然已经完成，但是未考虑到分享给广大用户（因为代码如果你们使用会有太多限制，代码很多操作都是根据我自己网盘实际情况来写的），后续（我很懒）优化代码后可能会考虑写个Gui图形界面，分享给你们使用。</p>
+<h3 id="附各函数功能说明"><a class="header-anchor" href="#附各函数功能说明"></a>附各函数功能说明</h3>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 以下代码仅显示函数名</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 得到百度网盘bdstoken</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">get_bdstoken</span>():</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 保存文件</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">save</span>(<span class="params">fs_ids, file_dir</span>):</span>.</span><br><span class="line"></span><br><span class="line"><span class="comment"># 删除文件</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">delete</span>(<span class="params">file_dir</span>):</span></span><br><span class="line">    </span><br><span class="line"><span class="comment"># 移动文件到隐藏空间</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">move</span>(<span class="params">form_file, to_file, newname</span>):</span></span><br><span class="line">    </span><br><span class="line"><span class="comment"># 文件的任务查询</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">taskquery</span>(<span class="params">taskid</span>):</span>…</span><br><span class="line"></span><br><span class="line"><span class="comment"># 清理垃圾任务查询垃圾</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">garbagetaskquery</span>(<span class="params">taskid</span>):</span></span><br><span class="line">    </span><br><span class="line"><span class="comment"># 执行清理垃圾</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">clear</span>(<span class="params">filedir</span>):</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 得到待清理垃圾的列表</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">get_garbagelist</span>(<span class="params">taskid</span>):</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 删除垃圾列表</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">garbage_delete</span>(<span class="params">taskid, garbagelist</span>):</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 修复</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">fix</span>():</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 扩容</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">kuorong</span>()</span></span><br><span class="line"><span class="function"></span></span><br><span class="line">if __name__ == &#x27;__main__&#x27;:</span><br><span class="line">    pc_cookie = <span class="string">&#x27;填写你的pc_cookie&#x27;</span></span><br><span class="line">    cookie = <span class="string">&#x27;填写你的cookie’</span></span><br><span class="line"><span class="string">    bdstoken = get_bdstoken()</span></span><br><span class="line"><span class="string">    </span></span><br><span class="line"><span class="string">    # fix()</span></span><br><span class="line"><span class="string">    # kuorong()</span></span><br></pre></td></tr></table></figure>
+]]></content>
+      <tags>
+        <tag>python</tag>
       </tags>
   </entry>
   <entry>
