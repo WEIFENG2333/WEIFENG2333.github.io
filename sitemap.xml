@@ -311,6 +311,13 @@
     <priority>0.6</priority>
   </url>
   
+  <url>
+    <loc>https://bkfeng.top/tags/%E8%B5%84%E6%96%99/</loc>
+    <lastmod>2023-02-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
 
   
   <url>
@@ -343,6 +350,13 @@
   
   <url>
     <loc>https://bkfeng.top/categories/%E6%8A%80%E6%9C%AF/</loc>
+    <lastmod>2023-02-27</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://bkfeng.top/categories/%E8%B5%84%E6%96%99/</loc>
     <lastmod>2023-02-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
