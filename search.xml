@@ -31,476 +31,6 @@
       </tags>
   </entry>
   <entry>
-    <title>公众号书籍搜索常见问题</title>
-    <url>/library.html</url>
-    <content><![CDATA[<p><img src="https://article.biliimg.com/bfs/article/d93c1c495d3076b57e37b9abbf9df0af57a654cf.png" alt="image-20230131233151718"></p>
-<p>最近过完年比较有功夫</p>
-<p>对公众号的书籍查找功能进行了优化更新</p>
-<p>本来想自建书籍数据库，使用MySQL数据库</p>
-<p>但考虑到数据量太大，仅读秀的资源去重后就有4120298条</p>
-<p><img src="https://article.biliimg.com/bfs/article/23b78291ce310d3b3852ee03754c33b7768e3e60.png" alt="image-20230131234517631"></p>
-<p>而新加的Zlibrary库更是将近10000,000条，二者共计1500W左右数据</p>
-<p>在磕磕碰碰遇到不少困难终于把书籍导入到数据库以后</p>
-<p>我发现数据库在建立索引后，查询仍询比较慢（特别是全文查询）</p>
-<p>最终我还是选择了接入别人的接口，这样可以实现相同的效果</p>
-<p>毕竟别人做的搜索接口性能速度等方面应该比我的好不少（绝不是偷懒）</p>
-<p>如果他的接口失效了，再使用自己的书籍数据库吧~</p>
-<p>以下是公众号搜索的一些问题：</p>
-<ol>
-<li>
-<p><strong>为什么我不去百度上的一些书站获取书籍而去公众号搜索呢？</strong></p>
-<p>公众号的书籍内容包括超星（读秀）和zlibrary的资源，二者涵盖市面上绝大部分书籍。你在公众号搜索不了那去百度上一些散乱的书站以及tb买书商家也比较难找了。</p>
-</li>
-<li>
-<p><strong>为什么下载的书籍压缩包要密码？</strong></p>
-<p>教程内提供了软件。使用软件压缩，会使用软件内置密码库进行一一尝试从而进行压缩操作。目前从网络中搜集来的资源密码有 300+个，解压软件后台在处理任务时会尝试这些密码，后续还会持续更新密码表，提升成功率。</p>
-</li>
-<li>
-<p><strong>发送ss号以后公众号说没有这本书，怎么办？</strong></p>
-<p>这么说的话你的书可能是20年以后出版的，对于20年以后的书，在超星库中并没有。</p>
-</li>
-<li>
-<p><strong>超星库与zlibrary有什么区别？</strong></p>
-<p>超星就是负责扫描国内的书籍的，获取到的大部分为扫描版，且需要转换；</p>
-<p>而zlibrary是国际上知名的书籍获取网站，外文书比较多，也有一小部分较新书，获取到的书籍为pdf、mobi、epub等的文件。</p>
-</li>
-<li>
-<p><strong>怎么获取ss号？</strong></p>
-<p>ss即super star，是超星搞出来的一种针对每一本扫描书籍的号码</p>
-<p>通过公众号搜索指令<code>cx你需要搜索的书名</code>查询，不以“00”开头的数字为ss号</p>
-<p>另外，通过网站也可以获取ss号 <a href="https://www.xueshu86.com/">https://www.xueshu86.com/</a></p>
-</li>
-<li>
-<p><strong>怎么获取zlibrary号？</strong></p>
-<p>通过公众号搜索指令<code>cx你需要搜索的书名</code>查询，以“00”开头的数字为zlibrary号。</p>
-</li>
-<li>
-<p><strong>我用的是手机或者Mac电脑，怎么使用解压转换工具呢？</strong></p>
-<p>解压转换工具暂时只自测支持Window系统</p>
-<p>如果你用的是手机或者Mac，可以使用这个网站来在线解压转换。</p>
-<p>在公众号获取百度云链接后，使用该链接直接转换：<a href="https://pdg2pdf.online/convert">https://pdg2pdf.online/convert</a></p>
-</li>
-<li>
-<p><strong>百度网盘链接失效了怎么办？</strong></p>
-<p>目前百度网盘分享后只保留1天，请尽快保存，并在下载后24小时内删除！</p>
-</li>
-<li>
-<p><strong>可以批量获取书籍吗？</strong></p>
-<p>可以批量转换吗？很抱歉，暂时不支持批量转换。考虑到目前服务器资源有限，批量获取资源将会导致滥用，因此暂时不会支持批量获取书籍。</p>
-</li>
-<li>
-<p><strong>解压软件报毒怎么办？</strong></p>
-<p>安全软件误报，吧安全软件关闭就行了。软件是无毒的可以放心使用。</p>
-</li>
-<li>
-<p><strong>提示公众号出现故障怎么办？</strong></p>
-<p>请联系管理员微信 <code>bkfeng46</code>，获知后会第一时间修复。</p>
-</li>
-<li>
-<p><strong>还有什么获取书籍的方法吗？</strong></p>
-<p>如果你理解能力电脑能力比较强，可以参考我们群内管理员<code>Eureka!</code>写的这个教程 <a href="https://eureka.mba/posts/81cc5063.html">电子书文献论文搜索下载</a> 依照这个教程公众号内可以获取的书籍这个方法也可以获取到</p>
-</li>
-<li>
-<p><strong>为什么文件没有书签呢？</strong><br>
-每本书的书签都不同，需要和页码匹配进行编辑修改，所以我们大部分只提供简单的页码书签，部分文件无书签。</p>
-<p>想要获得完整书签教程内的下载工具软件，解压后软件包内有详细的书签编辑说明和书签编辑工具。</p>
-</li>
-<li>
-<p><strong>百度云下载速度慢？</strong></p>
-<p>如果你使用电脑浏览器，我推荐你用 软件小妹 的一个油猴脚本，基本可以满速下载。<a href="https://greasyfork.org/zh-CN/scripts/41818">百度网盘简易下载助手</a></p>
-</li>
-<li></li>
-</ol>
-<p><a href="https://i0.hdslb.com/bfs/album/2e50e073ea383f7a20c20b59819b7cf8e3195301.png"><img src="https://i0.hdslb.com/bfs/album/2e50e073ea383f7a20c20b59819b7cf8e3195301.png" alt="image-20221127221604449"></a></p>
-<p>公众号书籍搜索指令如下</p>
-<p><img src="https://article.biliimg.com/bfs/article/db1f1c43bb2dcf9d967bce7be54e4f612d1aa27f.png" alt="公众号搜索指令一图流"></p>
-<ol>
-<li>
-<p>通过书籍id获取包含书籍的信息和下载链接</p>
-<ul>
-<li>
-<p>ssid为8为数字，可以获取读秀的资源（书籍下载后还需要进行解压和转换等一系列操作）</p>
-</li>
-<li>
-<p>zlibid以00开头，可以获取zlibrary的资源（书籍下载后直接可以打开，无需转换）</p>
-</li>
-</ul>
-<p>书籍的ssid通过网站搜索、公众号搜索获取<br>
-书籍的zlibid暂时只能通过公众号搜索获取</p>
-</li>
-</ol>
-<p><img src="https://article.biliimg.com/bfs/article/0ce48be70ee4047d2e917b757e67eea71e5cc5c3.png" alt="image-20230131232658813"></p>
-<ol start="2">
-<li>
-<p>通过<code>cx你需要搜索的书名</code>来搜索书籍</p>
-<p>如想要查询“三体”，就发送“cx三体&quot;</p>
-<p>此种方式的好处可以查询包括zlibrary和读秀的书籍</p>
-<p>建议优先使用zlibrary的资源里的书籍（即书籍id为00开头）</p>
-<p>因为该库的书籍文件为pdf、mobi、epub等无需解压的文件</p>
-<p>读秀库的文件需要解压以及文件为扫描版，且文字不可复制和没有书签</p>
-<p>再次回复书籍的id可以获得书籍的百度云链接</p>
-<p><img src="https://article.biliimg.com/bfs/article/74ea0270156f0aba2e3ff04cbec7dfeb578bc716.png" alt="image-20230203171513135"></p>
-<p>下载后即可获取一份带有书签的文字可复制的文件</p>
-<p><img src="https://article.biliimg.com/bfs/article/f00a6bde627861c486482f2362eeedfbc761b9f9.png" alt="image-20230131234030943"></p>
-</li>
-<li>
-<p>通过<code>next</code>进行查询结果的翻页操作</p>
-<p><img src="https://article.biliimg.com/bfs/article/f04046fb4e58a9651f79007ec482366040267060.png" alt="image-20230203172046900"></p>
-</li>
-<li>
-<p>通过<code>user</code>获取用户信息</p>
-</li>
-</ol>
-<p><img src="https://article.biliimg.com/bfs/article/0fda1ea6a5b5421aa3877d8fb24436846e69d297.png" alt="image-20230203171846940"></p>
-<p>以上就是目前为止公众号的所有指令，</p>
-<p>目前公众号为节约资源，限制了每日获取次数。不过一般正常使用的话不会超过这个限制的。</p>
-<p>因为以前老有一些人一天就发个几百本的书籍过来</p>
-<div class="hide-toggle" style="border: 1px solid bg"><div class="hide-button toggle-title" style="background-color: bg;color: color"><i class="fas fa-caret-right fa-fw"></i><span>如果你想捐助就点开我(っ•̀ω•́)っ</span></div>
-    <div class="hide-content"><h1><strong>关于捐助：</strong></h1>
-<p>谢谢你愿意点开(✪ω✪)</p>
-<p>如果该资料对你有帮助，并且愿意支持我，不妨支持一下 ！！</p>
-<p><img src="https://s2.loli.net/2023/02/11/4UD2nJG3BSpfrok.png" alt="image-20230211152020252"></p>
-</div></div>
-]]></content>
-      <categories>
-        <category>电子书</category>
-      </categories>
-      <tags>
-        <tag>书籍</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>公众号书籍食用指南</title>
-    <url>/book.html</url>
-    <content><![CDATA[<h1>书籍概况</h1>
-<p>书籍来自某秀与zlibrary。书库基本涵盖20年以前出版的所有书。如果你找的新书基本没什么可能了。</p>
-<p>公众号书籍搜索指令如下</p>
-<p><img src="https://s2.loli.net/2023/02/11/rWDcvVK79fhNiXZ.png" alt="公众号搜索指令一图流"></p>
-<img src="https://s2.loli.net/2023/02/11/qj3gEtGuXifbhCP.png" alt="image-20221127221604449" style="zoom:50%;" />
-<p>2月6日更新：公众号已经支持ss号获取书籍，支持ISBN/书名/作者等信息查询。</p>
-<h1>一.书籍获取</h1>
-<h2 id="通过书籍id获取下载链接"><a class="header-anchor" href="#通过书籍id获取下载链接"></a>通过书籍id获取下载链接</h2>
-<p>通过书籍id可以获取书籍的信息（书名、作者、出版社、ISBN、书源）和下载链接</p>
-<ul>
-<li>
-<p>ssid为8为数字，可以获取读秀的资源（书籍下载后还需要进行解压和转换等一系列操作）</p>
-</li>
-<li>
-<p>zlibid以00开头，可以获取zlibrary的资源（书籍下载后直接可以打开，无需转换）</p>
-</li>
-</ul>
-<p>书籍的ssid通过网站搜索、公众号搜索获取<br>
-书籍的zlibid暂时只能通过公众号搜索获取</p>
-<p><img src="https://s2.loli.net/2023/02/11/89g2UmOJydci3Ro.png" alt="书籍查找回复"></p>
-<div class="hide-toggle" style="border: 1px solid bg"><div class="hide-button toggle-title" style="background-color: bg;color: color"><i class="fas fa-caret-right fa-fw"></i><span>ss号获取方法(っ•̀ω•́)っ</span></div>
-    <div class="hide-content"><ol>
-<li>第一种可以通过网站查询书籍的ss号。</li>
-</ol>
-<p>（以下网站只是用作查询，<strong>请不要直接在网站内付费</strong>！！）</p>
-<p><a href="https://www.xueshu86.com/">https://www.xueshu86.com/</a></p>
-<p><a href="https://ps.uuttdx.com/">https://ps.uuttdx.com/</a></p>
-<ol start="2">
-<li>第二种可以用油猴插件，脚本适配网站二者任选一个内容都是一样的：<a href="https://greasyfork.org/zh-CN/scripts/420751-%E5%9B%BE%E4%B9%A6%E4%BA%92%E5%8A%A9">油猴插件链接</a></li>
-</ol>
-<p>然后打开网站，就会显示书籍的ss号。</p>
-<p>1.<strong><a href="http://www.dglib.superlib.net/">http://www.dglib.superlib.net/ </a> （东莞图书馆检索系统，免登录，推荐）</strong></p>
-<p>2.<a href="http://www.ucdrs.superlib.net/">http://www.ucdrs.superlib.net/</a> （全国图书馆联盟，需登录）</p>
-<p><img src="https://s2.loli.net/2023/02/11/IhQYGKjx79JrHPq.png" alt="网站显示ss号"></p>
-</div></div>
-<h2 id="通过cx你需要搜索的书名来搜索书籍"><a class="header-anchor" href="#通过cx你需要搜索的书名来搜索书籍"></a>通过<code>cx你需要搜索的书名</code>来搜索书籍</h2>
-<p>如想要查询“三体”，就发送“cx三体&quot;；搜索结果过多可加入信息“cx三体 刘慈欣”。不过建议查询时宁可少字一不要多字。</p>
-<p>再次回复书籍的id可以获得书籍的百度云链接</p>
-<img src="https://s2.loli.net/2023/02/11/vdtcRxAXCsSEUq3.png" alt="cx指令" style="zoom:80%;" />
-<p>下载后即可获取一份带有书签的文字可复制的文件</p>
-<img src="https://s2.loli.net/2023/02/11/PximnHvKROV341y.png" alt="标准且完美格式的PDF书籍" style="zoom:80%;" />
-<p>此种方式的好处可以查询包括zlibrary和读秀的书籍</p>
-<p>建议优先使用zlibrary的资源里的书籍（即书籍id为00开头）。</p>
-<p>因为该库的书籍文件为pdf、mobi、epub等无需解压的文件；而读秀库的文件需要解压以及文件为扫描版，且文字不可复制和没有书签</p>
-<h2 id="通过next进行查询结果的翻页操作"><a class="header-anchor" href="#通过next进行查询结果的翻页操作"></a>通过<code>next</code>进行查询结果的翻页操作</h2>
-<p>输入<code>next</code>可根据上一次搜索结果进行翻页</p>
-<img src="https://s2.loli.net/2023/02/11/upAtlMDiILZX9S4.png" alt="next指令" style="zoom:50%;" />
-<h2 id="通过user获取用户信息"><a class="header-anchor" href="#通过user获取用户信息"></a>通过<code>user</code>获取用户信息</h2>
-<p>目前公众号为节约资源，限制了每日获取次数。不过一般正常使用的话不会超过这个限制的。（因为以前老有一些人一天就发个上百本的书籍过来）</p>
-<p>注意查询不消耗次数，只有发送书籍id获取百度云链接才消耗次数。</p>
-<img src="https://s2.loli.net/2023/02/11/6saev5WZwXQcHD4.png" alt="user指令" style="zoom: 67%;" />
-<h1>二.转换格式</h1>
-<p>通过公众号的百度云链接下载书籍。</p>
-<p>zlibrary获取的书籍直接是pdf、mobi、epub等可直接阅读格式，你就直接大功告成了！！</p>
-<p>但读秀书库中的书籍文件大部分是压缩包格式的，并且需要解压密码</p>
-<p><strong>需要使用我们提供的合成工具进行解压和合成PDF文件</strong>（仅有win工具）</p>
-<h4 id="软件下载"><a class="header-anchor" href="#软件下载"></a>软件下载</h4>
-<p>转换软件：<a href="https://wwb.lanzoub.com/iBOBX0fxgxfi">https://wwb.lanzoub.com/iBOBX0fxgxfi</a></p>
-<img src="https://s2.loli.net/2023/02/11/hl8tErOs451cQVT.png" alt="image-20230211144449406" style="zoom:50%;" />
-<h4 id="简要步骤说明："><a class="header-anchor" href="#简要步骤说明："></a>简要步骤说明：</h4>
-<p>根据教程进行操作，一般来说两部就够了。工具可能会提示病毒，关闭杀毒软件即可。</p>
-<ol>
-<li>
-<p>下载文件后进行解压。（如果提示有密码，请使用【1.压缩包有密码使用—没有密码跳过此步骤】文件夹内解密解压工具进行解压。），提供3款解密工具，优先用【解密工具1】</p>
-</li>
-<li>
-<p>查看解压后文件夹内文件是什么格式，根据文件格式选择合适的工具进行合成PDF</p>
-<ul>
-<li>文件内 .pdg 格式的，请使用【2.PDG合成PDF工具】 进行合成</li>
-<li>文件为 .jpg，.png 等图片 格式的请使用 【3.图片合成PDF工具】 进行合成</li>
-<li>文件内 .djvu 格式的请使用 【4.DJVU合成PDF工具】 进行合成</li>
-</ul>
-</li>
-<li>
-<p>如需要给书籍添加书签，请使用【5.高级工具-书签获取&amp;编辑】获取&amp;编辑</p>
-</li>
-</ol>
-<img src="https://i0.hdslb.com/bfs/album/2e602f56063f313c7aef193c9b8ae74a616a8801.png" alt="解压" style="zoom: 50%;" />
-<img src="https://i0.hdslb.com/bfs/album/9be04e9f422694c3233f9ec8489605cbc0efae21.png" alt="转换" style="zoom: 50%;" />
-<p>​</p>
-<div class="hide-toggle" style="border: 1px solid bg"><div class="hide-button toggle-title" style="background-color: bg;color: color"><i class="fas fa-caret-right fa-fw"></i><span>如果你想捐助就点开我(っ•̀ω•́)っ</span></div>
-    <div class="hide-content"><h1><strong>关于捐助：</strong></h1>
-<p>谢谢你愿意点开(✪ω✪)</p>
-<p>如果该资料对你有帮助，并且愿意支持我，不妨支持一下 ！！</p>
-<p><img src="https://s2.loli.net/2023/02/11/4UD2nJG3BSpfrok.png" alt="赞赏码"></p>
-</div></div>]]></content>
-      <categories>
-        <category>电子书</category>
-      </categories>
-      <tags>
-        <tag>书籍</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>专业课汇总</title>
-    <url>/class.html</url>
-    <content><![CDATA[<p>（链接不定期更新）**</p>
-<p><img src="https://s2.loli.net/2022/07/19/6wIBaY9r1OQXoJ7.png" alt="image-20220719212408466"></p>
-<p>链接：<a href="https://pan.baidu.com/s/1qUVrfdif117LXsxKCac1cw?pwd=wn4m">https://pan.baidu.com/s/1qUVrfdif117LXsxKCac1cw?pwd=wn4m</a><br>
-提取码：wn4m<br>
-–来自百度网盘超级会员V1的分享</p>
-]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>考研</tag>
-        <tag>心理学</tag>
-        <tag>经济类</tag>
-        <tag>护理</tag>
-        <tag>药学</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>butterfly配置</title>
-    <url>/15367.html</url>
-    <content><![CDATA[<h3 id="社交图标"><a class="header-anchor" href="#社交图标"></a>社交图标</h3>
-<p>Butterfly支持 font-awesome v6图标  <a href="https://fontawesome.com/icons?from=io">https://fontawesome.com/icons?from=io</a></p>
-<p>书写格式 图标名：url || 描述性文字</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">social:</span><br><span class="line">  fab fa-github: https:&#x2F;&#x2F;github.com&#x2F;xxxxx || Github</span><br><span class="line">  fas fa-envelope: mailto:xxxxxx@gmail.com || Email</span><br></pre></td></tr></table></figure>
-<h3 id="文章置顶"><a class="header-anchor" href="#文章置顶"></a>文章置顶</h3>
-<p>【推荐】hexo-generator-index从 2.0.0 开始，已经支持文章置顶功能。你可以直接在文章的front-matter区域里添加sticky: 1属性来把这篇文章置顶。数值越大，置顶的优先级越大。</p>
-<h3 id="tag-hide"><a class="header-anchor" href="#tag-hide"></a>tag-hide</h3>
-<span class="hide-inline"><button type="button" class="hide-button button--animated" style="background-color: bg;color: color">display
-  </button><span class="hide-content">content</span></span>
-<h3 id="Tabs"><a class="header-anchor" href="#Tabs"></a>Tabs</h3>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% tabs Unique name, [index] %&#125;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab [Tab caption] [@icon] --&gt;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab [Tab caption] [@icon] --&gt;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&#123;% endtabs %&#125;</span><br></pre></td></tr></table></figure>
-<div class="tabs" id="test1"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#test1-1">test1 1</button></li><li class="tab"><button type="button" data-href="#test1-2">test1 2</button></li><li class="tab"><button type="button" data-href="#test1-3">test1 3</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="test1-1"><p><strong>This is Tab 1.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test1-2"><p><strong>This is Tab 2.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test1-3"><p><strong>This is Tab 3.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>
-<h3 id="Button"><a class="header-anchor" href="#Button"></a>Button</h3>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% btn [url],[text],[icon],[color] [style] [layout] [position] [size] %&#125;</span><br><span class="line"></span><br><span class="line">[url]         : 链接</span><br><span class="line">[text]        : 按钮文字</span><br><span class="line">[icon]        : [可选] 图标</span><br><span class="line">[color]       : [可选] 按钮背景顔色(默认style时）</span><br><span class="line">                      按钮字体和边框顔色(outline时)</span><br><span class="line">                      default&#x2F;blue&#x2F;pink&#x2F;red&#x2F;purple&#x2F;orange&#x2F;green</span><br><span class="line">[style]       : [可选] 按钮样式 默认实心</span><br><span class="line">                      outline&#x2F;留空</span><br><span class="line">[layout]      : [可选] 按钮佈局 默认为line</span><br><span class="line">                      block&#x2F;留空</span><br><span class="line">[position]    : [可选] 按钮位置 前提是设置了layout为block 默认为左边</span><br><span class="line">                      center&#x2F;right&#x2F;留空</span><br><span class="line">[size]        : [可选] 按钮大小</span><br><span class="line">                      larger&#x2F;留空</span><br></pre></td></tr></table></figure>
-<p>This is my website, click the button <a class="btn-beautify button--animated " href="https://butterfly.js.org/" 
-  title="Butterfly"><span>Butterfly</span></a><br>
-This is my website, click the button <a class="btn-beautify button--animated " href="https://butterfly.js.org/" 
-  title="Butterfly"><i class="far fa-hand-point-right fa-fw"></i><span>Butterfly</span></a><br>
-This is my website, click the button <a class="btn-beautify button--animated outline" href="https://butterfly.js.org/" 
-  title="Butterfly"><span>Butterfly</span></a><br>
-This is my website, click the button <a class="btn-beautify button--animated outline" href="https://butterfly.js.org/" 
-  title="Butterfly"><i class="far fa-hand-point-right fa-fw"></i><span>Butterfly</span></a><br>
-This is my website, click the button <a class="btn-beautify button--animated larger" href="https://butterfly.js.org/" 
-  title="Butterfly"><i class="far fa-hand-point-right fa-fw"></i><span>Butterfly</span></a></p>
-<h3 id="inlineImg"><a class="header-anchor" href="#inlineImg"></a>inlineImg</h3>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% inlineImg [src] [height] %&#125;</span><br><span class="line"></span><br><span class="line">[src]      :    图片链接</span><br><span class="line">[height]   ：   图片高度限制【可选】</span><br></pre></td></tr></table></figure>
-<p>你看我长得漂亮不</p>
-<p>我觉得很漂亮 <img class="inline-img" src="https://i.loli.net/2021/03/19/5M4jUB3ynq7ePgw.png" style="height:150px"/></p>
-<h3 id="label"><a class="header-anchor" href="#label"></a>label</h3>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% label text color %&#125;</span><br></pre></td></tr></table></figure>
-<div class="timeline"><p class='p h2'>2022</p><!-- timeline 01-02 -->
-这是测试页面
-<!-- endtimeline --></div>
-<h3 id="Note-Bootstrap-Callout"><a class="header-anchor" href="#Note-Bootstrap-Callout"></a>Note (Bootstrap Callout)</h3>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% note simple %&#125;</span><br><span class="line">默认 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note default simple %&#125;</span><br><span class="line">default 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note primary simple %&#125;</span><br><span class="line">primary 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note success simple %&#125;</span><br><span class="line">success 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note info simple %&#125;</span><br><span class="line">info 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note warning simple %&#125;</span><br><span class="line">warning 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note danger simple %&#125;</span><br><span class="line">danger 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note blue &#39;fas fa-bullhorn&#39; simple %&#125;</span><br><span class="line">2021年快到了....</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% note blue &#39;fas fa-bullhorn&#39; modern %&#125;</span><br><span class="line">2021年快到了....</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure>
-<div class="note default simple"><p>default 提示块标签</p>
-</div>
-<div class="note blue icon simple"><i class="note-icon fas fa-bullhorn"></i><p>2021年快到了…</p>
-</div>
-<div class="note blue icon modern"><i class="note-icon fas fa-bullhorn"></i><p>2021年快到了…</p>
-</div>
-<h3 id="hide-toggle"><a class="header-anchor" href="#hide-toggle"></a>hide-toggle</h3>
-<div class="note [class] [no-icon] [style] flat"><p>你的内容</p>
-</div>
-<div class="hide-toggle" style="border: 1px solid bg"><div class="hide-button toggle-title" style="background-color: bg;color: color"><i class="fas fa-caret-right fa-fw"></i><span>中括号内容说明</span></div>
-    <div class="hide-content"><p>名称	用法</p>
-</div></div>
-]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>考研</tag>
-        <tag>心理学</tag>
-        <tag>经济类</tag>
-        <tag>护理</tag>
-        <tag>药学</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>网站里面所有资源的来源，都在这里</title>
-    <url>/way.html</url>
-    <content><![CDATA[<p>因为网站资源频繁失效，所以本人特意下一篇搜索网上各种考研考证资源的文章</p>
-<p>网站里面所有资源的来源，都是网上各个地方搜索整合来的，主要平台有以下几个：</p>
-<p>欢迎大家文章底下评论补充，我会再加进去文章里面供大家使用</p>
-<h2 id="1-题库网"><a class="header-anchor" href="#1-题库网"></a>1.题库网</h2>
-<p>网站链接 <a href="http://www.tikuwang.com/app/index.php?i=2&amp;c=entry&amp;do=fengmian&amp;m=hulu_info">http://www.tikuwang.com/app/index.php?i=2&amp;c=entry&amp;do=fengmian&amp;m=hulu_info</a></p>
-<p>该网站完全免费分享，来源一家题库网公众号，本站的大部分资源均来源于此。如果本站资源失效可以去这个网站。</p>
-<img src="https://i.loli.net/2021/01/30/BUH8mDkTpRJQ5FZ.png" alt="image-20210130223517406" style="zoom:67%;" />
-<h2 id="2-安心考研"><a class="header-anchor" href="#2-安心考研"></a>2.安心考研</h2>
-<p>网站链接 <a href="http://axky.ys168.com/">http://axky.ys168.com/</a></p>
-<p>1个提供大量考研资料的永硕E盘👍，更新比较及时</p>
-<p>不过缺点就是资源较少，其他的一些资源要付费。</p>
-<p>主要涵盖语文、数学、英语考研以及四六级</p>
-<img src="https://i.loli.net/2021/01/30/PnA5R2MEv1ZQ6NW.png" alt="image-20210130224026382" style="zoom:67%;" />
-<p>同样类型的网盘还有 <a href="http://kyxz.ys168.com/">http://kyxz.ys168.com/</a></p>
-<h2 id="3-金榜题名"><a class="header-anchor" href="#3-金榜题名"></a>3.金榜题名</h2>
-<p>网站链接 <a href="http://qzbltushu.ys168.com/">http://qzbltushu.ys168.com/</a></p>
-<p>该网站资料全都是免费的，资源也比较全</p>
-<p><img src="https://i.loli.net/2021/07/15/YgjKAUrcV3unozp.png" alt="image-20210715183003469"></p>
-<h2 id="3-考研学子"><a class="header-anchor" href="#3-考研学子"></a>3.考研学子</h2>
-<p>部分收费</p>
-<p><img src="https://i.loli.net/2021/07/15/IW7xiG8CgFn2DMv.png" alt="image-20210715183112266"><img src="C:%5CUsers%5Cweifeng%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210715183129586.png" alt="image-20210715183129586"></p>
-<h2 id="4-其他分享者"><a class="header-anchor" href="#4-其他分享者"></a>4.其他分享者</h2>
-<p>小帅同学http://gmengshuai.ys168.com/</p>
-<p>油麦同学http://cangbaoge.ys168.com/</p>
-<p>陈蛋蛋的宝藏库http://www.chendandan.ys168.com/</p>
-<p>哆啦A梦的神奇口袋http://htwww.baozangku.ys168.com/</p>
-<p>可可西里的杂货铺http://kkxldzhp.ys168.com/</p>
-<h5 id="2014-2020教资笔试、面试网课资料合集-https-shimo-im-docs-VwqgJy8pYtVcvwY6-read"><a class="header-anchor" href="#2014-2020教资笔试、面试网课资料合集-https-shimo-im-docs-VwqgJy8pYtVcvwY6-read"></a>2014-2020教资笔试、面试网课资料合集 <a href="https://shimo.im/docs/VwqgJy8pYtVcvwY6/read">https://shimo.im/docs/VwqgJy8pYtVcvwY6/read</a></h5>
-<h5 id="一建-二建-消防-监管-http-zhulu-ys168-com"><a class="header-anchor" href="#一建-二建-消防-监管-http-zhulu-ys168-com"></a>一建 二建 消防 监管 <a href="http://zhulu.ys168.com/">http://zhulu.ys168.com/</a></h5>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">【注意】：</span><br><span class="line">务必记住网址 http:&#x2F;&#x2F;zhulu.ys168.com&#x2F; </span><br><span class="line">及最上面一项：“单科密码管理区”的密码：pass</span><br><span class="line">通过“单科密码管理区”可查询各单科课程的密码。</span><br></pre></td></tr></table></figure>
-<img src="https://i.loli.net/2021/01/30/NvBqQGrMLkWoYCs.png" alt="image-20210130230519905" style="zoom:67%;" />
-<h2 id="5-各类论坛"><a class="header-anchor" href="#5-各类论坛"></a>5.各类论坛</h2>
-<p><strong>1.52破解</strong><a href="https://www.52pojie.cn/">https://www.52pojie.cn/</a></p>
-<p><strong>2.考研帮</strong><a href="http://www.kaoyan.com/">http://www.kaoyan.com/</a></p>
-<p><strong>3.小木虫论坛</strong> <a href="http://muchong.com/bbs/">http://muchong.com/bbs/</a></p>
-<h5 id="4-乐愚社区-https-bbs-leyuz-net"><a class="header-anchor" href="#4-乐愚社区-https-bbs-leyuz-net"></a>4.乐愚社区 <a href="https://bbs.leyuz.net/">https://bbs.leyuz.net/</a></h5>
-<p>其实微信许多公众号有，不过大多数公众号比较杂，多收费</p>
-<p>大家有什么推荐的考研公众号评论留言一起分享。等待后续更新</p>
-<img src="https://i.loli.net/2021/02/13/BIZ6s7rm9Wuko8P.png" alt="image-20210130232602465" style="zoom:50%;" />
-]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>考研</tag>
-        <tag>四六级</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>电子书查找方法大合集，90%可行</title>
-    <url>/ebook.html</url>
-    <content><![CDATA[<h2 id="0-本卡风公众号"><a class="header-anchor" href="#0-本卡风公众号"></a>0.本卡风公众号</h2>
-<p>回复书籍ss号即可获取书籍</p>
-<h2 id="1-各类网站，动手能力签的自己找一下"><a class="header-anchor" href="#1-各类网站，动手能力签的自己找一下"></a>1.各类网站，动手能力签的自己找一下</h2>
-<p><a href="https://eureka.mba/posts/81cc5063.html">https://eureka.mba/posts/81cc5063.html</a></p>
-<h2 id="2-可加群，群内管理员会无偿帮你下载"><a class="header-anchor" href="#2-可加群，群内管理员会无偿帮你下载"></a>2.可加群，群内管理员会无偿帮你下载</h2>
-<p>那里加群？</p>
-<p>这里 <a href="https://bkfeng.top/1">https://bkfeng.top/1</a></p>
-<h2 id="3-全国图书馆参考联盟"><a class="header-anchor" href="#3-全国图书馆参考联盟"></a>3.全国图书馆参考联盟</h2>
-<p>图书来源几乎都是全国图书馆参考联盟、读秀</p>
-<p>全国图书参考联盟（荐）：<a href="http://www.ucdrs.superlib.net">http://www.ucdrs.superlib.net</a></p>
-<p>龙岩网络图书馆（荐）：<a href="http://www.ly.superlib.net">http://www.ly.superlib.net</a></p>
-<p>读秀网址：<a href="http://www.duxiu.com">http://www.duxiu.com</a></p>
-<h3 id="1-1-图书互助"><a class="header-anchor" href="#1-1-图书互助"></a>1.1 图书互助</h3>
-<p>这是一款方便购买全国图书参考联盟／龙岩／读秀上电子书的油猴脚本</p>
-<p><img src="https://i0.hdslb.com/bfs/article/cd374de5266ffc8af5689ae34b6e30ca658d5fa7.png@942w_144h_progressive.webp" alt="image-20210528203355730"><br>
-脚本：<a href="https://greasyfork.org/zh-CN/scripts/420751">https://greasyfork.org/zh-CN/scripts/420751</a></p>
-<p>使用</p>
-<p>1、浏览器猴脚本，不会这么安装的自行百度</p>
-<p>2、以全国图书参考联盟为例，打开全国图书参考联盟进行搜索，就可以看到网页上比安装脚本之前多了一个「图书互助」按钮</p>
-<p><img src="https://i0.hdslb.com/bfs/article/4c3798823502d87df8efe70ed63fdbd5478678f3.png@942w_432h_progressive.webp" alt="image-20210528210913742"></p>
-<p>点击「图书互助」按钮，如若找到资源，则可「发起互助」</p>
-<p>这里填入自己的邮箱，点击「立即下单」</p>
-<p>PS：图书馆的扫描格式是 PDG，转成 PDF 需要一定的时间，请查看教程。</p>
-<h3 id="1-2-图书搜索联盟"><a class="header-anchor" href="#1-2-图书搜索联盟"></a>1.2 图书搜索联盟</h3>
-<p>这也是一款方便购买全国图书参考联盟／龙岩／读秀上电子书的油猴脚本</p>
-<p>脚本：<a href="https://greasyfork.org/zh-CN/scripts/423011">https://greasyfork.org/zh-CN/scripts/423011</a></p>
-<p>使用方法类似上面</p>
-<p>对于不想安装脚本的，直接进入互助联盟官网查询即可</p>
-<p>官网：<a href="https://www.readersteam.com">https://www.readersteam.com</a></p>
-<h2 id="3-吾爱破解代下"><a class="header-anchor" href="#3-吾爱破解代下"></a>3.吾爱破解代下</h2>
-<p>吾爱破解真的是国内为数不多的良心论坛，虽然最近又加大了管理力度，但是完全不影响咱们找资源</p>
-<p>可以说你在各个软件网站看到的绿色版、破解版的软件（甚至福利资源类）绝大部分都来自这里</p>
-<p>论坛一般每年在特定节日免费开放注册（据说今年暑假会开放）具体注册时间大家可以关注官网论坛的公告或者关注公众号</p>
-<p>官网：<a href="https://www.52pojie.cn">https://www.52pojie.cn</a></p>
-<p>回归正题，我们可以去悬赏区发布悬赏（找到资源者一般都会很快回复你的）</p>
-<h2 id="4-某宝代找PDF"><a class="header-anchor" href="#4-某宝代找PDF"></a>4.某宝代找PDF</h2>
-<p>我们只要给他们一个ISBN或者书名作者，几分钟就能得到所需电子书，</p>
-<img src="https://i0.hdslb.com/bfs/article/7c02f645c9ad588b4e6dbddb07d6915e209de746.png@942w_1322h_progressive.webp" alt="Screenshot_2021_0523_143312-iPad Air 2 (1)" style="zoom:25%;" />
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>技术</tag>
-        <tag>方法</tag>
-        <tag>小技巧</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>网站相关及学习交流群</title>
-    <url>/1.html</url>
-    <content><![CDATA[<h1>网站</h1>
-<p>该网站是基于HEXO+GitHub建的，虽然能省下不少服务器费用，但网站的一些运营需要操作成本。</p>
-<p>所以快夸我大好人。</p>
-<p>2021年10月，你决定网页改版。11月已经网站已经正式换皮肤！</p>
-<p>放上几张旧站照片供回忆</p>
-<p>2022年8月，网站修改，</p>
-<ol>
-<li>
-<p>添加了文章更新日期和阅读次数，也增大了网站字体字号，解决一下显示问题。</p>
-<p><img src="https://i0.hdslb.com/bfs/album/cd011e6d87538dcb6310799b7c4a697dd85c11b1.png" alt="image-20220825123123349"></p>
-</li>
-<li>
-<p>发表时间改为更新时间<img src="https://i0.hdslb.com/bfs/album/2fa7abd129e8e441caa28ec4770d83df042f7522.png" alt="image-20220825124342937"></p>
-</li>
-<li>
-<p>修复国际版共享域名不再向中国大陆提供服务，导致无法发送和查看评论。<img src="https://i0.hdslb.com/bfs/album/502be2f81e3775cd74bf8903cee4a81063bfd776.png" alt="image-20220826183358468"></p>
-</li>
-</ol>
-<p>网站访问数据：</p>
-<p><img src="https://i.loli.net/2021/11/05/cQRkAsZOv9TYNVP.png" alt="image-20211105211526753"></p>
-<p><img src="https://i.loli.net/2021/11/05/SpOjUbLguWr7w2l.png" alt="image-20211105211629672"></p>
-<p><img src="https://i.loli.net/2021/11/05/dCEAlJOvWUbSZjX.png" alt="image-20211105211754091"></p>
-<h1>关于群</h1>
-<p><strong>群内可以相互交流学习，分享一下个人经验</strong></p>
-<p>群内交流气氛还是很好地，并且群内配备各种大佬帮助你</p>
-<p><img src="https://i.loli.net/2021/01/02/HYBcazNOtg5XVe6.png" alt="image-20210102152325746"></p>
-<p><img src="https://i.loli.net/2021/07/21/bsSIqmdXfiFZ3v9.png" alt="image-20210721003305936"></p>
-<p>1.群又已经满了继续开放群，因为一些原因没有进群的可以进去，和大家一起交流学习。群满200继续邀请进群，满了才开放新群。</p>
-<p>2.网站的资源都是本人转载网络的，至于学习资料的来源我在博客里面写了一篇文章讲过。链接失效可以去资料来源看看。</p>
-<p>3.本人不常打理，资料更新较慢，因为这本来就是我没啥事做就分享一下资料给大家，希望帮助一些人。</p>
-<p>4.群内主要由热心的“Eureka！”管理，有什么问题（包括找书）可以问他。</p>
-<p><img src="https://i.loli.net/2021/11/05/3JRKuWC7PcMASpq.png" alt="image-20211105211219777"></p>
-<p>群满后如需要进的微信:<strong>bkfeng46</strong></p>
-<img src="https://i.loli.net/2021/01/02/UF7me1GifdbrzZy.png" alt="加群微信" style="zoom: 50%;" />
-<p>另外，如果该资料对你有帮助，并且你愿意支持我，在文章下方有个打赏按钮不妨支持一下，不胜感激 ！！</p>
-<img src="C:%5CUsers%5Cweifeng%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210621202540579.png" alt="image-20210621202540579" style="zoom:25%;" />
-<p>另外本站上线了评论系统，有什么问题也可以直接底下留言！</p>
-]]></content>
-      <categories>
-        <category>杂谈</category>
-      </categories>
-      <tags>
-        <tag>网站相关</tag>
-        <tag>震惊!</tag>
-        <tag>不知道写什么了</tag>
-        <tag>捐助</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>2023公务员+事业单位+教师</title>
     <url>/kao.html</url>
     <content><![CDATA[<p>是谁把雨露撒遍大地?</p>
@@ -649,57 +179,204 @@ This is my website, click the button <a class="btn-beautify button--animated lar
       </tags>
   </entry>
   <entry>
-    <title>百度网盘扩容指南——资源分享者的必备素养</title>
-    <url>/kuorong.html</url>
-    <content><![CDATA[<h2 id="百度网盘扩容自动化"><a class="header-anchor" href="#百度网盘扩容自动化"></a>百度网盘扩容自动化</h2>
-<p>很久前，就知道百度网盘扩容这么一回事，就是给你的百度网盘存入超过空间的文件</p>
-<img src="https://i0.hdslb.com/bfs/album/03fcfb1a6881a6c3a399b442362c90167dc24635.png" alt="image-20220824003807689" style="zoom:50%;" />
-<p>目前我分享的课程也是通过这种方式来存的（要不然你以为我这么这么多空间）</p>
-<img src="https://i0.hdslb.com/bfs/album/3a024a270b29009601e1f864ff8a492ca6dbf5ee.png" alt="image-20220824004026915" style="zoom:33%;" />
-<p>一些商家也付费提供着需要授权码的软件，但白嫖才是正道。</p>
-<p>但是现有手工操作过于麻烦，了解到相关知识后，我得知了百度网盘扩容原理，因此我<strong>抓包</strong>百度网盘相关接口自己写了一个自动化的扩容程序，</p>
-<p>包含扩容和修复两部分。</p>
-<p>需要的工具：占位文件，百度网盘客户端，浏览器，一个会员百度网盘账号（会员才有垃圾清理功能）</p>
-<p>注意事项：请使用一个小号，据说扩容可能会封号（网上流传超过80t概率封号，我没封过不知道是不是真的）</p>
-<img src="https://i0.hdslb.com/bfs/album/cb9cefba69fb3c8b6a6fee600391bc215cd5a189.png" alt="Python代码" style="zoom: 33%;" />
-<p>本篇文章暂时先简略写着记录一下，后续优化后有详细过程。</p>
-<h3 id="扩容"><a class="header-anchor" href="#扩容"></a>扩容</h3>
-<p>目前网上扩容的原理无非就是利用百度网盘的垃圾文件清理功能，</p>
-<p>通过特定操作来删除垃圾文件</p>
-<p>从而来实现网盘的容量减少，存入的文件容量增加</p>
-<p>手工操作过程如下（这里不细讲，也不放图了，提供大致流程）</p>
-<ol>
-<li>保存10个文件到文件夹【working】</li>
-<li>清理文件夹【working】，并获取垃圾文件列表</li>
-<li>删除【working】文件夹内所有文件</li>
-<li>删除垃圾文件（此时空间容量会减少）</li>
-</ol>
-<p>但是手工的方式过于繁琐，使用Python可极大程度方便使用</p>
-<p>扩容代码大致如下</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">kuorong</span>():</span></span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    1.保存10个文件到文件夹【working】</span></span><br><span class="line"><span class="string">    2.清理文件夹【working】，并获取垃圾文件列表</span></span><br><span class="line"><span class="string">    3.删除文件夹内所有文件</span></span><br><span class="line"><span class="string">    4.删除垃圾文件</span></span><br><span class="line"><span class="string">    5.保存一个5T的文件夹</span></span><br><span class="line"><span class="string">    :return: None</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    </span><br><span class="line">    <span class="comment"># 1.保存10个文件到文件夹【working】</span></span><br><span class="line">    save(<span class="string">&quot;[690435813055101,26598162122456,1020496199701393,644765167361037,261696681183572,132504979092525,169677771677732,829587079548271,260890747525505,111657973573120]&quot;</span>, <span class="string">&#x27;/占位/working&#x27;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 2.清理文件夹【working】，并获取垃圾文件列表</span></span><br><span class="line">    taskid = clear(<span class="string">&#x27;/占位/working&#x27;</span>)[<span class="string">&quot;taskid&quot;</span>]</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;正在清理重复文件，taskid：%s&quot;</span> % taskid)</span><br><span class="line">    query = garbagetaskquery(taskid)</span><br><span class="line">    <span class="keyword">while</span> query[<span class="string">&quot;status&quot;</span>] == <span class="string">&quot;running&quot;</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;**当前进度:%s&quot;</span> % query[<span class="string">&quot;progress&quot;</span>], end=<span class="string">&quot;**&quot;</span>)</span><br><span class="line">        time.sleep(<span class="number">3</span>)</span><br><span class="line">        query = garbagetaskquery(taskid)</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;整理文件完成&quot;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 3.删除文件夹内所有文件</span></span><br><span class="line">    delete(<span class="string">&#x27;[&quot;/占位/working/xwangpan10&quot;,&quot;/占位/working/xwangpan06&quot;,&quot;/占位/working/xwangpan09&quot;,&quot;/占位/working/xwangpan08&quot;,&quot;/占位/working/xwangpan05&quot;,&quot;/占位/working/xwangpan03&quot;,&quot;/占位/working/xwangpan04&quot;,&quot;/占位/working/xwangpan01&quot;,&quot;/占位/working/xwangpan07&quot;,&quot;/占位/working/xwangpan02&quot;,&quot;/占位/working/xwangpan02(1)&quot;,&quot;/占位/working/xwangpan07(1)&quot;,&quot;/占位/working/xwangpan05(1)&quot;,&quot;/占位/working/xwangpan04(1)&quot;,&quot;/占位/working/xwangpan09(1)&quot;,&quot;/占位/working/xwangpan01(1)&quot;,&quot;/占位/working/xwangpan06(1)&quot;,&quot;/占位/working/xwangpan10(1)&quot;,&quot;/占位/working/xwangpan08(1)&quot;,&quot;/占位/working/xwangpan03(1)&quot;]&#x27;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 4.保存五个文件</span></span><br><span class="line">    save(<span class="string">&quot;[690435813055101,26598162122456,1020496199701393,644765167361037,261696681183572,132504979092525,169677771677732,829587079548271,260890747525505,111657973573120]&quot;</span>, <span class="string">&#x27;/占位/working&#x27;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 4.删除垃圾文件</span></span><br><span class="line">    json = get_garbagelist(taskid)</span><br><span class="line">    garbage_list = []</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> json[<span class="string">&quot;list&quot;</span>][<span class="number">0</span>][<span class="string">&quot;data&quot;</span>]:</span><br><span class="line">        file = <span class="string">&#x27;&#123;&quot;fs_id&quot;: &quot;%s&quot;, &quot;index&quot;: %s&#125;&#x27;</span> % (i[<span class="string">&#x27;fs_id&#x27;</span>], <span class="built_in">str</span>(i[<span class="string">&#x27;index&#x27;</span>]))</span><br><span class="line">        garbage_list.append(file)</span><br><span class="line">    <span class="comment"># print(garbage_list)</span></span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;获取删除列表成功&quot;</span>, <span class="built_in">str</span>(garbage_list).replace(<span class="string">&quot;&#x27;&quot;</span>, <span class="string">&quot;&quot;</span>))</span><br><span class="line">    garbage_delete(taskid, <span class="built_in">str</span>(garbage_list).replace(<span class="string">&quot;&#x27;&quot;</span>, <span class="string">&quot;&quot;</span>))</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 5.保存一个5T的文件夹</span></span><br><span class="line">    save(<span class="string">&#x27;[1054623448621227]&#x27;</span>, <span class="string">&quot;/占位&quot;</span>)</span><br></pre></td></tr></table></figure>
-<h3 id="修复"><a class="header-anchor" href="#修复"></a>修复</h3>
-<p>扩容之后第二天基本都会爆盘，就是你的空间已经超出最大容量了，无法存入资料了，</p>
-<p>加入你存进网盘的资料不需要更新，那么你就不需要修复了，可以正常使用文件分享功能，</p>
-<p>如果你需要继续存文件，就要使用修复了。</p>
-<p>修复的原理则是利用百度网盘客户端的移入隐私空间，然后清理垃圾文件来实现修复。</p>
-<p>手工操作大致流程如下（这里不细讲，也不放图了，提供大致流程）：</p>
-<ol>
-<li>清理文件夹【修复】，并获取垃圾文件列表</li>
-<li>把文件夹【修复】移入隐藏空间</li>
-<li>删除垃圾文件</li>
-<li>移出隐藏空间</li>
-</ol>
-<p>代码如下</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">fix</span>():</span></span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    1.清理垃圾，获取taskid</span></span><br><span class="line"><span class="string">    2.查询进度</span></span><br><span class="line"><span class="string">    3.获取删除列表</span></span><br><span class="line"><span class="string">    4.进行删除操作</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="comment"># 1.清理垃圾，获取taskid</span></span><br><span class="line">    taskid = clear(<span class="string">&#x27;/修复&#x27;</span>)[<span class="string">&quot;taskid&quot;</span>]</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;正在清理重复文件，taskid：%s&quot;</span> % taskid)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 2.查询进度</span></span><br><span class="line">    query = garbagetaskquery(taskid)</span><br><span class="line">    <span class="keyword">while</span> query[<span class="string">&quot;status&quot;</span>] == <span class="string">&quot;running&quot;</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;**当前进度:%s&quot;</span> % query[<span class="string">&quot;progress&quot;</span>], end=<span class="string">&quot;**&quot;</span>)</span><br><span class="line">        time.sleep(<span class="number">3</span>)</span><br><span class="line">        query = garbagetaskquery(taskid)</span><br><span class="line">    </span><br><span class="line">    <span class="comment"># 3.获取删除列表</span></span><br><span class="line">    json = get_garbagelist(taskid)</span><br><span class="line">    garbage_list = []</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> json[<span class="string">&quot;list&quot;</span>][<span class="number">0</span>][<span class="string">&quot;data&quot;</span>]:</span><br><span class="line">        file = <span class="string">&#x27;&#123;&quot;fs_id&quot;: &quot;%s&quot;, &quot;index&quot;: %s&#125;&#x27;</span> % (i[<span class="string">&#x27;fs_id&#x27;</span>], <span class="built_in">str</span>(i[<span class="string">&#x27;index&#x27;</span>]))</span><br><span class="line">        garbage_list.append(file)</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;获取删除列表成功&quot;</span>, <span class="built_in">str</span>(garbage_list).replace(<span class="string">&quot;&#x27;&quot;</span>, <span class="string">&quot;&quot;</span>))</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 4.进行删除操作</span></span><br><span class="line">    move_info = move(<span class="string">&quot;/修复&quot;</span>, <span class="string">&quot;/_pcs_.safebox&quot;</span>, <span class="string">&quot;修复&quot;</span>)</span><br><span class="line">    <span class="keyword">if</span> move_info[<span class="string">&quot;errno&quot;</span>] == <span class="number">0</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;移入隐藏空间成功&quot;</span>, move_info)</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;移入隐藏空间失败&quot;</span>, move_info)</span><br><span class="line">    garbage_delete(taskid, <span class="built_in">str</span>(garbage_list).replace(<span class="string">&quot;&#x27;&quot;</span>, <span class="string">&quot;&quot;</span>))</span><br></pre></td></tr></table></figure>
-<p>但是代码写的时候遇到了问题，就是移出隐藏空间的包抓取不了，应该是百度网盘进行相关加密了</p>
-<p>也就是说修复完需要手动把文件移出隐藏空间（算个小瑕疵了）</p>
-<p>不过最近我了解到一种不需要隐藏空间移动的方法，待我有空验证可行性在吧这种方法写成Python，完美实现自动化操作</p>
-<p>目前代码虽然已经完成，但是未考虑到分享给广大用户（因为代码如果你们使用会有太多限制，代码很多操作都是根据我自己网盘实际情况来写的），后续（我很懒）优化代码后可能会考虑写个Gui图形界面，分享给你们使用。</p>
-<h3 id="附各函数功能说明"><a class="header-anchor" href="#附各函数功能说明"></a>附各函数功能说明</h3>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 以下代码仅显示函数名</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 得到百度网盘bdstoken</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">get_bdstoken</span>():</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 保存文件</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">save</span>(<span class="params">fs_ids, file_dir</span>):</span>.</span><br><span class="line"></span><br><span class="line"><span class="comment"># 删除文件</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">delete</span>(<span class="params">file_dir</span>):</span></span><br><span class="line">    </span><br><span class="line"><span class="comment"># 移动文件到隐藏空间</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">move</span>(<span class="params">form_file, to_file, newname</span>):</span></span><br><span class="line">    </span><br><span class="line"><span class="comment"># 文件的任务查询</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">taskquery</span>(<span class="params">taskid</span>):</span>…</span><br><span class="line"></span><br><span class="line"><span class="comment"># 清理垃圾任务查询垃圾</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">garbagetaskquery</span>(<span class="params">taskid</span>):</span></span><br><span class="line">    </span><br><span class="line"><span class="comment"># 执行清理垃圾</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">clear</span>(<span class="params">filedir</span>):</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 得到待清理垃圾的列表</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">get_garbagelist</span>(<span class="params">taskid</span>):</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 删除垃圾列表</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">garbage_delete</span>(<span class="params">taskid, garbagelist</span>):</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 修复</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">fix</span>():</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 扩容</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">kuorong</span>()</span></span><br><span class="line"><span class="function"></span></span><br><span class="line">if __name__ == &#x27;__main__&#x27;:</span><br><span class="line">    pc_cookie = <span class="string">&#x27;填写你的pc_cookie&#x27;</span></span><br><span class="line">    cookie = <span class="string">&#x27;填写你的cookie’</span></span><br><span class="line"><span class="string">    bdstoken = get_bdstoken()</span></span><br><span class="line"><span class="string">    </span></span><br><span class="line"><span class="string">    # fix()</span></span><br><span class="line"><span class="string">    # kuorong()</span></span><br></pre></td></tr></table></figure>
+    <title>butterfly配置</title>
+    <url>/15367.html</url>
+    <content><![CDATA[<h3 id="社交图标"><a class="header-anchor" href="#社交图标"></a>社交图标</h3>
+<p>Butterfly支持 font-awesome v6图标  <a href="https://fontawesome.com/icons?from=io">https://fontawesome.com/icons?from=io</a></p>
+<p>书写格式 图标名：url || 描述性文字</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">social:</span><br><span class="line">  fab fa-github: https:&#x2F;&#x2F;github.com&#x2F;xxxxx || Github</span><br><span class="line">  fas fa-envelope: mailto:xxxxxx@gmail.com || Email</span><br></pre></td></tr></table></figure>
+<h3 id="文章置顶"><a class="header-anchor" href="#文章置顶"></a>文章置顶</h3>
+<p>【推荐】hexo-generator-index从 2.0.0 开始，已经支持文章置顶功能。你可以直接在文章的front-matter区域里添加sticky: 1属性来把这篇文章置顶。数值越大，置顶的优先级越大。</p>
+<h3 id="tag-hide"><a class="header-anchor" href="#tag-hide"></a>tag-hide</h3>
+<span class="hide-inline"><button type="button" class="hide-button button--animated" style="background-color: bg;color: color">display
+  </button><span class="hide-content">content</span></span>
+<h3 id="Tabs"><a class="header-anchor" href="#Tabs"></a>Tabs</h3>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% tabs Unique name, [index] %&#125;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab [Tab caption] [@icon] --&gt;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab [Tab caption] [@icon] --&gt;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&#123;% endtabs %&#125;</span><br></pre></td></tr></table></figure>
+<div class="tabs" id="test1"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#test1-1">test1 1</button></li><li class="tab"><button type="button" data-href="#test1-2">test1 2</button></li><li class="tab"><button type="button" data-href="#test1-3">test1 3</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="test1-1"><p><strong>This is Tab 1.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test1-2"><p><strong>This is Tab 2.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test1-3"><p><strong>This is Tab 3.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>
+<h3 id="Button"><a class="header-anchor" href="#Button"></a>Button</h3>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% btn [url],[text],[icon],[color] [style] [layout] [position] [size] %&#125;</span><br><span class="line"></span><br><span class="line">[url]         : 链接</span><br><span class="line">[text]        : 按钮文字</span><br><span class="line">[icon]        : [可选] 图标</span><br><span class="line">[color]       : [可选] 按钮背景顔色(默认style时）</span><br><span class="line">                      按钮字体和边框顔色(outline时)</span><br><span class="line">                      default&#x2F;blue&#x2F;pink&#x2F;red&#x2F;purple&#x2F;orange&#x2F;green</span><br><span class="line">[style]       : [可选] 按钮样式 默认实心</span><br><span class="line">                      outline&#x2F;留空</span><br><span class="line">[layout]      : [可选] 按钮佈局 默认为line</span><br><span class="line">                      block&#x2F;留空</span><br><span class="line">[position]    : [可选] 按钮位置 前提是设置了layout为block 默认为左边</span><br><span class="line">                      center&#x2F;right&#x2F;留空</span><br><span class="line">[size]        : [可选] 按钮大小</span><br><span class="line">                      larger&#x2F;留空</span><br></pre></td></tr></table></figure>
+<p>This is my website, click the button <a class="btn-beautify button--animated " href="https://butterfly.js.org/" 
+  title="Butterfly"><span>Butterfly</span></a><br>
+This is my website, click the button <a class="btn-beautify button--animated " href="https://butterfly.js.org/" 
+  title="Butterfly"><i class="far fa-hand-point-right fa-fw"></i><span>Butterfly</span></a><br>
+This is my website, click the button <a class="btn-beautify button--animated outline" href="https://butterfly.js.org/" 
+  title="Butterfly"><span>Butterfly</span></a><br>
+This is my website, click the button <a class="btn-beautify button--animated outline" href="https://butterfly.js.org/" 
+  title="Butterfly"><i class="far fa-hand-point-right fa-fw"></i><span>Butterfly</span></a><br>
+This is my website, click the button <a class="btn-beautify button--animated larger" href="https://butterfly.js.org/" 
+  title="Butterfly"><i class="far fa-hand-point-right fa-fw"></i><span>Butterfly</span></a></p>
+<h3 id="inlineImg"><a class="header-anchor" href="#inlineImg"></a>inlineImg</h3>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% inlineImg [src] [height] %&#125;</span><br><span class="line"></span><br><span class="line">[src]      :    图片链接</span><br><span class="line">[height]   ：   图片高度限制【可选】</span><br></pre></td></tr></table></figure>
+<p>你看我长得漂亮不</p>
+<p>我觉得很漂亮 <img class="inline-img" src="https://i.loli.net/2021/03/19/5M4jUB3ynq7ePgw.png" style="height:150px"/></p>
+<h3 id="label"><a class="header-anchor" href="#label"></a>label</h3>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% label text color %&#125;</span><br></pre></td></tr></table></figure>
+<div class="timeline"><p class='p h2'>2022</p><!-- timeline 01-02 -->
+这是测试页面
+<!-- endtimeline --></div>
+<h3 id="Note-Bootstrap-Callout"><a class="header-anchor" href="#Note-Bootstrap-Callout"></a>Note (Bootstrap Callout)</h3>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% note simple %&#125;</span><br><span class="line">默认 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note default simple %&#125;</span><br><span class="line">default 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note primary simple %&#125;</span><br><span class="line">primary 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note success simple %&#125;</span><br><span class="line">success 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note info simple %&#125;</span><br><span class="line">info 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note warning simple %&#125;</span><br><span class="line">warning 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note danger simple %&#125;</span><br><span class="line">danger 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note blue &#39;fas fa-bullhorn&#39; simple %&#125;</span><br><span class="line">2021年快到了....</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% note blue &#39;fas fa-bullhorn&#39; modern %&#125;</span><br><span class="line">2021年快到了....</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure>
+<div class="note default simple"><p>default 提示块标签</p>
+</div>
+<div class="note blue icon simple"><i class="note-icon fas fa-bullhorn"></i><p>2021年快到了…</p>
+</div>
+<div class="note blue icon modern"><i class="note-icon fas fa-bullhorn"></i><p>2021年快到了…</p>
+</div>
+<h3 id="hide-toggle"><a class="header-anchor" href="#hide-toggle"></a>hide-toggle</h3>
+<div class="note [class] [no-icon] [style] flat"><p>你的内容</p>
+</div>
+<div class="hide-toggle" style="border: 1px solid bg"><div class="hide-button toggle-title" style="background-color: bg;color: color"><i class="fas fa-caret-right fa-fw"></i><span>中括号内容说明</span></div>
+    <div class="hide-content"><p>名称	用法</p>
+</div></div>
 ]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
       <tags>
-        <tag>python</tag>
+        <tag>考研</tag>
+        <tag>心理学</tag>
+        <tag>经济类</tag>
+        <tag>护理</tag>
+        <tag>药学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>公众号书籍搜索常见问题</title>
+    <url>/library.html</url>
+    <content><![CDATA[<p><img src="https://article.biliimg.com/bfs/article/d93c1c495d3076b57e37b9abbf9df0af57a654cf.png" alt="image-20230131233151718"></p>
+<p>最近过完年比较有功夫</p>
+<p>对公众号的书籍查找功能进行了优化更新</p>
+<p>本来想自建书籍数据库，使用MySQL数据库</p>
+<p>但考虑到数据量太大，仅读秀的资源去重后就有4120298条</p>
+<p><img src="https://article.biliimg.com/bfs/article/23b78291ce310d3b3852ee03754c33b7768e3e60.png" alt="image-20230131234517631"></p>
+<p>而新加的Zlibrary库更是将近10000,000条，二者共计1500W左右数据</p>
+<p>在磕磕碰碰遇到不少困难终于把书籍导入到数据库以后</p>
+<p>我发现数据库在建立索引后，查询仍询比较慢（特别是全文查询）</p>
+<p>最终我还是选择了接入别人的接口，这样可以实现相同的效果</p>
+<p>毕竟别人做的搜索接口性能速度等方面应该比我的好不少（绝不是偷懒）</p>
+<p>如果他的接口失效了，再使用自己的书籍数据库吧~</p>
+<p>以下是公众号搜索的一些问题：</p>
+<ol>
+<li>
+<p><strong>为什么我不去百度上的一些书站获取书籍而去公众号搜索呢？</strong></p>
+<p>公众号的书籍内容包括超星（读秀）和zlibrary的资源，二者涵盖市面上绝大部分书籍。你在公众号搜索不了那去百度上一些散乱的书站以及tb买书商家也比较难找了。</p>
+</li>
+<li>
+<p><strong>为什么下载的书籍压缩包要密码？</strong></p>
+<p>教程内提供了软件。使用软件压缩，会使用软件内置密码库进行一一尝试从而进行压缩操作。目前从网络中搜集来的资源密码有 300+个，解压软件后台在处理任务时会尝试这些密码，后续还会持续更新密码表，提升成功率。</p>
+</li>
+<li>
+<p><strong>发送ss号以后公众号说没有这本书，怎么办？</strong></p>
+<p>这么说的话你的书可能是20年以后出版的，对于20年以后的书，在超星库中并没有。</p>
+</li>
+<li>
+<p><strong>超星库与zlibrary有什么区别？</strong></p>
+<p>超星就是负责扫描国内的书籍的，获取到的大部分为扫描版，且需要转换；</p>
+<p>而zlibrary是国际上知名的书籍获取网站，外文书比较多，也有一小部分较新书，获取到的书籍为pdf、mobi、epub等的文件。</p>
+</li>
+<li>
+<p><strong>怎么获取ss号？</strong></p>
+<p>ss即super star，是超星搞出来的一种针对每一本扫描书籍的号码</p>
+<p>通过公众号搜索指令<code>cx你需要搜索的书名</code>查询，不以“00”开头的数字为ss号</p>
+<p>另外，通过网站也可以获取ss号 <a href="https://www.xueshu86.com/">https://www.xueshu86.com/</a></p>
+</li>
+<li>
+<p><strong>怎么获取zlibrary号？</strong></p>
+<p>通过公众号搜索指令<code>cx你需要搜索的书名</code>查询，以“00”开头的数字为zlibrary号。</p>
+</li>
+<li>
+<p><strong>我用的是手机或者Mac电脑，怎么使用解压转换工具呢？</strong></p>
+<p>解压转换工具暂时只自测支持Window系统</p>
+<p>如果你用的是手机或者Mac，可以使用这个网站来在线解压转换。</p>
+<p>在公众号获取百度云链接后，使用该链接直接转换：<a href="https://pdg2pdf.online/convert">https://pdg2pdf.online/convert</a></p>
+</li>
+<li>
+<p><strong>百度网盘链接失效了怎么办？</strong></p>
+<p>目前百度网盘分享后只保留1天，请尽快保存，并在下载后24小时内删除！</p>
+</li>
+<li>
+<p><strong>可以批量获取书籍吗？</strong></p>
+<p>可以批量转换吗？很抱歉，暂时不支持批量转换。考虑到目前服务器资源有限，批量获取资源将会导致滥用，因此暂时不会支持批量获取书籍。</p>
+</li>
+<li>
+<p><strong>解压软件报毒怎么办？</strong></p>
+<p>安全软件误报，吧安全软件关闭就行了。软件是无毒的可以放心使用。</p>
+</li>
+<li>
+<p><strong>提示公众号出现故障怎么办？</strong></p>
+<p>请联系管理员微信 <code>bkfeng46</code>，获知后会第一时间修复。</p>
+</li>
+<li>
+<p><strong>还有什么获取书籍的方法吗？</strong></p>
+<p>如果你理解能力电脑能力比较强，可以参考我们群内管理员<code>Eureka!</code>写的这个教程 <a href="https://eureka.mba/posts/81cc5063.html">电子书文献论文搜索下载</a> 依照这个教程公众号内可以获取的书籍这个方法也可以获取到</p>
+</li>
+<li>
+<p><strong>为什么文件没有书签呢？</strong><br>
+每本书的书签都不同，需要和页码匹配进行编辑修改，所以我们大部分只提供简单的页码书签，部分文件无书签。</p>
+<p>想要获得完整书签教程内的下载工具软件，解压后软件包内有详细的书签编辑说明和书签编辑工具。</p>
+</li>
+<li>
+<p><strong>百度云下载速度慢？</strong></p>
+<p>如果你使用电脑浏览器，我推荐你用 软件小妹 的一个油猴脚本，基本可以满速下载。<a href="https://greasyfork.org/zh-CN/scripts/41818">百度网盘简易下载助手</a></p>
+</li>
+<li></li>
+</ol>
+<p><a href="https://i0.hdslb.com/bfs/album/2e50e073ea383f7a20c20b59819b7cf8e3195301.png"><img src="https://i0.hdslb.com/bfs/album/2e50e073ea383f7a20c20b59819b7cf8e3195301.png" alt="image-20221127221604449"></a></p>
+<p>公众号书籍搜索指令如下</p>
+<p><img src="https://article.biliimg.com/bfs/article/db1f1c43bb2dcf9d967bce7be54e4f612d1aa27f.png" alt="公众号搜索指令一图流"></p>
+<ol>
+<li>
+<p>通过书籍id获取包含书籍的信息和下载链接</p>
+<ul>
+<li>
+<p>ssid为8为数字，可以获取读秀的资源（书籍下载后还需要进行解压和转换等一系列操作）</p>
+</li>
+<li>
+<p>zlibid以00开头，可以获取zlibrary的资源（书籍下载后直接可以打开，无需转换）</p>
+</li>
+</ul>
+<p>书籍的ssid通过网站搜索、公众号搜索获取<br>
+书籍的zlibid暂时只能通过公众号搜索获取</p>
+</li>
+</ol>
+<p><img src="https://article.biliimg.com/bfs/article/0ce48be70ee4047d2e917b757e67eea71e5cc5c3.png" alt="image-20230131232658813"></p>
+<ol start="2">
+<li>
+<p>通过<code>cx你需要搜索的书名</code>来搜索书籍</p>
+<p>如想要查询“三体”，就发送“cx三体&quot;</p>
+<p>此种方式的好处可以查询包括zlibrary和读秀的书籍</p>
+<p>建议优先使用zlibrary的资源里的书籍（即书籍id为00开头）</p>
+<p>因为该库的书籍文件为pdf、mobi、epub等无需解压的文件</p>
+<p>读秀库的文件需要解压以及文件为扫描版，且文字不可复制和没有书签</p>
+<p>再次回复书籍的id可以获得书籍的百度云链接</p>
+<p><img src="https://article.biliimg.com/bfs/article/74ea0270156f0aba2e3ff04cbec7dfeb578bc716.png" alt="image-20230203171513135"></p>
+<p>下载后即可获取一份带有书签的文字可复制的文件</p>
+<p><img src="https://article.biliimg.com/bfs/article/f00a6bde627861c486482f2362eeedfbc761b9f9.png" alt="image-20230131234030943"></p>
+</li>
+<li>
+<p>通过<code>next</code>进行查询结果的翻页操作</p>
+<p><img src="https://article.biliimg.com/bfs/article/f04046fb4e58a9651f79007ec482366040267060.png" alt="image-20230203172046900"></p>
+</li>
+<li>
+<p>通过<code>user</code>获取用户信息</p>
+</li>
+</ol>
+<p><img src="https://article.biliimg.com/bfs/article/0fda1ea6a5b5421aa3877d8fb24436846e69d297.png" alt="image-20230203171846940"></p>
+<p>以上就是目前为止公众号的所有指令，</p>
+<p>目前公众号为节约资源，限制了每日获取次数。不过一般正常使用的话不会超过这个限制的。</p>
+<p>因为以前老有一些人一天就发个几百本的书籍过来</p>
+<div class="hide-toggle" style="border: 1px solid bg"><div class="hide-button toggle-title" style="background-color: bg;color: color"><i class="fas fa-caret-right fa-fw"></i><span>如果你想捐助就点开我(っ•̀ω•́)っ</span></div>
+    <div class="hide-content"><h1><strong>关于捐助：</strong></h1>
+<p>谢谢你愿意点开(✪ω✪)</p>
+<p>如果该资料对你有帮助，并且愿意支持我，不妨支持一下 ！！</p>
+<p><img src="https://s2.loli.net/2023/02/11/4UD2nJG3BSpfrok.png" alt="image-20230211152020252"></p>
+</div></div>
+]]></content>
+      <categories>
+        <category>电子书</category>
+      </categories>
+      <tags>
+        <tag>书籍</tag>
       </tags>
   </entry>
   <entry>
@@ -848,9 +525,335 @@ document.write("<h2 title='具体时间以教育局公布为准'><font color=#34
       </tags>
   </entry>
   <entry>
+    <title>电子书查找方法大合集，90%可行</title>
+    <url>/ebook.html</url>
+    <content><![CDATA[<h2 id="0-本卡风公众号"><a class="header-anchor" href="#0-本卡风公众号"></a>0.本卡风公众号</h2>
+<p>回复书籍ss号即可获取书籍</p>
+<h2 id="1-各类网站，动手能力签的自己找一下"><a class="header-anchor" href="#1-各类网站，动手能力签的自己找一下"></a>1.各类网站，动手能力签的自己找一下</h2>
+<p><a href="https://eureka.mba/posts/81cc5063.html">https://eureka.mba/posts/81cc5063.html</a></p>
+<h2 id="2-可加群，群内管理员会无偿帮你下载"><a class="header-anchor" href="#2-可加群，群内管理员会无偿帮你下载"></a>2.可加群，群内管理员会无偿帮你下载</h2>
+<p>那里加群？</p>
+<p>这里 <a href="https://bkfeng.top/1">https://bkfeng.top/1</a></p>
+<h2 id="3-全国图书馆参考联盟"><a class="header-anchor" href="#3-全国图书馆参考联盟"></a>3.全国图书馆参考联盟</h2>
+<p>图书来源几乎都是全国图书馆参考联盟、读秀</p>
+<p>全国图书参考联盟（荐）：<a href="http://www.ucdrs.superlib.net">http://www.ucdrs.superlib.net</a></p>
+<p>龙岩网络图书馆（荐）：<a href="http://www.ly.superlib.net">http://www.ly.superlib.net</a></p>
+<p>读秀网址：<a href="http://www.duxiu.com">http://www.duxiu.com</a></p>
+<h3 id="1-1-图书互助"><a class="header-anchor" href="#1-1-图书互助"></a>1.1 图书互助</h3>
+<p>这是一款方便购买全国图书参考联盟／龙岩／读秀上电子书的油猴脚本</p>
+<p><img src="https://i0.hdslb.com/bfs/article/cd374de5266ffc8af5689ae34b6e30ca658d5fa7.png@942w_144h_progressive.webp" alt="image-20210528203355730"><br>
+脚本：<a href="https://greasyfork.org/zh-CN/scripts/420751">https://greasyfork.org/zh-CN/scripts/420751</a></p>
+<p>使用</p>
+<p>1、浏览器猴脚本，不会这么安装的自行百度</p>
+<p>2、以全国图书参考联盟为例，打开全国图书参考联盟进行搜索，就可以看到网页上比安装脚本之前多了一个「图书互助」按钮</p>
+<p><img src="https://i0.hdslb.com/bfs/article/4c3798823502d87df8efe70ed63fdbd5478678f3.png@942w_432h_progressive.webp" alt="image-20210528210913742"></p>
+<p>点击「图书互助」按钮，如若找到资源，则可「发起互助」</p>
+<p>这里填入自己的邮箱，点击「立即下单」</p>
+<p>PS：图书馆的扫描格式是 PDG，转成 PDF 需要一定的时间，请查看教程。</p>
+<h3 id="1-2-图书搜索联盟"><a class="header-anchor" href="#1-2-图书搜索联盟"></a>1.2 图书搜索联盟</h3>
+<p>这也是一款方便购买全国图书参考联盟／龙岩／读秀上电子书的油猴脚本</p>
+<p>脚本：<a href="https://greasyfork.org/zh-CN/scripts/423011">https://greasyfork.org/zh-CN/scripts/423011</a></p>
+<p>使用方法类似上面</p>
+<p>对于不想安装脚本的，直接进入互助联盟官网查询即可</p>
+<p>官网：<a href="https://www.readersteam.com">https://www.readersteam.com</a></p>
+<h2 id="3-吾爱破解代下"><a class="header-anchor" href="#3-吾爱破解代下"></a>3.吾爱破解代下</h2>
+<p>吾爱破解真的是国内为数不多的良心论坛，虽然最近又加大了管理力度，但是完全不影响咱们找资源</p>
+<p>可以说你在各个软件网站看到的绿色版、破解版的软件（甚至福利资源类）绝大部分都来自这里</p>
+<p>论坛一般每年在特定节日免费开放注册（据说今年暑假会开放）具体注册时间大家可以关注官网论坛的公告或者关注公众号</p>
+<p>官网：<a href="https://www.52pojie.cn">https://www.52pojie.cn</a></p>
+<p>回归正题，我们可以去悬赏区发布悬赏（找到资源者一般都会很快回复你的）</p>
+<h2 id="4-某宝代找PDF"><a class="header-anchor" href="#4-某宝代找PDF"></a>4.某宝代找PDF</h2>
+<p>我们只要给他们一个ISBN或者书名作者，几分钟就能得到所需电子书，</p>
+<img src="https://i0.hdslb.com/bfs/article/7c02f645c9ad588b4e6dbddb07d6915e209de746.png@942w_1322h_progressive.webp" alt="Screenshot_2021_0523_143312-iPad Air 2 (1)" style="zoom:25%;" />
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>技术</tag>
+        <tag>方法</tag>
+        <tag>小技巧</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>网站相关及学习交流群</title>
+    <url>/1.html</url>
+    <content><![CDATA[<h1>网站</h1>
+<p>该网站是基于HEXO+GitHub建的，虽然能省下不少服务器费用，但网站的一些运营需要操作成本。</p>
+<p>所以快夸我大好人。</p>
+<p>2021年10月，你决定网页改版。11月已经网站已经正式换皮肤！</p>
+<p>放上几张旧站照片供回忆</p>
+<p>2022年8月，网站修改，</p>
+<ol>
+<li>
+<p>添加了文章更新日期和阅读次数，也增大了网站字体字号，解决一下显示问题。</p>
+<p><img src="https://i0.hdslb.com/bfs/album/cd011e6d87538dcb6310799b7c4a697dd85c11b1.png" alt="image-20220825123123349"></p>
+</li>
+<li>
+<p>发表时间改为更新时间<img src="https://i0.hdslb.com/bfs/album/2fa7abd129e8e441caa28ec4770d83df042f7522.png" alt="image-20220825124342937"></p>
+</li>
+<li>
+<p>修复国际版共享域名不再向中国大陆提供服务，导致无法发送和查看评论。<img src="https://i0.hdslb.com/bfs/album/502be2f81e3775cd74bf8903cee4a81063bfd776.png" alt="image-20220826183358468"></p>
+</li>
+</ol>
+<p>网站访问数据：</p>
+<p><img src="https://i.loli.net/2021/11/05/cQRkAsZOv9TYNVP.png" alt="image-20211105211526753"></p>
+<p><img src="https://i.loli.net/2021/11/05/SpOjUbLguWr7w2l.png" alt="image-20211105211629672"></p>
+<p><img src="https://i.loli.net/2021/11/05/dCEAlJOvWUbSZjX.png" alt="image-20211105211754091"></p>
+<h1>关于群</h1>
+<p><strong>群内可以相互交流学习，分享一下个人经验</strong></p>
+<p>群内交流气氛还是很好地，并且群内配备各种大佬帮助你</p>
+<p><img src="https://i.loli.net/2021/01/02/HYBcazNOtg5XVe6.png" alt="image-20210102152325746"></p>
+<p><img src="https://i.loli.net/2021/07/21/bsSIqmdXfiFZ3v9.png" alt="image-20210721003305936"></p>
+<p>1.群又已经满了继续开放群，因为一些原因没有进群的可以进去，和大家一起交流学习。群满200继续邀请进群，满了才开放新群。</p>
+<p>2.网站的资源都是本人转载网络的，至于学习资料的来源我在博客里面写了一篇文章讲过。链接失效可以去资料来源看看。</p>
+<p>3.本人不常打理，资料更新较慢，因为这本来就是我没啥事做就分享一下资料给大家，希望帮助一些人。</p>
+<p>4.群内主要由热心的“Eureka！”管理，有什么问题（包括找书）可以问他。</p>
+<p><img src="https://i.loli.net/2021/11/05/3JRKuWC7PcMASpq.png" alt="image-20211105211219777"></p>
+<p>群满后如需要进的微信:<strong>bkfeng46</strong></p>
+<img src="https://i.loli.net/2021/01/02/UF7me1GifdbrzZy.png" alt="加群微信" style="zoom: 50%;" />
+<p>另外，如果该资料对你有帮助，并且你愿意支持我，在文章下方有个打赏按钮不妨支持一下，不胜感激 ！！</p>
+<img src="C:%5CUsers%5Cweifeng%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210621202540579.png" alt="image-20210621202540579" style="zoom:25%;" />
+<p>另外本站上线了评论系统，有什么问题也可以直接底下留言！</p>
+]]></content>
+      <categories>
+        <category>杂谈</category>
+      </categories>
+      <tags>
+        <tag>网站相关</tag>
+        <tag>震惊!</tag>
+        <tag>不知道写什么了</tag>
+        <tag>捐助</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>百度网盘扩容指南——资源分享者的必备素养</title>
+    <url>/kuorong.html</url>
+    <content><![CDATA[<h2 id="百度网盘扩容自动化"><a class="header-anchor" href="#百度网盘扩容自动化"></a>百度网盘扩容自动化</h2>
+<p>很久前，就知道百度网盘扩容这么一回事，就是给你的百度网盘存入超过空间的文件</p>
+<img src="https://i0.hdslb.com/bfs/album/03fcfb1a6881a6c3a399b442362c90167dc24635.png" alt="image-20220824003807689" style="zoom:50%;" />
+<p>目前我分享的课程也是通过这种方式来存的（要不然你以为我这么这么多空间）</p>
+<img src="https://i0.hdslb.com/bfs/album/3a024a270b29009601e1f864ff8a492ca6dbf5ee.png" alt="image-20220824004026915" style="zoom:33%;" />
+<p>一些商家也付费提供着需要授权码的软件，但白嫖才是正道。</p>
+<p>但是现有手工操作过于麻烦，了解到相关知识后，我得知了百度网盘扩容原理，因此我<strong>抓包</strong>百度网盘相关接口自己写了一个自动化的扩容程序，</p>
+<p>包含扩容和修复两部分。</p>
+<p>需要的工具：占位文件，百度网盘客户端，浏览器，一个会员百度网盘账号（会员才有垃圾清理功能）</p>
+<p>注意事项：请使用一个小号，据说扩容可能会封号（网上流传超过80t概率封号，我没封过不知道是不是真的）</p>
+<img src="https://i0.hdslb.com/bfs/album/cb9cefba69fb3c8b6a6fee600391bc215cd5a189.png" alt="Python代码" style="zoom: 33%;" />
+<p>本篇文章暂时先简略写着记录一下，后续优化后有详细过程。</p>
+<h3 id="扩容"><a class="header-anchor" href="#扩容"></a>扩容</h3>
+<p>目前网上扩容的原理无非就是利用百度网盘的垃圾文件清理功能，</p>
+<p>通过特定操作来删除垃圾文件</p>
+<p>从而来实现网盘的容量减少，存入的文件容量增加</p>
+<p>手工操作过程如下（这里不细讲，也不放图了，提供大致流程）</p>
+<ol>
+<li>保存10个文件到文件夹【working】</li>
+<li>清理文件夹【working】，并获取垃圾文件列表</li>
+<li>删除【working】文件夹内所有文件</li>
+<li>删除垃圾文件（此时空间容量会减少）</li>
+</ol>
+<p>但是手工的方式过于繁琐，使用Python可极大程度方便使用</p>
+<p>扩容代码大致如下</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">kuorong</span>():</span></span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    1.保存10个文件到文件夹【working】</span></span><br><span class="line"><span class="string">    2.清理文件夹【working】，并获取垃圾文件列表</span></span><br><span class="line"><span class="string">    3.删除文件夹内所有文件</span></span><br><span class="line"><span class="string">    4.删除垃圾文件</span></span><br><span class="line"><span class="string">    5.保存一个5T的文件夹</span></span><br><span class="line"><span class="string">    :return: None</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    </span><br><span class="line">    <span class="comment"># 1.保存10个文件到文件夹【working】</span></span><br><span class="line">    save(<span class="string">&quot;[690435813055101,26598162122456,1020496199701393,644765167361037,261696681183572,132504979092525,169677771677732,829587079548271,260890747525505,111657973573120]&quot;</span>, <span class="string">&#x27;/占位/working&#x27;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 2.清理文件夹【working】，并获取垃圾文件列表</span></span><br><span class="line">    taskid = clear(<span class="string">&#x27;/占位/working&#x27;</span>)[<span class="string">&quot;taskid&quot;</span>]</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;正在清理重复文件，taskid：%s&quot;</span> % taskid)</span><br><span class="line">    query = garbagetaskquery(taskid)</span><br><span class="line">    <span class="keyword">while</span> query[<span class="string">&quot;status&quot;</span>] == <span class="string">&quot;running&quot;</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;**当前进度:%s&quot;</span> % query[<span class="string">&quot;progress&quot;</span>], end=<span class="string">&quot;**&quot;</span>)</span><br><span class="line">        time.sleep(<span class="number">3</span>)</span><br><span class="line">        query = garbagetaskquery(taskid)</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;整理文件完成&quot;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 3.删除文件夹内所有文件</span></span><br><span class="line">    delete(<span class="string">&#x27;[&quot;/占位/working/xwangpan10&quot;,&quot;/占位/working/xwangpan06&quot;,&quot;/占位/working/xwangpan09&quot;,&quot;/占位/working/xwangpan08&quot;,&quot;/占位/working/xwangpan05&quot;,&quot;/占位/working/xwangpan03&quot;,&quot;/占位/working/xwangpan04&quot;,&quot;/占位/working/xwangpan01&quot;,&quot;/占位/working/xwangpan07&quot;,&quot;/占位/working/xwangpan02&quot;,&quot;/占位/working/xwangpan02(1)&quot;,&quot;/占位/working/xwangpan07(1)&quot;,&quot;/占位/working/xwangpan05(1)&quot;,&quot;/占位/working/xwangpan04(1)&quot;,&quot;/占位/working/xwangpan09(1)&quot;,&quot;/占位/working/xwangpan01(1)&quot;,&quot;/占位/working/xwangpan06(1)&quot;,&quot;/占位/working/xwangpan10(1)&quot;,&quot;/占位/working/xwangpan08(1)&quot;,&quot;/占位/working/xwangpan03(1)&quot;]&#x27;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 4.保存五个文件</span></span><br><span class="line">    save(<span class="string">&quot;[690435813055101,26598162122456,1020496199701393,644765167361037,261696681183572,132504979092525,169677771677732,829587079548271,260890747525505,111657973573120]&quot;</span>, <span class="string">&#x27;/占位/working&#x27;</span>)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 4.删除垃圾文件</span></span><br><span class="line">    json = get_garbagelist(taskid)</span><br><span class="line">    garbage_list = []</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> json[<span class="string">&quot;list&quot;</span>][<span class="number">0</span>][<span class="string">&quot;data&quot;</span>]:</span><br><span class="line">        file = <span class="string">&#x27;&#123;&quot;fs_id&quot;: &quot;%s&quot;, &quot;index&quot;: %s&#125;&#x27;</span> % (i[<span class="string">&#x27;fs_id&#x27;</span>], <span class="built_in">str</span>(i[<span class="string">&#x27;index&#x27;</span>]))</span><br><span class="line">        garbage_list.append(file)</span><br><span class="line">    <span class="comment"># print(garbage_list)</span></span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;获取删除列表成功&quot;</span>, <span class="built_in">str</span>(garbage_list).replace(<span class="string">&quot;&#x27;&quot;</span>, <span class="string">&quot;&quot;</span>))</span><br><span class="line">    garbage_delete(taskid, <span class="built_in">str</span>(garbage_list).replace(<span class="string">&quot;&#x27;&quot;</span>, <span class="string">&quot;&quot;</span>))</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 5.保存一个5T的文件夹</span></span><br><span class="line">    save(<span class="string">&#x27;[1054623448621227]&#x27;</span>, <span class="string">&quot;/占位&quot;</span>)</span><br></pre></td></tr></table></figure>
+<h3 id="修复"><a class="header-anchor" href="#修复"></a>修复</h3>
+<p>扩容之后第二天基本都会爆盘，就是你的空间已经超出最大容量了，无法存入资料了，</p>
+<p>加入你存进网盘的资料不需要更新，那么你就不需要修复了，可以正常使用文件分享功能，</p>
+<p>如果你需要继续存文件，就要使用修复了。</p>
+<p>修复的原理则是利用百度网盘客户端的移入隐私空间，然后清理垃圾文件来实现修复。</p>
+<p>手工操作大致流程如下（这里不细讲，也不放图了，提供大致流程）：</p>
+<ol>
+<li>清理文件夹【修复】，并获取垃圾文件列表</li>
+<li>把文件夹【修复】移入隐藏空间</li>
+<li>删除垃圾文件</li>
+<li>移出隐藏空间</li>
+</ol>
+<p>代码如下</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">fix</span>():</span></span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    1.清理垃圾，获取taskid</span></span><br><span class="line"><span class="string">    2.查询进度</span></span><br><span class="line"><span class="string">    3.获取删除列表</span></span><br><span class="line"><span class="string">    4.进行删除操作</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="comment"># 1.清理垃圾，获取taskid</span></span><br><span class="line">    taskid = clear(<span class="string">&#x27;/修复&#x27;</span>)[<span class="string">&quot;taskid&quot;</span>]</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;正在清理重复文件，taskid：%s&quot;</span> % taskid)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 2.查询进度</span></span><br><span class="line">    query = garbagetaskquery(taskid)</span><br><span class="line">    <span class="keyword">while</span> query[<span class="string">&quot;status&quot;</span>] == <span class="string">&quot;running&quot;</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;**当前进度:%s&quot;</span> % query[<span class="string">&quot;progress&quot;</span>], end=<span class="string">&quot;**&quot;</span>)</span><br><span class="line">        time.sleep(<span class="number">3</span>)</span><br><span class="line">        query = garbagetaskquery(taskid)</span><br><span class="line">    </span><br><span class="line">    <span class="comment"># 3.获取删除列表</span></span><br><span class="line">    json = get_garbagelist(taskid)</span><br><span class="line">    garbage_list = []</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> json[<span class="string">&quot;list&quot;</span>][<span class="number">0</span>][<span class="string">&quot;data&quot;</span>]:</span><br><span class="line">        file = <span class="string">&#x27;&#123;&quot;fs_id&quot;: &quot;%s&quot;, &quot;index&quot;: %s&#125;&#x27;</span> % (i[<span class="string">&#x27;fs_id&#x27;</span>], <span class="built_in">str</span>(i[<span class="string">&#x27;index&#x27;</span>]))</span><br><span class="line">        garbage_list.append(file)</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;获取删除列表成功&quot;</span>, <span class="built_in">str</span>(garbage_list).replace(<span class="string">&quot;&#x27;&quot;</span>, <span class="string">&quot;&quot;</span>))</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 4.进行删除操作</span></span><br><span class="line">    move_info = move(<span class="string">&quot;/修复&quot;</span>, <span class="string">&quot;/_pcs_.safebox&quot;</span>, <span class="string">&quot;修复&quot;</span>)</span><br><span class="line">    <span class="keyword">if</span> move_info[<span class="string">&quot;errno&quot;</span>] == <span class="number">0</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;移入隐藏空间成功&quot;</span>, move_info)</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;移入隐藏空间失败&quot;</span>, move_info)</span><br><span class="line">    garbage_delete(taskid, <span class="built_in">str</span>(garbage_list).replace(<span class="string">&quot;&#x27;&quot;</span>, <span class="string">&quot;&quot;</span>))</span><br></pre></td></tr></table></figure>
+<p>但是代码写的时候遇到了问题，就是移出隐藏空间的包抓取不了，应该是百度网盘进行相关加密了</p>
+<p>也就是说修复完需要手动把文件移出隐藏空间（算个小瑕疵了）</p>
+<p>不过最近我了解到一种不需要隐藏空间移动的方法，待我有空验证可行性在吧这种方法写成Python，完美实现自动化操作</p>
+<p>目前代码虽然已经完成，但是未考虑到分享给广大用户（因为代码如果你们使用会有太多限制，代码很多操作都是根据我自己网盘实际情况来写的），后续（我很懒）优化代码后可能会考虑写个Gui图形界面，分享给你们使用。</p>
+<h3 id="附各函数功能说明"><a class="header-anchor" href="#附各函数功能说明"></a>附各函数功能说明</h3>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 以下代码仅显示函数名</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 得到百度网盘bdstoken</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">get_bdstoken</span>():</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 保存文件</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">save</span>(<span class="params">fs_ids, file_dir</span>):</span>.</span><br><span class="line"></span><br><span class="line"><span class="comment"># 删除文件</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">delete</span>(<span class="params">file_dir</span>):</span></span><br><span class="line">    </span><br><span class="line"><span class="comment"># 移动文件到隐藏空间</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">move</span>(<span class="params">form_file, to_file, newname</span>):</span></span><br><span class="line">    </span><br><span class="line"><span class="comment"># 文件的任务查询</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">taskquery</span>(<span class="params">taskid</span>):</span>…</span><br><span class="line"></span><br><span class="line"><span class="comment"># 清理垃圾任务查询垃圾</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">garbagetaskquery</span>(<span class="params">taskid</span>):</span></span><br><span class="line">    </span><br><span class="line"><span class="comment"># 执行清理垃圾</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">clear</span>(<span class="params">filedir</span>):</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 得到待清理垃圾的列表</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">get_garbagelist</span>(<span class="params">taskid</span>):</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 删除垃圾列表</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">garbage_delete</span>(<span class="params">taskid, garbagelist</span>):</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 修复</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">fix</span>():</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 扩容</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">kuorong</span>()</span></span><br><span class="line"><span class="function"></span></span><br><span class="line">if __name__ == &#x27;__main__&#x27;:</span><br><span class="line">    pc_cookie = <span class="string">&#x27;填写你的pc_cookie&#x27;</span></span><br><span class="line">    cookie = <span class="string">&#x27;填写你的cookie’</span></span><br><span class="line"><span class="string">    bdstoken = get_bdstoken()</span></span><br><span class="line"><span class="string">    </span></span><br><span class="line"><span class="string">    # fix()</span></span><br><span class="line"><span class="string">    # kuorong()</span></span><br></pre></td></tr></table></figure>
+]]></content>
+      <tags>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>专业课汇总</title>
+    <url>/class.html</url>
+    <content><![CDATA[<p>（链接不定期更新）**</p>
+<p><img src="https://s2.loli.net/2022/07/19/6wIBaY9r1OQXoJ7.png" alt="image-20220719212408466"></p>
+<p>链接：<a href="https://pan.baidu.com/s/1qUVrfdif117LXsxKCac1cw?pwd=wn4m">https://pan.baidu.com/s/1qUVrfdif117LXsxKCac1cw?pwd=wn4m</a><br>
+提取码：wn4m<br>
+–来自百度网盘超级会员V1的分享</p>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>考研</tag>
+        <tag>心理学</tag>
+        <tag>经济类</tag>
+        <tag>护理</tag>
+        <tag>药学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>网站里面所有资源的来源，都在这里</title>
+    <url>/way.html</url>
+    <content><![CDATA[<p>因为网站资源频繁失效，所以本人特意下一篇搜索网上各种考研考证资源的文章</p>
+<p>网站里面所有资源的来源，都是网上各个地方搜索整合来的，主要平台有以下几个：</p>
+<p>欢迎大家文章底下评论补充，我会再加进去文章里面供大家使用</p>
+<h2 id="1-题库网"><a class="header-anchor" href="#1-题库网"></a>1.题库网</h2>
+<p>网站链接 <a href="http://www.tikuwang.com/app/index.php?i=2&amp;c=entry&amp;do=fengmian&amp;m=hulu_info">http://www.tikuwang.com/app/index.php?i=2&amp;c=entry&amp;do=fengmian&amp;m=hulu_info</a></p>
+<p>该网站完全免费分享，来源一家题库网公众号，本站的大部分资源均来源于此。如果本站资源失效可以去这个网站。</p>
+<img src="https://i.loli.net/2021/01/30/BUH8mDkTpRJQ5FZ.png" alt="image-20210130223517406" style="zoom:67%;" />
+<h2 id="2-安心考研"><a class="header-anchor" href="#2-安心考研"></a>2.安心考研</h2>
+<p>网站链接 <a href="http://axky.ys168.com/">http://axky.ys168.com/</a></p>
+<p>1个提供大量考研资料的永硕E盘👍，更新比较及时</p>
+<p>不过缺点就是资源较少，其他的一些资源要付费。</p>
+<p>主要涵盖语文、数学、英语考研以及四六级</p>
+<img src="https://i.loli.net/2021/01/30/PnA5R2MEv1ZQ6NW.png" alt="image-20210130224026382" style="zoom:67%;" />
+<p>同样类型的网盘还有 <a href="http://kyxz.ys168.com/">http://kyxz.ys168.com/</a></p>
+<h2 id="3-金榜题名"><a class="header-anchor" href="#3-金榜题名"></a>3.金榜题名</h2>
+<p>网站链接 <a href="http://qzbltushu.ys168.com/">http://qzbltushu.ys168.com/</a></p>
+<p>该网站资料全都是免费的，资源也比较全</p>
+<p><img src="https://i.loli.net/2021/07/15/YgjKAUrcV3unozp.png" alt="image-20210715183003469"></p>
+<h2 id="3-考研学子"><a class="header-anchor" href="#3-考研学子"></a>3.考研学子</h2>
+<p>部分收费</p>
+<p><img src="https://i.loli.net/2021/07/15/IW7xiG8CgFn2DMv.png" alt="image-20210715183112266"><img src="C:%5CUsers%5Cweifeng%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210715183129586.png" alt="image-20210715183129586"></p>
+<h2 id="4-其他分享者"><a class="header-anchor" href="#4-其他分享者"></a>4.其他分享者</h2>
+<p>小帅同学http://gmengshuai.ys168.com/</p>
+<p>油麦同学http://cangbaoge.ys168.com/</p>
+<p>陈蛋蛋的宝藏库http://www.chendandan.ys168.com/</p>
+<p>哆啦A梦的神奇口袋http://htwww.baozangku.ys168.com/</p>
+<p>可可西里的杂货铺http://kkxldzhp.ys168.com/</p>
+<h5 id="2014-2020教资笔试、面试网课资料合集-https-shimo-im-docs-VwqgJy8pYtVcvwY6-read"><a class="header-anchor" href="#2014-2020教资笔试、面试网课资料合集-https-shimo-im-docs-VwqgJy8pYtVcvwY6-read"></a>2014-2020教资笔试、面试网课资料合集 <a href="https://shimo.im/docs/VwqgJy8pYtVcvwY6/read">https://shimo.im/docs/VwqgJy8pYtVcvwY6/read</a></h5>
+<h5 id="一建-二建-消防-监管-http-zhulu-ys168-com"><a class="header-anchor" href="#一建-二建-消防-监管-http-zhulu-ys168-com"></a>一建 二建 消防 监管 <a href="http://zhulu.ys168.com/">http://zhulu.ys168.com/</a></h5>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">【注意】：</span><br><span class="line">务必记住网址 http:&#x2F;&#x2F;zhulu.ys168.com&#x2F; </span><br><span class="line">及最上面一项：“单科密码管理区”的密码：pass</span><br><span class="line">通过“单科密码管理区”可查询各单科课程的密码。</span><br></pre></td></tr></table></figure>
+<img src="https://i.loli.net/2021/01/30/NvBqQGrMLkWoYCs.png" alt="image-20210130230519905" style="zoom:67%;" />
+<h2 id="5-各类论坛"><a class="header-anchor" href="#5-各类论坛"></a>5.各类论坛</h2>
+<p><strong>1.52破解</strong><a href="https://www.52pojie.cn/">https://www.52pojie.cn/</a></p>
+<p><strong>2.考研帮</strong><a href="http://www.kaoyan.com/">http://www.kaoyan.com/</a></p>
+<p><strong>3.小木虫论坛</strong> <a href="http://muchong.com/bbs/">http://muchong.com/bbs/</a></p>
+<h5 id="4-乐愚社区-https-bbs-leyuz-net"><a class="header-anchor" href="#4-乐愚社区-https-bbs-leyuz-net"></a>4.乐愚社区 <a href="https://bbs.leyuz.net/">https://bbs.leyuz.net/</a></h5>
+<p>其实微信许多公众号有，不过大多数公众号比较杂，多收费</p>
+<p>大家有什么推荐的考研公众号评论留言一起分享。等待后续更新</p>
+<img src="https://i.loli.net/2021/02/13/BIZ6s7rm9Wuko8P.png" alt="image-20210130232602465" style="zoom:50%;" />
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>考研</tag>
+        <tag>四六级</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>公众号书籍食用指南</title>
+    <url>/book.html</url>
+    <content><![CDATA[<h1>书籍概况</h1>
+<p>书籍来自某秀与zlibrary。书库基本涵盖20年以前出版的所有书。如果你找的新书基本没什么可能了。</p>
+<p>公众号书籍搜索指令如下</p>
+<p><img src="https://s2.loli.net/2023/02/11/rWDcvVK79fhNiXZ.png" alt="公众号搜索指令一图流"></p>
+<img src="https://s2.loli.net/2023/02/11/qj3gEtGuXifbhCP.png" alt="image-20221127221604449" style="zoom:50%;" />
+<p>2月6日更新：公众号已经支持ss号获取书籍，支持ISBN/书名/作者等信息查询。</p>
+<h1>一.书籍获取</h1>
+<h2 id="通过书籍id获取下载链接"><a class="header-anchor" href="#通过书籍id获取下载链接"></a>通过书籍id获取下载链接</h2>
+<p>通过书籍id可以获取书籍的信息（书名、作者、出版社、ISBN、书源）和下载链接</p>
+<ul>
+<li>
+<p>ssid为8为数字，可以获取读秀的资源（书籍下载后还需要进行解压和转换等一系列操作）</p>
+</li>
+<li>
+<p>zlibid以00开头，可以获取zlibrary的资源（书籍下载后直接可以打开，无需转换）</p>
+</li>
+</ul>
+<p>书籍的ssid通过网站搜索、公众号搜索获取<br>
+书籍的zlibid暂时只能通过公众号搜索获取</p>
+<p><img src="https://s2.loli.net/2023/02/11/89g2UmOJydci3Ro.png" alt="书籍查找回复"></p>
+<div class="hide-toggle" style="border: 1px solid bg"><div class="hide-button toggle-title" style="background-color: bg;color: color"><i class="fas fa-caret-right fa-fw"></i><span>ss号获取方法(っ•̀ω•́)っ</span></div>
+    <div class="hide-content"><ol>
+<li>第一种可以通过网站查询书籍的ss号。</li>
+</ol>
+<p>（以下网站只是用作查询，<strong>请不要直接在网站内付费</strong>！！）</p>
+<p><a href="https://www.xueshu86.com/">https://www.xueshu86.com/</a></p>
+<p><a href="https://ps.uuttdx.com/">https://ps.uuttdx.com/</a></p>
+<ol start="2">
+<li>第二种可以用油猴插件，脚本适配网站二者任选一个内容都是一样的：<a href="https://greasyfork.org/zh-CN/scripts/420751-%E5%9B%BE%E4%B9%A6%E4%BA%92%E5%8A%A9">油猴插件链接</a></li>
+</ol>
+<p>然后打开网站，就会显示书籍的ss号。</p>
+<p>1.<strong><a href="http://www.dglib.superlib.net/">http://www.dglib.superlib.net/ </a> （东莞图书馆检索系统，免登录，推荐）</strong></p>
+<p>2.<a href="http://www.ucdrs.superlib.net/">http://www.ucdrs.superlib.net/</a> （全国图书馆联盟，需登录）</p>
+<p><img src="https://s2.loli.net/2023/02/11/IhQYGKjx79JrHPq.png" alt="网站显示ss号"></p>
+</div></div>
+<h2 id="通过cx你需要搜索的书名来搜索书籍"><a class="header-anchor" href="#通过cx你需要搜索的书名来搜索书籍"></a>通过<code>cx你需要搜索的书名</code>来搜索书籍</h2>
+<p>如想要查询“三体”，就发送“cx三体&quot;；搜索结果过多可加入信息“cx三体 刘慈欣”。不过建议查询时宁可少字一不要多字。</p>
+<p>再次回复书籍的id可以获得书籍的百度云链接</p>
+<img src="https://s2.loli.net/2023/02/11/vdtcRxAXCsSEUq3.png" alt="cx指令" style="zoom:80%;" />
+<p>下载后即可获取一份带有书签的文字可复制的文件</p>
+<img src="https://s2.loli.net/2023/02/11/PximnHvKROV341y.png" alt="标准且完美格式的PDF书籍" style="zoom:80%;" />
+<p>此种方式的好处可以查询包括zlibrary和读秀的书籍</p>
+<p>建议优先使用zlibrary的资源里的书籍（即书籍id为00开头）。</p>
+<p>因为该库的书籍文件为pdf、mobi、epub等无需解压的文件；而读秀库的文件需要解压以及文件为扫描版，且文字不可复制和没有书签</p>
+<h2 id="通过next进行查询结果的翻页操作"><a class="header-anchor" href="#通过next进行查询结果的翻页操作"></a>通过<code>next</code>进行查询结果的翻页操作</h2>
+<p>输入<code>next</code>可根据上一次搜索结果进行翻页</p>
+<img src="https://s2.loli.net/2023/02/11/upAtlMDiILZX9S4.png" alt="next指令" style="zoom:50%;" />
+<h2 id="通过user获取用户信息"><a class="header-anchor" href="#通过user获取用户信息"></a>通过<code>user</code>获取用户信息</h2>
+<p>目前公众号为节约资源，限制了每日获取次数。不过一般正常使用的话不会超过这个限制的。（因为以前老有一些人一天就发个上百本的书籍过来）</p>
+<p>注意查询不消耗次数，只有发送书籍id获取百度云链接才消耗次数。</p>
+<img src="https://s2.loli.net/2023/02/11/6saev5WZwXQcHD4.png" alt="user指令" style="zoom: 67%;" />
+<h1>二.转换格式</h1>
+<p>通过公众号的百度云链接下载书籍。</p>
+<p>zlibrary获取的书籍直接是pdf、mobi、epub等可直接阅读格式，你就直接大功告成了！！</p>
+<p>但读秀书库中的书籍文件大部分是压缩包格式的，并且需要解压密码</p>
+<p><strong>需要使用我们提供的合成工具进行解压和合成PDF文件</strong>（仅有win工具）</p>
+<h4 id="软件下载"><a class="header-anchor" href="#软件下载"></a>软件下载</h4>
+<p>转换软件：<a href="https://wwb.lanzoub.com/iBOBX0fxgxfi">https://wwb.lanzoub.com/iBOBX0fxgxfi</a></p>
+<img src="https://s2.loli.net/2023/02/11/hl8tErOs451cQVT.png" alt="image-20230211144449406" style="zoom:50%;" />
+<h4 id="简要步骤说明："><a class="header-anchor" href="#简要步骤说明："></a>简要步骤说明：</h4>
+<p>根据教程进行操作，一般来说两部就够了。工具可能会提示病毒，关闭杀毒软件即可。</p>
+<ol>
+<li>
+<p>下载文件后进行解压。（如果提示有密码，请使用【1.压缩包有密码使用—没有密码跳过此步骤】文件夹内解密解压工具进行解压。），提供3款解密工具，优先用【解密工具1】</p>
+</li>
+<li>
+<p>查看解压后文件夹内文件是什么格式，根据文件格式选择合适的工具进行合成PDF</p>
+<ul>
+<li>文件内 .pdg 格式的，请使用【2.PDG合成PDF工具】 进行合成</li>
+<li>文件为 .jpg，.png 等图片 格式的请使用 【3.图片合成PDF工具】 进行合成</li>
+<li>文件内 .djvu 格式的请使用 【4.DJVU合成PDF工具】 进行合成</li>
+</ul>
+</li>
+<li>
+<p>如需要给书籍添加书签，请使用【5.高级工具-书签获取&amp;编辑】获取&amp;编辑</p>
+</li>
+</ol>
+<img src="https://i0.hdslb.com/bfs/album/2e602f56063f313c7aef193c9b8ae74a616a8801.png" alt="解压" style="zoom: 50%;" />
+<img src="https://i0.hdslb.com/bfs/album/9be04e9f422694c3233f9ec8489605cbc0efae21.png" alt="转换" style="zoom: 50%;" />
+<p>​</p>
+<div class="hide-toggle" style="border: 1px solid bg"><div class="hide-button toggle-title" style="background-color: bg;color: color"><i class="fas fa-caret-right fa-fw"></i><span>如果你想捐助就点开我(っ•̀ω•́)っ</span></div>
+    <div class="hide-content"><h1><strong>关于捐助：</strong></h1>
+<p>谢谢你愿意点开(✪ω✪)</p>
+<p>如果该资料对你有帮助，并且愿意支持我，不妨支持一下 ！！</p>
+<p><img src="https://s2.loli.net/2023/02/11/4UD2nJG3BSpfrok.png" alt="赞赏码"></p>
+</div></div>]]></content>
+      <categories>
+        <category>电子书</category>
+      </categories>
+      <tags>
+        <tag>书籍</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>常用资料汇总（编程，学习，技能，影视，考证等）</title>
     <url>/link.html</url>
-    <content><![CDATA[<img src="https://s2.loli.net/2023/02/27/U9jN1gveBIM5J2a.jpg" alt="耳机 售卖机 背包 夜晚 动漫卡通" style="zoom:33%;" />
+    <content><![CDATA[<p>在当今社会，在海量的信息中，如何找到最有用、最实用、最高效的资料呢？这是许多人面临的一个难题。</p>
+<p>为了帮助大家解决这个问题，我在这里分享了我从网上收集和整理的一些常用资料——包括大学知识、编程、学习、技能、影视、考证等等。</p>
+<p>这些资料都是经过我亲自验证和筛选的，可以帮助你节省时间、提高效率、拓展视野。</p>
+<p>无论你是想要提升自己的专业水平，还是想要丰富自己的业余生活，或者只是想要打发时间，我相信你都能在这里找到适合你的资料。</p>
 <table>
 <thead>
 <tr>
@@ -860,15 +863,15 @@ document.write("<h2 title='具体时间以教育局公布为准'><font color=#34
 </thead>
 <tbody>
 <tr>
-<td style="text-align:center">21T夸克网盘 更新整理中</td>
+<td style="text-align:center">21T夸克网盘「网盘分享WPFX.ORG资源库」 更新整理中</td>
 <td style="text-align:center"><a href="https://pan.quark.cn/s/5436c068ef24">夸克</a></td>
 </tr>
 <tr>
-<td style="text-align:center">资料库</td>
+<td style="text-align:center">资料库（获取最新更新内容请使用订阅功能）</td>
 <td style="text-align:center"><a href="https://www.aliyundrive.com/s/mLdJzAZ8989">阿里</a></td>
 </tr>
 <tr>
-<td style="text-align:center">视频教程库</td>
+<td style="text-align:center">视频教程库（请使用订阅功能，获取最新更新内容）</td>
 <td style="text-align:center"><a href="https://www.aliyundrive.com/s/EXktMb6YBpP">阿里</a></td>
 </tr>
 <tr>
@@ -2988,7 +2991,7 @@ document.write("<h2 title='具体时间以教育局公布为准'><font color=#34
 <td style="text-align:center"><a href="https://www.aliyundrive.com/s/3X8SfyMqTEE">阿里</a></td>
 </tr>
 <tr>
-<td style="text-align:center">「 60天团队管理训练营」</td>
+<td style="text-align:center">​「 60天团队管理训练营」</td>
 <td style="text-align:center"><a href="https://www.aliyundrive.com/s/EJaA5J2fKnK">阿里</a></td>
 </tr>
 <tr>
@@ -7101,6 +7104,7 @@ document.write("<h2 title='具体时间以教育局公布为准'><font color=#34
 </tr>
 </tbody>
 </table>
+<p>Process finished with exit code 0</p>
 ]]></content>
       <categories>
         <category>资料</category>
