@@ -6,7 +6,7 @@
   <link href="https://bkfeng.top/atom.xml" rel="self"/>
   
   <link href="https://bkfeng.top/"/>
-  <updated>2023-06-22T13:40:07.000Z</updated>
+  <updated>2023-07-12T13:56:50.000Z</updated>
   <id>https://bkfeng.top/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>自制软件——知网论文批量自定义下载</title>
+    <link href="https://bkfeng.top/cnki"/>
+    <id>https://bkfeng.top/cnki</id>
+    <published>2023-07-12T13:56:50.000Z</published>
+    <updated>2023-07-12T13:56:50.000Z</updated>
+    
+    <content type="html"><![CDATA[<hr><p>作为国内最强文献库，没有一个中国学子可以逃脱知网的“魔爪”。虽然强大，但是部分操作难用也是真的，比如：</p><ol><li>首页默认下载CAJ格式</li><li>硕博论文只能整本下载CAJ格式，无法下载PDF</li><li>批量下载基于官配软件，费时费力，也只能下载CAJ</li><li>我就想单纯下载个几百本PDF，到底怎么弄嘛！！！！</li></ol><p>网络上也出现了一些解决方法，最常见的就是 <a href="https://greasyfork.org/zh-CN/scripts/390733-%E7%9F%A5%E7%BD%91pdf%E4%B8%8B%E8%BD%BD%E5%8A%A9%E6%89%8B">知网PDF下载助手油猴插件</a> 进行批量下载。</p><p>但是插件也有着一些问题，这里不过多展开。</p><p>基于种种问题，最近又做了个小项目，关于论文批量下载的。</p><p>最近趁着学了Tkinter写一写程序页面就拿这个项目来练手。</p><p><img src="https://article.biliimg.com/bfs/article/cb5cfa823833aa6b132b3efa5c12221f5c190161.png" alt="image-20230712220206929"></p><p><strong>请注意，工具只能拓展知网功能，不能提供下载权限，要想实现下载需要你自己登录学校图书馆或者找其他法子！</strong></p><p><strong>请注意，工具只能拓展知网功能，不能提供下载权限，要想实现下载需要你自己登录学校图书馆或者找其他法子！</strong></p><p>以下我会简略介绍软件的使用教程，因为软件操作页面已经比较明了了，就不太多说。</p><p>首先打开主软件<img src="https://article.biliimg.com/bfs/article/a3c9240554cd6bab0642b8d25ef6be1ffd4de5cd.png" alt="image-20230712222001250"></p><h2 id="1-登录"><a class="header-anchor" href="#1-登录"></a>1.登录</h2><p>本软件需要你有知网的下载权限，不提供突破限制功能。</p><p>点击“知网登录”以后会弹出一个浏览器窗口，需要在打开的浏览器先登录一下，需要确保可以正常下载论文的账号。</p><p>登录以后会在当前目录生成一个“cookies.pkl”文件，我们只需登录一次下次无需再登录。</p><p>（如果是校园网点击一下按钮弹出页面就不用登录了，如果校外人员登录用校园VPN或者校外登录）</p><p><img src="https://article.biliimg.com/bfs/article/878d6a64adba82d077eb7530085b4c257075e128.png" alt="程序页面"></p><h2 id="2-下载规则"><a class="header-anchor" href="#2-下载规则"></a>2.下载规则</h2><p>设置好论文保存路径的参数后选择下载规则。下载类型可以选择PDF或者CAJ。</p><p><strong>搜索下载：</strong> 模拟知网搜索的操作，进行搜索出来的论文下载。适用于想看某一个主题的论文。输入搜索的方式以及内容就可以了，这里不过多介绍。</p><p><strong>Excel下载：</strong> 通过Excel文件进行论文搜索下载，需要指定一下excel目录。这个excel文件通常为是你通过知网导出的或者你自己整理的。</p><p>比如知网上挑选心仪的、需要下载的论文，在选择以后就可以进行导出了。</p><p><img src="https://article.biliimg.com/bfs/article/dd851fdeefaa83ee94c33796ea4d7b7b873663e8.png" alt="论文选择与导出"></p><p><img src="https://article.biliimg.com/bfs/article/59ed759effaff16d36f8dd7926a3db32741bf56b.png" alt="选择论文Excel导出"></p><p>如果我们需要根据题名进行论文下载就把这一列的标题填写到软件中。</p><p>比如从知网下载的excel文件里面的列名是“<strong>Title-题名</strong>”。（当然也可以用自己的Excel文件）</p><p><img src="https://article.biliimg.com/bfs/article/490f1f4840a15f39e81cbee9f7a15ff6adc85105.png" alt="excel内容"></p><p>不一会儿就下载完成了！！</p><p><img src="https://article.biliimg.com/bfs/article/804670ae2aef0ec642cbe4dfb5113245f636736b.png" alt="image-20230714223614882"></p><h2 id="软件下载链接："><a class="header-anchor" href="#软件下载链接："></a>软件下载链接：</h2><p><a href="https://wwwm.lanzoub.com/is4Rf12ikh2b">https://wwwm.lanzoub.com/is4Rf12ikh2b</a></p><h2 id="一些问题"><a class="header-anchor" href="#一些问题"></a>一些问题</h2><h4 id="1-如果软件提示下载成功，在下载目录没有看到文件怎么办？"><a class="header-anchor" href="#1-如果软件提示下载成功，在下载目录没有看到文件怎么办？"></a>1.如果软件提示下载成功，在下载目录没有看到文件怎么办？</h4><p>答：说明下载的比较多，知网限制了需要填写验证码，在菜单里面点击高级设置然后运行，下载时弹出验证码就完成一次验证就可以继续下载可。</p><h4 id="2-软件出现其他一下问题怎么办？"><a class="header-anchor" href="#2-软件出现其他一下问题怎么办？"></a>2.软件出现其他一下问题怎么办？</h4><p>答：软件纯本人练手用，写可能有一点问题，各位运行如果出现什么问题就可以评论反馈给我。</p><p>反馈联系方式：fengeto@qq.com</p>]]></content>
+    
+    
+    <summary type="html">还在为导师要求的论文烦恼？通过软件一键下载知网的论文。提供Excel下载和自定义下载两个功能</summary>
+    
+    
+    
+    <category term="知网" scheme="https://bkfeng.top/categories/%E7%9F%A5%E7%BD%91/"/>
+    
+    
+    <category term="知网" scheme="https://bkfeng.top/tags/%E7%9F%A5%E7%BD%91/"/>
+    
+    <category term="论文" scheme="https://bkfeng.top/tags/%E8%AE%BA%E6%96%87/"/>
+    
+    <category term="软件" scheme="https://bkfeng.top/tags/%E8%BD%AF%E4%BB%B6/"/>
+    
+  </entry>
   
   <entry>
     <title>最全的大学资料来了！！</title>
@@ -186,7 +211,7 @@
     <category term="考研" scheme="https://bkfeng.top/categories/%E8%80%83%E7%A0%94/"/>
     
     
-    <category term="考研" scheme="https://bkfeng.top/tags/%E8%80%83%E7%A0%94/"/>
+    <category term="-考研" scheme="https://bkfeng.top/tags/%E8%80%83%E7%A0%94/"/>
     
   </entry>
   
@@ -325,7 +350,7 @@
     <link href="https://bkfeng.top/1"/>
     <id>https://bkfeng.top/1</id>
     <published>2021-01-01T12:12:28.000Z</published>
-    <updated>2022-08-26T10:35:24.875Z</updated>
+    <updated>2023-07-14T14:49:56.899Z</updated>
     
     <content type="html"><![CDATA[<h1>网站</h1><p>该网站是基于HEXO+GitHub建的，虽然能省下不少服务器费用，但网站的一些运营需要操作成本。</p><p>所以快夸我大好人。</p><p>2021年10月，你决定网页改版。11月已经网站已经正式换皮肤！</p><p>放上几张旧站照片供回忆</p><p>2022年8月，网站修改，</p><ol><li><p>添加了文章更新日期和阅读次数，也增大了网站字体字号，解决一下显示问题。</p><p><img src="https://i0.hdslb.com/bfs/album/cd011e6d87538dcb6310799b7c4a697dd85c11b1.png" alt="image-20220825123123349"></p></li><li><p>发表时间改为更新时间<img src="https://i0.hdslb.com/bfs/album/2fa7abd129e8e441caa28ec4770d83df042f7522.png" alt="image-20220825124342937"></p></li><li><p>修复国际版共享域名不再向中国大陆提供服务，导致无法发送和查看评论。<img src="https://i0.hdslb.com/bfs/album/502be2f81e3775cd74bf8903cee4a81063bfd776.png" alt="image-20220826183358468"></p></li></ol><p>网站访问数据：</p><p><img src="https://i.loli.net/2021/11/05/cQRkAsZOv9TYNVP.png" alt="image-20211105211526753"></p><p><img src="https://i.loli.net/2021/11/05/SpOjUbLguWr7w2l.png" alt="image-20211105211629672"></p><p><img src="https://i.loli.net/2021/11/05/dCEAlJOvWUbSZjX.png" alt="image-20211105211754091"></p><h1>关于群</h1><p><strong>群内可以相互交流学习，分享一下个人经验</strong></p><p>群内交流气氛还是很好地，并且群内配备各种大佬帮助你</p><p><img src="https://i.loli.net/2021/01/02/HYBcazNOtg5XVe6.png" alt="image-20210102152325746"></p><p><img src="https://i.loli.net/2021/07/21/bsSIqmdXfiFZ3v9.png" alt="image-20210721003305936"></p><p>1.群又已经满了继续开放群，因为一些原因没有进群的可以进去，和大家一起交流学习。群满200继续邀请进群，满了才开放新群。</p><p>2.网站的资源都是本人转载网络的，至于学习资料的来源我在博客里面写了一篇文章讲过。链接失效可以去资料来源看看。</p><p>3.本人不常打理，资料更新较慢，因为这本来就是我没啥事做就分享一下资料给大家，希望帮助一些人。</p><p>4.群内主要由热心的“Eureka！”管理，有什么问题（包括找书）可以问他。</p><p><img src="https://i.loli.net/2021/11/05/3JRKuWC7PcMASpq.png" alt="image-20211105211219777"></p><p>群满后如需要进的微信:<strong>bkfeng46</strong></p><img src="https://i.loli.net/2021/01/02/UF7me1GifdbrzZy.png" alt="加群微信" style="zoom: 50%;" /><p>另外，如果该资料对你有帮助，并且你愿意支持我，在文章下方有个打赏按钮不妨支持一下，不胜感激 ！！</p><img src="C:%5CUsers%5Cweifeng%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210621202540579.png" alt="image-20210621202540579" style="zoom:25%;" /><p>另外本站上线了评论系统，有什么问题也可以直接底下留言！</p>]]></content>
     
@@ -346,9 +371,7 @@
     
     <category term="网站相关" scheme="https://bkfeng.top/tags/%E7%BD%91%E7%AB%99%E7%9B%B8%E5%85%B3/"/>
     
-    <category term="震惊!" scheme="https://bkfeng.top/tags/%E9%9C%87%E6%83%8A/"/>
-    
-    <category term="不知道写什么了" scheme="https://bkfeng.top/tags/%E4%B8%8D%E7%9F%A5%E9%81%93%E5%86%99%E4%BB%80%E4%B9%88%E4%BA%86/"/>
+    <category term="联系方式" scheme="https://bkfeng.top/tags/%E8%81%94%E7%B3%BB%E6%96%B9%E5%BC%8F/"/>
     
     <category term="捐助" scheme="https://bkfeng.top/tags/%E6%8D%90%E5%8A%A9/"/>
     
