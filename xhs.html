@@ -1,0 +1,235 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>自制软件——小红书视频图片无水印整合下载 | 本卡风</title><meta name="keywords" content="小红书,下载,软件"><meta name="author" content="学习委员"><meta name="copyright" content="学习委员"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><!-- meta(name="referrer" content="no-referrer")--><meta name="description" content="本来帮朋友做的，做了都做了就发出来啦！！实现了小红书无水印图片视频以及文稿一键下载">
+<meta property="og:type" content="article">
+<meta property="og:title" content="自制软件——小红书视频图片无水印整合下载">
+<meta property="og:url" content="https://bkfeng.top/xhs">
+<meta property="og:site_name" content="本卡风">
+<meta property="og:description" content="本来帮朋友做的，做了都做了就发出来啦！！实现了小红书无水印图片视频以及文稿一键下载">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://p5.qhimg.com/bdm/853_527_0/t01ae8d182a88e1a3b0.jpg">
+<meta property="article:published_time" content="2023-07-30T13:56:50.000Z">
+<meta property="article:modified_time" content="2023-07-30T13:56:50.000Z">
+<meta property="article:author" content="学习委员">
+<meta property="article:tag" content="小红书">
+<meta property="article:tag" content="下载">
+<meta property="article:tag" content="软件">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://p5.qhimg.com/bdm/853_527_0/t01ae8d182a88e1a3b0.jpg"><link rel="shortcut icon" href="/img/favicon6.png"><link rel="canonical" href="https://bkfeng.top/xhs"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//www.google-analytics.com" crossorigin=""/><link rel="preconnect" href="//hm.baidu.com"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?d3de680d6f84283793b1347086e801eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script><script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-FSKSFFNK4V"></script><script>window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-FSKSFFNK4V');
+</script><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    jQuery: 'https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js',
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+    },
+    fancybox: {
+      js: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isanchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = { 
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2023-07-30 21:56:50'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const fontSizeVal = saveToLocal.get('global-font-size')
+    if (fontSizeVal !== undefined) {
+      document.documentElement.style.setProperty('--global-font-size', fontSizeVal + 'px')
+    }
+    })(window)</script><meta name="referrer" content="no-referrer"><meta name="baidu-site-verification" content="code-7xEaTSWDib" /><link rel="stylesheet" href="/css/main.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/halo-blog/cdn-blog-resources@latest/css/bilibili-banner.css"  media="defer" onload="this.media='screen'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/l-lin/font-awesome-animation/dist/font-awesome-animation.min.css"  media="defer" onload="this.media='all'"><link rel="preconnect" href="https://s1.hdslb.com/" /><link rel="stylesheet" href="//s1.hdslb.com/bfs/static/jinkela/long/font/regular.css" media="all" onload="this.media='all'" /><link rel="stylesheet" href="//s1.hdslb.com/bfs/static/jinkela/long/font/medium.css" media="all" onload="this.media='all'" /><link rel="stylesheet" href="/css/custom.css"><meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="本卡风" type="application/atom+xml">
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="author-avatar"><img class="avatar-img" src="https://i0.hdslb.com/bfs/album/f7f8ba3ac0409bf13673adb705fe221649e533ee.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">17</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">标签</div><div class="length-num">28</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">分类</div><div class="length-num">8</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/page/link/"><i class="fa-fw fas fa-link"></i><span> 友情链接</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 链接</span><i class="fas fa-chevron-down expand hide"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/python/"><i class="fa-fw fa-brands fa-python"></i><span> Python</span></a></li><li><a class="site-page child" href="/gpt"><i class="fa-fw fa-solid fa-comment"></i><span> CHATGPT</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/page/message/"><i class="fa-fw fas fa-envelope"></i><span> 反馈</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('http://p5.qhimg.com/bdm/853_527_0/t01ae8d182a88e1a3b0.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">本卡风</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/page/link/"><i class="fa-fw fas fa-link"></i><span> 友情链接</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 链接</span><i class="fas fa-chevron-down expand hide"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/python/"><i class="fa-fw fa-brands fa-python"></i><span> Python</span></a></li><li><a class="site-page child" href="/gpt"><i class="fa-fw fa-solid fa-comment"></i><span> CHATGPT</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/page/message/"><i class="fa-fw fas fa-envelope"></i><span> 反馈</span></a></div></div><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="winterBanner"><div class="view"><img class="morning" src="https://halo-blog-img.oss-cn-hangzhou.aliyuncs.com/BiliBiliBanner/winter/bilibili-winter-view-1.png" alt=""><img class="afternoon" src="https://halo-blog-img.oss-cn-hangzhou.aliyuncs.com/BiliBiliBanner/winter/bilibili-winter-view-2.png" alt=""><video class="evening" autoplay="" loop="" muted=""><source src="https://halo-blog-img.oss-cn-hangzhou.aliyuncs.com/BiliBiliBanner/winter/bilibili-winter-view-3.webm" type="video/webm"></video><img class="window-cover" src="https://halo-blog-img.oss-cn-hangzhou.aliyuncs.com/BiliBiliBanner/winter/bilibili-winter-view-3-snow.png" alt=""></div><div class="tree"><img class="morning" src="https://halo-blog-img.oss-cn-hangzhou.aliyuncs.com/BiliBiliBanner/winter/bilibili-winter-tree-1.png" alt=""><img class="afternoon" src="https://halo-blog-img.oss-cn-hangzhou.aliyuncs.com/BiliBiliBanner/winter/bilibili-winter-tree-2.png" alt=""><img class="evening" src="https://halo-blog-img.oss-cn-hangzhou.aliyuncs.com/BiliBiliBanner/winter/bilibili-winter-tree-3.png" alt=""></div></div><script async data-pjax src="https://cdn.jsdelivr.net/gh/halo-blog/cdn-blog-resources@latest/js/bilibiliBanner.js"></script><div id="post-info"><h1 class="post-title">自制软件——小红书视频图片无水印整合下载<a class="post-edit-link" href="https://github.com/halo-blog/halo-blog-hexo/tree/main/source/_posts/小红书批量下载.md" title="编辑" target="_blank"><i class="fas fa-pencil-alt"></i></a></h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-07-30T13:56:50.000Z" title="发表于 2023-07-30 21:56:50">2023-07-30</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-07-30T13:56:50.000Z" title="更新于 2023-07-30 21:56:50">2023-07-30</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E8%BD%AF%E4%BB%B6/">软件</a></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="自制软件——小红书视频图片无水印整合下载"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><hr>
+<h3 id="日常生活的「搜索引擎」"><a class="header-anchor" href="#日常生活的「搜索引擎」"></a>日常生活的「搜索引擎」</h3>
+<p>在这个数字化时代，照片和视频成为我们记录生活、分享美好瞬间的重要方式。</p>
+<p>而小红书的「收藏」一栏，记录了我过往的使用痕迹。除了在首页刷到的狗狗猫猫，用得最多的还真就是「搜索」功能。</p>
+<p>学习陆地冲浪板、提防闲鱼诈骗套路、查找旅游攻略和客厅改造指南、勾搭摆摊的年轻人作为采访对象，以及搜索体验本地新消费的去处…… 其中有些与选题相关，有些被生活需要。</p>
+<p><img src="http://bkfengimage.test.upcdn.net/image/202307302205209.jpeg" alt="小红书丰富的内容"></p>
+<p>随着发展，小红书甚至成为一些人的搜索引擎。</p>
+<p>然而，以往小红书分享的照片和视频都带有水印，限制了用户对内容的自由使用。幸运的是，在我的代码下，现在有一款全新的软件诞生——小红书无水印下载，让您摆脱水印的束缚，畅享无限的美好分享！</p>
+<p><img src="http://bkfengimage.test.upcdn.net/image/202307302201821.png" alt="部分代码"></p>
+<h2 id="1-啥是小红书无水印下载？"><a class="header-anchor" href="#1-啥是小红书无水印下载？"></a>1. 啥是小红书无水印下载？</h2>
+<p>小红书无水印下载是一款智能工具，旨在帮助小红书用户轻松下载和保存图片、视频内容，并去除原本带有的水印。这款软件的出现，为喜欢分享和收藏美图的用户带来了全新的体验。</p>
+<p><img src="http://bkfengimage.test.upcdn.net/image/202307302206393.png" alt="软件页面"></p>
+<h2 id="2-功能与特点"><a class="header-anchor" href="#2-功能与特点"></a>2. 功能与特点</h2>
+<p><strong>2.1 无水印下载：</strong> 最引人注目的功能莫过于无水印下载了。用户可以通过小红书无水印下载软件，下载其他用户发布的图片和视频，而无需担心照片上出现小红书的标识。这意味着您可以自由地保存和分享这些内容，不再受到水印的限制。</p>
+<p><strong>2.2 简便易用：</strong> 小红书无水印下载软件的界面简洁直观，操作非常方便。只需几个简单的步骤，即可轻松下载您喜欢的内容，并且在下载过程中去除水印。</p>
+<p><strong>2.3 批量下载：</strong> 除了单个下载外，这款软件还支持批量下载功能。用户可以一次性下载多张图片或视频，省时省力，提高效率。</p>
+<p><strong>2.4 自定义选项：</strong> 小红书无水印下载软件为用户提供了一些个性化选项。例如，您可以选择下载的图片或视频质量，调整下载路径，以满足不同需求。</p>
+<p><strong>2.5 免费使用：</strong> 这款软件为用户提供了免费使用的权限，让更多人能够畅享无水印下载的便捷体验。</p>
+<h2 id="3-如何使用小红书无水印下载？"><a class="header-anchor" href="#3-如何使用小红书无水印下载？"></a>3. 如何使用小红书无水印下载？</h2>
+<p>使用小红书无水印下载软件非常简单。只需按照以下步骤操作，您就能轻松下载和保存您喜欢的小红书内容：</p>
+<p><strong>步骤1：</strong> 打开小红书无水印下载软件，并复制您想要下载的小红书内容链接。</p>
+<p><strong>步骤2：</strong> 在软件中粘贴复制的链接，然后点击“下载”按钮。</p>
+<p><strong>步骤3：</strong> 等待软件处理下载，稍后您就能在设备上找到下载的内容，而且没有水印啦啦！</p>
+<p>比如下载下面这篇小红书笔记：</p>
+<p><img src="http://bkfengimage.test.upcdn.net/image/202307302207038.png" alt="image-20230730220735730"></p>
+<p>不一会就下载好了</p>
+<p><img src="C:%5CUsers%5Cweifeng%5CDesktop%5C202307302208966.png" alt="下载"></p>
+<p><img src="http://bkfengimage.test.upcdn.net/image/202307302209953.png" alt="下载页面"></p>
+<p>软件不仅下载全部图片，还会下载封面，文案信息</p>
+<p><img src="http://bkfengimage.test.upcdn.net/image/202307302210292.png" alt="文案信息"></p>
+<p>视频也是可以下载的哦！！</p>
+<p><img src="http://bkfengimage.test.upcdn.net/image/202307302212178.png" alt="image-20230730221236142"></p>
+<h2 id="4-注意事项"><a class="header-anchor" href="#4-注意事项"></a>4. 注意事项</h2>
+<p>虽然小红书无水印下载软件为用户提供了方便的功能，但我们也需要明确一些注意事项：</p>
+<ul>
+<li><strong>尊重他人版权：</strong> 下载和分享他人作品时，请务必尊重原作者的版权，仅在合法的情况下使用下载的内容。</li>
+<li><strong>仅限个人使用：</strong> 小红书无水印下载软件的使用仅限于个人用户，禁止将下载的内容用于商业目的。</li>
+<li><strong>遵守社区规则：</strong> 使用本软件下载的内容，需遵守小红书社区的相关规则，不得传播违法、暴力或有害的内容。</li>
+</ul>
+<p>下载链接：<a target="_blank" rel="noopener" href="https://wwwm.lanzoub.com/b03wfvuuh">https://wwwm.lanzoub.com/b03wfvuuh</a> 密码:gzc7</p>
+<p>现在，您可以立即下载软件，尽情享受美好生活的分享乐趣吧！</p>
+</article><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E5%B0%8F%E7%BA%A2%E4%B9%A6/">小红书</a><a class="post-meta__tags" href="/tags/%E4%B8%8B%E8%BD%BD/">下载</a><a class="post-meta__tags" href="/tags/%E8%BD%AF%E4%BB%B6/">软件</a></div><div class="post_share"></div></div><div class="post-reward"><div class="reward-button button--animated"><i class="fas fa-qrcode"></i> 打赏</div><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="/img/wechat.jpg" target="_blank"><img class="post-qr-code-img" src="/img/wechat.jpg" alt="wechat"/></a><div class="post-qr-code-desc">wechat</div></li></ul></div></div><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span> 相关推荐</span></div><div class="relatedPosts-list"><div><a href="/cnki.html" title="自制软件——知网论文批量自定义下载"><img class="cover" src="http://p3.qhimg.com/bdm/853_527_0/t0175ef6fb17e912953.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2023-07-12</div><div class="title">自制软件——知网论文批量自定义下载</div></div></a></div></div></div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div class="vcomment" id="vcomment"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%97%A5%E5%B8%B8%E7%94%9F%E6%B4%BB%E7%9A%84%E3%80%8C%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E3%80%8D"><span class="toc-number">1.</span> <span class="toc-text">日常生活的「搜索引擎」</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-%E5%95%A5%E6%98%AF%E5%B0%8F%E7%BA%A2%E4%B9%A6%E6%97%A0%E6%B0%B4%E5%8D%B0%E4%B8%8B%E8%BD%BD%EF%BC%9F"><span class="toc-number"></span> <span class="toc-text">1. 啥是小红书无水印下载？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-%E5%8A%9F%E8%83%BD%E4%B8%8E%E7%89%B9%E7%82%B9"><span class="toc-number"></span> <span class="toc-text">2. 功能与特点</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E5%B0%8F%E7%BA%A2%E4%B9%A6%E6%97%A0%E6%B0%B4%E5%8D%B0%E4%B8%8B%E8%BD%BD%EF%BC%9F"><span class="toc-number"></span> <span class="toc-text">3. 如何使用小红书无水印下载？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9"><span class="toc-number"></span> <span class="toc-text">4. 注意事项</span></a></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2019 - 2023  <i id="heartbeat" class="fa fas fa-heartbeat"></i> 学习委员</div><div class="footer_custom_text">本网站由<a target="_blank" href="https://www.upyun.com/?utm_source=lianmeng&amp;utm_medium=referral" rel="external nofollow noreferrer noopener" one-link-mark="yes"><img src="https://cdn.dusays.com/logo5.png" style="vertical-align:middle" srcset="https://cdn.dusays.com/logo5.png" height="30" loading="lazy" data-ll-status="loaded"></a>提供CDN加速/云存储服务</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="font-plus" type="button" title="放大字体"><i class="fas fa-plus"></i></button><button id="font-minus" type="button" title="缩小字体"><i class="fas fa-minus"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div></div><hr/><div id="local-search-results"></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div id="search-mask"></div></div><div><script src="https://cdn.jsdelivr.net/gh/halo-blog/cdn-blog-resources@latest/js/butterflyutils.js"></script><script src="https://cdn.jsdelivr.net/gh/halo-blog/cdn-blog-resources@latest/js/butterflymain.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><script src="/js/search/local-search.js"></script><div class="js-pjax"><script>function loadValine () {
+  function initValine () {
+    const valine = new Valine(Object.assign({
+      el: '#vcomment',
+      appId: 'ym5PR5Uz1mFmKvEqukBAyhzT-gzGzoHsz',
+      appKey: '932L98ks4Az58a3RTd2ZHInC',
+      placeholder: '有什么问题可以在此提出哦！',
+      avatar: 'wavatar',
+      meta: 'nick,mail'.split(','),
+      pageSize: '15',
+      lang: 'zh-CN',
+      recordIP: true,
+      serverURLs: 'https://ym5pr5uz.lc-cn-n1-shared.com',
+      emojiCDN: '',
+      emojiMaps: "",
+      enableQQ: false,
+      path: window.location.pathname,
+      requiredFields: ["nick,mail"],
+      visitor: false
+    }, null))
+  }
+
+  if (typeof Valine === 'function') initValine() 
+  else getScript('https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js').then(initValine)
+}
+
+if ('Valine' === 'Valine' || !false) {
+  if (false) btf.loadComment(document.getElementById('vcomment'),loadValine)
+  else setTimeout(loadValine, 0)
+} else {
+  function loadOtherComment () {
+    loadValine()
+  }
+}</script></div><script defer src="/js/butterfly.js"></script><script defer src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script defer src="https://cdn.jsdelivr.net/npm/hexo-theme-volantis@latest/source/js/issues.min.js"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
