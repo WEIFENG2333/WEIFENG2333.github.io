@@ -1,96 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>butterfly配置</title>
-    <url>/15367.html</url>
-    <content><![CDATA[<h3 id="社交图标"><a class="header-anchor" href="#社交图标"></a>社交图标</h3>
-<p>Butterfly支持 font-awesome v6图标  <a href="https://fontawesome.com/icons?from=io">https://fontawesome.com/icons?from=io</a></p>
-<p>书写格式 图标名：url || 描述性文字</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">social:</span><br><span class="line">  fab fa-github: https:&#x2F;&#x2F;github.com&#x2F;xxxxx || Github</span><br><span class="line">  fas fa-envelope: mailto:xxxxxx@gmail.com || Email</span><br></pre></td></tr></table></figure>
-<h3 id="文章置顶"><a class="header-anchor" href="#文章置顶"></a>文章置顶</h3>
-<p>【推荐】hexo-generator-index从 2.0.0 开始，已经支持文章置顶功能。你可以直接在文章的front-matter区域里添加sticky: 1属性来把这篇文章置顶。数值越大，置顶的优先级越大。</p>
-<h3 id="tag-hide"><a class="header-anchor" href="#tag-hide"></a>tag-hide</h3>
-<span class="hide-inline"><button type="button" class="hide-button button--animated" style="background-color: bg;color: color">display
-  </button><span class="hide-content">content</span></span>
-<h3 id="Tabs"><a class="header-anchor" href="#Tabs"></a>Tabs</h3>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% tabs Unique name, [index] %&#125;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab [Tab caption] [@icon] --&gt;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab [Tab caption] [@icon] --&gt;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&#123;% endtabs %&#125;</span><br></pre></td></tr></table></figure>
-<div class="tabs" id="test1"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#test1-1">test1 1</button></li><li class="tab"><button type="button" data-href="#test1-2">test1 2</button></li><li class="tab"><button type="button" data-href="#test1-3">test1 3</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="test1-1"><p><strong>This is Tab 1.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test1-2"><p><strong>This is Tab 2.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test1-3"><p><strong>This is Tab 3.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>
-<h3 id="Button"><a class="header-anchor" href="#Button"></a>Button</h3>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% btn [url],[text],[icon],[color] [style] [layout] [position] [size] %&#125;</span><br><span class="line"></span><br><span class="line">[url]         : 链接</span><br><span class="line">[text]        : 按钮文字</span><br><span class="line">[icon]        : [可选] 图标</span><br><span class="line">[color]       : [可选] 按钮背景顔色(默认style时）</span><br><span class="line">                      按钮字体和边框顔色(outline时)</span><br><span class="line">                      default&#x2F;blue&#x2F;pink&#x2F;red&#x2F;purple&#x2F;orange&#x2F;green</span><br><span class="line">[style]       : [可选] 按钮样式 默认实心</span><br><span class="line">                      outline&#x2F;留空</span><br><span class="line">[layout]      : [可选] 按钮佈局 默认为line</span><br><span class="line">                      block&#x2F;留空</span><br><span class="line">[position]    : [可选] 按钮位置 前提是设置了layout为block 默认为左边</span><br><span class="line">                      center&#x2F;right&#x2F;留空</span><br><span class="line">[size]        : [可选] 按钮大小</span><br><span class="line">                      larger&#x2F;留空</span><br></pre></td></tr></table></figure>
-<p>This is my website, click the button <a class="btn-beautify button--animated " href="https://butterfly.js.org/" 
-  title="Butterfly"><span>Butterfly</span></a><br>
-This is my website, click the button <a class="btn-beautify button--animated " href="https://butterfly.js.org/" 
-  title="Butterfly"><i class="far fa-hand-point-right fa-fw"></i><span>Butterfly</span></a><br>
-This is my website, click the button <a class="btn-beautify button--animated outline" href="https://butterfly.js.org/" 
-  title="Butterfly"><span>Butterfly</span></a><br>
-This is my website, click the button <a class="btn-beautify button--animated outline" href="https://butterfly.js.org/" 
-  title="Butterfly"><i class="far fa-hand-point-right fa-fw"></i><span>Butterfly</span></a><br>
-This is my website, click the button <a class="btn-beautify button--animated larger" href="https://butterfly.js.org/" 
-  title="Butterfly"><i class="far fa-hand-point-right fa-fw"></i><span>Butterfly</span></a></p>
-<h3 id="inlineImg"><a class="header-anchor" href="#inlineImg"></a>inlineImg</h3>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% inlineImg [src] [height] %&#125;</span><br><span class="line"></span><br><span class="line">[src]      :    图片链接</span><br><span class="line">[height]   ：   图片高度限制【可选】</span><br></pre></td></tr></table></figure>
-<p>你看我长得漂亮不</p>
-<p>我觉得很漂亮 <img class="inline-img" src="https://i.loli.net/2021/03/19/5M4jUB3ynq7ePgw.png" style="height:150px"/></p>
-<h3 id="label"><a class="header-anchor" href="#label"></a>label</h3>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% label text color %&#125;</span><br></pre></td></tr></table></figure>
-<div class="timeline"><p class='p h2'>2022</p><!-- timeline 01-02 -->
-这是测试页面
-<!-- endtimeline --></div>
-<h3 id="Note-Bootstrap-Callout"><a class="header-anchor" href="#Note-Bootstrap-Callout"></a>Note (Bootstrap Callout)</h3>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% note simple %&#125;</span><br><span class="line">默认 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note default simple %&#125;</span><br><span class="line">default 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note primary simple %&#125;</span><br><span class="line">primary 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note success simple %&#125;</span><br><span class="line">success 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note info simple %&#125;</span><br><span class="line">info 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note warning simple %&#125;</span><br><span class="line">warning 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note danger simple %&#125;</span><br><span class="line">danger 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note blue &#39;fas fa-bullhorn&#39; simple %&#125;</span><br><span class="line">2021年快到了....</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% note blue &#39;fas fa-bullhorn&#39; modern %&#125;</span><br><span class="line">2021年快到了....</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure>
-<div class="note default simple"><p>default 提示块标签</p>
-</div>
-<div class="note blue icon simple"><i class="note-icon fas fa-bullhorn"></i><p>2021年快到了…</p>
-</div>
-<div class="note blue icon modern"><i class="note-icon fas fa-bullhorn"></i><p>2021年快到了…</p>
-</div>
-<h3 id="hide-toggle"><a class="header-anchor" href="#hide-toggle"></a>hide-toggle</h3>
-<div class="note [class] [no-icon] [style] flat"><p>你的内容</p>
-</div>
-<div class="hide-toggle" style="border: 1px solid bg"><div class="hide-button toggle-title" style="background-color: bg;color: color"><i class="fas fa-caret-right fa-fw"></i><span>中括号内容说明</span></div>
-    <div class="hide-content"><p>名称	用法</p>
-</div></div>
-]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>心理学</tag>
-        <tag>考研</tag>
-        <tag>经济类</tag>
-        <tag>护理</tag>
-        <tag>药学</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>全部课程资料，网盘群开放！！</title>
-    <url>/cloudgroup.html</url>
-    <content><![CDATA[<p><img src="https://i0.hdslb.com/bfs/album/34534183f438a9bd5ba03d8f2fcf7d71c2006884.png" alt="image-20220719220404086"></p>
-<h3 id="资料合集"><a class="header-anchor" href="#资料合集"></a>资料合集</h3>
-<p>6月35已经更新全部链接</p>
-<p>四六级，考研，各种专业课教师，公务员等等</p>
-<p>请自行加人百度群所有群资料一样，加入一个即可</p>
-<p>本人仅为收集整理，资料可能存在广告，<strong>请不要付费</strong>，自行判断即可。</p>
-<p>内容如下：</p>
-<div class="justified-gallery"><p><img src="https://s2.loli.net/2022/07/19/y4oqnEi9FQJUXwW.png" alt="资源主页面"><br><img src="https://s2.loli.net/2022/07/19/BFUMeGLartnzxSh.png" alt="四六级课程"><br><img src="https://s2.loli.net/2022/07/19/fUWPHYn8Bdjuq3D.png" alt="考研专业课"><br><img src="https://s2.loli.net/2022/07/19/CgM14w8icIskuHS.png" alt="公务员，教师，事业单位"><br><img src="https://i0.hdslb.com/bfs/album/397042d6cbc261de6e40d6f1868434f5c2725c39.png" alt="i教师资格证"></p>
-          </div>
-<p>百度群如下，进入一个就好</p>
-<div class="justified-gallery"><p><img src="https://article.biliimg.com/bfs/article/c7936df2db45c68c68f3714e36f13c46718e2bf2.png" alt="26"></p><p><img src="https://article.biliimg.com/bfs/article/310425a3db91e61447dbdd3e5c849e3b8feff4f5.png" alt="28"></p><p><img src="https://article.biliimg.com/bfs/article/f2f7c3bc2d8908dc7b3d29090fc589276b85b786.png" alt="27"></p><p><img src="https://article.biliimg.com/bfs/article/2afd25e6ff6219471f473b6b7d7e3a10361ba069.png" alt="25"></p>
-          </div>
-<div class="hide-toggle" style="border: 1px solid bg"><div class="hide-button toggle-title" style="background-color: bg;color: color"><i class="fas fa-caret-right fa-fw"></i><span>如果你想捐助就点开我(っ•̀ω•́)っ</span></div>
-    <div class="hide-content"><h1><strong>关于捐助：</strong></h1>
-<p>谢谢你愿意点开(✪ω✪)</p>
-<p>如果该资料对你有帮助，并且愿意支持我，不妨支持一下 ！！</p>
-<img src="https://i0.hdslb.com/bfs/album/1745a0e1d6f0b406ec65d94ba174d29bca79031e.png" alt="image-20210621202540579" style="zoom: 25%;" />
-</div></div>]]></content>
-      <categories>
-        <category>考研</category>
-      </categories>
-      <tags>
-        <tag>-考研</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>2023公务员+事业单位+教师</title>
     <url>/kao.html</url>
     <content><![CDATA[<p>是谁把雨露撒遍大地?</p>
@@ -242,6 +152,68 @@ This is my website, click the button <a class="btn-beautify button--animated lar
       </tags>
   </entry>
   <entry>
+    <title>butterfly配置</title>
+    <url>/15367.html</url>
+    <content><![CDATA[<h3 id="社交图标"><a class="header-anchor" href="#社交图标"></a>社交图标</h3>
+<p>Butterfly支持 font-awesome v6图标  <a href="https://fontawesome.com/icons?from=io">https://fontawesome.com/icons?from=io</a></p>
+<p>书写格式 图标名：url || 描述性文字</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">social:</span><br><span class="line">  fab fa-github: https:&#x2F;&#x2F;github.com&#x2F;xxxxx || Github</span><br><span class="line">  fas fa-envelope: mailto:xxxxxx@gmail.com || Email</span><br></pre></td></tr></table></figure>
+<h3 id="文章置顶"><a class="header-anchor" href="#文章置顶"></a>文章置顶</h3>
+<p>【推荐】hexo-generator-index从 2.0.0 开始，已经支持文章置顶功能。你可以直接在文章的front-matter区域里添加sticky: 1属性来把这篇文章置顶。数值越大，置顶的优先级越大。</p>
+<h3 id="tag-hide"><a class="header-anchor" href="#tag-hide"></a>tag-hide</h3>
+<span class="hide-inline"><button type="button" class="hide-button button--animated" style="background-color: bg;color: color">display
+  </button><span class="hide-content">content</span></span>
+<h3 id="Tabs"><a class="header-anchor" href="#Tabs"></a>Tabs</h3>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% tabs Unique name, [index] %&#125;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab [Tab caption] [@icon] --&gt;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- tab [Tab caption] [@icon] --&gt;</span><br><span class="line">Any content (support inline tags too).</span><br><span class="line">&lt;!-- endtab --&gt;</span><br><span class="line"></span><br><span class="line">&#123;% endtabs %&#125;</span><br></pre></td></tr></table></figure>
+<div class="tabs" id="test1"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#test1-1">test1 1</button></li><li class="tab"><button type="button" data-href="#test1-2">test1 2</button></li><li class="tab"><button type="button" data-href="#test1-3">test1 3</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="test1-1"><p><strong>This is Tab 1.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test1-2"><p><strong>This is Tab 2.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test1-3"><p><strong>This is Tab 3.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>
+<h3 id="Button"><a class="header-anchor" href="#Button"></a>Button</h3>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% btn [url],[text],[icon],[color] [style] [layout] [position] [size] %&#125;</span><br><span class="line"></span><br><span class="line">[url]         : 链接</span><br><span class="line">[text]        : 按钮文字</span><br><span class="line">[icon]        : [可选] 图标</span><br><span class="line">[color]       : [可选] 按钮背景顔色(默认style时）</span><br><span class="line">                      按钮字体和边框顔色(outline时)</span><br><span class="line">                      default&#x2F;blue&#x2F;pink&#x2F;red&#x2F;purple&#x2F;orange&#x2F;green</span><br><span class="line">[style]       : [可选] 按钮样式 默认实心</span><br><span class="line">                      outline&#x2F;留空</span><br><span class="line">[layout]      : [可选] 按钮佈局 默认为line</span><br><span class="line">                      block&#x2F;留空</span><br><span class="line">[position]    : [可选] 按钮位置 前提是设置了layout为block 默认为左边</span><br><span class="line">                      center&#x2F;right&#x2F;留空</span><br><span class="line">[size]        : [可选] 按钮大小</span><br><span class="line">                      larger&#x2F;留空</span><br></pre></td></tr></table></figure>
+<p>This is my website, click the button <a class="btn-beautify button--animated " href="https://butterfly.js.org/" 
+  title="Butterfly"><span>Butterfly</span></a><br>
+This is my website, click the button <a class="btn-beautify button--animated " href="https://butterfly.js.org/" 
+  title="Butterfly"><i class="far fa-hand-point-right fa-fw"></i><span>Butterfly</span></a><br>
+This is my website, click the button <a class="btn-beautify button--animated outline" href="https://butterfly.js.org/" 
+  title="Butterfly"><span>Butterfly</span></a><br>
+This is my website, click the button <a class="btn-beautify button--animated outline" href="https://butterfly.js.org/" 
+  title="Butterfly"><i class="far fa-hand-point-right fa-fw"></i><span>Butterfly</span></a><br>
+This is my website, click the button <a class="btn-beautify button--animated larger" href="https://butterfly.js.org/" 
+  title="Butterfly"><i class="far fa-hand-point-right fa-fw"></i><span>Butterfly</span></a></p>
+<h3 id="inlineImg"><a class="header-anchor" href="#inlineImg"></a>inlineImg</h3>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% inlineImg [src] [height] %&#125;</span><br><span class="line"></span><br><span class="line">[src]      :    图片链接</span><br><span class="line">[height]   ：   图片高度限制【可选】</span><br></pre></td></tr></table></figure>
+<p>你看我长得漂亮不</p>
+<p>我觉得很漂亮 <img class="inline-img" src="https://i.loli.net/2021/03/19/5M4jUB3ynq7ePgw.png" style="height:150px"/></p>
+<h3 id="label"><a class="header-anchor" href="#label"></a>label</h3>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% label text color %&#125;</span><br></pre></td></tr></table></figure>
+<div class="timeline"><p class='p h2'>2022</p><!-- timeline 01-02 -->
+这是测试页面
+<!-- endtimeline --></div>
+<h3 id="Note-Bootstrap-Callout"><a class="header-anchor" href="#Note-Bootstrap-Callout"></a>Note (Bootstrap Callout)</h3>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#123;% note simple %&#125;</span><br><span class="line">默认 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note default simple %&#125;</span><br><span class="line">default 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note primary simple %&#125;</span><br><span class="line">primary 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note success simple %&#125;</span><br><span class="line">success 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note info simple %&#125;</span><br><span class="line">info 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note warning simple %&#125;</span><br><span class="line">warning 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note danger simple %&#125;</span><br><span class="line">danger 提示块标签</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% note blue &#39;fas fa-bullhorn&#39; simple %&#125;</span><br><span class="line">2021年快到了....</span><br><span class="line">&#123;% endnote %&#125;</span><br><span class="line">&#123;% note blue &#39;fas fa-bullhorn&#39; modern %&#125;</span><br><span class="line">2021年快到了....</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure>
+<div class="note default simple"><p>default 提示块标签</p>
+</div>
+<div class="note blue icon simple"><i class="note-icon fas fa-bullhorn"></i><p>2021年快到了…</p>
+</div>
+<div class="note blue icon modern"><i class="note-icon fas fa-bullhorn"></i><p>2021年快到了…</p>
+</div>
+<h3 id="hide-toggle"><a class="header-anchor" href="#hide-toggle"></a>hide-toggle</h3>
+<div class="note [class] [no-icon] [style] flat"><p>你的内容</p>
+</div>
+<div class="hide-toggle" style="border: 1px solid bg"><div class="hide-button toggle-title" style="background-color: bg;color: color"><i class="fas fa-caret-right fa-fw"></i><span>中括号内容说明</span></div>
+    <div class="hide-content"><p>名称	用法</p>
+</div></div>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>心理学</tag>
+        <tag>考研</tag>
+        <tag>经济类</tag>
+        <tag>护理</tag>
+        <tag>药学</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>专业课汇总</title>
     <url>/class.html</url>
     <content><![CDATA[<p>（链接不定期更新）**</p>
@@ -259,6 +231,34 @@ This is my website, click the button <a class="btn-beautify button--animated lar
         <tag>经济类</tag>
         <tag>护理</tag>
         <tag>药学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>全部课程资料，网盘群开放！！</title>
+    <url>/cloudgroup.html</url>
+    <content><![CDATA[<p><img src="https://i0.hdslb.com/bfs/album/34534183f438a9bd5ba03d8f2fcf7d71c2006884.png" alt="image-20220719220404086"></p>
+<h3 id="资料合集"><a class="header-anchor" href="#资料合集"></a>资料合集</h3>
+<p>6月35已经更新全部链接</p>
+<p>四六级，考研，各种专业课教师，公务员等等</p>
+<p>请自行加人百度群所有群资料一样，加入一个即可</p>
+<p>本人仅为收集整理，资料可能存在广告，<strong>请不要付费</strong>，自行判断即可。</p>
+<p>内容如下：</p>
+<div class="justified-gallery"><p><img src="https://s2.loli.net/2022/07/19/y4oqnEi9FQJUXwW.png" alt="资源主页面"><br><img src="https://s2.loli.net/2022/07/19/BFUMeGLartnzxSh.png" alt="四六级课程"><br><img src="https://s2.loli.net/2022/07/19/fUWPHYn8Bdjuq3D.png" alt="考研专业课"><br><img src="https://s2.loli.net/2022/07/19/CgM14w8icIskuHS.png" alt="公务员，教师，事业单位"><br><img src="https://i0.hdslb.com/bfs/album/397042d6cbc261de6e40d6f1868434f5c2725c39.png" alt="i教师资格证"></p>
+          </div>
+<p>百度群如下，进入一个就好</p>
+<div class="justified-gallery"><p><img src="https://article.biliimg.com/bfs/article/c7936df2db45c68c68f3714e36f13c46718e2bf2.png" alt="26"></p><p><img src="https://article.biliimg.com/bfs/article/310425a3db91e61447dbdd3e5c849e3b8feff4f5.png" alt="28"></p><p><img src="https://article.biliimg.com/bfs/article/f2f7c3bc2d8908dc7b3d29090fc589276b85b786.png" alt="27"></p><p><img src="https://article.biliimg.com/bfs/article/2afd25e6ff6219471f473b6b7d7e3a10361ba069.png" alt="25"></p>
+          </div>
+<div class="hide-toggle" style="border: 1px solid bg"><div class="hide-button toggle-title" style="background-color: bg;color: color"><i class="fas fa-caret-right fa-fw"></i><span>如果你想捐助就点开我(っ•̀ω•́)っ</span></div>
+    <div class="hide-content"><h1><strong>关于捐助：</strong></h1>
+<p>谢谢你愿意点开(✪ω✪)</p>
+<p>如果该资料对你有帮助，并且愿意支持我，不妨支持一下 ！！</p>
+<img src="https://i0.hdslb.com/bfs/album/1745a0e1d6f0b406ec65d94ba174d29bca79031e.png" alt="image-20210621202540579" style="zoom: 25%;" />
+</div></div>]]></content>
+      <categories>
+        <category>考研</category>
+      </categories>
+      <tags>
+        <tag>-考研</tag>
       </tags>
   </entry>
   <entry>
@@ -401,110 +401,6 @@ This is my website, click the button <a class="btn-beautify button--animated lar
       </tags>
   </entry>
   <entry>
-    <title>我爬取了5000个优质网盘资源（含源码）</title>
-    <url>/wpfx.html</url>
-    <content><![CDATA[<p>记一次python优质云盘资源爬取</p>
-<p>最近见到一个网站，里面的内容挺丰富的哈！！</p>
-<p><img src="http://bkfengimage.test.upcdn.net/image/202307312047567.png" alt="image-20230731203601381"></p>
-<p>里面的资源也一直在更新</p>
-<p>虽然目前该网站资源免费，登录就可以获取</p>
-<p>但就着学习的态度，决定把这个网站4000多条资源爬取一遍</p>
-<p>通过观察发现，网站的网站格式如下</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">https:&#x2F;&#x2F;****.org&#x2F;skills&#x2F;4065.html</span><br><span class="line">https:&#x2F;&#x2F;****.org&#x2F;skills&#x2F;4066.html</span><br><span class="line">https:&#x2F;&#x2F;****.org&#x2F;skills&#x2F;4173.html</span><br><span class="line">https:&#x2F;&#x2F;****.org&#x2F;skills&#x2F;4183.html</span><br><span class="line">https:&#x2F;&#x2F;****.org&#x2F;skills&#x2F;4184.html</span><br></pre></td></tr></table></figure>
-<p>不难发现，规律是 <code>https://****.org/skills/****.html</code></p>
-<p>只要我们把从1开始一直爬取到网站目前更新到的数字就可以了</p>
-<p>但真的这样吗？</p>
-<p>实则不然，期间发现一些链接会有不存在的情况</p>
-<p><img src="http://bkfengimage.test.upcdn.net/image/202307312049739.png" alt="image-20230731204953685"></p>
-<p>很简单，只需要判断一下网页有没有“访问的页面不存在”这样的字符就行了</p>
-<p>一顿操作下来，得到代码如下</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"><span class="keyword">from</span> bs4 <span class="keyword">import</span> BeautifulSoup</span><br><span class="line"><span class="keyword">import</span> csv</span><br><span class="line"><span class="keyword">import</span> time</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">get_info</span>(<span class="params">num</span>):</span></span><br><span class="line">    headers = &#123;<span class="string">&#x27;cookie&#x27;</span>: <span class="string">&#x27;填写你的cookie&#x27;</span>&#125;</span><br><span class="line">    url = <span class="string">&quot;https://****.org/ziyuan/%s.html&quot;</span> % num</span><br><span class="line">    req = requests.get(url, headers=headers)</span><br><span class="line">    <span class="keyword">if</span> <span class="string">&quot;不存在&quot;</span> <span class="keyword">in</span> req.text:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;%s 您访问的页面不存在&quot;</span> % num)</span><br><span class="line">        <span class="keyword">return</span></span><br><span class="line">    soup = BeautifulSoup(req.text, <span class="string">&#x27;html.parser&#x27;</span>)</span><br><span class="line">    info = soup.find(<span class="string">&#x27;div&#x27;</span>, class_=<span class="string">&quot;panel-body&quot;</span>)</span><br><span class="line">    info_list = info.find(<span class="string">&#x27;div&#x27;</span>, class_=<span class="string">&#x27;entry-meta&#x27;</span>).find_all(<span class="string">&#x27;li&#x27;</span>)</span><br><span class="line">    <span class="comment"># 获取标题、更新日期、链接类型，网盘分类等信息</span></span><br><span class="line">    title = info.find(<span class="string">&#x27;h1&#x27;</span>, class_=<span class="string">&#x27;metas-title&#x27;</span>).text.strip()</span><br><span class="line">    update_time = info.find(<span class="string">&#x27;span&#x27;</span>, class_=<span class="string">&#x27;comment-num&#x27;</span>).text.strip()</span><br><span class="line">    <span class="built_in">type</span> = info_list[<span class="number">0</span>].text.strip().replace(<span class="string">&quot;网盘分类：&quot;</span>, <span class="string">&quot;&quot;</span>)</span><br><span class="line">    tag = info_list[<span class="number">1</span>].text.strip().replace(<span class="string">&quot;资源分类：&quot;</span>, <span class="string">&quot;&quot;</span>)</span><br><span class="line">    <span class="comment"># 获取网盘链接</span></span><br><span class="line">    link = info.find(<span class="string">&#x27;a&#x27;</span>, <span class="built_in">id</span>=<span class="string">&#x27;lj&#x27;</span>)[<span class="string">&#x27;href&#x27;</span>].replace(<span class="string">&#x27;/go/?url=&#x27;</span>, <span class="string">&#x27;&#x27;</span>)</span><br><span class="line">    <span class="comment"># 获取密码</span></span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        password = info.find(<span class="string">&#x27;span&#x27;</span>, <span class="built_in">id</span>=<span class="string">&#x27;tiquma&#x27;</span>).text.strip()</span><br><span class="line">    <span class="keyword">except</span>:</span><br><span class="line">        password = <span class="string">&quot;&quot;</span></span><br><span class="line">    <span class="comment"># 将爬取到的数据写入csv文件</span></span><br><span class="line">    <span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&quot;wpfz_info1.csv&quot;</span>, <span class="string">&#x27;a&#x27;</span>, encoding=<span class="string">&#x27;utf-8&#x27;</span>, newline=<span class="string">&#x27;&#x27;</span>) <span class="keyword">as</span> f:</span><br><span class="line">        csv_write = csv.writer(f)</span><br><span class="line">        csv_write.writerow([num, title, update_time, <span class="built_in">type</span>, tag, link, password])</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;%s 已经完成&quot;</span> % num)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    <span class="comment"># 循环获取每个页面的内容</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1</span>, <span class="number">4817</span>):</span><br><span class="line">        get_info(i)</span><br><span class="line">        time.sleep(<span class="number">1</span>)</span><br></pre></td></tr></table></figure>
-<p>操作的过程如下：</p>
-<p><img src="http://bkfengimage.test.upcdn.net/image/202307312058227.png" alt="操作过程图"></p>
-<p>最终获取到的资源如下：</p>
-<p><img src="http://bkfengimage.test.upcdn.net/image/202307312107407.png" alt="获取内容"></p>
-<p>为了方便大家获取，我就把资源查询整理了一下放到博客了</p>
-<p><strong><a href="https://bkfeng.top/link">https://bkfeng.top/link</a></strong></p>
-<div class="tag link"><a class="link-card" title="常用资料汇总（编程，学习，技能，影视，考证等）" href="https://bkfeng.top/link"><div class="left"><img src="https://bkfeng.top/img/favicon6.png"/></div><div class="right"><p class="text">常用资料汇总（编程，学习，技能，影视，考证等）</p><p class="url">https://bkfeng.top/link</p></div></a></div>
-<p>有一说一，这份资源确实挺不错的</p>
-<p>涵盖考研学习，游戏资源、影视动漫、编程教程方方面面</p>
-<p><img src="http://bkfengimage.test.upcdn.net/image/202307312107426.png" alt="博客内容参考"></p>
-<p><img src="http://bkfengimage.test.upcdn.net/image/202307312107461.png" alt="博客内容参考"></p>
-]]></content>
-      <categories>
-        <category>软件</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
-        <tag>爬虫</tag>
-        <tag>资源</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>公众号书籍转PDF，顺带一键OCR转文字</title>
-    <url>/ocr.html</url>
-    <content><![CDATA[<p>个人喜欢在读书时勾勾画画，遇到一些重要的知识或者内容希望能在图像PDF上便捷地做复制、搜索、高亮、划线等等操作。</p>
-<p>但是我们公众号获取的书籍通常是图像扫描文件，最终的到的仅为单层PDF。</p>
-<p>这种图像类格式的PDF不可进行搜索、复制文字等操作，这就很难受了。</p>
-<p><img src="http://bkfengimage.test.upcdn.net/image/202308211754926.png" alt="PDF文件"></p>
-<p>通常我们会进行<strong>OCR操作</strong>，将PDF变成可检索的图像格式的双层PDF</p>
-<p>双层PDF的“双层”，指的是“图像层+隐藏文字层”，即在扫描图像上，再蒙一层不可见的隐藏文字，这样在阅读的时候，看到的是与原书完全一样的扫描图像，但是同时又可以对隐藏文字进行搜索、复制。</p>
-<p>PDF文件的OCR，首选肯定是<strong>Abbyy</strong>，然后就是<strong>Acrobat</strong>啦。</p>
-<p>大家可以通过B站以及谷歌获取相关教程，本文不过多介绍</p>
-<p><img src="http://bkfengimage.test.upcdn.net/image/202308211754674.png" alt=""></p>
-<p>下面介绍的方法，是在我们使用提供的<code>PDG2PIC</code>软件将PDG转换PDF的时候，顺便将合成的PDF文件变为可检索格式的双层PDF，从而省去转换出来PDF文件后又将PDF进行OCR的麻烦。</p>
-<p>（本教程默认你已经安装了<code>PDG2PIC</code>软件，并且知道如何把一个压缩包解压为PDG目录，并且导入到<code>PDG2PIC</code>软件进行PDF合成）</p>
-<h1>教程开始</h1>
-<p>转换书籍时，想必大家都是通过<code>PDG2PIC</code>这个软件的吧</p>
-<p>PDG2PIC是strnghrs开发的一款软件，大家转换PDF的时候也经常使用吧~</p>
-<p>其中自带的OCR功能，但是如果你直接点击OCR但是无法转换的，还需要我们下载相关驱动</p>
-<p>为什么不加这个功能的？作者是这么说的：</p>
-<p>生成双层PDF：如果此选项被选中，则转换过程中启动OCR，生成隐藏文字，否则只转换图像，不管文字。由于需要时间，MODI的安装也不是电脑白痴随随便便就能搞定的，因此此选项缺省未选中，以免麻烦。</p>
-<p>好了，下面是配置方法</p>
-<h2 id="1-下载PDG2PIC以及MODI-Engine"><a class="header-anchor" href="#1-下载PDG2PIC以及MODI-Engine"></a>1.下载PDG2PIC以及MODI_Engine</h2>
-<p>如果你已经有<code>PDG2PIC</code>软件,复制直接MODI_Engine.exe到相同文件夹，</p>
-<p>或者也可以直接下载全部文件到一个目录</p>
-<p><img src="http://bkfengimage.test.upcdn.net/image/202308211754543.png" alt="软件目录"></p>
-<h2 id="2-安装MODI"><a class="header-anchor" href="#2-安装MODI"></a>2.安装MODI</h2>
-<p>双层PDF的文字靠OCR生成，教程所用的OCR引擎是微软Office 2007自带的MODI（Microsoft Office Document Imaging）。</p>
-<p>只需要打开<code>Setup_MODI_From_Office2007SP3.exe</code>进行一键安装</p>
-<p><img src="http://bkfengimage.test.upcdn.net/image/202308211754534.png" alt="Setup_MODI_From_Office2007SP3.exe文件"></p>
-<p>安装完成以后就可以直接进行OCR转换了.</p>
-<h2 id="OCR演示"><a class="header-anchor" href="#OCR演示"></a>OCR演示</h2>
-<p><img src="http://bkfengimage.test.upcdn.net/image/202308211754553.png" alt="OCR演示"></p>
-<p>勾选“生成双层PDF”后开始转换</p>
-<p>OCR和转换的过程还是很快的，平均0.5s一张</p>
-<p>180页的PDF弄下来图像转换+OCR一个用了2分钟左右</p>
-<p>转换好的文件我们可以直接复制以及文字标注啦！</p>
-<p>遇到重要的知识点也不用担心复制不了</p>
-<p><img src="http://bkfengimage.test.upcdn.net/image/202308211754642.png" alt="转换完PDF文件"></p>
-<p>这是复制出来的文字与原文的对比，一眼看过去准确率还是挺高的~</p>
-<p><img src="http://bkfengimage.test.upcdn.net/image/202308211754005.png" alt="对比结果"></p>
-<h2 id="TIP"><a class="header-anchor" href="#TIP"></a>TIP</h2>
-<p>1.OCR结果不能保证100%准确性，其结果与图像分辨率、图像质量密切相关。</p>
-<p>2.一些排版复杂，图像居多的文件，建议就别OCR了，以免结果太过搞笑。</p>
-<p>3.关于软件OCR相关操作的几个选项：</p>
-<ul>
-<li>生成双层PDF：如果此选项被选中，则转换过程中启动OCR，生成隐藏文字，否则只转换图像，不管文字。<br>
-在选中“生成双层PDF”后，下列选项才能生效：</li>
-<li>OCR语言：一次只能选择一种语言，注意所选项必须与所识别的文字相匹配，例如想识别繁体字，就一定要选择“繁体中文”，否则识别出来的结果多半会很搞笑。</li>
-<li>合并文本行：如果选中，则转换出来的PDF文件中的隐藏文本以行为单位，文件长度较小，但是字的位置不一定准确。如果未选，则以字（CJK）或词（非CJK）为单位，字的位置比较准确，文件长度略大。</li>
-<li>CJK版式：中、日、韩文字都有横排和竖排之分，本软件在一定程度上可以自动识别，如果对识别结果不满意，可以手工选择是横排还是竖排。此选项对OCR准确性没有影响，仅对隐藏文字采用的字体有影响。</li>
-<li>去掉大于页面尺寸1/*的图表：MODI引擎在OCR中日韩语言时相当脆弱，在OCR前先对图像清理一遍是一个更安全的做法。判断是否是需要清除的图表。如果指定的比例是1，则所有页面都不会执行自动去除图表操作。</li>
-</ul>
-<p>4.OCR纯中文或者纯英文都没有问题，有时候OCR中英文混排的时候，效果确实不如Abbyy，这个无解。但是软件的OCR转换可以满足大部分需求了。</p>
-<p>5.为了软件失效，可以随时更新，以上软件链接公众号后台回复：<code>getocr </code> 获取</p>
-]]></content>
-      <categories>
-        <category>书籍</category>
-      </categories>
-      <tags>
-        <tag>书籍</tag>
-        <tag>资源</tag>
-        <tag>OCR</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>公众号书籍食用指南</title>
     <url>/book.html</url>
     <content><![CDATA[<h1>书籍概况</h1>
@@ -626,7 +522,7 @@ document.write("<h2 title='具体时间以教育局公布为准'><font color=#34
 </div>
 <p>10月21日 已经更新全部失效链接</p>
 <p>群二维码10月21日起限时开放，满200人后只能加我微信继续邀请入群</p>
-<p><img src="http://lc-ym5PR5Uz.cn-n1.lcfile.com/y3piUIEP4nyWvyJ6TTgMpnBISfox8nxB/1698247942.jpg" alt="qun"></p>
+<img src="http://lc-ym5PR5Uz.cn-n1.lcfile.com/BnYm3nzRh8hu3QjltO8kBBTi7LmVWKb5/image-20231030120432434.png" style="zoom:33%;" />
 <h2 id="📚四六级英语"><a class="header-anchor" href="#📚四六级英语"></a>📚四六级英语</h2>
 <p>【四六级英语包含有道、考虫、新东方全程班、商志全程班等】</p>
 <div class="hide-toggle" style="border: 1px solid bg"><div class="hide-button toggle-title" style="background-color: bg;color: color"><i class="fas fa-caret-right fa-fw"></i><span>四六级英语资料目录请点我(っ•̀ω•́)っ</span></div>
@@ -656,8 +552,8 @@ document.write("<h2 title='具体时间以教育局公布为准'><font color=#34
 <tbody>
 <tr>
 <td style="text-align:center"><strong>【2023年12月四六级】</strong></td>
-<td><a href="https://pan.baidu.com/s/1XGEyAfjuDtC_T6Zhm3M4nw?pwd=fpwa">链接</a></td>
-<td><a href="https://pan.baidu.com/s/1XGEyAfjuDtC_T6Zhm3M4nw?pwd=fpwa">链接</a></td>
+<td><a href="https://pan.baidu.com/s/1xLa2CohDA45szQtK_GE_uQ?pwd=mb21">链接</a></td>
+<td><a href="https://pan.baidu.com/s/1xLa2CohDA45szQtK_GE_uQ?pwd=mb21">链接</a></td>
 </tr>
 <tr>
 <td style="text-align:center"><strong>【2023年6月四六级】</strong></td>
@@ -718,7 +614,7 @@ document.write("<h2 title='具体时间以教育局公布为准'><font color=#34
 <p>为了更好帮助大家解决一些问题，我建了一个大家交流的平台。</p>
 <p>陆续建群以来，群内交流气氛还是很好的，并且群内有各种各行各业的热心大佬能够帮助你</p>
 <p>群二维码10月21日起限时开发，满200人后只能加我微信继续邀请入群</p>
-<p><img src="http://lc-ym5PR5Uz.cn-n1.lcfile.com/vUixDvastt6qrXN2TVi9CpYBNBtQhe6x/1698247967.jpg" alt=""></p>
+<img src="http://lc-ym5PR5Uz.cn-n1.lcfile.com/vUixDvastt6qrXN2TVi9CpYBNBtQhe6x/1698247967.jpg" style="zoom:33%;" />
 <div class="justified-gallery"><p><img src="https://i0.hdslb.com/bfs/album/67d5a629dc31798381ef8a730fbcc878a4ad94cb.png" alt="image-20221210232752644"></p><p><img src="https://i0.hdslb.com/bfs/album/d90553effcddbfbc63ba7d7c1737167e046cab7e.png" alt="image-20221210232905742"></p><img src="https://i0.hdslb.com/bfs/album/62d048be5219c1df6336b13779e83fc95a56d3e4.png" alt="image-20210102152325746"  /> 
           </div>
 <p>如上面的群已经满，等微信群手动邀请加到500人才会开放下一个微信群。</p>
@@ -730,7 +626,7 @@ document.write("<h2 title='具体时间以教育局公布为准'><font color=#34
     <div class="hide-content"><h1><strong>关于捐助：</strong></h1>
 <p>谢谢你愿意点开(✪ω✪)</p>
 <p>如果该资料对你有帮助，并且愿意支持我，不妨支持一下 ！！</p>
-<p><img src="http://lc-ym5PR5Uz.cn-n1.lcfile.com/dk7uXQCuFNQVe3S7Yl6eJFXGvimLMJk1/1698247977.png" alt="">](<a href="https://imgse.com/i/piVK5IP">https://imgse.com/i/piVK5IP</a>)</p>
+<p><img src="http://lc-ym5PR5Uz.cn-n1.lcfile.com/dk7uXQCuFNQVe3S7Yl6eJFXGvimLMJk1/1698247977.png" style="zoom:33%;" />](<a href="https://imgse.com/i/piVK5IP">https://imgse.com/i/piVK5IP</a>)</p>
 </div></div>
 ]]></content>
       <categories>
@@ -738,57 +634,6 @@ document.write("<h2 title='具体时间以教育局公布为准'><font color=#34
       </categories>
       <tags>
         <tag>考研</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>网站里面所有资源的来源，都在这里</title>
-    <url>/way.html</url>
-    <content><![CDATA[<p>因为网站资源频繁失效，所以本人特意下一篇搜索网上各种考研考证资源的文章</p>
-<p>网站里面所有资源的来源，都是网上各个地方搜索整合来的，主要平台有以下几个：</p>
-<p>欢迎大家文章底下评论补充，我会再加进去文章里面供大家使用</p>
-<h2 id="1-题库网"><a class="header-anchor" href="#1-题库网"></a>1.题库网</h2>
-<p>网站链接 <a href="http://www.tikuwang.com/app/index.php?i=2&amp;c=entry&amp;do=fengmian&amp;m=hulu_info">http://www.tikuwang.com/app/index.php?i=2&amp;c=entry&amp;do=fengmian&amp;m=hulu_info</a></p>
-<p>该网站完全免费分享，来源一家题库网公众号，本站的大部分资源均来源于此。如果本站资源失效可以去这个网站。</p>
-<img src="https://i.loli.net/2021/01/30/BUH8mDkTpRJQ5FZ.png" alt="image-20210130223517406" style="zoom:67%;" />
-<h2 id="2-安心考研"><a class="header-anchor" href="#2-安心考研"></a>2.安心考研</h2>
-<p>网站链接 <a href="http://axky.ys168.com/">http://axky.ys168.com/</a></p>
-<p>1个提供大量考研资料的永硕E盘👍，更新比较及时</p>
-<p>不过缺点就是资源较少，其他的一些资源要付费。</p>
-<p>主要涵盖语文、数学、英语考研以及四六级</p>
-<img src="https://i.loli.net/2021/01/30/PnA5R2MEv1ZQ6NW.png" alt="image-20210130224026382" style="zoom:67%;" />
-<p>同样类型的网盘还有 <a href="http://kyxz.ys168.com/">http://kyxz.ys168.com/</a></p>
-<h2 id="3-金榜题名"><a class="header-anchor" href="#3-金榜题名"></a>3.金榜题名</h2>
-<p>网站链接 <a href="http://qzbltushu.ys168.com/">http://qzbltushu.ys168.com/</a></p>
-<p>该网站资料全都是免费的，资源也比较全</p>
-<p><img src="https://i.loli.net/2021/07/15/YgjKAUrcV3unozp.png" alt="image-20210715183003469"></p>
-<h2 id="3-考研学子"><a class="header-anchor" href="#3-考研学子"></a>3.考研学子</h2>
-<p>部分收费</p>
-<p><img src="https://i.loli.net/2021/07/15/IW7xiG8CgFn2DMv.png" alt="image-20210715183112266"><img src="C:%5CUsers%5Cweifeng%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210715183129586.png" alt="image-20210715183129586"></p>
-<h2 id="4-其他分享者"><a class="header-anchor" href="#4-其他分享者"></a>4.其他分享者</h2>
-<p>小帅同学http://gmengshuai.ys168.com/</p>
-<p>油麦同学http://cangbaoge.ys168.com/</p>
-<p>陈蛋蛋的宝藏库http://www.chendandan.ys168.com/</p>
-<p>哆啦A梦的神奇口袋http://htwww.baozangku.ys168.com/</p>
-<p>可可西里的杂货铺http://kkxldzhp.ys168.com/</p>
-<h5 id="2014-2020教资笔试、面试网课资料合集-https-shimo-im-docs-VwqgJy8pYtVcvwY6-read"><a class="header-anchor" href="#2014-2020教资笔试、面试网课资料合集-https-shimo-im-docs-VwqgJy8pYtVcvwY6-read"></a>2014-2020教资笔试、面试网课资料合集 <a href="https://shimo.im/docs/VwqgJy8pYtVcvwY6/read">https://shimo.im/docs/VwqgJy8pYtVcvwY6/read</a></h5>
-<h5 id="一建-二建-消防-监管-http-zhulu-ys168-com"><a class="header-anchor" href="#一建-二建-消防-监管-http-zhulu-ys168-com"></a>一建 二建 消防 监管 <a href="http://zhulu.ys168.com/">http://zhulu.ys168.com/</a></h5>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">【注意】：</span><br><span class="line">务必记住网址 http:&#x2F;&#x2F;zhulu.ys168.com&#x2F; </span><br><span class="line">及最上面一项：“单科密码管理区”的密码：pass</span><br><span class="line">通过“单科密码管理区”可查询各单科课程的密码。</span><br></pre></td></tr></table></figure>
-<img src="https://i.loli.net/2021/01/30/NvBqQGrMLkWoYCs.png" alt="image-20210130230519905" style="zoom:67%;" />
-<h2 id="5-各类论坛"><a class="header-anchor" href="#5-各类论坛"></a>5.各类论坛</h2>
-<p><strong>1.52破解</strong><a href="https://www.52pojie.cn/">https://www.52pojie.cn/</a></p>
-<p><strong>2.考研帮</strong><a href="http://www.kaoyan.com/">http://www.kaoyan.com/</a></p>
-<p><strong>3.小木虫论坛</strong> <a href="http://muchong.com/bbs/">http://muchong.com/bbs/</a></p>
-<h5 id="4-乐愚社区-https-bbs-leyuz-net"><a class="header-anchor" href="#4-乐愚社区-https-bbs-leyuz-net"></a>4.乐愚社区 <a href="https://bbs.leyuz.net/">https://bbs.leyuz.net/</a></h5>
-<p>其实微信许多公众号有，不过大多数公众号比较杂，多收费</p>
-<p>大家有什么推荐的考研公众号评论留言一起分享。等待后续更新</p>
-<img src="https://i.loli.net/2021/02/13/BIZ6s7rm9Wuko8P.png" alt="image-20210130232602465" style="zoom:50%;" />
-]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>考研</tag>
-        <tag>四六级</tag>
       </tags>
   </entry>
   <entry>
@@ -843,6 +688,317 @@ document.write("<h2 title='具体时间以教育局公布为准'><font color=#34
         <tag>小红书</tag>
         <tag>下载</tag>
         <tag>软件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我爬取了5000个优质网盘资源（含源码）</title>
+    <url>/wpfx.html</url>
+    <content><![CDATA[<p>记一次python优质云盘资源爬取</p>
+<p>最近见到一个网站，里面的内容挺丰富的哈！！</p>
+<p><img src="http://bkfengimage.test.upcdn.net/image/202307312047567.png" alt="image-20230731203601381"></p>
+<p>里面的资源也一直在更新</p>
+<p>虽然目前该网站资源免费，登录就可以获取</p>
+<p>但就着学习的态度，决定把这个网站4000多条资源爬取一遍</p>
+<p>通过观察发现，网站的网站格式如下</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">https:&#x2F;&#x2F;****.org&#x2F;skills&#x2F;4065.html</span><br><span class="line">https:&#x2F;&#x2F;****.org&#x2F;skills&#x2F;4066.html</span><br><span class="line">https:&#x2F;&#x2F;****.org&#x2F;skills&#x2F;4173.html</span><br><span class="line">https:&#x2F;&#x2F;****.org&#x2F;skills&#x2F;4183.html</span><br><span class="line">https:&#x2F;&#x2F;****.org&#x2F;skills&#x2F;4184.html</span><br></pre></td></tr></table></figure>
+<p>不难发现，规律是 <code>https://****.org/skills/****.html</code></p>
+<p>只要我们把从1开始一直爬取到网站目前更新到的数字就可以了</p>
+<p>但真的这样吗？</p>
+<p>实则不然，期间发现一些链接会有不存在的情况</p>
+<p><img src="http://bkfengimage.test.upcdn.net/image/202307312049739.png" alt="image-20230731204953685"></p>
+<p>很简单，只需要判断一下网页有没有“访问的页面不存在”这样的字符就行了</p>
+<p>一顿操作下来，得到代码如下</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"><span class="keyword">from</span> bs4 <span class="keyword">import</span> BeautifulSoup</span><br><span class="line"><span class="keyword">import</span> csv</span><br><span class="line"><span class="keyword">import</span> time</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">get_info</span>(<span class="params">num</span>):</span></span><br><span class="line">    headers = &#123;<span class="string">&#x27;cookie&#x27;</span>: <span class="string">&#x27;填写你的cookie&#x27;</span>&#125;</span><br><span class="line">    url = <span class="string">&quot;https://****.org/ziyuan/%s.html&quot;</span> % num</span><br><span class="line">    req = requests.get(url, headers=headers)</span><br><span class="line">    <span class="keyword">if</span> <span class="string">&quot;不存在&quot;</span> <span class="keyword">in</span> req.text:</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&quot;%s 您访问的页面不存在&quot;</span> % num)</span><br><span class="line">        <span class="keyword">return</span></span><br><span class="line">    soup = BeautifulSoup(req.text, <span class="string">&#x27;html.parser&#x27;</span>)</span><br><span class="line">    info = soup.find(<span class="string">&#x27;div&#x27;</span>, class_=<span class="string">&quot;panel-body&quot;</span>)</span><br><span class="line">    info_list = info.find(<span class="string">&#x27;div&#x27;</span>, class_=<span class="string">&#x27;entry-meta&#x27;</span>).find_all(<span class="string">&#x27;li&#x27;</span>)</span><br><span class="line">    <span class="comment"># 获取标题、更新日期、链接类型，网盘分类等信息</span></span><br><span class="line">    title = info.find(<span class="string">&#x27;h1&#x27;</span>, class_=<span class="string">&#x27;metas-title&#x27;</span>).text.strip()</span><br><span class="line">    update_time = info.find(<span class="string">&#x27;span&#x27;</span>, class_=<span class="string">&#x27;comment-num&#x27;</span>).text.strip()</span><br><span class="line">    <span class="built_in">type</span> = info_list[<span class="number">0</span>].text.strip().replace(<span class="string">&quot;网盘分类：&quot;</span>, <span class="string">&quot;&quot;</span>)</span><br><span class="line">    tag = info_list[<span class="number">1</span>].text.strip().replace(<span class="string">&quot;资源分类：&quot;</span>, <span class="string">&quot;&quot;</span>)</span><br><span class="line">    <span class="comment"># 获取网盘链接</span></span><br><span class="line">    link = info.find(<span class="string">&#x27;a&#x27;</span>, <span class="built_in">id</span>=<span class="string">&#x27;lj&#x27;</span>)[<span class="string">&#x27;href&#x27;</span>].replace(<span class="string">&#x27;/go/?url=&#x27;</span>, <span class="string">&#x27;&#x27;</span>)</span><br><span class="line">    <span class="comment"># 获取密码</span></span><br><span class="line">    <span class="keyword">try</span>:</span><br><span class="line">        password = info.find(<span class="string">&#x27;span&#x27;</span>, <span class="built_in">id</span>=<span class="string">&#x27;tiquma&#x27;</span>).text.strip()</span><br><span class="line">    <span class="keyword">except</span>:</span><br><span class="line">        password = <span class="string">&quot;&quot;</span></span><br><span class="line">    <span class="comment"># 将爬取到的数据写入csv文件</span></span><br><span class="line">    <span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&quot;wpfz_info1.csv&quot;</span>, <span class="string">&#x27;a&#x27;</span>, encoding=<span class="string">&#x27;utf-8&#x27;</span>, newline=<span class="string">&#x27;&#x27;</span>) <span class="keyword">as</span> f:</span><br><span class="line">        csv_write = csv.writer(f)</span><br><span class="line">        csv_write.writerow([num, title, update_time, <span class="built_in">type</span>, tag, link, password])</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;%s 已经完成&quot;</span> % num)</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    <span class="comment"># 循环获取每个页面的内容</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1</span>, <span class="number">4817</span>):</span><br><span class="line">        get_info(i)</span><br><span class="line">        time.sleep(<span class="number">1</span>)</span><br></pre></td></tr></table></figure>
+<p>操作的过程如下：</p>
+<p><img src="http://bkfengimage.test.upcdn.net/image/202307312058227.png" alt="操作过程图"></p>
+<p>最终获取到的资源如下：</p>
+<p><img src="http://bkfengimage.test.upcdn.net/image/202307312107407.png" alt="获取内容"></p>
+<p>为了方便大家获取，我就把资源查询整理了一下放到博客了</p>
+<p><strong><a href="https://bkfeng.top/link">https://bkfeng.top/link</a></strong></p>
+<div class="tag link"><a class="link-card" title="常用资料汇总（编程，学习，技能，影视，考证等）" href="https://bkfeng.top/link"><div class="left"><img src="https://bkfeng.top/img/favicon6.png"/></div><div class="right"><p class="text">常用资料汇总（编程，学习，技能，影视，考证等）</p><p class="url">https://bkfeng.top/link</p></div></a></div>
+<p>有一说一，这份资源确实挺不错的</p>
+<p>涵盖考研学习，游戏资源、影视动漫、编程教程方方面面</p>
+<p><img src="http://bkfengimage.test.upcdn.net/image/202307312107426.png" alt="博客内容参考"></p>
+<p><img src="http://bkfengimage.test.upcdn.net/image/202307312107461.png" alt="博客内容参考"></p>
+]]></content>
+      <categories>
+        <category>软件</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>爬虫</tag>
+        <tag>资源</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>公众号书籍转PDF，顺带一键OCR转文字</title>
+    <url>/ocr.html</url>
+    <content><![CDATA[<p>个人喜欢在读书时勾勾画画，遇到一些重要的知识或者内容希望能在图像PDF上便捷地做复制、搜索、高亮、划线等等操作。</p>
+<p>但是我们公众号获取的书籍通常是图像扫描文件，最终的到的仅为单层PDF。</p>
+<p>这种图像类格式的PDF不可进行搜索、复制文字等操作，这就很难受了。</p>
+<p><img src="http://bkfengimage.test.upcdn.net/image/202308211754926.png" alt="PDF文件"></p>
+<p>通常我们会进行<strong>OCR操作</strong>，将PDF变成可检索的图像格式的双层PDF</p>
+<p>双层PDF的“双层”，指的是“图像层+隐藏文字层”，即在扫描图像上，再蒙一层不可见的隐藏文字，这样在阅读的时候，看到的是与原书完全一样的扫描图像，但是同时又可以对隐藏文字进行搜索、复制。</p>
+<p>PDF文件的OCR，首选肯定是<strong>Abbyy</strong>，然后就是<strong>Acrobat</strong>啦。</p>
+<p>大家可以通过B站以及谷歌获取相关教程，本文不过多介绍</p>
+<p><img src="http://bkfengimage.test.upcdn.net/image/202308211754674.png" alt=""></p>
+<p>下面介绍的方法，是在我们使用提供的<code>PDG2PIC</code>软件将PDG转换PDF的时候，顺便将合成的PDF文件变为可检索格式的双层PDF，从而省去转换出来PDF文件后又将PDF进行OCR的麻烦。</p>
+<p>（本教程默认你已经安装了<code>PDG2PIC</code>软件，并且知道如何把一个压缩包解压为PDG目录，并且导入到<code>PDG2PIC</code>软件进行PDF合成）</p>
+<h1>教程开始</h1>
+<p>转换书籍时，想必大家都是通过<code>PDG2PIC</code>这个软件的吧</p>
+<p>PDG2PIC是strnghrs开发的一款软件，大家转换PDF的时候也经常使用吧~</p>
+<p>其中自带的OCR功能，但是如果你直接点击OCR但是无法转换的，还需要我们下载相关驱动</p>
+<p>为什么不加这个功能的？作者是这么说的：</p>
+<p>生成双层PDF：如果此选项被选中，则转换过程中启动OCR，生成隐藏文字，否则只转换图像，不管文字。由于需要时间，MODI的安装也不是电脑白痴随随便便就能搞定的，因此此选项缺省未选中，以免麻烦。</p>
+<p>好了，下面是配置方法</p>
+<h2 id="1-下载PDG2PIC以及MODI-Engine"><a class="header-anchor" href="#1-下载PDG2PIC以及MODI-Engine"></a>1.下载PDG2PIC以及MODI_Engine</h2>
+<p>如果你已经有<code>PDG2PIC</code>软件,复制直接MODI_Engine.exe到相同文件夹，</p>
+<p>或者也可以直接下载全部文件到一个目录</p>
+<p><img src="http://bkfengimage.test.upcdn.net/image/202308211754543.png" alt="软件目录"></p>
+<h2 id="2-安装MODI"><a class="header-anchor" href="#2-安装MODI"></a>2.安装MODI</h2>
+<p>双层PDF的文字靠OCR生成，教程所用的OCR引擎是微软Office 2007自带的MODI（Microsoft Office Document Imaging）。</p>
+<p>只需要打开<code>Setup_MODI_From_Office2007SP3.exe</code>进行一键安装</p>
+<p><img src="http://bkfengimage.test.upcdn.net/image/202308211754534.png" alt="Setup_MODI_From_Office2007SP3.exe文件"></p>
+<p>安装完成以后就可以直接进行OCR转换了.</p>
+<h2 id="OCR演示"><a class="header-anchor" href="#OCR演示"></a>OCR演示</h2>
+<p><img src="http://bkfengimage.test.upcdn.net/image/202308211754553.png" alt="OCR演示"></p>
+<p>勾选“生成双层PDF”后开始转换</p>
+<p>OCR和转换的过程还是很快的，平均0.5s一张</p>
+<p>180页的PDF弄下来图像转换+OCR一个用了2分钟左右</p>
+<p>转换好的文件我们可以直接复制以及文字标注啦！</p>
+<p>遇到重要的知识点也不用担心复制不了</p>
+<p><img src="http://bkfengimage.test.upcdn.net/image/202308211754642.png" alt="转换完PDF文件"></p>
+<p>这是复制出来的文字与原文的对比，一眼看过去准确率还是挺高的~</p>
+<p><img src="http://bkfengimage.test.upcdn.net/image/202308211754005.png" alt="对比结果"></p>
+<h2 id="TIP"><a class="header-anchor" href="#TIP"></a>TIP</h2>
+<p>1.OCR结果不能保证100%准确性，其结果与图像分辨率、图像质量密切相关。</p>
+<p>2.一些排版复杂，图像居多的文件，建议就别OCR了，以免结果太过搞笑。</p>
+<p>3.关于软件OCR相关操作的几个选项：</p>
+<ul>
+<li>生成双层PDF：如果此选项被选中，则转换过程中启动OCR，生成隐藏文字，否则只转换图像，不管文字。<br>
+在选中“生成双层PDF”后，下列选项才能生效：</li>
+<li>OCR语言：一次只能选择一种语言，注意所选项必须与所识别的文字相匹配，例如想识别繁体字，就一定要选择“繁体中文”，否则识别出来的结果多半会很搞笑。</li>
+<li>合并文本行：如果选中，则转换出来的PDF文件中的隐藏文本以行为单位，文件长度较小，但是字的位置不一定准确。如果未选，则以字（CJK）或词（非CJK）为单位，字的位置比较准确，文件长度略大。</li>
+<li>CJK版式：中、日、韩文字都有横排和竖排之分，本软件在一定程度上可以自动识别，如果对识别结果不满意，可以手工选择是横排还是竖排。此选项对OCR准确性没有影响，仅对隐藏文字采用的字体有影响。</li>
+<li>去掉大于页面尺寸1/*的图表：MODI引擎在OCR中日韩语言时相当脆弱，在OCR前先对图像清理一遍是一个更安全的做法。判断是否是需要清除的图表。如果指定的比例是1，则所有页面都不会执行自动去除图表操作。</li>
+</ul>
+<p>4.OCR纯中文或者纯英文都没有问题，有时候OCR中英文混排的时候，效果确实不如Abbyy，这个无解。但是软件的OCR转换可以满足大部分需求了。</p>
+<p>5.为了软件失效，可以随时更新，以上软件链接公众号后台回复：<code>getocr </code> 获取</p>
+]]></content>
+      <categories>
+        <category>书籍</category>
+      </categories>
+      <tags>
+        <tag>书籍</tag>
+        <tag>资源</tag>
+        <tag>OCR</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>网站里面所有资源的来源，都在这里</title>
+    <url>/way.html</url>
+    <content><![CDATA[<p>因为网站资源频繁失效，所以本人特意下一篇搜索网上各种考研考证资源的文章</p>
+<p>网站里面所有资源的来源，都是网上各个地方搜索整合来的，主要平台有以下几个：</p>
+<p>欢迎大家文章底下评论补充，我会再加进去文章里面供大家使用</p>
+<h2 id="1-题库网"><a class="header-anchor" href="#1-题库网"></a>1.题库网</h2>
+<p>网站链接 <a href="http://www.tikuwang.com/app/index.php?i=2&amp;c=entry&amp;do=fengmian&amp;m=hulu_info">http://www.tikuwang.com/app/index.php?i=2&amp;c=entry&amp;do=fengmian&amp;m=hulu_info</a></p>
+<p>该网站完全免费分享，来源一家题库网公众号，本站的大部分资源均来源于此。如果本站资源失效可以去这个网站。</p>
+<img src="https://i.loli.net/2021/01/30/BUH8mDkTpRJQ5FZ.png" alt="image-20210130223517406" style="zoom:67%;" />
+<h2 id="2-安心考研"><a class="header-anchor" href="#2-安心考研"></a>2.安心考研</h2>
+<p>网站链接 <a href="http://axky.ys168.com/">http://axky.ys168.com/</a></p>
+<p>1个提供大量考研资料的永硕E盘👍，更新比较及时</p>
+<p>不过缺点就是资源较少，其他的一些资源要付费。</p>
+<p>主要涵盖语文、数学、英语考研以及四六级</p>
+<img src="https://i.loli.net/2021/01/30/PnA5R2MEv1ZQ6NW.png" alt="image-20210130224026382" style="zoom:67%;" />
+<p>同样类型的网盘还有 <a href="http://kyxz.ys168.com/">http://kyxz.ys168.com/</a></p>
+<h2 id="3-金榜题名"><a class="header-anchor" href="#3-金榜题名"></a>3.金榜题名</h2>
+<p>网站链接 <a href="http://qzbltushu.ys168.com/">http://qzbltushu.ys168.com/</a></p>
+<p>该网站资料全都是免费的，资源也比较全</p>
+<p><img src="https://i.loli.net/2021/07/15/YgjKAUrcV3unozp.png" alt="image-20210715183003469"></p>
+<h2 id="3-考研学子"><a class="header-anchor" href="#3-考研学子"></a>3.考研学子</h2>
+<p>部分收费</p>
+<p><img src="https://i.loli.net/2021/07/15/IW7xiG8CgFn2DMv.png" alt="image-20210715183112266"><img src="C:%5CUsers%5Cweifeng%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210715183129586.png" alt="image-20210715183129586"></p>
+<h2 id="4-其他分享者"><a class="header-anchor" href="#4-其他分享者"></a>4.其他分享者</h2>
+<p>小帅同学http://gmengshuai.ys168.com/</p>
+<p>油麦同学http://cangbaoge.ys168.com/</p>
+<p>陈蛋蛋的宝藏库http://www.chendandan.ys168.com/</p>
+<p>哆啦A梦的神奇口袋http://htwww.baozangku.ys168.com/</p>
+<p>可可西里的杂货铺http://kkxldzhp.ys168.com/</p>
+<h5 id="2014-2020教资笔试、面试网课资料合集-https-shimo-im-docs-VwqgJy8pYtVcvwY6-read"><a class="header-anchor" href="#2014-2020教资笔试、面试网课资料合集-https-shimo-im-docs-VwqgJy8pYtVcvwY6-read"></a>2014-2020教资笔试、面试网课资料合集 <a href="https://shimo.im/docs/VwqgJy8pYtVcvwY6/read">https://shimo.im/docs/VwqgJy8pYtVcvwY6/read</a></h5>
+<h5 id="一建-二建-消防-监管-http-zhulu-ys168-com"><a class="header-anchor" href="#一建-二建-消防-监管-http-zhulu-ys168-com"></a>一建 二建 消防 监管 <a href="http://zhulu.ys168.com/">http://zhulu.ys168.com/</a></h5>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">【注意】：</span><br><span class="line">务必记住网址 http:&#x2F;&#x2F;zhulu.ys168.com&#x2F; </span><br><span class="line">及最上面一项：“单科密码管理区”的密码：pass</span><br><span class="line">通过“单科密码管理区”可查询各单科课程的密码。</span><br></pre></td></tr></table></figure>
+<img src="https://i.loli.net/2021/01/30/NvBqQGrMLkWoYCs.png" alt="image-20210130230519905" style="zoom:67%;" />
+<h2 id="5-各类论坛"><a class="header-anchor" href="#5-各类论坛"></a>5.各类论坛</h2>
+<p><strong>1.52破解</strong><a href="https://www.52pojie.cn/">https://www.52pojie.cn/</a></p>
+<p><strong>2.考研帮</strong><a href="http://www.kaoyan.com/">http://www.kaoyan.com/</a></p>
+<p><strong>3.小木虫论坛</strong> <a href="http://muchong.com/bbs/">http://muchong.com/bbs/</a></p>
+<h5 id="4-乐愚社区-https-bbs-leyuz-net"><a class="header-anchor" href="#4-乐愚社区-https-bbs-leyuz-net"></a>4.乐愚社区 <a href="https://bbs.leyuz.net/">https://bbs.leyuz.net/</a></h5>
+<p>其实微信许多公众号有，不过大多数公众号比较杂，多收费</p>
+<p>大家有什么推荐的考研公众号评论留言一起分享。等待后续更新</p>
+<img src="https://i.loli.net/2021/02/13/BIZ6s7rm9Wuko8P.png" alt="image-20210130232602465" style="zoom:50%;" />
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>考研</tag>
+        <tag>四六级</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>最全的大学资料来了！！</title>
+    <url>/university.html</url>
+    <content><![CDATA[<div class="note blue simple"><p>网上的收费资料我都帮你找来了！！</p>
+<p>帮你应对大学专业课以及应对期末考试！！</p>
+<p>在考取证书，参加比赛的路上更轻松面对！！</p>
+</div>
+<p>如链接失效可联系微信：bkfeng46 补链。</p>
+<h2 id="📚大学资料"><a class="header-anchor" href="#📚大学资料"></a>📚大学资料</h2>
+<p>【锋考，高斯课堂，大学通，高数君，猴博士等期末不挂科课程】，帮你轻松应对大学专业课以及应对期末考试！！</p>
+<div class="hide-toggle" style="border: 1px solid bg"><div class="hide-button toggle-title" style="background-color: bg;color: color"><i class="fas fa-caret-right fa-fw"></i><span>资料目录请点我(っ•̀ω•́)っ</span></div>
+    <div class="hide-content"><p>以下目录仅为部分</p>
+<p>0.【蜂考】资料合集<br>
+01大学数学<br>
+02大学物理<br>
+03电气通信<br>
+04土木机械<br>
+05计算机<br>
+06化学<br>
+07英语四级<br>
+08系统课<br>
+08英语六级<br>
+09经济学速成</p>
+<p><strong>0.【蜂考】资料合集</strong><br>
+01 高等数学上3小时期末不挂科（高清版）~<br>
+02 高数数学下4小时期末不挂科（高清版）~<br>
+03.【信号与系统 · 重制版】蜂考<br>
+03数字电子技术~<br>
+04模拟电子技术~<br>
+05线性代数~<br>
+06概率统计~<br>
+07运筹学~<br>
+08工程机械制图~<br>
+10C语言~<br>
+11材料力学<br>
+13理论力学~<br>
+1512【高斯课堂】C语言 系统课~<br>
+20高斯课堂统计学~<br>
+9214 结构力学~<br>
+C语言（新版）<br>
+【蜂考高斯课堂】 线性代数高分系统班~<br>
+大学物理~<br>
+电磁学系统课~<br>
+蜂考 统计学~<br>
+概率论系统课~<br>
+高数上系统班~<br>
+高数下 系统班~<br>
+高数下（新课）~<br>
+高斯课堂电路~<br>
+高斯课堂复变函数~<br>
+画法几何及机械制图3小时速成期末不挂科~<br>
+数据结构~<br>
+物理化学~<br>
+新GSKT-离散数学~<br>
+新GSKT-力学系统课精讲期末不挂科~<br>
+新GSKT-信号与系统<br>
+新版电路<br>
+新版蜂考 自动控制原理</p>
+</div></div>
+<p>链接: <a href="https://pan.baidu.com/s/13HpME6YVXVjsoQeiL6FjTQ">https://pan.baidu.com/s/13HpME6YVXVjsoQeiL6FjTQ</a> 提取码: bcp7</p>
+<h2 id="🧭考证资料"><a class="header-anchor" href="#🧭考证资料"></a>🧭考证资料</h2>
+<h4 id="计算机二级"><a class="header-anchor" href="#计算机二级"></a><strong>计算机二级</strong></h4>
+<p>2023年3月小黑课堂计算机二级WPS网课（含题库）</p>
+<p>链接: <a href="https://pan.baidu.com/s/1lDRzjWQzs-i8ea6GfNCjPg">https://pan.baidu.com/s/1lDRzjWQzs-i8ea6GfNCjPg</a> 提取码: 1122</p>
+<p>2023年3月小黑课堂计算机二级Ms Office网课</p>
+<p>链接: <a href="https://pan.baidu.com/s/1bilv3HySdwxn45umYChMtw">https://pan.baidu.com/s/1bilv3HySdwxn45umYChMtw</a> 提取码: 1122</p>
+<p>2023年3月小黑课堂计算机二级Python网课</p>
+<p>链接: <a href="https://pan.baidu.com/s/1u5S8pw5h52NOsRXmWrDKlw">https://pan.baidu.com/s/1u5S8pw5h52NOsRXmWrDKlw</a> 提取码: 1122</p>
+<p>「计算机二级」阿里云盘</p>
+<p><a href="https://wpfx.org/go/?url=https://www.aliyundrive.com/s/mM6YKGL6VpA">https://wpfx.org/go/?url=https://www.aliyundrive.com/s/mM6YKGL6VpA</a></p>
+<p><strong>普通话考试</strong></p>
+<p>语音练习、语音测试、词语表、训练教程、考试辅导、注意事项、普通话考试资料、普通话考试话题（全）、普通话、易错别字（词）、其他资料</p>
+<p><a href="https://www.aliyundrive.com/s/adWntYX6TYG">https://www.aliyundrive.com/s/adWntYX6TYG</a></p>
+<h4 id="教师资格证"><a class="header-anchor" href="#教师资格证"></a><strong>教师资格证</strong></h4>
+<p>2023/2022教师资格相关资料合集 幼儿园 小学 中学 高中 笔试 面试等等</p>
+<p>中学、中公–电子赠品、历年真题（初、高科目三）、教资面试资料包大全、教师资格证资料包、教案大全（幼、小、初、高）、【14】2023全国教师招聘-FB、【03】23上中学、【02】23上小学、22上语文-初高中通看版、22上美术-初高中通看版、2023年上半年学科-数学、2022下教资面试、2022下教资笔试、2022下半年教资-中学物理2022上教资笔试、2022教资面试、2022教资笔试中学科三</p>
+<p>链接: <a href="https://pan.baidu.com/s/11LMy_Z6SER1xiHtchP8W4g">https://pan.baidu.com/s/11LMy_Z6SER1xiHtchP8W4g</a> 提取码: wpfx</p>
+<h4 id="会计"><a class="header-anchor" href="#会计"></a><strong>会计</strong></h4>
+<p>2023年会计类网课合集【6.26】</p>
+<p><a href="https://pan.baidu.com/s/19_Pnkkt-2Qru6XMhXMooCQ?pwd=2023,2023">https://pan.baidu.com/s/19_Pnkkt-2Qru6XMhXMooCQ?pwd=2023,2023</a></p>
+<p>2023年初级会计VIP课件</p>
+<p><a href="https://pan.baidu.com/s/1vSj3VfzG8HjaX9uvMt3PKA?pwd=2023,2023">https://pan.baidu.com/s/1vSj3VfzG8HjaX9uvMt3PKA?pwd=2023,2023</a></p>
+<p>2022年注册会计师课件</p>
+<p><a href="https://pan.baidu.com/s/115dox3Y1lGaBZfS8A5b_sg?pwd=pqbb,pqbb">https://pan.baidu.com/s/115dox3Y1lGaBZfS8A5b_sg?pwd=pqbb,pqbb</a></p>
+<p>2023年中级会计师财务管理【VIP课件】</p>
+<p><a href="https://pan.baidu.com/s/1Y8Kz7rtq-0INTpeyIAM1kg,6557">https://pan.baidu.com/s/1Y8Kz7rtq-0INTpeyIAM1kg,6557</a></p>
+<p>2023中级会计资料合集（含2022）</p>
+<p><a href="https://pan.baidu.com/s/1YcX7XB3WLoBjJdIKiJhfbA?pwd=yxdc,yxdc">https://pan.baidu.com/s/1YcX7XB3WLoBjJdIKiJhfbA?pwd=yxdc,yxdc</a></p>
+<p>2023-注册会计师（更新中）含2022</p>
+<p><a href="https://pan.baidu.com/s/1aynaBXfN2IDepvjZ2Q7Isw,sx5n">https://pan.baidu.com/s/1aynaBXfN2IDepvjZ2Q7Isw,sx5n</a></p>
+<p>2023年中级会计师会计实务【VIP课件】</p>
+<p><a href="https://pan.baidu.com/s/1Ge63qJ_XucB7nrP9vH46cQ,6557">https://pan.baidu.com/s/1Ge63qJ_XucB7nrP9vH46cQ,6557</a></p>
+<p>2023年中级会计师经济法【VIP课件】</p>
+<p><a href="https://pan.baidu.com/s/16ZL-ODRqlybx_-RE-Lr5wQ,6557">https://pan.baidu.com/s/16ZL-ODRqlybx_-RE-Lr5wQ,6557</a></p>
+<h4 id="军队文职"><a class="header-anchor" href="#军队文职"></a><strong>军队文职</strong></h4>
+<p>2022军队文职</p>
+<p><a href="https://pan.baidu.com/s/1FsL2eTmizBOHrYAR46nK7Q?pwd=63y8,63y8">https://pan.baidu.com/s/1FsL2eTmizBOHrYAR46nK7Q?pwd=63y8,63y8</a></p>
+<p>2021F笔军队文职公共科目</p>
+<p><a href="https://pan.baidu.com/s/1c9bs4NWERJqeN2QpTGd6SQ?pwd=7hfc,7hfc">https://pan.baidu.com/s/1c9bs4NWERJqeN2QpTGd6SQ?pwd=7hfc,7hfc</a></p>
+<p>2023军队文职</p>
+<p><a href="https://pan.baidu.com/s/1KgOjKCDvNjZfgJagU0iMgA?pwd=4ktk,4ktk">https://pan.baidu.com/s/1KgOjKCDvNjZfgJagU0iMgA?pwd=4ktk,4ktk</a></p>
+<h1>🧭大学竞赛</h1>
+<p>大学生创新创业互联网+大赛项目计划书word大创PPT模板 挑战杯申请</p>
+<h3 id="1-大学生创新创业比赛"><a class="header-anchor" href="#1-大学生创新创业比赛"></a>1 大学生创新创业比赛</h3>
+<p><a href="https://www.aliyundrive.com/s/nNhgfdHXiXW">https://www.aliyundrive.com/s/nNhgfdHXiXW</a></p>
+<h3 id="2-创业比赛资料"><a class="header-anchor" href="#2-创业比赛资料"></a>2 创业比赛资料</h3>
+<p><a href="https://pan.baidu.com/s/1xDC20ibjVfQeB4xLnJaCXw">https://pan.baidu.com/s/1xDC20ibjVfQeB4xLnJaCXw</a></p>
+<p>提取码：1122</p>
+<h3 id="3-挑战杯资料"><a class="header-anchor" href="#3-挑战杯资料"></a>3 挑战杯资料</h3>
+<p><a href="https://pan.baidu.com/s/1ga8I23zUXM2N9zYTOYeM8Q">https://pan.baidu.com/s/1ga8I23zUXM2N9zYTOYeM8Q</a></p>
+<p>提取码：1122</p>
+<h3 id="4互联网-资料"><a class="header-anchor" href="#4互联网-资料"></a>4互联网+资料</h3>
+<p><a href="https://pan.baidu.com/s/118DCokHqaQavq9BDSA5BrQ">https://pan.baidu.com/s/118DCokHqaQavq9BDSA5BrQ</a></p>
+<p>提取码：1122</p>
+<h3 id="5-创青春资料"><a class="header-anchor" href="#5-创青春资料"></a>5 创青春资料</h3>
+<p><a href="https://pan.baidu.com/s/1Bo-a1R8zdgrjBQByn8tMUg">https://pan.baidu.com/s/1Bo-a1R8zdgrjBQByn8tMUg</a></p>
+<p>提取码：1122</p>
+<h3 id="6-精选商业计划书及模板"><a class="header-anchor" href="#6-精选商业计划书及模板"></a>6 精选商业计划书及模板</h3>
+<p><a href="https://pan.baidu.com/s/1j53EJ3TvVayQM8yHGFkZqw">https://pan.baidu.com/s/1j53EJ3TvVayQM8yHGFkZqw</a></p>
+<p>提取码：1122</p>
+<h3 id="7-行业研究报告"><a class="header-anchor" href="#7-行业研究报告"></a>7 行业研究报告</h3>
+<p><a href="https://pan.baidu.com/s/18N1wNNQIpjdz_P7RtrIRhg">https://pan.baidu.com/s/18N1wNNQIpjdz_P7RtrIRhg</a></p>
+<p>提取码：1122</p>
+<h3 id="8-互联网-大赛作品-创青春挑战杯-三创资料"><a class="header-anchor" href="#8-互联网-大赛作品-创青春挑战杯-三创资料"></a>8 互联网+大赛作品 创青春挑战杯 三创资料</h3>
+<p><a href="https://pan.baidu.com/s/1O50-7nBiMkpfpHhxPfVNrw">https://pan.baidu.com/s/1O50-7nBiMkpfpHhxPfVNrw</a></p>
+<p>提取码：1122</p>
+<h3 id="8-互联网-创新创业大赛历届获奖商业计划书"><a class="header-anchor" href="#8-互联网-创新创业大赛历届获奖商业计划书"></a>8.互联网+创新创业大赛历届获奖商业计划书</h3>
+<p><a href="https://pan.baidu.com/s/1_8oizccKq_10_i8tWpwqzQ">https://pan.baidu.com/s/1_8oizccKq_10_i8tWpwqzQ</a></p>
+<p>提取码：1122</p>
+<h3 id="9-创青春获奖商业计划书"><a class="header-anchor" href="#9-创青春获奖商业计划书"></a>9 创青春获奖商业计划书</h3>
+<p><a href="https://pan.baidu.com/s/1RKIcJoVuW9_foN5jX_1rMw">https://pan.baidu.com/s/1RKIcJoVuW9_foN5jX_1rMw</a></p>
+<p>提取码：1122</p>
+<h3 id="10-挑战杯专题备赛资料"><a class="header-anchor" href="#10-挑战杯专题备赛资料"></a>10 挑战杯专题备赛资料</h3>
+<p><a href="https://pan.baidu.com/s/1goOtkcuxtfu08PyAza4Ghg">https://pan.baidu.com/s/1goOtkcuxtfu08PyAza4Ghg</a></p>
+<p>提取码：1122</p>
+<h3 id="11-三创、互联网、创青春精选获奖大学生创业计划书案例500份"><a class="header-anchor" href="#11-三创、互联网、创青春精选获奖大学生创业计划书案例500份"></a>11 三创、互联网、创青春精选获奖大学生创业计划书案例500份</h3>
+<p><a href="https://pan.baidu.com/s/1dT178iGoubVhTngm57MRlA">https://pan.baidu.com/s/1dT178iGoubVhTngm57MRlA</a></p>
+<p>提取码：1122</p>
+<h3 id="12-73个细分领域商业计划书"><a class="header-anchor" href="#12-73个细分领域商业计划书"></a>12 73个细分领域商业计划书</h3>
+<p><a href="https://pan.baidu.com/s/17FdTx5Sr2X-0kDd5v_3sRg">https://pan.baidu.com/s/17FdTx5Sr2X-0kDd5v_3sRg</a></p>
+<p>提取码：1122</p>
+<p><strong>有什么问题可以在本文章末尾留言</strong></p>
+<div class="hide-toggle" style="border: 1px solid bg"><div class="hide-button toggle-title" style="background-color: bg;color: color"><i class="fas fa-caret-right fa-fw"></i><span>如果你想捐助就点开我(っ•̀ω•́)っ</span></div>
+    <div class="hide-content"><h1><strong>关于捐助：</strong></h1>
+<p>谢谢你愿意点开(✪ω✪)</p>
+<p>如果该资料对你有帮助，并且愿意支持我，不妨支持一下 ！！</p>
+<p><img src="http://lc-ym5PR5Uz.cn-n1.lcfile.com/QBKpE2D2qES9aEyihy8O9y8yC1zoKRPO/1698247997.png" alt="">](<a href="https://imgse.com/i/piVK5IP">https://imgse.com/i/piVK5IP</a>)</p>
+</div></div>
+]]></content>
+      <categories>
+        <category>考研</category>
+      </categories>
+      <tags>
+        <tag>考研</tag>
       </tags>
   </entry>
   <entry>
@@ -1058,162 +1214,6 @@ document.write("<h2 title='具体时间以教育局公布为准'><font color=#34
         <tag>技术</tag>
         <tag>方法</tag>
         <tag>小技巧</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>最全的大学资料来了！！</title>
-    <url>/university.html</url>
-    <content><![CDATA[<div class="note blue simple"><p>网上的收费资料我都帮你找来了！！</p>
-<p>帮你应对大学专业课以及应对期末考试！！</p>
-<p>在考取证书，参加比赛的路上更轻松面对！！</p>
-</div>
-<p>如链接失效可联系微信：bkfeng46 补链。</p>
-<h2 id="📚大学资料"><a class="header-anchor" href="#📚大学资料"></a>📚大学资料</h2>
-<p>【锋考，高斯课堂，大学通，高数君，猴博士等期末不挂科课程】，帮你轻松应对大学专业课以及应对期末考试！！</p>
-<div class="hide-toggle" style="border: 1px solid bg"><div class="hide-button toggle-title" style="background-color: bg;color: color"><i class="fas fa-caret-right fa-fw"></i><span>资料目录请点我(っ•̀ω•́)っ</span></div>
-    <div class="hide-content"><p>以下目录仅为部分</p>
-<p>0.【蜂考】资料合集<br>
-01大学数学<br>
-02大学物理<br>
-03电气通信<br>
-04土木机械<br>
-05计算机<br>
-06化学<br>
-07英语四级<br>
-08系统课<br>
-08英语六级<br>
-09经济学速成</p>
-<p><strong>0.【蜂考】资料合集</strong><br>
-01 高等数学上3小时期末不挂科（高清版）~<br>
-02 高数数学下4小时期末不挂科（高清版）~<br>
-03.【信号与系统 · 重制版】蜂考<br>
-03数字电子技术~<br>
-04模拟电子技术~<br>
-05线性代数~<br>
-06概率统计~<br>
-07运筹学~<br>
-08工程机械制图~<br>
-10C语言~<br>
-11材料力学<br>
-13理论力学~<br>
-1512【高斯课堂】C语言 系统课~<br>
-20高斯课堂统计学~<br>
-9214 结构力学~<br>
-C语言（新版）<br>
-【蜂考高斯课堂】 线性代数高分系统班~<br>
-大学物理~<br>
-电磁学系统课~<br>
-蜂考 统计学~<br>
-概率论系统课~<br>
-高数上系统班~<br>
-高数下 系统班~<br>
-高数下（新课）~<br>
-高斯课堂电路~<br>
-高斯课堂复变函数~<br>
-画法几何及机械制图3小时速成期末不挂科~<br>
-数据结构~<br>
-物理化学~<br>
-新GSKT-离散数学~<br>
-新GSKT-力学系统课精讲期末不挂科~<br>
-新GSKT-信号与系统<br>
-新版电路<br>
-新版蜂考 自动控制原理</p>
-</div></div>
-<p>链接: <a href="https://pan.baidu.com/s/13HpME6YVXVjsoQeiL6FjTQ">https://pan.baidu.com/s/13HpME6YVXVjsoQeiL6FjTQ</a> 提取码: bcp7</p>
-<h2 id="🧭考证资料"><a class="header-anchor" href="#🧭考证资料"></a>🧭考证资料</h2>
-<h4 id="计算机二级"><a class="header-anchor" href="#计算机二级"></a><strong>计算机二级</strong></h4>
-<p>2023年3月小黑课堂计算机二级WPS网课（含题库）</p>
-<p>链接: <a href="https://pan.baidu.com/s/1lDRzjWQzs-i8ea6GfNCjPg">https://pan.baidu.com/s/1lDRzjWQzs-i8ea6GfNCjPg</a> 提取码: 1122</p>
-<p>2023年3月小黑课堂计算机二级Ms Office网课</p>
-<p>链接: <a href="https://pan.baidu.com/s/1bilv3HySdwxn45umYChMtw">https://pan.baidu.com/s/1bilv3HySdwxn45umYChMtw</a> 提取码: 1122</p>
-<p>2023年3月小黑课堂计算机二级Python网课</p>
-<p>链接: <a href="https://pan.baidu.com/s/1u5S8pw5h52NOsRXmWrDKlw">https://pan.baidu.com/s/1u5S8pw5h52NOsRXmWrDKlw</a> 提取码: 1122</p>
-<p>「计算机二级」阿里云盘</p>
-<p><a href="https://wpfx.org/go/?url=https://www.aliyundrive.com/s/mM6YKGL6VpA">https://wpfx.org/go/?url=https://www.aliyundrive.com/s/mM6YKGL6VpA</a></p>
-<p><strong>普通话考试</strong></p>
-<p>语音练习、语音测试、词语表、训练教程、考试辅导、注意事项、普通话考试资料、普通话考试话题（全）、普通话、易错别字（词）、其他资料</p>
-<p><a href="https://www.aliyundrive.com/s/adWntYX6TYG">https://www.aliyundrive.com/s/adWntYX6TYG</a></p>
-<h4 id="教师资格证"><a class="header-anchor" href="#教师资格证"></a><strong>教师资格证</strong></h4>
-<p>2023/2022教师资格相关资料合集 幼儿园 小学 中学 高中 笔试 面试等等</p>
-<p>中学、中公–电子赠品、历年真题（初、高科目三）、教资面试资料包大全、教师资格证资料包、教案大全（幼、小、初、高）、【14】2023全国教师招聘-FB、【03】23上中学、【02】23上小学、22上语文-初高中通看版、22上美术-初高中通看版、2023年上半年学科-数学、2022下教资面试、2022下教资笔试、2022下半年教资-中学物理2022上教资笔试、2022教资面试、2022教资笔试中学科三</p>
-<p>链接: <a href="https://pan.baidu.com/s/11LMy_Z6SER1xiHtchP8W4g">https://pan.baidu.com/s/11LMy_Z6SER1xiHtchP8W4g</a> 提取码: wpfx</p>
-<h4 id="会计"><a class="header-anchor" href="#会计"></a><strong>会计</strong></h4>
-<p>2023年会计类网课合集【6.26】</p>
-<p><a href="https://pan.baidu.com/s/19_Pnkkt-2Qru6XMhXMooCQ?pwd=2023,2023">https://pan.baidu.com/s/19_Pnkkt-2Qru6XMhXMooCQ?pwd=2023,2023</a></p>
-<p>2023年初级会计VIP课件</p>
-<p><a href="https://pan.baidu.com/s/1vSj3VfzG8HjaX9uvMt3PKA?pwd=2023,2023">https://pan.baidu.com/s/1vSj3VfzG8HjaX9uvMt3PKA?pwd=2023,2023</a></p>
-<p>2022年注册会计师课件</p>
-<p><a href="https://pan.baidu.com/s/115dox3Y1lGaBZfS8A5b_sg?pwd=pqbb,pqbb">https://pan.baidu.com/s/115dox3Y1lGaBZfS8A5b_sg?pwd=pqbb,pqbb</a></p>
-<p>2023年中级会计师财务管理【VIP课件】</p>
-<p><a href="https://pan.baidu.com/s/1Y8Kz7rtq-0INTpeyIAM1kg,6557">https://pan.baidu.com/s/1Y8Kz7rtq-0INTpeyIAM1kg,6557</a></p>
-<p>2023中级会计资料合集（含2022）</p>
-<p><a href="https://pan.baidu.com/s/1YcX7XB3WLoBjJdIKiJhfbA?pwd=yxdc,yxdc">https://pan.baidu.com/s/1YcX7XB3WLoBjJdIKiJhfbA?pwd=yxdc,yxdc</a></p>
-<p>2023-注册会计师（更新中）含2022</p>
-<p><a href="https://pan.baidu.com/s/1aynaBXfN2IDepvjZ2Q7Isw,sx5n">https://pan.baidu.com/s/1aynaBXfN2IDepvjZ2Q7Isw,sx5n</a></p>
-<p>2023年中级会计师会计实务【VIP课件】</p>
-<p><a href="https://pan.baidu.com/s/1Ge63qJ_XucB7nrP9vH46cQ,6557">https://pan.baidu.com/s/1Ge63qJ_XucB7nrP9vH46cQ,6557</a></p>
-<p>2023年中级会计师经济法【VIP课件】</p>
-<p><a href="https://pan.baidu.com/s/16ZL-ODRqlybx_-RE-Lr5wQ,6557">https://pan.baidu.com/s/16ZL-ODRqlybx_-RE-Lr5wQ,6557</a></p>
-<h4 id="军队文职"><a class="header-anchor" href="#军队文职"></a><strong>军队文职</strong></h4>
-<p>2022军队文职</p>
-<p><a href="https://pan.baidu.com/s/1FsL2eTmizBOHrYAR46nK7Q?pwd=63y8,63y8">https://pan.baidu.com/s/1FsL2eTmizBOHrYAR46nK7Q?pwd=63y8,63y8</a></p>
-<p>2021F笔军队文职公共科目</p>
-<p><a href="https://pan.baidu.com/s/1c9bs4NWERJqeN2QpTGd6SQ?pwd=7hfc,7hfc">https://pan.baidu.com/s/1c9bs4NWERJqeN2QpTGd6SQ?pwd=7hfc,7hfc</a></p>
-<p>2023军队文职</p>
-<p><a href="https://pan.baidu.com/s/1KgOjKCDvNjZfgJagU0iMgA?pwd=4ktk,4ktk">https://pan.baidu.com/s/1KgOjKCDvNjZfgJagU0iMgA?pwd=4ktk,4ktk</a></p>
-<h1>🧭大学竞赛</h1>
-<p>大学生创新创业互联网+大赛项目计划书word大创PPT模板 挑战杯申请</p>
-<h3 id="1-大学生创新创业比赛"><a class="header-anchor" href="#1-大学生创新创业比赛"></a>1 大学生创新创业比赛</h3>
-<p><a href="https://www.aliyundrive.com/s/nNhgfdHXiXW">https://www.aliyundrive.com/s/nNhgfdHXiXW</a></p>
-<h3 id="2-创业比赛资料"><a class="header-anchor" href="#2-创业比赛资料"></a>2 创业比赛资料</h3>
-<p><a href="https://pan.baidu.com/s/1xDC20ibjVfQeB4xLnJaCXw">https://pan.baidu.com/s/1xDC20ibjVfQeB4xLnJaCXw</a></p>
-<p>提取码：1122</p>
-<h3 id="3-挑战杯资料"><a class="header-anchor" href="#3-挑战杯资料"></a>3 挑战杯资料</h3>
-<p><a href="https://pan.baidu.com/s/1ga8I23zUXM2N9zYTOYeM8Q">https://pan.baidu.com/s/1ga8I23zUXM2N9zYTOYeM8Q</a></p>
-<p>提取码：1122</p>
-<h3 id="4互联网-资料"><a class="header-anchor" href="#4互联网-资料"></a>4互联网+资料</h3>
-<p><a href="https://pan.baidu.com/s/118DCokHqaQavq9BDSA5BrQ">https://pan.baidu.com/s/118DCokHqaQavq9BDSA5BrQ</a></p>
-<p>提取码：1122</p>
-<h3 id="5-创青春资料"><a class="header-anchor" href="#5-创青春资料"></a>5 创青春资料</h3>
-<p><a href="https://pan.baidu.com/s/1Bo-a1R8zdgrjBQByn8tMUg">https://pan.baidu.com/s/1Bo-a1R8zdgrjBQByn8tMUg</a></p>
-<p>提取码：1122</p>
-<h3 id="6-精选商业计划书及模板"><a class="header-anchor" href="#6-精选商业计划书及模板"></a>6 精选商业计划书及模板</h3>
-<p><a href="https://pan.baidu.com/s/1j53EJ3TvVayQM8yHGFkZqw">https://pan.baidu.com/s/1j53EJ3TvVayQM8yHGFkZqw</a></p>
-<p>提取码：1122</p>
-<h3 id="7-行业研究报告"><a class="header-anchor" href="#7-行业研究报告"></a>7 行业研究报告</h3>
-<p><a href="https://pan.baidu.com/s/18N1wNNQIpjdz_P7RtrIRhg">https://pan.baidu.com/s/18N1wNNQIpjdz_P7RtrIRhg</a></p>
-<p>提取码：1122</p>
-<h3 id="8-互联网-大赛作品-创青春挑战杯-三创资料"><a class="header-anchor" href="#8-互联网-大赛作品-创青春挑战杯-三创资料"></a>8 互联网+大赛作品 创青春挑战杯 三创资料</h3>
-<p><a href="https://pan.baidu.com/s/1O50-7nBiMkpfpHhxPfVNrw">https://pan.baidu.com/s/1O50-7nBiMkpfpHhxPfVNrw</a></p>
-<p>提取码：1122</p>
-<h3 id="8-互联网-创新创业大赛历届获奖商业计划书"><a class="header-anchor" href="#8-互联网-创新创业大赛历届获奖商业计划书"></a>8.互联网+创新创业大赛历届获奖商业计划书</h3>
-<p><a href="https://pan.baidu.com/s/1_8oizccKq_10_i8tWpwqzQ">https://pan.baidu.com/s/1_8oizccKq_10_i8tWpwqzQ</a></p>
-<p>提取码：1122</p>
-<h3 id="9-创青春获奖商业计划书"><a class="header-anchor" href="#9-创青春获奖商业计划书"></a>9 创青春获奖商业计划书</h3>
-<p><a href="https://pan.baidu.com/s/1RKIcJoVuW9_foN5jX_1rMw">https://pan.baidu.com/s/1RKIcJoVuW9_foN5jX_1rMw</a></p>
-<p>提取码：1122</p>
-<h3 id="10-挑战杯专题备赛资料"><a class="header-anchor" href="#10-挑战杯专题备赛资料"></a>10 挑战杯专题备赛资料</h3>
-<p><a href="https://pan.baidu.com/s/1goOtkcuxtfu08PyAza4Ghg">https://pan.baidu.com/s/1goOtkcuxtfu08PyAza4Ghg</a></p>
-<p>提取码：1122</p>
-<h3 id="11-三创、互联网、创青春精选获奖大学生创业计划书案例500份"><a class="header-anchor" href="#11-三创、互联网、创青春精选获奖大学生创业计划书案例500份"></a>11 三创、互联网、创青春精选获奖大学生创业计划书案例500份</h3>
-<p><a href="https://pan.baidu.com/s/1dT178iGoubVhTngm57MRlA">https://pan.baidu.com/s/1dT178iGoubVhTngm57MRlA</a></p>
-<p>提取码：1122</p>
-<h3 id="12-73个细分领域商业计划书"><a class="header-anchor" href="#12-73个细分领域商业计划书"></a>12 73个细分领域商业计划书</h3>
-<p><a href="https://pan.baidu.com/s/17FdTx5Sr2X-0kDd5v_3sRg">https://pan.baidu.com/s/17FdTx5Sr2X-0kDd5v_3sRg</a></p>
-<p>提取码：1122</p>
-<p><strong>有什么问题可以在本文章末尾留言</strong></p>
-<div class="hide-toggle" style="border: 1px solid bg"><div class="hide-button toggle-title" style="background-color: bg;color: color"><i class="fas fa-caret-right fa-fw"></i><span>如果你想捐助就点开我(っ•̀ω•́)っ</span></div>
-    <div class="hide-content"><h1><strong>关于捐助：</strong></h1>
-<p>谢谢你愿意点开(✪ω✪)</p>
-<p>如果该资料对你有帮助，并且愿意支持我，不妨支持一下 ！！</p>
-<p><img src="http://lc-ym5PR5Uz.cn-n1.lcfile.com/QBKpE2D2qES9aEyihy8O9y8yC1zoKRPO/1698247997.png" alt="">](<a href="https://imgse.com/i/piVK5IP">https://imgse.com/i/piVK5IP</a>)</p>
-</div></div>
-]]></content>
-      <categories>
-        <category>考研</category>
-      </categories>
-      <tags>
-        <tag>考研</tag>
       </tags>
   </entry>
   <entry>
