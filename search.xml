@@ -206,8 +206,8 @@ This is my website, click the button <a class="btn-beautify button--animated lar
         <category>学习</category>
       </categories>
       <tags>
-        <tag>心理学</tag>
         <tag>考研</tag>
+        <tag>心理学</tag>
         <tag>经济类</tag>
         <tag>护理</tag>
         <tag>药学</tag>
@@ -226,8 +226,8 @@ This is my website, click the button <a class="btn-beautify button--animated lar
         <category>学习</category>
       </categories>
       <tags>
-        <tag>心理学</tag>
         <tag>考研</tag>
+        <tag>心理学</tag>
         <tag>经济类</tag>
         <tag>护理</tag>
         <tag>药学</tag>
@@ -259,6 +259,101 @@ This is my website, click the button <a class="btn-beautify button--animated lar
       </categories>
       <tags>
         <tag>-考研</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>公众号书籍食用指南</title>
+    <url>/book.html</url>
+    <content><![CDATA[<h1>书籍概况</h1>
+<p>书籍来自某秀与zlibrary。书库基本涵盖20年以前出版的所有书。如果你找的新书基本没什么可能了。</p>
+<p>公众号书籍搜索指令如下</p>
+<p><img src="http://bkfengimage.test.upcdn.net/image/202308211820264.png" alt=""></p>
+<img src="http://bkfengimage.test.upcdn.net/image/202308211821142.png" alt="image-20221127221604449" style="zoom:50%;" />
+<p>2月6日更新：公众号已经支持ss号获取书籍，支持ISBN/书名/作者等信息查询。</p>
+<h1>一.书籍获取</h1>
+<h2 id="通过书籍id获取下载链接"><a class="header-anchor" href="#通过书籍id获取下载链接"></a>通过书籍id获取下载链接</h2>
+<p>通过书籍id可以获取书籍的信息（书名、作者、出版社、ISBN、书源）和下载链接</p>
+<ul>
+<li>
+<p>ssid为8为数字，可以获取读秀的资源（书籍下载后还需要进行解压和转换等一系列操作）</p>
+</li>
+<li>
+<p>zlibid以00开头，可以获取zlibrary的资源（书籍下载后直接可以打开，无需转换）</p>
+</li>
+</ul>
+<p>书籍的ssid通过网站搜索、公众号搜索获取<br>
+书籍的zlibid暂时只能通过公众号搜索获取</p>
+<p><img src="http://bkfengimage.test.upcdn.net/image/202308211822029.png" alt="image-20230821182203954"></p>
+<div class="hide-toggle" style="border: 1px solid bg"><div class="hide-button toggle-title" style="background-color: bg;color: color"><i class="fas fa-caret-right fa-fw"></i><span>ss号获取方法(っ•̀ω•́)っ</span></div>
+    <div class="hide-content"><ol>
+<li>第一种可以通过网站查询书籍的ss号。</li>
+</ol>
+<p>（以下网站只是用作查询，<strong>请不要直接在网站内付费</strong>！！）</p>
+<p><a href="https://www.xueshu86.com/">https://www.xueshu86.com/</a></p>
+<p><a href="https://ps.uuttdx.com/">https://ps.uuttdx.com/</a></p>
+<ol start="2">
+<li>第二种可以用油猴插件，脚本适配网站二者任选一个内容都是一样的：<a href="https://greasyfork.org/zh-CN/scripts/420751-%E5%9B%BE%E4%B9%A6%E4%BA%92%E5%8A%A9">油猴插件链接</a></li>
+</ol>
+<p>然后打开网站，就会显示书籍的ss号。</p>
+<p>1.<strong><a href="http://www.dglib.superlib.net/">http://www.dglib.superlib.net/ </a> （东莞图书馆检索系统，免登录，推荐）</strong></p>
+<p>2.<a href="http://www.ucdrs.superlib.net/">http://www.ucdrs.superlib.net/</a> （全国图书馆联盟，需登录）</p>
+<p><img src="http://bkfengimage.test.upcdn.net/image/202308211822783.png" alt="网站显示ss号"></p>
+</div></div>
+<h2 id="通过cx你需要搜索的书名来搜索书籍"><a class="header-anchor" href="#通过cx你需要搜索的书名来搜索书籍"></a>通过<code>cx你需要搜索的书名</code>来搜索书籍</h2>
+<p>如想要查询“三体”，就发送“cx三体&quot;；搜索结果过多可加入信息“cx三体 刘慈欣”。不过建议查询时宁可少字一不要多字。</p>
+<p>再次回复书籍的id可以获得书籍的百度云链接<img src="http://bkfengimage.test.upcdn.net/image/202308211823505.png" alt="cx指令" style="zoom:80%;" /></p>
+<p>下载后即可获取一份带有书签的文字可复制的文件</p>
+<p><img src="http://bkfengimage.test.upcdn.net/image/202308211824956.png" alt="PximnHvKROV341y"></p>
+<p>此种方式的好处可以查询包括zlibrary和读秀的书籍</p>
+<p>建议优先使用zlibrary的资源里的书籍（即书籍id为00开头）。</p>
+<p>因为该库的书籍文件为pdf、mobi、epub等无需解压的文件；而读秀库的文件需要解压以及文件为扫描版，且文字不可复制和没有书签</p>
+<h2 id="通过next进行查询结果的翻页操作"><a class="header-anchor" href="#通过next进行查询结果的翻页操作"></a>通过<code>next</code>进行查询结果的翻页操作</h2>
+<p>输入<code>next</code>可根据上一次搜索结果进行翻页</p>
+<p><img src="http://bkfengimage.test.upcdn.net/image/202308211824348.png" alt="upAtlMDiILZX9S4"></p>
+<h2 id="通过user获取用户信息"><a class="header-anchor" href="#通过user获取用户信息"></a>通过<code>user</code>获取用户信息</h2>
+<p>目前公众号为节约资源，限制了每日获取次数。不过一般正常使用的话不会超过这个限制的。（因为以前老有一些人一天就发个上百本的书籍过来）</p>
+<p>注意查询不消耗次数，只有发送书籍id获取百度云链接才消耗次数。</p>
+<img src="http://bkfengimage.test.upcdn.net/image/202308211824634.png" alt="user指令" style="zoom: 67%;" />
+<h1>二.转换格式</h1>
+<p>通过公众号的百度云链接下载书籍。</p>
+<p>zlibrary获取的书籍直接是pdf、mobi、epub等可直接阅读格式，你就直接大功告成了！！</p>
+<p>但读秀书库中的书籍文件大部分是压缩包格式的，并且需要解压密码</p>
+<p><strong>需要使用我们提供的合成工具进行解压和合成PDF文件</strong>（仅有win工具）</p>
+<h4 id="软件下载"><a class="header-anchor" href="#软件下载"></a>软件下载</h4>
+<p>转换软件：<a href="https://wwb.lanzoub.com/iBOBX0fxgxfi">https://wwb.lanzoub.com/iBOBX0fxgxfi</a></p>
+<img src="http://bkfengimage.test.upcdn.net/image/202308211825037.png" alt="image-20230211144449406" style="zoom:50%;" />
+<h4 id="简要步骤说明："><a class="header-anchor" href="#简要步骤说明："></a>简要步骤说明：</h4>
+<p>根据教程进行操作，一般来说两部就够了。工具可能会提示病毒，关闭杀毒软件即可。</p>
+<ol>
+<li>
+<p>下载文件后进行解压。（如果提示有密码，请使用【1.压缩包有密码使用—没有密码跳过此步骤】文件夹内解密解压工具进行解压。），提供3款解密工具，优先用【解密工具1】</p>
+</li>
+<li>
+<p>查看解压后文件夹内文件是什么格式，根据文件格式选择合适的工具进行合成PDF</p>
+<ul>
+<li>文件内 .pdg 格式的，请使用【2.PDG合成PDF工具】 进行合成</li>
+<li>文件为 .jpg，.png 等图片 格式的请使用 【3.图片合成PDF工具】 进行合成</li>
+<li>文件内 .djvu 格式的请使用 【4.DJVU合成PDF工具】 进行合成</li>
+</ul>
+</li>
+<li>
+<p>如需要给书籍添加书签，请使用【5.高级工具-书签获取&amp;编辑】获取&amp;编辑</p>
+</li>
+</ol>
+<img src="http://bkfengimage.test.upcdn.net/image/202308211825142.png" alt="解压" style="zoom: 50%;" />
+<img src="https://i0.hdslb.com/bfs/album/9be04e9f422694c3233f9ec8489605cbc0efae21.png" alt="转换" style="zoom: 50%;" />
+<p>​</p>
+<div class="hide-toggle" style="border: 1px solid bg"><div class="hide-button toggle-title" style="background-color: bg;color: color"><i class="fas fa-caret-right fa-fw"></i><span>如果你想捐助就点开我(っ•̀ω•́)っ</span></div>
+    <div class="hide-content"><h1><strong>关于捐助：</strong></h1>
+<p>谢谢你愿意点开(✪ω✪)</p>
+<p>如果该资料对你有帮助，并且愿意支持我，不妨支持一下 ！！</p>
+<p><img src="http://lc-ym5PR5Uz.cn-n1.lcfile.com/dk7uXQCuFNQVe3S7Yl6eJFXGvimLMJk1/1698247977.png" alt="">](<a href="https://imgse.com/i/piVK5IP">https://imgse.com/i/piVK5IP</a>)</p>
+</div></div>]]></content>
+      <categories>
+        <category>电子书</category>
+      </categories>
+      <tags>
+        <tag>书籍</tag>
       </tags>
   </entry>
   <entry>
@@ -401,105 +496,74 @@ This is my website, click the button <a class="btn-beautify button--animated lar
       </tags>
   </entry>
   <entry>
-    <title>公众号书籍食用指南</title>
-    <url>/book.html</url>
-    <content><![CDATA[<h1>书籍概况</h1>
-<p>书籍来自某秀与zlibrary。书库基本涵盖20年以前出版的所有书。如果你找的新书基本没什么可能了。</p>
-<p>公众号书籍搜索指令如下</p>
-<p><img src="http://bkfengimage.test.upcdn.net/image/202308211820264.png" alt=""></p>
-<img src="http://bkfengimage.test.upcdn.net/image/202308211821142.png" alt="image-20221127221604449" style="zoom:50%;" />
-<p>2月6日更新：公众号已经支持ss号获取书籍，支持ISBN/书名/作者等信息查询。</p>
-<h1>一.书籍获取</h1>
-<h2 id="通过书籍id获取下载链接"><a class="header-anchor" href="#通过书籍id获取下载链接"></a>通过书籍id获取下载链接</h2>
-<p>通过书籍id可以获取书籍的信息（书名、作者、出版社、ISBN、书源）和下载链接</p>
+    <title>公众号书籍转PDF，顺带一键OCR转文字</title>
+    <url>/ocr.html</url>
+    <content><![CDATA[<p>个人喜欢在读书时勾勾画画，遇到一些重要的知识或者内容希望能在图像PDF上便捷地做复制、搜索、高亮、划线等等操作。</p>
+<p>但是我们公众号获取的书籍通常是图像扫描文件，最终的到的仅为单层PDF。</p>
+<p>这种图像类格式的PDF不可进行搜索、复制文字等操作，这就很难受了。</p>
+<p><img src="http://bkfengimage.test.upcdn.net/image/202308211754926.png" alt="PDF文件"></p>
+<p>通常我们会进行<strong>OCR操作</strong>，将PDF变成可检索的图像格式的双层PDF</p>
+<p>双层PDF的“双层”，指的是“图像层+隐藏文字层”，即在扫描图像上，再蒙一层不可见的隐藏文字，这样在阅读的时候，看到的是与原书完全一样的扫描图像，但是同时又可以对隐藏文字进行搜索、复制。</p>
+<p>PDF文件的OCR，首选肯定是<strong>Abbyy</strong>，然后就是<strong>Acrobat</strong>啦。</p>
+<p>大家可以通过B站以及谷歌获取相关教程，本文不过多介绍</p>
+<p><img src="http://bkfengimage.test.upcdn.net/image/202308211754674.png" alt=""></p>
+<p>下面介绍的方法，是在我们使用提供的<code>PDG2PIC</code>软件将PDG转换PDF的时候，顺便将合成的PDF文件变为可检索格式的双层PDF，从而省去转换出来PDF文件后又将PDF进行OCR的麻烦。</p>
+<p>（本教程默认你已经安装了<code>PDG2PIC</code>软件，并且知道如何把一个压缩包解压为PDG目录，并且导入到<code>PDG2PIC</code>软件进行PDF合成）</p>
+<h1>教程开始</h1>
+<p>转换书籍时，想必大家都是通过<code>PDG2PIC</code>这个软件的吧</p>
+<p>PDG2PIC是strnghrs开发的一款软件，大家转换PDF的时候也经常使用吧~</p>
+<p>其中自带的OCR功能，但是如果你直接点击OCR但是无法转换的，还需要我们下载相关驱动</p>
+<p>为什么不加这个功能的？作者是这么说的：</p>
+<p>生成双层PDF：如果此选项被选中，则转换过程中启动OCR，生成隐藏文字，否则只转换图像，不管文字。由于需要时间，MODI的安装也不是电脑白痴随随便便就能搞定的，因此此选项缺省未选中，以免麻烦。</p>
+<p>好了，下面是配置方法</p>
+<h2 id="1-下载PDG2PIC以及MODI-Engine"><a class="header-anchor" href="#1-下载PDG2PIC以及MODI-Engine"></a>1.下载PDG2PIC以及MODI_Engine</h2>
+<p>如果你已经有<code>PDG2PIC</code>软件,复制直接MODI_Engine.exe到相同文件夹，</p>
+<p>或者也可以直接下载全部文件到一个目录</p>
+<p><img src="http://bkfengimage.test.upcdn.net/image/202308211754543.png" alt="软件目录"></p>
+<h2 id="2-安装MODI"><a class="header-anchor" href="#2-安装MODI"></a>2.安装MODI</h2>
+<p>双层PDF的文字靠OCR生成，教程所用的OCR引擎是微软Office 2007自带的MODI（Microsoft Office Document Imaging）。</p>
+<p>只需要打开<code>Setup_MODI_From_Office2007SP3.exe</code>进行一键安装</p>
+<p><img src="http://bkfengimage.test.upcdn.net/image/202308211754534.png" alt="Setup_MODI_From_Office2007SP3.exe文件"></p>
+<p>安装完成以后就可以直接进行OCR转换了.</p>
+<h2 id="OCR演示"><a class="header-anchor" href="#OCR演示"></a>OCR演示</h2>
+<p><img src="http://bkfengimage.test.upcdn.net/image/202308211754553.png" alt="OCR演示"></p>
+<p>勾选“生成双层PDF”后开始转换</p>
+<p>OCR和转换的过程还是很快的，平均0.5s一张</p>
+<p>180页的PDF弄下来图像转换+OCR一个用了2分钟左右</p>
+<p>转换好的文件我们可以直接复制以及文字标注啦！</p>
+<p>遇到重要的知识点也不用担心复制不了</p>
+<p><img src="http://bkfengimage.test.upcdn.net/image/202308211754642.png" alt="转换完PDF文件"></p>
+<p>这是复制出来的文字与原文的对比，一眼看过去准确率还是挺高的~</p>
+<p><img src="http://bkfengimage.test.upcdn.net/image/202308211754005.png" alt="对比结果"></p>
+<h2 id="TIP"><a class="header-anchor" href="#TIP"></a>TIP</h2>
+<p>1.OCR结果不能保证100%准确性，其结果与图像分辨率、图像质量密切相关。</p>
+<p>2.一些排版复杂，图像居多的文件，建议就别OCR了，以免结果太过搞笑。</p>
+<p>3.关于软件OCR相关操作的几个选项：</p>
 <ul>
-<li>
-<p>ssid为8为数字，可以获取读秀的资源（书籍下载后还需要进行解压和转换等一系列操作）</p>
-</li>
-<li>
-<p>zlibid以00开头，可以获取zlibrary的资源（书籍下载后直接可以打开，无需转换）</p>
-</li>
+<li>生成双层PDF：如果此选项被选中，则转换过程中启动OCR，生成隐藏文字，否则只转换图像，不管文字。<br>
+在选中“生成双层PDF”后，下列选项才能生效：</li>
+<li>OCR语言：一次只能选择一种语言，注意所选项必须与所识别的文字相匹配，例如想识别繁体字，就一定要选择“繁体中文”，否则识别出来的结果多半会很搞笑。</li>
+<li>合并文本行：如果选中，则转换出来的PDF文件中的隐藏文本以行为单位，文件长度较小，但是字的位置不一定准确。如果未选，则以字（CJK）或词（非CJK）为单位，字的位置比较准确，文件长度略大。</li>
+<li>CJK版式：中、日、韩文字都有横排和竖排之分，本软件在一定程度上可以自动识别，如果对识别结果不满意，可以手工选择是横排还是竖排。此选项对OCR准确性没有影响，仅对隐藏文字采用的字体有影响。</li>
+<li>去掉大于页面尺寸1/*的图表：MODI引擎在OCR中日韩语言时相当脆弱，在OCR前先对图像清理一遍是一个更安全的做法。判断是否是需要清除的图表。如果指定的比例是1，则所有页面都不会执行自动去除图表操作。</li>
 </ul>
-<p>书籍的ssid通过网站搜索、公众号搜索获取<br>
-书籍的zlibid暂时只能通过公众号搜索获取</p>
-<p><img src="http://bkfengimage.test.upcdn.net/image/202308211822029.png" alt="image-20230821182203954"></p>
-<div class="hide-toggle" style="border: 1px solid bg"><div class="hide-button toggle-title" style="background-color: bg;color: color"><i class="fas fa-caret-right fa-fw"></i><span>ss号获取方法(っ•̀ω•́)っ</span></div>
-    <div class="hide-content"><ol>
-<li>第一种可以通过网站查询书籍的ss号。</li>
-</ol>
-<p>（以下网站只是用作查询，<strong>请不要直接在网站内付费</strong>！！）</p>
-<p><a href="https://www.xueshu86.com/">https://www.xueshu86.com/</a></p>
-<p><a href="https://ps.uuttdx.com/">https://ps.uuttdx.com/</a></p>
-<ol start="2">
-<li>第二种可以用油猴插件，脚本适配网站二者任选一个内容都是一样的：<a href="https://greasyfork.org/zh-CN/scripts/420751-%E5%9B%BE%E4%B9%A6%E4%BA%92%E5%8A%A9">油猴插件链接</a></li>
-</ol>
-<p>然后打开网站，就会显示书籍的ss号。</p>
-<p>1.<strong><a href="http://www.dglib.superlib.net/">http://www.dglib.superlib.net/ </a> （东莞图书馆检索系统，免登录，推荐）</strong></p>
-<p>2.<a href="http://www.ucdrs.superlib.net/">http://www.ucdrs.superlib.net/</a> （全国图书馆联盟，需登录）</p>
-<p><img src="http://bkfengimage.test.upcdn.net/image/202308211822783.png" alt="网站显示ss号"></p>
-</div></div>
-<h2 id="通过cx你需要搜索的书名来搜索书籍"><a class="header-anchor" href="#通过cx你需要搜索的书名来搜索书籍"></a>通过<code>cx你需要搜索的书名</code>来搜索书籍</h2>
-<p>如想要查询“三体”，就发送“cx三体&quot;；搜索结果过多可加入信息“cx三体 刘慈欣”。不过建议查询时宁可少字一不要多字。</p>
-<p>再次回复书籍的id可以获得书籍的百度云链接<img src="http://bkfengimage.test.upcdn.net/image/202308211823505.png" alt="cx指令" style="zoom:80%;" /></p>
-<p>下载后即可获取一份带有书签的文字可复制的文件</p>
-<p><img src="http://bkfengimage.test.upcdn.net/image/202308211824956.png" alt="PximnHvKROV341y"></p>
-<p>此种方式的好处可以查询包括zlibrary和读秀的书籍</p>
-<p>建议优先使用zlibrary的资源里的书籍（即书籍id为00开头）。</p>
-<p>因为该库的书籍文件为pdf、mobi、epub等无需解压的文件；而读秀库的文件需要解压以及文件为扫描版，且文字不可复制和没有书签</p>
-<h2 id="通过next进行查询结果的翻页操作"><a class="header-anchor" href="#通过next进行查询结果的翻页操作"></a>通过<code>next</code>进行查询结果的翻页操作</h2>
-<p>输入<code>next</code>可根据上一次搜索结果进行翻页</p>
-<p><img src="http://bkfengimage.test.upcdn.net/image/202308211824348.png" alt="upAtlMDiILZX9S4"></p>
-<h2 id="通过user获取用户信息"><a class="header-anchor" href="#通过user获取用户信息"></a>通过<code>user</code>获取用户信息</h2>
-<p>目前公众号为节约资源，限制了每日获取次数。不过一般正常使用的话不会超过这个限制的。（因为以前老有一些人一天就发个上百本的书籍过来）</p>
-<p>注意查询不消耗次数，只有发送书籍id获取百度云链接才消耗次数。</p>
-<img src="http://bkfengimage.test.upcdn.net/image/202308211824634.png" alt="user指令" style="zoom: 67%;" />
-<h1>二.转换格式</h1>
-<p>通过公众号的百度云链接下载书籍。</p>
-<p>zlibrary获取的书籍直接是pdf、mobi、epub等可直接阅读格式，你就直接大功告成了！！</p>
-<p>但读秀书库中的书籍文件大部分是压缩包格式的，并且需要解压密码</p>
-<p><strong>需要使用我们提供的合成工具进行解压和合成PDF文件</strong>（仅有win工具）</p>
-<h4 id="软件下载"><a class="header-anchor" href="#软件下载"></a>软件下载</h4>
-<p>转换软件：<a href="https://wwb.lanzoub.com/iBOBX0fxgxfi">https://wwb.lanzoub.com/iBOBX0fxgxfi</a></p>
-<img src="http://bkfengimage.test.upcdn.net/image/202308211825037.png" alt="image-20230211144449406" style="zoom:50%;" />
-<h4 id="简要步骤说明："><a class="header-anchor" href="#简要步骤说明："></a>简要步骤说明：</h4>
-<p>根据教程进行操作，一般来说两部就够了。工具可能会提示病毒，关闭杀毒软件即可。</p>
-<ol>
-<li>
-<p>下载文件后进行解压。（如果提示有密码，请使用【1.压缩包有密码使用—没有密码跳过此步骤】文件夹内解密解压工具进行解压。），提供3款解密工具，优先用【解密工具1】</p>
-</li>
-<li>
-<p>查看解压后文件夹内文件是什么格式，根据文件格式选择合适的工具进行合成PDF</p>
-<ul>
-<li>文件内 .pdg 格式的，请使用【2.PDG合成PDF工具】 进行合成</li>
-<li>文件为 .jpg，.png 等图片 格式的请使用 【3.图片合成PDF工具】 进行合成</li>
-<li>文件内 .djvu 格式的请使用 【4.DJVU合成PDF工具】 进行合成</li>
-</ul>
-</li>
-<li>
-<p>如需要给书籍添加书签，请使用【5.高级工具-书签获取&amp;编辑】获取&amp;编辑</p>
-</li>
-</ol>
-<img src="http://bkfengimage.test.upcdn.net/image/202308211825142.png" alt="解压" style="zoom: 50%;" />
-<img src="https://i0.hdslb.com/bfs/album/9be04e9f422694c3233f9ec8489605cbc0efae21.png" alt="转换" style="zoom: 50%;" />
-<p>​</p>
-<div class="hide-toggle" style="border: 1px solid bg"><div class="hide-button toggle-title" style="background-color: bg;color: color"><i class="fas fa-caret-right fa-fw"></i><span>如果你想捐助就点开我(っ•̀ω•́)っ</span></div>
-    <div class="hide-content"><h1><strong>关于捐助：</strong></h1>
-<p>谢谢你愿意点开(✪ω✪)</p>
-<p>如果该资料对你有帮助，并且愿意支持我，不妨支持一下 ！！</p>
-<p><img src="http://lc-ym5PR5Uz.cn-n1.lcfile.com/dk7uXQCuFNQVe3S7Yl6eJFXGvimLMJk1/1698247977.png" alt="">](<a href="https://imgse.com/i/piVK5IP">https://imgse.com/i/piVK5IP</a>)</p>
-</div></div>]]></content>
+<p>4.OCR纯中文或者纯英文都没有问题，有时候OCR中英文混排的时候，效果确实不如Abbyy，这个无解。但是软件的OCR转换可以满足大部分需求了。</p>
+<p>5.为了软件失效，可以随时更新，以上软件链接公众号后台回复：<code>getocr </code> 获取</p>
+]]></content>
       <categories>
-        <category>电子书</category>
+        <category>书籍</category>
       </categories>
       <tags>
         <tag>书籍</tag>
+        <tag>OCR</tag>
+        <tag>资源</tag>
       </tags>
   </entry>
   <entry>
     <title>2024四六级及考研资料汇总，一起冲冲冲！！！</title>
     <url>/study.html</url>
     <content><![CDATA[<Script Language="JavaScript"> 
-　　var timedate= new Date("Dec 10,2023"); 
+　　var timedate= new Date("Dec 10,2024"); 
 　　var times="研究生考试"; 
 　　var now = new Date(); 
 　　var date = timedate.getTime() - now.getTime(); 
@@ -508,7 +572,7 @@ This is my website, click the button <a class="btn-beautify button--animated lar
 document.write("<h2 title='初试时间预测为2024年12月24日-25日，12月倒数第二周的周六周日，具体时间以教育局公布为准'><font color=#343a40>现在离2023年"+times+"还有: <font color=#dc3545><b>"+time +"</b></font> 天</font></h2>"); 
 </Script> 
 <Script Language="JavaScript"> 
-　　var timedate= new Date("Dec 12,2023"); 
+　　var timedate= new Date("Jun 12,2024"); 
 　　var times="上半年四六级考试"; 
 　　var now = new Date(); 
 　　var date = timedate.getTime() - now.getTime(); 
@@ -520,9 +584,7 @@ document.write("<h2 title='具体时间以教育局公布为准'><font color=#34
 <p>以下资源完全免费，</p>
 <p>请各位好好学习，逆流而上！！</p>
 </div>
-<p>10月21日 已经更新全部失效链接</p>
-<p>群二维码10月21日起限时开放，满200人后只能加我微信继续邀请入群</p>
-<img src="http://lc-ym5PR5Uz.cn-n1.lcfile.com/BnYm3nzRh8hu3QjltO8kBBTi7LmVWKb5/image-20231030120432434.png" style="zoom:33%;" />
+<p>2月21日 已经更新全部失效链接</p>
 <h2 id="📚四六级英语"><a class="header-anchor" href="#📚四六级英语"></a>📚四六级英语</h2>
 <p>【四六级英语包含有道、考虫、新东方全程班、商志全程班等】</p>
 <div class="hide-toggle" style="border: 1px solid bg"><div class="hide-button toggle-title" style="background-color: bg;color: color"><i class="fas fa-caret-right fa-fw"></i><span>四六级英语资料目录请点我(っ•̀ω•́)っ</span></div>
@@ -613,7 +675,7 @@ document.write("<h2 title='具体时间以教育局公布为准'><font color=#34
 <h1><strong>关于群</strong></h1>
 <p>为了更好帮助大家解决一些问题，我建了一个大家交流的平台。</p>
 <p>陆续建群以来，群内交流气氛还是很好的，并且群内有各种各行各业的热心大佬能够帮助你</p>
-<p>群二维码10月21日起限时开发，满200人后只能加我微信继续邀请入群</p>
+<p>群二维码1月21日起限时开发，满200人后只能加我微信继续邀请入群</p>
 <img src="http://lc-ym5PR5Uz.cn-n1.lcfile.com/vUixDvastt6qrXN2TVi9CpYBNBtQhe6x/1698247967.jpg" style="zoom:33%;" />
 <div class="justified-gallery"><p><img src="https://i0.hdslb.com/bfs/album/67d5a629dc31798381ef8a730fbcc878a4ad94cb.png" alt="image-20221210232752644"></p><p><img src="https://i0.hdslb.com/bfs/album/d90553effcddbfbc63ba7d7c1737167e046cab7e.png" alt="image-20221210232905742"></p><img src="https://i0.hdslb.com/bfs/album/62d048be5219c1df6336b13779e83fc95a56d3e4.png" alt="image-20210102152325746"  /> 
           </div>
@@ -725,73 +787,60 @@ document.write("<h2 title='具体时间以教育局公布为准'><font color=#34
         <category>软件</category>
       </categories>
       <tags>
+        <tag>资源</tag>
         <tag>python</tag>
         <tag>爬虫</tag>
-        <tag>资源</tag>
       </tags>
   </entry>
   <entry>
-    <title>公众号书籍转PDF，顺带一键OCR转文字</title>
-    <url>/ocr.html</url>
-    <content><![CDATA[<p>个人喜欢在读书时勾勾画画，遇到一些重要的知识或者内容希望能在图像PDF上便捷地做复制、搜索、高亮、划线等等操作。</p>
-<p>但是我们公众号获取的书籍通常是图像扫描文件，最终的到的仅为单层PDF。</p>
-<p>这种图像类格式的PDF不可进行搜索、复制文字等操作，这就很难受了。</p>
-<p><img src="http://bkfengimage.test.upcdn.net/image/202308211754926.png" alt="PDF文件"></p>
-<p>通常我们会进行<strong>OCR操作</strong>，将PDF变成可检索的图像格式的双层PDF</p>
-<p>双层PDF的“双层”，指的是“图像层+隐藏文字层”，即在扫描图像上，再蒙一层不可见的隐藏文字，这样在阅读的时候，看到的是与原书完全一样的扫描图像，但是同时又可以对隐藏文字进行搜索、复制。</p>
-<p>PDF文件的OCR，首选肯定是<strong>Abbyy</strong>，然后就是<strong>Acrobat</strong>啦。</p>
-<p>大家可以通过B站以及谷歌获取相关教程，本文不过多介绍</p>
-<p><img src="http://bkfengimage.test.upcdn.net/image/202308211754674.png" alt=""></p>
-<p>下面介绍的方法，是在我们使用提供的<code>PDG2PIC</code>软件将PDG转换PDF的时候，顺便将合成的PDF文件变为可检索格式的双层PDF，从而省去转换出来PDF文件后又将PDF进行OCR的麻烦。</p>
-<p>（本教程默认你已经安装了<code>PDG2PIC</code>软件，并且知道如何把一个压缩包解压为PDG目录，并且导入到<code>PDG2PIC</code>软件进行PDF合成）</p>
-<h1>教程开始</h1>
-<p>转换书籍时，想必大家都是通过<code>PDG2PIC</code>这个软件的吧</p>
-<p>PDG2PIC是strnghrs开发的一款软件，大家转换PDF的时候也经常使用吧~</p>
-<p>其中自带的OCR功能，但是如果你直接点击OCR但是无法转换的，还需要我们下载相关驱动</p>
-<p>为什么不加这个功能的？作者是这么说的：</p>
-<p>生成双层PDF：如果此选项被选中，则转换过程中启动OCR，生成隐藏文字，否则只转换图像，不管文字。由于需要时间，MODI的安装也不是电脑白痴随随便便就能搞定的，因此此选项缺省未选中，以免麻烦。</p>
-<p>好了，下面是配置方法</p>
-<h2 id="1-下载PDG2PIC以及MODI-Engine"><a class="header-anchor" href="#1-下载PDG2PIC以及MODI-Engine"></a>1.下载PDG2PIC以及MODI_Engine</h2>
-<p>如果你已经有<code>PDG2PIC</code>软件,复制直接MODI_Engine.exe到相同文件夹，</p>
-<p>或者也可以直接下载全部文件到一个目录</p>
-<p><img src="http://bkfengimage.test.upcdn.net/image/202308211754543.png" alt="软件目录"></p>
-<h2 id="2-安装MODI"><a class="header-anchor" href="#2-安装MODI"></a>2.安装MODI</h2>
-<p>双层PDF的文字靠OCR生成，教程所用的OCR引擎是微软Office 2007自带的MODI（Microsoft Office Document Imaging）。</p>
-<p>只需要打开<code>Setup_MODI_From_Office2007SP3.exe</code>进行一键安装</p>
-<p><img src="http://bkfengimage.test.upcdn.net/image/202308211754534.png" alt="Setup_MODI_From_Office2007SP3.exe文件"></p>
-<p>安装完成以后就可以直接进行OCR转换了.</p>
-<h2 id="OCR演示"><a class="header-anchor" href="#OCR演示"></a>OCR演示</h2>
-<p><img src="http://bkfengimage.test.upcdn.net/image/202308211754553.png" alt="OCR演示"></p>
-<p>勾选“生成双层PDF”后开始转换</p>
-<p>OCR和转换的过程还是很快的，平均0.5s一张</p>
-<p>180页的PDF弄下来图像转换+OCR一个用了2分钟左右</p>
-<p>转换好的文件我们可以直接复制以及文字标注啦！</p>
-<p>遇到重要的知识点也不用担心复制不了</p>
-<p><img src="http://bkfengimage.test.upcdn.net/image/202308211754642.png" alt="转换完PDF文件"></p>
-<p>这是复制出来的文字与原文的对比，一眼看过去准确率还是挺高的~</p>
-<p><img src="http://bkfengimage.test.upcdn.net/image/202308211754005.png" alt="对比结果"></p>
-<h2 id="TIP"><a class="header-anchor" href="#TIP"></a>TIP</h2>
-<p>1.OCR结果不能保证100%准确性，其结果与图像分辨率、图像质量密切相关。</p>
-<p>2.一些排版复杂，图像居多的文件，建议就别OCR了，以免结果太过搞笑。</p>
-<p>3.关于软件OCR相关操作的几个选项：</p>
-<ul>
-<li>生成双层PDF：如果此选项被选中，则转换过程中启动OCR，生成隐藏文字，否则只转换图像，不管文字。<br>
-在选中“生成双层PDF”后，下列选项才能生效：</li>
-<li>OCR语言：一次只能选择一种语言，注意所选项必须与所识别的文字相匹配，例如想识别繁体字，就一定要选择“繁体中文”，否则识别出来的结果多半会很搞笑。</li>
-<li>合并文本行：如果选中，则转换出来的PDF文件中的隐藏文本以行为单位，文件长度较小，但是字的位置不一定准确。如果未选，则以字（CJK）或词（非CJK）为单位，字的位置比较准确，文件长度略大。</li>
-<li>CJK版式：中、日、韩文字都有横排和竖排之分，本软件在一定程度上可以自动识别，如果对识别结果不满意，可以手工选择是横排还是竖排。此选项对OCR准确性没有影响，仅对隐藏文字采用的字体有影响。</li>
-<li>去掉大于页面尺寸1/*的图表：MODI引擎在OCR中日韩语言时相当脆弱，在OCR前先对图像清理一遍是一个更安全的做法。判断是否是需要清除的图表。如果指定的比例是1，则所有页面都不会执行自动去除图表操作。</li>
-</ul>
-<p>4.OCR纯中文或者纯英文都没有问题，有时候OCR中英文混排的时候，效果确实不如Abbyy，这个无解。但是软件的OCR转换可以满足大部分需求了。</p>
-<p>5.为了软件失效，可以随时更新，以上软件链接公众号后台回复：<code>getocr </code> 获取</p>
+    <title>电子书查找方法大合集，90%可行</title>
+    <url>/ebook.html</url>
+    <content><![CDATA[<h2 id="0-本卡风公众号"><a class="header-anchor" href="#0-本卡风公众号"></a>0.本卡风公众号</h2>
+<p>回复书籍ss号即可获取书籍</p>
+<h2 id="1-各类网站，动手能力签的自己找一下"><a class="header-anchor" href="#1-各类网站，动手能力签的自己找一下"></a>1.各类网站，动手能力签的自己找一下</h2>
+<p><a href="https://eureka.mba/posts/81cc5063.html">https://eureka.mba/posts/81cc5063.html</a></p>
+<h2 id="2-可加群，群内管理员会无偿帮你下载"><a class="header-anchor" href="#2-可加群，群内管理员会无偿帮你下载"></a>2.可加群，群内管理员会无偿帮你下载</h2>
+<p>那里加群？</p>
+<p>这里 <a href="https://bkfeng.top/1">https://bkfeng.top/1</a></p>
+<h2 id="3-全国图书馆参考联盟"><a class="header-anchor" href="#3-全国图书馆参考联盟"></a>3.全国图书馆参考联盟</h2>
+<p>图书来源几乎都是全国图书馆参考联盟、读秀</p>
+<p>全国图书参考联盟（荐）：<a href="http://www.ucdrs.superlib.net">http://www.ucdrs.superlib.net</a></p>
+<p>龙岩网络图书馆（荐）：<a href="http://www.ly.superlib.net">http://www.ly.superlib.net</a></p>
+<p>读秀网址：<a href="http://www.duxiu.com">http://www.duxiu.com</a></p>
+<h3 id="1-1-图书互助"><a class="header-anchor" href="#1-1-图书互助"></a>1.1 图书互助</h3>
+<p>这是一款方便购买全国图书参考联盟／龙岩／读秀上电子书的油猴脚本</p>
+<p><img src="https://i0.hdslb.com/bfs/article/cd374de5266ffc8af5689ae34b6e30ca658d5fa7.png@942w_144h_progressive.webp" alt="image-20210528203355730"><br>
+脚本：<a href="https://greasyfork.org/zh-CN/scripts/420751">https://greasyfork.org/zh-CN/scripts/420751</a></p>
+<p>使用</p>
+<p>1、浏览器猴脚本，不会这么安装的自行百度</p>
+<p>2、以全国图书参考联盟为例，打开全国图书参考联盟进行搜索，就可以看到网页上比安装脚本之前多了一个「图书互助」按钮</p>
+<p><img src="https://i0.hdslb.com/bfs/article/4c3798823502d87df8efe70ed63fdbd5478678f3.png@942w_432h_progressive.webp" alt="image-20210528210913742"></p>
+<p>点击「图书互助」按钮，如若找到资源，则可「发起互助」</p>
+<p>这里填入自己的邮箱，点击「立即下单」</p>
+<p>PS：图书馆的扫描格式是 PDG，转成 PDF 需要一定的时间，请查看教程。</p>
+<h3 id="1-2-图书搜索联盟"><a class="header-anchor" href="#1-2-图书搜索联盟"></a>1.2 图书搜索联盟</h3>
+<p>这也是一款方便购买全国图书参考联盟／龙岩／读秀上电子书的油猴脚本</p>
+<p>脚本：<a href="https://greasyfork.org/zh-CN/scripts/423011">https://greasyfork.org/zh-CN/scripts/423011</a></p>
+<p>使用方法类似上面</p>
+<p>对于不想安装脚本的，直接进入互助联盟官网查询即可</p>
+<p>官网：<a href="https://www.readersteam.com">https://www.readersteam.com</a></p>
+<h2 id="3-吾爱破解代下"><a class="header-anchor" href="#3-吾爱破解代下"></a>3.吾爱破解代下</h2>
+<p>吾爱破解真的是国内为数不多的良心论坛，虽然最近又加大了管理力度，但是完全不影响咱们找资源</p>
+<p>可以说你在各个软件网站看到的绿色版、破解版的软件（甚至福利资源类）绝大部分都来自这里</p>
+<p>论坛一般每年在特定节日免费开放注册（据说今年暑假会开放）具体注册时间大家可以关注官网论坛的公告或者关注公众号</p>
+<p>官网：<a href="https://www.52pojie.cn">https://www.52pojie.cn</a></p>
+<p>回归正题，我们可以去悬赏区发布悬赏（找到资源者一般都会很快回复你的）</p>
+<h2 id="4-某宝代找PDF"><a class="header-anchor" href="#4-某宝代找PDF"></a>4.某宝代找PDF</h2>
+<p>我们只要给他们一个ISBN或者书名作者，几分钟就能得到所需电子书，</p>
+<img src="https://i0.hdslb.com/bfs/article/7c02f645c9ad588b4e6dbddb07d6915e209de746.png@942w_1322h_progressive.webp" alt="Screenshot_2021_0523_143312-iPad Air 2 (1)" style="zoom:25%;" />
 ]]></content>
       <categories>
-        <category>书籍</category>
+        <category>技术</category>
       </categories>
       <tags>
-        <tag>书籍</tag>
-        <tag>资源</tag>
-        <tag>OCR</tag>
+        <tag>技术</tag>
+        <tag>方法</tag>
+        <tag>小技巧</tag>
       </tags>
   </entry>
   <entry>
@@ -843,162 +892,6 @@ document.write("<h2 title='具体时间以教育局公布为准'><font color=#34
       <tags>
         <tag>考研</tag>
         <tag>四六级</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>最全的大学资料来了！！</title>
-    <url>/university.html</url>
-    <content><![CDATA[<div class="note blue simple"><p>网上的收费资料我都帮你找来了！！</p>
-<p>帮你应对大学专业课以及应对期末考试！！</p>
-<p>在考取证书，参加比赛的路上更轻松面对！！</p>
-</div>
-<p>如链接失效可联系微信：bkfeng46 补链。</p>
-<h2 id="📚大学资料"><a class="header-anchor" href="#📚大学资料"></a>📚大学资料</h2>
-<p>【锋考，高斯课堂，大学通，高数君，猴博士等期末不挂科课程】，帮你轻松应对大学专业课以及应对期末考试！！</p>
-<div class="hide-toggle" style="border: 1px solid bg"><div class="hide-button toggle-title" style="background-color: bg;color: color"><i class="fas fa-caret-right fa-fw"></i><span>资料目录请点我(っ•̀ω•́)っ</span></div>
-    <div class="hide-content"><p>以下目录仅为部分</p>
-<p>0.【蜂考】资料合集<br>
-01大学数学<br>
-02大学物理<br>
-03电气通信<br>
-04土木机械<br>
-05计算机<br>
-06化学<br>
-07英语四级<br>
-08系统课<br>
-08英语六级<br>
-09经济学速成</p>
-<p><strong>0.【蜂考】资料合集</strong><br>
-01 高等数学上3小时期末不挂科（高清版）~<br>
-02 高数数学下4小时期末不挂科（高清版）~<br>
-03.【信号与系统 · 重制版】蜂考<br>
-03数字电子技术~<br>
-04模拟电子技术~<br>
-05线性代数~<br>
-06概率统计~<br>
-07运筹学~<br>
-08工程机械制图~<br>
-10C语言~<br>
-11材料力学<br>
-13理论力学~<br>
-1512【高斯课堂】C语言 系统课~<br>
-20高斯课堂统计学~<br>
-9214 结构力学~<br>
-C语言（新版）<br>
-【蜂考高斯课堂】 线性代数高分系统班~<br>
-大学物理~<br>
-电磁学系统课~<br>
-蜂考 统计学~<br>
-概率论系统课~<br>
-高数上系统班~<br>
-高数下 系统班~<br>
-高数下（新课）~<br>
-高斯课堂电路~<br>
-高斯课堂复变函数~<br>
-画法几何及机械制图3小时速成期末不挂科~<br>
-数据结构~<br>
-物理化学~<br>
-新GSKT-离散数学~<br>
-新GSKT-力学系统课精讲期末不挂科~<br>
-新GSKT-信号与系统<br>
-新版电路<br>
-新版蜂考 自动控制原理</p>
-</div></div>
-<p>链接: <a href="https://pan.baidu.com/s/13HpME6YVXVjsoQeiL6FjTQ">https://pan.baidu.com/s/13HpME6YVXVjsoQeiL6FjTQ</a> 提取码: bcp7</p>
-<h2 id="🧭考证资料"><a class="header-anchor" href="#🧭考证资料"></a>🧭考证资料</h2>
-<h4 id="计算机二级"><a class="header-anchor" href="#计算机二级"></a><strong>计算机二级</strong></h4>
-<p>2023年3月小黑课堂计算机二级WPS网课（含题库）</p>
-<p>链接: <a href="https://pan.baidu.com/s/1lDRzjWQzs-i8ea6GfNCjPg">https://pan.baidu.com/s/1lDRzjWQzs-i8ea6GfNCjPg</a> 提取码: 1122</p>
-<p>2023年3月小黑课堂计算机二级Ms Office网课</p>
-<p>链接: <a href="https://pan.baidu.com/s/1bilv3HySdwxn45umYChMtw">https://pan.baidu.com/s/1bilv3HySdwxn45umYChMtw</a> 提取码: 1122</p>
-<p>2023年3月小黑课堂计算机二级Python网课</p>
-<p>链接: <a href="https://pan.baidu.com/s/1u5S8pw5h52NOsRXmWrDKlw">https://pan.baidu.com/s/1u5S8pw5h52NOsRXmWrDKlw</a> 提取码: 1122</p>
-<p>「计算机二级」阿里云盘</p>
-<p><a href="https://wpfx.org/go/?url=https://www.aliyundrive.com/s/mM6YKGL6VpA">https://wpfx.org/go/?url=https://www.aliyundrive.com/s/mM6YKGL6VpA</a></p>
-<p><strong>普通话考试</strong></p>
-<p>语音练习、语音测试、词语表、训练教程、考试辅导、注意事项、普通话考试资料、普通话考试话题（全）、普通话、易错别字（词）、其他资料</p>
-<p><a href="https://www.aliyundrive.com/s/adWntYX6TYG">https://www.aliyundrive.com/s/adWntYX6TYG</a></p>
-<h4 id="教师资格证"><a class="header-anchor" href="#教师资格证"></a><strong>教师资格证</strong></h4>
-<p>2023/2022教师资格相关资料合集 幼儿园 小学 中学 高中 笔试 面试等等</p>
-<p>中学、中公–电子赠品、历年真题（初、高科目三）、教资面试资料包大全、教师资格证资料包、教案大全（幼、小、初、高）、【14】2023全国教师招聘-FB、【03】23上中学、【02】23上小学、22上语文-初高中通看版、22上美术-初高中通看版、2023年上半年学科-数学、2022下教资面试、2022下教资笔试、2022下半年教资-中学物理2022上教资笔试、2022教资面试、2022教资笔试中学科三</p>
-<p>链接: <a href="https://pan.baidu.com/s/11LMy_Z6SER1xiHtchP8W4g">https://pan.baidu.com/s/11LMy_Z6SER1xiHtchP8W4g</a> 提取码: wpfx</p>
-<h4 id="会计"><a class="header-anchor" href="#会计"></a><strong>会计</strong></h4>
-<p>2023年会计类网课合集【6.26】</p>
-<p><a href="https://pan.baidu.com/s/19_Pnkkt-2Qru6XMhXMooCQ?pwd=2023,2023">https://pan.baidu.com/s/19_Pnkkt-2Qru6XMhXMooCQ?pwd=2023,2023</a></p>
-<p>2023年初级会计VIP课件</p>
-<p><a href="https://pan.baidu.com/s/1vSj3VfzG8HjaX9uvMt3PKA?pwd=2023,2023">https://pan.baidu.com/s/1vSj3VfzG8HjaX9uvMt3PKA?pwd=2023,2023</a></p>
-<p>2022年注册会计师课件</p>
-<p><a href="https://pan.baidu.com/s/115dox3Y1lGaBZfS8A5b_sg?pwd=pqbb,pqbb">https://pan.baidu.com/s/115dox3Y1lGaBZfS8A5b_sg?pwd=pqbb,pqbb</a></p>
-<p>2023年中级会计师财务管理【VIP课件】</p>
-<p><a href="https://pan.baidu.com/s/1Y8Kz7rtq-0INTpeyIAM1kg,6557">https://pan.baidu.com/s/1Y8Kz7rtq-0INTpeyIAM1kg,6557</a></p>
-<p>2023中级会计资料合集（含2022）</p>
-<p><a href="https://pan.baidu.com/s/1YcX7XB3WLoBjJdIKiJhfbA?pwd=yxdc,yxdc">https://pan.baidu.com/s/1YcX7XB3WLoBjJdIKiJhfbA?pwd=yxdc,yxdc</a></p>
-<p>2023-注册会计师（更新中）含2022</p>
-<p><a href="https://pan.baidu.com/s/1aynaBXfN2IDepvjZ2Q7Isw,sx5n">https://pan.baidu.com/s/1aynaBXfN2IDepvjZ2Q7Isw,sx5n</a></p>
-<p>2023年中级会计师会计实务【VIP课件】</p>
-<p><a href="https://pan.baidu.com/s/1Ge63qJ_XucB7nrP9vH46cQ,6557">https://pan.baidu.com/s/1Ge63qJ_XucB7nrP9vH46cQ,6557</a></p>
-<p>2023年中级会计师经济法【VIP课件】</p>
-<p><a href="https://pan.baidu.com/s/16ZL-ODRqlybx_-RE-Lr5wQ,6557">https://pan.baidu.com/s/16ZL-ODRqlybx_-RE-Lr5wQ,6557</a></p>
-<h4 id="军队文职"><a class="header-anchor" href="#军队文职"></a><strong>军队文职</strong></h4>
-<p>2022军队文职</p>
-<p><a href="https://pan.baidu.com/s/1FsL2eTmizBOHrYAR46nK7Q?pwd=63y8,63y8">https://pan.baidu.com/s/1FsL2eTmizBOHrYAR46nK7Q?pwd=63y8,63y8</a></p>
-<p>2021F笔军队文职公共科目</p>
-<p><a href="https://pan.baidu.com/s/1c9bs4NWERJqeN2QpTGd6SQ?pwd=7hfc,7hfc">https://pan.baidu.com/s/1c9bs4NWERJqeN2QpTGd6SQ?pwd=7hfc,7hfc</a></p>
-<p>2023军队文职</p>
-<p><a href="https://pan.baidu.com/s/1KgOjKCDvNjZfgJagU0iMgA?pwd=4ktk,4ktk">https://pan.baidu.com/s/1KgOjKCDvNjZfgJagU0iMgA?pwd=4ktk,4ktk</a></p>
-<h1>🧭大学竞赛</h1>
-<p>大学生创新创业互联网+大赛项目计划书word大创PPT模板 挑战杯申请</p>
-<h3 id="1-大学生创新创业比赛"><a class="header-anchor" href="#1-大学生创新创业比赛"></a>1 大学生创新创业比赛</h3>
-<p><a href="https://www.aliyundrive.com/s/nNhgfdHXiXW">https://www.aliyundrive.com/s/nNhgfdHXiXW</a></p>
-<h3 id="2-创业比赛资料"><a class="header-anchor" href="#2-创业比赛资料"></a>2 创业比赛资料</h3>
-<p><a href="https://pan.baidu.com/s/1xDC20ibjVfQeB4xLnJaCXw">https://pan.baidu.com/s/1xDC20ibjVfQeB4xLnJaCXw</a></p>
-<p>提取码：1122</p>
-<h3 id="3-挑战杯资料"><a class="header-anchor" href="#3-挑战杯资料"></a>3 挑战杯资料</h3>
-<p><a href="https://pan.baidu.com/s/1ga8I23zUXM2N9zYTOYeM8Q">https://pan.baidu.com/s/1ga8I23zUXM2N9zYTOYeM8Q</a></p>
-<p>提取码：1122</p>
-<h3 id="4互联网-资料"><a class="header-anchor" href="#4互联网-资料"></a>4互联网+资料</h3>
-<p><a href="https://pan.baidu.com/s/118DCokHqaQavq9BDSA5BrQ">https://pan.baidu.com/s/118DCokHqaQavq9BDSA5BrQ</a></p>
-<p>提取码：1122</p>
-<h3 id="5-创青春资料"><a class="header-anchor" href="#5-创青春资料"></a>5 创青春资料</h3>
-<p><a href="https://pan.baidu.com/s/1Bo-a1R8zdgrjBQByn8tMUg">https://pan.baidu.com/s/1Bo-a1R8zdgrjBQByn8tMUg</a></p>
-<p>提取码：1122</p>
-<h3 id="6-精选商业计划书及模板"><a class="header-anchor" href="#6-精选商业计划书及模板"></a>6 精选商业计划书及模板</h3>
-<p><a href="https://pan.baidu.com/s/1j53EJ3TvVayQM8yHGFkZqw">https://pan.baidu.com/s/1j53EJ3TvVayQM8yHGFkZqw</a></p>
-<p>提取码：1122</p>
-<h3 id="7-行业研究报告"><a class="header-anchor" href="#7-行业研究报告"></a>7 行业研究报告</h3>
-<p><a href="https://pan.baidu.com/s/18N1wNNQIpjdz_P7RtrIRhg">https://pan.baidu.com/s/18N1wNNQIpjdz_P7RtrIRhg</a></p>
-<p>提取码：1122</p>
-<h3 id="8-互联网-大赛作品-创青春挑战杯-三创资料"><a class="header-anchor" href="#8-互联网-大赛作品-创青春挑战杯-三创资料"></a>8 互联网+大赛作品 创青春挑战杯 三创资料</h3>
-<p><a href="https://pan.baidu.com/s/1O50-7nBiMkpfpHhxPfVNrw">https://pan.baidu.com/s/1O50-7nBiMkpfpHhxPfVNrw</a></p>
-<p>提取码：1122</p>
-<h3 id="8-互联网-创新创业大赛历届获奖商业计划书"><a class="header-anchor" href="#8-互联网-创新创业大赛历届获奖商业计划书"></a>8.互联网+创新创业大赛历届获奖商业计划书</h3>
-<p><a href="https://pan.baidu.com/s/1_8oizccKq_10_i8tWpwqzQ">https://pan.baidu.com/s/1_8oizccKq_10_i8tWpwqzQ</a></p>
-<p>提取码：1122</p>
-<h3 id="9-创青春获奖商业计划书"><a class="header-anchor" href="#9-创青春获奖商业计划书"></a>9 创青春获奖商业计划书</h3>
-<p><a href="https://pan.baidu.com/s/1RKIcJoVuW9_foN5jX_1rMw">https://pan.baidu.com/s/1RKIcJoVuW9_foN5jX_1rMw</a></p>
-<p>提取码：1122</p>
-<h3 id="10-挑战杯专题备赛资料"><a class="header-anchor" href="#10-挑战杯专题备赛资料"></a>10 挑战杯专题备赛资料</h3>
-<p><a href="https://pan.baidu.com/s/1goOtkcuxtfu08PyAza4Ghg">https://pan.baidu.com/s/1goOtkcuxtfu08PyAza4Ghg</a></p>
-<p>提取码：1122</p>
-<h3 id="11-三创、互联网、创青春精选获奖大学生创业计划书案例500份"><a class="header-anchor" href="#11-三创、互联网、创青春精选获奖大学生创业计划书案例500份"></a>11 三创、互联网、创青春精选获奖大学生创业计划书案例500份</h3>
-<p><a href="https://pan.baidu.com/s/1dT178iGoubVhTngm57MRlA">https://pan.baidu.com/s/1dT178iGoubVhTngm57MRlA</a></p>
-<p>提取码：1122</p>
-<h3 id="12-73个细分领域商业计划书"><a class="header-anchor" href="#12-73个细分领域商业计划书"></a>12 73个细分领域商业计划书</h3>
-<p><a href="https://pan.baidu.com/s/17FdTx5Sr2X-0kDd5v_3sRg">https://pan.baidu.com/s/17FdTx5Sr2X-0kDd5v_3sRg</a></p>
-<p>提取码：1122</p>
-<p><strong>有什么问题可以在本文章末尾留言</strong></p>
-<div class="hide-toggle" style="border: 1px solid bg"><div class="hide-button toggle-title" style="background-color: bg;color: color"><i class="fas fa-caret-right fa-fw"></i><span>如果你想捐助就点开我(っ•̀ω•́)っ</span></div>
-    <div class="hide-content"><h1><strong>关于捐助：</strong></h1>
-<p>谢谢你愿意点开(✪ω✪)</p>
-<p>如果该资料对你有帮助，并且愿意支持我，不妨支持一下 ！！</p>
-<p><img src="http://lc-ym5PR5Uz.cn-n1.lcfile.com/QBKpE2D2qES9aEyihy8O9y8yC1zoKRPO/1698247997.png" alt="">](<a href="https://imgse.com/i/piVK5IP">https://imgse.com/i/piVK5IP</a>)</p>
-</div></div>
-]]></content>
-      <categories>
-        <category>考研</category>
-      </categories>
-      <tags>
-        <tag>考研</tag>
       </tags>
   </entry>
   <entry>
@@ -1166,54 +1059,159 @@ C语言（新版）<br>
       </tags>
   </entry>
   <entry>
-    <title>电子书查找方法大合集，90%可行</title>
-    <url>/ebook.html</url>
-    <content><![CDATA[<h2 id="0-本卡风公众号"><a class="header-anchor" href="#0-本卡风公众号"></a>0.本卡风公众号</h2>
-<p>回复书籍ss号即可获取书籍</p>
-<h2 id="1-各类网站，动手能力签的自己找一下"><a class="header-anchor" href="#1-各类网站，动手能力签的自己找一下"></a>1.各类网站，动手能力签的自己找一下</h2>
-<p><a href="https://eureka.mba/posts/81cc5063.html">https://eureka.mba/posts/81cc5063.html</a></p>
-<h2 id="2-可加群，群内管理员会无偿帮你下载"><a class="header-anchor" href="#2-可加群，群内管理员会无偿帮你下载"></a>2.可加群，群内管理员会无偿帮你下载</h2>
-<p>那里加群？</p>
-<p>这里 <a href="https://bkfeng.top/1">https://bkfeng.top/1</a></p>
-<h2 id="3-全国图书馆参考联盟"><a class="header-anchor" href="#3-全国图书馆参考联盟"></a>3.全国图书馆参考联盟</h2>
-<p>图书来源几乎都是全国图书馆参考联盟、读秀</p>
-<p>全国图书参考联盟（荐）：<a href="http://www.ucdrs.superlib.net">http://www.ucdrs.superlib.net</a></p>
-<p>龙岩网络图书馆（荐）：<a href="http://www.ly.superlib.net">http://www.ly.superlib.net</a></p>
-<p>读秀网址：<a href="http://www.duxiu.com">http://www.duxiu.com</a></p>
-<h3 id="1-1-图书互助"><a class="header-anchor" href="#1-1-图书互助"></a>1.1 图书互助</h3>
-<p>这是一款方便购买全国图书参考联盟／龙岩／读秀上电子书的油猴脚本</p>
-<p><img src="https://i0.hdslb.com/bfs/article/cd374de5266ffc8af5689ae34b6e30ca658d5fa7.png@942w_144h_progressive.webp" alt="image-20210528203355730"><br>
-脚本：<a href="https://greasyfork.org/zh-CN/scripts/420751">https://greasyfork.org/zh-CN/scripts/420751</a></p>
-<p>使用</p>
-<p>1、浏览器猴脚本，不会这么安装的自行百度</p>
-<p>2、以全国图书参考联盟为例，打开全国图书参考联盟进行搜索，就可以看到网页上比安装脚本之前多了一个「图书互助」按钮</p>
-<p><img src="https://i0.hdslb.com/bfs/article/4c3798823502d87df8efe70ed63fdbd5478678f3.png@942w_432h_progressive.webp" alt="image-20210528210913742"></p>
-<p>点击「图书互助」按钮，如若找到资源，则可「发起互助」</p>
-<p>这里填入自己的邮箱，点击「立即下单」</p>
-<p>PS：图书馆的扫描格式是 PDG，转成 PDF 需要一定的时间，请查看教程。</p>
-<h3 id="1-2-图书搜索联盟"><a class="header-anchor" href="#1-2-图书搜索联盟"></a>1.2 图书搜索联盟</h3>
-<p>这也是一款方便购买全国图书参考联盟／龙岩／读秀上电子书的油猴脚本</p>
-<p>脚本：<a href="https://greasyfork.org/zh-CN/scripts/423011">https://greasyfork.org/zh-CN/scripts/423011</a></p>
-<p>使用方法类似上面</p>
-<p>对于不想安装脚本的，直接进入互助联盟官网查询即可</p>
-<p>官网：<a href="https://www.readersteam.com">https://www.readersteam.com</a></p>
-<h2 id="3-吾爱破解代下"><a class="header-anchor" href="#3-吾爱破解代下"></a>3.吾爱破解代下</h2>
-<p>吾爱破解真的是国内为数不多的良心论坛，虽然最近又加大了管理力度，但是完全不影响咱们找资源</p>
-<p>可以说你在各个软件网站看到的绿色版、破解版的软件（甚至福利资源类）绝大部分都来自这里</p>
-<p>论坛一般每年在特定节日免费开放注册（据说今年暑假会开放）具体注册时间大家可以关注官网论坛的公告或者关注公众号</p>
-<p>官网：<a href="https://www.52pojie.cn">https://www.52pojie.cn</a></p>
-<p>回归正题，我们可以去悬赏区发布悬赏（找到资源者一般都会很快回复你的）</p>
-<h2 id="4-某宝代找PDF"><a class="header-anchor" href="#4-某宝代找PDF"></a>4.某宝代找PDF</h2>
-<p>我们只要给他们一个ISBN或者书名作者，几分钟就能得到所需电子书，</p>
-<img src="https://i0.hdslb.com/bfs/article/7c02f645c9ad588b4e6dbddb07d6915e209de746.png@942w_1322h_progressive.webp" alt="Screenshot_2021_0523_143312-iPad Air 2 (1)" style="zoom:25%;" />
+    <title>最全的大学资料来了！！</title>
+    <url>/university.html</url>
+    <content><![CDATA[<div class="note blue simple"><p>网上的收费资料我都帮你找来了！！</p>
+<p>帮你应对大学专业课以及应对期末考试！！</p>
+<p>在考取证书，参加比赛的路上更轻松面对！！</p>
+</div>
+<p>如链接失效可联系微信：bkfeng46 补链。</p>
+<h2 id="📚大学资料"><a class="header-anchor" href="#📚大学资料"></a>📚大学资料</h2>
+<p>【锋考，高斯课堂，大学通，高数君，猴博士等期末不挂科课程】，帮你轻松应对大学专业课以及应对期末考试！！</p>
+<div class="hide-toggle" style="border: 1px solid bg"><div class="hide-button toggle-title" style="background-color: bg;color: color"><i class="fas fa-caret-right fa-fw"></i><span>资料目录请点我(っ•̀ω•́)っ</span></div>
+    <div class="hide-content"><p>以下目录仅为部分</p>
+<p>0.【蜂考】资料合集<br>
+01大学数学<br>
+02大学物理<br>
+03电气通信<br>
+04土木机械<br>
+05计算机<br>
+06化学<br>
+07英语四级<br>
+08系统课<br>
+08英语六级<br>
+09经济学速成</p>
+<p><strong>0.【蜂考】资料合集</strong><br>
+01 高等数学上3小时期末不挂科（高清版）~<br>
+02 高数数学下4小时期末不挂科（高清版）~<br>
+03.【信号与系统 · 重制版】蜂考<br>
+03数字电子技术~<br>
+04模拟电子技术~<br>
+05线性代数~<br>
+06概率统计~<br>
+07运筹学~<br>
+08工程机械制图~<br>
+10C语言~<br>
+11材料力学<br>
+13理论力学~<br>
+1512【高斯课堂】C语言 系统课~<br>
+20高斯课堂统计学~<br>
+9214 结构力学~<br>
+C语言（新版）<br>
+【蜂考高斯课堂】 线性代数高分系统班~<br>
+大学物理~<br>
+电磁学系统课~<br>
+蜂考 统计学~<br>
+概率论系统课~<br>
+高数上系统班~<br>
+高数下 系统班~<br>
+高数下（新课）~<br>
+高斯课堂电路~<br>
+高斯课堂复变函数~<br>
+画法几何及机械制图3小时速成期末不挂科~<br>
+数据结构~<br>
+物理化学~<br>
+新GSKT-离散数学~<br>
+新GSKT-力学系统课精讲期末不挂科~<br>
+新GSKT-信号与系统<br>
+新版电路<br>
+新版蜂考 自动控制原理</p>
+</div></div>
+<p>链接: <a href="https://pan.baidu.com/s/13HpME6YVXVjsoQeiL6FjTQ">https://pan.baidu.com/s/13HpME6YVXVjsoQeiL6FjTQ</a> 提取码: bcp7</p>
+<h2 id="🧭考证资料"><a class="header-anchor" href="#🧭考证资料"></a>🧭考证资料</h2>
+<h4 id="计算机二级"><a class="header-anchor" href="#计算机二级"></a><strong>计算机二级</strong></h4>
+<p>2023年3月小黑课堂计算机二级WPS网课（含题库）</p>
+<p>链接: <a href="https://pan.baidu.com/s/1lDRzjWQzs-i8ea6GfNCjPg">https://pan.baidu.com/s/1lDRzjWQzs-i8ea6GfNCjPg</a> 提取码: 1122</p>
+<p>2023年3月小黑课堂计算机二级Ms Office网课</p>
+<p>链接: <a href="https://pan.baidu.com/s/1bilv3HySdwxn45umYChMtw">https://pan.baidu.com/s/1bilv3HySdwxn45umYChMtw</a> 提取码: 1122</p>
+<p>2023年3月小黑课堂计算机二级Python网课</p>
+<p>链接: <a href="https://pan.baidu.com/s/1u5S8pw5h52NOsRXmWrDKlw">https://pan.baidu.com/s/1u5S8pw5h52NOsRXmWrDKlw</a> 提取码: 1122</p>
+<p>「计算机二级」阿里云盘</p>
+<p><a href="https://wpfx.org/go/?url=https://www.aliyundrive.com/s/mM6YKGL6VpA">https://wpfx.org/go/?url=https://www.aliyundrive.com/s/mM6YKGL6VpA</a></p>
+<p><strong>普通话考试</strong></p>
+<p>语音练习、语音测试、词语表、训练教程、考试辅导、注意事项、普通话考试资料、普通话考试话题（全）、普通话、易错别字（词）、其他资料</p>
+<p><a href="https://www.aliyundrive.com/s/adWntYX6TYG">https://www.aliyundrive.com/s/adWntYX6TYG</a></p>
+<h4 id="教师资格证"><a class="header-anchor" href="#教师资格证"></a><strong>教师资格证</strong></h4>
+<p>2023/2022教师资格相关资料合集 幼儿园 小学 中学 高中 笔试 面试等等</p>
+<p>中学、中公–电子赠品、历年真题（初、高科目三）、教资面试资料包大全、教师资格证资料包、教案大全（幼、小、初、高）、【14】2023全国教师招聘-FB、【03】23上中学、【02】23上小学、22上语文-初高中通看版、22上美术-初高中通看版、2023年上半年学科-数学、2022下教资面试、2022下教资笔试、2022下半年教资-中学物理2022上教资笔试、2022教资面试、2022教资笔试中学科三</p>
+<p>链接: <a href="https://pan.baidu.com/s/11LMy_Z6SER1xiHtchP8W4g">https://pan.baidu.com/s/11LMy_Z6SER1xiHtchP8W4g</a> 提取码: wpfx</p>
+<h4 id="会计"><a class="header-anchor" href="#会计"></a><strong>会计</strong></h4>
+<p>2023年会计类网课合集【6.26】</p>
+<p><a href="https://pan.baidu.com/s/19_Pnkkt-2Qru6XMhXMooCQ?pwd=2023,2023">https://pan.baidu.com/s/19_Pnkkt-2Qru6XMhXMooCQ?pwd=2023,2023</a></p>
+<p>2023年初级会计VIP课件</p>
+<p><a href="https://pan.baidu.com/s/1vSj3VfzG8HjaX9uvMt3PKA?pwd=2023,2023">https://pan.baidu.com/s/1vSj3VfzG8HjaX9uvMt3PKA?pwd=2023,2023</a></p>
+<p>2022年注册会计师课件</p>
+<p><a href="https://pan.baidu.com/s/115dox3Y1lGaBZfS8A5b_sg?pwd=pqbb,pqbb">https://pan.baidu.com/s/115dox3Y1lGaBZfS8A5b_sg?pwd=pqbb,pqbb</a></p>
+<p>2023年中级会计师财务管理【VIP课件】</p>
+<p><a href="https://pan.baidu.com/s/1Y8Kz7rtq-0INTpeyIAM1kg,6557">https://pan.baidu.com/s/1Y8Kz7rtq-0INTpeyIAM1kg,6557</a></p>
+<p>2023中级会计资料合集（含2022）</p>
+<p><a href="https://pan.baidu.com/s/1YcX7XB3WLoBjJdIKiJhfbA?pwd=yxdc,yxdc">https://pan.baidu.com/s/1YcX7XB3WLoBjJdIKiJhfbA?pwd=yxdc,yxdc</a></p>
+<p>2023-注册会计师（更新中）含2022</p>
+<p><a href="https://pan.baidu.com/s/1aynaBXfN2IDepvjZ2Q7Isw,sx5n">https://pan.baidu.com/s/1aynaBXfN2IDepvjZ2Q7Isw,sx5n</a></p>
+<p>2023年中级会计师会计实务【VIP课件】</p>
+<p><a href="https://pan.baidu.com/s/1Ge63qJ_XucB7nrP9vH46cQ,6557">https://pan.baidu.com/s/1Ge63qJ_XucB7nrP9vH46cQ,6557</a></p>
+<p>2023年中级会计师经济法【VIP课件】</p>
+<p><a href="https://pan.baidu.com/s/16ZL-ODRqlybx_-RE-Lr5wQ,6557">https://pan.baidu.com/s/16ZL-ODRqlybx_-RE-Lr5wQ,6557</a></p>
+<h4 id="军队文职"><a class="header-anchor" href="#军队文职"></a><strong>军队文职</strong></h4>
+<p>2022军队文职</p>
+<p><a href="https://pan.baidu.com/s/1FsL2eTmizBOHrYAR46nK7Q?pwd=63y8,63y8">https://pan.baidu.com/s/1FsL2eTmizBOHrYAR46nK7Q?pwd=63y8,63y8</a></p>
+<p>2021F笔军队文职公共科目</p>
+<p><a href="https://pan.baidu.com/s/1c9bs4NWERJqeN2QpTGd6SQ?pwd=7hfc,7hfc">https://pan.baidu.com/s/1c9bs4NWERJqeN2QpTGd6SQ?pwd=7hfc,7hfc</a></p>
+<p>2023军队文职</p>
+<p><a href="https://pan.baidu.com/s/1KgOjKCDvNjZfgJagU0iMgA?pwd=4ktk,4ktk">https://pan.baidu.com/s/1KgOjKCDvNjZfgJagU0iMgA?pwd=4ktk,4ktk</a></p>
+<h1>🧭大学竞赛</h1>
+<p>大学生创新创业互联网+大赛项目计划书word大创PPT模板 挑战杯申请</p>
+<h3 id="1-大学生创新创业比赛"><a class="header-anchor" href="#1-大学生创新创业比赛"></a>1 大学生创新创业比赛</h3>
+<p><a href="https://www.aliyundrive.com/s/nNhgfdHXiXW">https://www.aliyundrive.com/s/nNhgfdHXiXW</a></p>
+<h3 id="2-创业比赛资料"><a class="header-anchor" href="#2-创业比赛资料"></a>2 创业比赛资料</h3>
+<p><a href="https://pan.baidu.com/s/1xDC20ibjVfQeB4xLnJaCXw">https://pan.baidu.com/s/1xDC20ibjVfQeB4xLnJaCXw</a></p>
+<p>提取码：1122</p>
+<h3 id="3-挑战杯资料"><a class="header-anchor" href="#3-挑战杯资料"></a>3 挑战杯资料</h3>
+<p><a href="https://pan.baidu.com/s/1ga8I23zUXM2N9zYTOYeM8Q">https://pan.baidu.com/s/1ga8I23zUXM2N9zYTOYeM8Q</a></p>
+<p>提取码：1122</p>
+<h3 id="4互联网-资料"><a class="header-anchor" href="#4互联网-资料"></a>4互联网+资料</h3>
+<p><a href="https://pan.baidu.com/s/118DCokHqaQavq9BDSA5BrQ">https://pan.baidu.com/s/118DCokHqaQavq9BDSA5BrQ</a></p>
+<p>提取码：1122</p>
+<h3 id="5-创青春资料"><a class="header-anchor" href="#5-创青春资料"></a>5 创青春资料</h3>
+<p><a href="https://pan.baidu.com/s/1Bo-a1R8zdgrjBQByn8tMUg">https://pan.baidu.com/s/1Bo-a1R8zdgrjBQByn8tMUg</a></p>
+<p>提取码：1122</p>
+<h3 id="6-精选商业计划书及模板"><a class="header-anchor" href="#6-精选商业计划书及模板"></a>6 精选商业计划书及模板</h3>
+<p><a href="https://pan.baidu.com/s/1j53EJ3TvVayQM8yHGFkZqw">https://pan.baidu.com/s/1j53EJ3TvVayQM8yHGFkZqw</a></p>
+<p>提取码：1122</p>
+<h3 id="7-行业研究报告"><a class="header-anchor" href="#7-行业研究报告"></a>7 行业研究报告</h3>
+<p><a href="https://pan.baidu.com/s/18N1wNNQIpjdz_P7RtrIRhg">https://pan.baidu.com/s/18N1wNNQIpjdz_P7RtrIRhg</a></p>
+<p>提取码：1122</p>
+<h3 id="8-互联网-大赛作品-创青春挑战杯-三创资料"><a class="header-anchor" href="#8-互联网-大赛作品-创青春挑战杯-三创资料"></a>8 互联网+大赛作品 创青春挑战杯 三创资料</h3>
+<p><a href="https://pan.baidu.com/s/1O50-7nBiMkpfpHhxPfVNrw">https://pan.baidu.com/s/1O50-7nBiMkpfpHhxPfVNrw</a></p>
+<p>提取码：1122</p>
+<h3 id="8-互联网-创新创业大赛历届获奖商业计划书"><a class="header-anchor" href="#8-互联网-创新创业大赛历届获奖商业计划书"></a>8.互联网+创新创业大赛历届获奖商业计划书</h3>
+<p><a href="https://pan.baidu.com/s/1_8oizccKq_10_i8tWpwqzQ">https://pan.baidu.com/s/1_8oizccKq_10_i8tWpwqzQ</a></p>
+<p>提取码：1122</p>
+<h3 id="9-创青春获奖商业计划书"><a class="header-anchor" href="#9-创青春获奖商业计划书"></a>9 创青春获奖商业计划书</h3>
+<p><a href="https://pan.baidu.com/s/1RKIcJoVuW9_foN5jX_1rMw">https://pan.baidu.com/s/1RKIcJoVuW9_foN5jX_1rMw</a></p>
+<p>提取码：1122</p>
+<h3 id="10-挑战杯专题备赛资料"><a class="header-anchor" href="#10-挑战杯专题备赛资料"></a>10 挑战杯专题备赛资料</h3>
+<p><a href="https://pan.baidu.com/s/1goOtkcuxtfu08PyAza4Ghg">https://pan.baidu.com/s/1goOtkcuxtfu08PyAza4Ghg</a></p>
+<p>提取码：1122</p>
+<h3 id="11-三创、互联网、创青春精选获奖大学生创业计划书案例500份"><a class="header-anchor" href="#11-三创、互联网、创青春精选获奖大学生创业计划书案例500份"></a>11 三创、互联网、创青春精选获奖大学生创业计划书案例500份</h3>
+<p><a href="https://pan.baidu.com/s/1dT178iGoubVhTngm57MRlA">https://pan.baidu.com/s/1dT178iGoubVhTngm57MRlA</a></p>
+<p>提取码：1122</p>
+<h3 id="12-73个细分领域商业计划书"><a class="header-anchor" href="#12-73个细分领域商业计划书"></a>12 73个细分领域商业计划书</h3>
+<p><a href="https://pan.baidu.com/s/17FdTx5Sr2X-0kDd5v_3sRg">https://pan.baidu.com/s/17FdTx5Sr2X-0kDd5v_3sRg</a></p>
+<p>提取码：1122</p>
+<p><strong>有什么问题可以在本文章末尾留言</strong></p>
+<div class="hide-toggle" style="border: 1px solid bg"><div class="hide-button toggle-title" style="background-color: bg;color: color"><i class="fas fa-caret-right fa-fw"></i><span>如果你想捐助就点开我(っ•̀ω•́)っ</span></div>
+    <div class="hide-content"><h1><strong>关于捐助：</strong></h1>
+<p>谢谢你愿意点开(✪ω✪)</p>
+<p>如果该资料对你有帮助，并且愿意支持我，不妨支持一下 ！！</p>
+<p><img src="http://lc-ym5PR5Uz.cn-n1.lcfile.com/QBKpE2D2qES9aEyihy8O9y8yC1zoKRPO/1698247997.png" alt="">](<a href="https://imgse.com/i/piVK5IP">https://imgse.com/i/piVK5IP</a>)</p>
+</div></div>
 ]]></content>
       <categories>
-        <category>技术</category>
+        <category>考研</category>
       </categories>
       <tags>
-        <tag>技术</tag>
-        <tag>方法</tag>
-        <tag>小技巧</tag>
+        <tag>考研</tag>
       </tags>
   </entry>
   <entry>
